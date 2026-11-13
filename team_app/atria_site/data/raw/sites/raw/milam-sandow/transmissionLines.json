@@ -1,0 +1,84 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 138,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "UNKNOWN302949",
+    "SUB_2": "SANDOW NO 4"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 138,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "UNKNOWN302949",
+    "SUB_2": "UNKNOWN301186"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 138,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "UNKNOWN301015",
+    "SUB_2": "UNKNOWN301186"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 138,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "UNKNOWN301015",
+    "SUB_2": "UNKNOWN301186"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "UNKNOWN301015",
+    "SUB_2": "AUSTROP"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "TAP312629",
+    "SUB_2": "UNKNOWN301186"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "AUSTROP",
+    "SUB_2": "UNKNOWN301186"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 138,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "ELGIN SWITCHING",
+    "SUB_2": "UNKNOWN301186"
+   }
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+[
+ {
+  "layer": "Ozone 8-hr (2015 Standard)",
+  "pollutant_name": "8-Hour Ozone (2015 Standard)",
+  "area_name": "El Paso-Las Cruces",
+  "current_status": "Nonattainment",
+  "classification": "Marginal",
+  "CurrentYearDesignValue": 0.072,
+  "dv_units": "ppm",
+  "designation_url": "https://www.govinfo.gov/link/fr/86/67864",
+  "classification_url": null
+ },
+ {
+  "layer": "Ozone 1-hr (1979 standard-revoked)",
+  "pollutant_name": "1-Hour Ozone (1979 Standard)",
+  "area_name": "El Paso Area",
+  "current_status": "Nonattainment (NAAQS revoked)",
+  "classification": "Serious",
+  "CurrentYearDesignValue": 0.088,
+  "dv_units": "ppm",
+  "designation_url": "https://www.govinfo.gov/link/fr/",
+  "classification_url": "https://www.govinfo.gov/link/fr/"
+ }
+]

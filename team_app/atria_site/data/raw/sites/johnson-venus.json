@@ -1,0 +1,786 @@
+{
+ "id": "johnson-venus",
+ "label": "Johnson County, near Venus (DFW)",
+ "state": "TX",
+ "county": "Johnson",
+ "airCase": "severe ozone (DFW)",
+ "builtAt": "2026-10-28T03:01:37Z",
+ "builder": "scripts/fetch_site.py (public sources; Atria MCP not used)",
+ "lat": 32.459642,
+ "lng": -97.095154,
+ "parcel": {
+  "status": "ok",
+  "source": "TxGIO StratMap Land Parcels (county appraisal districts)",
+  "source_url": "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap_land_parcels_48_most_recent/MapServer",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "propId": "1865",
+   "geoId": "126.0026.00250",
+   "ownerName": "PRAIRIE RIDGE SW LP",
+   "ownerCareOf": null,
+   "ownerMailingAddress": null,
+   "situsAddress": "11640 CR 506",
+   "gisAcres": 380.301784,
+   "legalAcres": 644.5241,
+   "legalDescription": null,
+   "landValue": 61728.0,
+   "improvementValue": 0.0,
+   "marketValue": 61728.0,
+   "taxYear": "2026",
+   "stateLandUse": null,
+   "localLandUse": null,
+   "appraisalDistrict": "JOHNSON APPRAISAL DISTRICT",
+   "county": "JOHNSON",
+   "centroid": [
+    32.459642,
+    -97.095154
+   ],
+   "outline": [
+    [
+     [
+      -97.08706246573173,
+      32.466004223205694
+     ],
+     [
+      -97.08705530615892,
+      32.457864654790264
+     ],
+     [
+      -97.08814200175138,
+      32.45747383778765
+     ],
+     [
+      -97.0882334673153,
+      32.457625162676656
+     ],
+     [
+      -97.09591381775445,
+      32.45476867073815
+     ],
+     [
+      -97.10144030189136,
+      32.45274133362697
+     ],
+     [
+      -97.10160238312145,
+      32.452643105865356
+     ],
+     [
+      -97.10177193743638,
+      32.452938705284446
+     ],
+     [
+      -97.10573243704754,
+      32.45885556087432
+     ],
+     [
+      -97.09365373105976,
+      32.46473397378074
+     ],
+     [
+      -97.09073428184486,
+      32.466154506028815
+     ],
+     [
+      -97.0898812380578,
+      32.466568485084444
+     ],
+     [
+      -97.08803899283606,
+      32.46745207231415
+     ],
+     [
+      -97.08706246573173,
+      32.466004223205694
+     ]
+    ]
+   ]
+  },
+  "selection": {
+   "rule": "largest privately owned parcel of 300+ acres among 34 parcels found on a 0.0125 degree grid within 3.0 mi of the anchor substation",
+   "anchor": {
+    "name": "VENUS substation (345 kV, 16 lines)",
+    "lat": 32.44395046,
+    "lng": -97.072775513
+   }
+  }
+ },
+ "airQuality": {
+  "status": "ok",
+  "source": "EPA nonattainment and maintenance areas",
+  "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Nonattainment_Areas_and_Designations/FeatureServer",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "attainment": false,
+   "inNonattainment": true,
+   "nonattainmentStandards": [
+    "Ozone 8-hr (1997 standard)",
+    "Ozone 8-hr (2008 standard)",
+    "Ozone 8-hr (2015 Standard)"
+   ],
+   "inMaintenance": false,
+   "maintenanceStandards": [],
+   "ozoneNonattainment": [
+    {
+     "standard": "Ozone 8-hr (1997 standard)",
+     "area": "Dallas-Fort Worth Area",
+     "classification": "Subpart 2/Serious",
+     "areaDesignValuePpm": 0.083,
+     "url": "https://www.govinfo.gov/link/fr/69/23951"
+    },
+    {
+     "standard": "Ozone 8-hr (2008 standard)",
+     "area": "Dallas-Fort Worth",
+     "classification": "Severe 15",
+     "areaDesignValuePpm": 0.083,
+     "url": "https://www.govinfo.gov/link/fr/77/30088"
+    },
+    {
+     "standard": "Ozone 8-hr (2015 Standard)",
+     "area": "Dallas-Fort Worth",
+     "classification": "Serious",
+     "areaDesignValuePpm": 0.083,
+     "url": "https://www.govinfo.gov/link/fr/83/25776"
+    }
+   ],
+   "worstOzoneClassification": "Severe 15",
+   "nearestOzoneMonitor": {
+    "site": "Arlington Municipal Airport",
+    "county": "Tarrant",
+    "year": 2025,
+    "dvPpb": 75,
+    "valid": "Y",
+    "aqsid": "484393011",
+    "miles": 13.6
+   },
+   "designValueYear": 2025,
+   "nearestClassIArea": {
+    "name": "Wichita Mountains",
+    "state": "OK",
+    "agency": "USDI-FWS",
+    "miles": 181.0
+   },
+   "classIAreasWithin100Km": []
+  }
+ },
+ "substations": {
+  "status": "ok",
+  "source": "HIFLD Electric Substations",
+  "source_url": "https://services6.arcgis.com/OO2s4OoyCZkYJ6oE/arcgis/rest/services/Substations/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "nearest": {
+    "name": "VENUS",
+    "maxKv": 345,
+    "minKv": 69,
+    "status": "IN SERVICE",
+    "lines": 16,
+    "miles": 1.7
+   },
+   "nearest345KvPlus": {
+    "name": "VENUS",
+    "maxKv": 345,
+    "minKv": 69,
+    "status": "IN SERVICE",
+    "lines": 16,
+    "miles": 1.7
+   },
+   "countWithin10Km": 8,
+   "countWithin25Mi": 197,
+   "list": [
+    {
+     "name": "VENUS",
+     "maxKv": 345,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 16,
+     "miles": 1.7
+    },
+    {
+     "name": "MIDLOTHIAN ENERGY FACILITY",
+     "maxKv": 345,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 3,
+     "miles": 3.28
+    },
+    {
+     "name": "UNKNOWN303282",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 1,
+     "miles": 3.44
+    },
+    {
+     "name": "UNKNOWN305809",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "NOT AVAILABLE",
+     "lines": 2,
+     "miles": 3.64
+    },
+    {
+     "name": "UNKNOWN309033",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 3,
+     "miles": 4.06
+    },
+    {
+     "name": "UNKNOWN300086",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "NOT AVAILABLE",
+     "lines": 2,
+     "miles": 5.01
+    },
+    {
+     "name": "MIDLOTHIAN SOUTH",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "NOT AVAILABLE",
+     "lines": 0,
+     "miles": 6.11
+    },
+    {
+     "name": "LILLIAN",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 4,
+     "miles": 6.21
+    },
+    {
+     "name": "UNKNOWN308746",
+     "maxKv": 345,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 4,
+     "miles": 6.42
+    },
+    {
+     "name": "UNKNOWN304110",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 6.59
+    },
+    {
+     "name": "UNKNOWN300495",
+     "maxKv": 138,
+     "minKv": -999999,
+     "status": "NOT AVAILABLE",
+     "lines": 2,
+     "miles": 7.91
+    },
+    {
+     "name": "UNKNOWN306824",
+     "maxKv": 138,
+     "minKv": -999999,
+     "status": "NOT AVAILABLE",
+     "lines": 0,
+     "miles": 8.03
+    }
+   ]
+  }
+ },
+ "transmissionLines": {
+  "status": "ok",
+  "source": "HIFLD Electric Power Transmission Lines",
+  "source_url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Electric_Power_Transmission_Lines/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "nearest": {
+    "owner": "ONCOR ELECTRIC DELIVERY CO.",
+    "kv": 345,
+    "voltClass": "345",
+    "status": "NOT AVAILABLE",
+    "sub1": "VENUS",
+    "sub2": "EVERMAN",
+    "miles": 0.34
+   },
+   "nearest345KvPlus": {
+    "owner": "ONCOR ELECTRIC DELIVERY CO.",
+    "kv": 345,
+    "voltClass": "345",
+    "status": "NOT AVAILABLE",
+    "sub1": "VENUS",
+    "sub2": "EVERMAN",
+    "miles": 0.34
+   },
+   "countWithin5Mi": 18,
+   "maxKvWithin5Mi": 345,
+   "list": [
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "NOT AVAILABLE",
+     "sub1": "VENUS",
+     "sub2": "EVERMAN",
+     "miles": 0.34
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "IN SERVICE",
+     "sub1": "EVERMAN",
+     "sub2": "VENUS",
+     "miles": 0.35
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "IN SERVICE",
+     "sub1": "JOHNSON",
+     "sub2": "VENUS",
+     "miles": 0.93
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "IN SERVICE",
+     "sub1": "VENUS",
+     "sub2": "UNKNOWN308746",
+     "miles": 1.13
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "IN SERVICE",
+     "sub1": "UNKNOWN308746",
+     "sub2": "VENUS",
+     "miles": 1.14
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "NOT AVAILABLE",
+     "sub1": "LIGGETT",
+     "sub2": "VENUS",
+     "miles": 1.14
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "NOT AVAILABLE",
+     "sub1": "VENUS",
+     "sub2": "LIGGETT",
+     "miles": 1.15
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 138,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "VENUS",
+     "sub2": "UNKNOWN309033",
+     "miles": 1.65
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 138,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "VENUS",
+     "sub2": "UNKNOWN303282",
+     "miles": 1.66
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "IN SERVICE",
+     "sub1": "VENUS",
+     "sub2": "UNKNOWN305004",
+     "miles": 1.7
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 138,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "VENUS",
+     "sub2": "ALVARADO",
+     "miles": 1.7
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "IN SERVICE",
+     "sub1": "VENUS",
+     "sub2": "MIDLOTHIAN ENERGY FACILITY",
+     "miles": 1.7
+    },
+    {
+     "owner": "ONCOR ELECTRIC DELIVERY CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "IN SERVICE",
+     "sub1": "MIDLOTHIAN ENERGY FACILITY",
+     "sub2": "VENUS",
+     "miles": 1.7
+    },
+    {
+     "owner": "NAVARRO COUNTY ELEC COOP, INC",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "NOT AVAILABLE",
+     "sub1": "UNKNOWN306657",
+     "sub2": "VENUS",
+     "miles": 1.7
+    },
+    {
+     "owner": "NAVARRO COUNTY ELEC COOP, INC",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "NOT AVAILABLE",
+     "sub1": "VENUS",
+     "sub2": "UNKNOWN306657",
+     "miles": 1.7
+    }
+   ]
+  }
+ },
+ "gasInfrastructure": {
+  "status": "ok",
+  "source": "EIA natural gas interstate and intrastate pipelines",
+  "source_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "nearest": {
+    "operator": "Energy Transfer",
+    "type": "Intrastate",
+    "status": "Operating",
+    "miles": 0.69
+   },
+   "pipelinesWithin10Mi": [
+    {
+     "operator": "Energy Transfer",
+     "type": "Intrastate",
+     "status": "Operating",
+     "miles": 0.69
+    },
+    {
+     "operator": "Atmos Pipeline - Texas",
+     "type": "Intrastate",
+     "status": "Operating",
+     "miles": 3.94
+    }
+   ],
+   "operatorsWithin5Mi": [
+    "Atmos Pipeline - Texas",
+    "Energy Transfer"
+   ],
+   "interstateNearest": null,
+   "intrastateNearest": {
+    "operator": "Energy Transfer",
+    "type": "Intrastate",
+    "status": "Operating",
+    "miles": 0.69
+   },
+   "ldc": [
+    {
+     "name": "ATMOS ENERGY CORPORATION",
+     "holdingCompany": "NOT AVAILABLE",
+     "website": "www.atmosenergy.com"
+    }
+   ]
+  },
+  "also": {
+   "source": "HIFLD natural gas LDC service territories",
+   "source_url": "https://services.arcgis.com/kbDdtKcFi2adamXa/arcgis/rest/services/Natural_Gas_Local_Distribution_Company_Service_Territories/FeatureServer/0"
+  }
+ },
+ "generation": {
+  "status": "ok",
+  "source": "EIA-860 power plants (EIA Atlas)",
+  "source_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Power_Plants_in_the_US/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "within10Mi": [
+    {
+     "plantCode": 63797,
+     "name": "Ellis Solar LLC",
+     "operator": "174 Power Global Corp.",
+     "source": "solar",
+     "tech": "Solar Photovoltaic",
+     "mw": 80,
+     "coalMw": 0,
+     "gasMw": 0,
+     "nuclearMw": 0,
+     "county": "Ellis",
+     "miles": 2.4
+    },
+    {
+     "plantCode": 55091,
+     "name": "Midlothian Energy Facility",
+     "operator": "Midlothian Energy LLC",
+     "source": "natural gas",
+     "tech": "Natural Gas Fired Combined Cycle",
+     "mw": 1620,
+     "coalMw": 0,
+     "gasMw": 1620,
+     "nuclearMw": 0,
+     "county": "Ellis",
+     "miles": 3.2
+    },
+    {
+     "plantCode": 68730,
+     "name": "HEB00750",
+     "operator": "Generate ER-NG, LLC",
+     "source": "natural gas",
+     "tech": "Natural Gas Internal Combustion Engine",
+     "mw": 1.2,
+     "coalMw": 0,
+     "gasMw": 1.2,
+     "nuclearMw": 0,
+     "county": " ",
+     "miles": 7.5
+    },
+    {
+     "plantCode": 64772,
+     "name": "WAL284",
+     "operator": "Walmart Stores Texas, LLC",
+     "source": "natural gas",
+     "tech": "Natural Gas Internal Combustion Engine",
+     "mw": 1.2,
+     "coalMw": 0,
+     "gasMw": 1.2,
+     "nuclearMw": 0,
+     "county": "Tarrant",
+     "miles": 8.3
+    }
+   ],
+   "coalWithin50Mi": [],
+   "nuclearWithin50Mi": [
+    {
+     "plantCode": 6145,
+     "name": "Comanche Peak",
+     "operator": "Luminant Generation Company LLC",
+     "source": "nuclear",
+     "tech": "Nuclear",
+     "mw": 2400,
+     "coalMw": 0,
+     "gasMw": 0,
+     "nuclearMw": 2400,
+     "county": "Somervell",
+     "miles": 41.8
+    }
+   ],
+   "countWithin50Mi": 69,
+   "totalMwWithin10Mi": 1702.4
+  },
+  "note": "EIA Atlas layer lists operating plants; retired units are not in it."
+ },
+ "electricState": {
+  "status": "ok",
+  "source": "HIFLD Electric Retail Service Territories",
+  "source_url": "https://services6.arcgis.com/BAJNi3EgCdtQ1BCG/arcgis/rest/services/Electric_Retail_Service_Territories/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "utilities": [
+    {
+     "name": "HILCO ELECTRIC COOPERATIVE, INC.",
+     "type": "COOPERATIVE",
+     "holdingCompany": "HILCO ELECTRIC COOPERATIVE, INC.",
+     "controlArea": "ERCO",
+     "website": "http://www.hilco.coop/"
+    },
+    {
+     "name": "UNITED ELECTRIC COOP SERVICE INC - (TX)",
+     "type": "COOPERATIVE",
+     "holdingCompany": "UNITED ELECTRIC COOP SERVICE INC - (TX)",
+     "controlArea": "ERCO",
+     "website": "http://www.united-cs.com/"
+    },
+    {
+     "name": "TEXAS-NEW MEXICO POWER CO",
+     "type": "INVESTOR OWNED",
+     "holdingCompany": "PNM RESOURCES INC",
+     "controlArea": "NOT AVAILABLE",
+     "website": "http://www.tnmp.com/"
+    },
+    {
+     "name": "ONCOR ELECTRIC DELIVERY COMPANY LLC",
+     "type": "INVESTOR OWNED",
+     "holdingCompany": "ONCOR ELECTRIC DELIVERY COMPANY LLC",
+     "controlArea": "NOT AVAILABLE",
+     "website": "http://www.oncor.com/EN/Pages/Oncor-Electric-Delivery-Co-LLC.aspx"
+    }
+   ],
+   "ambiguous": true,
+   "iso": [
+    "ERCOT"
+   ],
+   "isoNames": [
+    "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC."
+   ]
+  },
+  "also": {
+   "source": "HIFLD Independent System Operators",
+   "source_url": "https://services5.arcgis.com/D509rM2leyoHuJvj/arcgis/rest/services/Independent_System_Operators/FeatureServer/0"
+  }
+ },
+ "contamination": {
+  "status": "ok",
+  "source": "EPA Facility Registry Service layers (see each list)",
+  "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_SEMS/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "superfund": {
+    "listRadiusMi": 1.0,
+    "countRadiusMi": 5.0,
+    "sites": [],
+    "countWithinCountRadius": 2,
+    "nearest": {
+     "name": "GERDAU MIDLOTHIAN PLANT",
+     "id": "110000459183",
+     "status": "NOT ON THE NPL",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110000459183",
+     "miles": 3.41
+    },
+    "source": "EPA FRS: Superfund (SEMS)",
+    "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_SEMS/FeatureServer/0"
+   },
+   "brownfields": {
+    "listRadiusMi": 0.5,
+    "countRadiusMi": 5.0,
+    "sites": [],
+    "countWithinCountRadius": 0,
+    "nearest": null,
+    "source": "EPA FRS: Brownfields (ACRES)",
+    "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_ACRES/FeatureServer/0"
+   },
+   "rcraTsd": {
+    "listRadiusMi": 0.5,
+    "countRadiusMi": 5.0,
+    "sites": [],
+    "countWithinCountRadius": 1,
+    "nearest": {
+     "name": "GERDAU MIDLOTHIAN PLANT",
+     "id": "110000459183",
+     "status": "Y",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110000459183",
+     "miles": 3.41
+    },
+    "source": "EPA FRS: RCRA TSD facilities",
+    "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_RCRA_TSD/FeatureServer/0"
+   },
+   "rmp": {
+    "listRadiusMi": 1.0,
+    "countRadiusMi": 6.2,
+    "sites": [],
+    "countWithinCountRadius": 4,
+    "nearest": {
+     "name": "TOWN AND COUNTRY POOL CHEMICAL",
+     "id": "110072153600",
+     "status": "ACTIVE",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110072153600",
+     "miles": 2.13
+    },
+    "source": "EPA FRS: Risk Management Program",
+    "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_RMP/FeatureServer/0"
+   },
+   "tri": {
+    "listRadiusMi": 1.0,
+    "countRadiusMi": 5.0,
+    "sites": [],
+    "countWithinCountRadius": 14,
+    "nearest": {
+     "name": "NORTH AMERICAN KITCHEN SOLUTIONS, INC.",
+     "id": "110072214796",
+     "status": "***UNCHANGED***",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110072214796",
+     "miles": 1.33
+    },
+    "source": "EPA FRS: Toxics Release Inventory",
+    "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_TRI/FeatureServer/0"
+   },
+   "rePoweringWithin1Mi": []
+  }
+ },
+ "waterSewer": {
+  "status": "ok",
+  "source": "EPA community water system boundaries",
+  "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Water_System_Boundaries/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "systems": [
+    {
+     "pwsid": "TX0700042",
+     "name": "MOUNTAIN PEAK SUD",
+     "populationServed": 23988,
+     "serviceArea": "Residential Area"
+    }
+   ]
+  }
+ },
+ "floodZone": {
+  "status": "ok",
+  "source": "FEMA National Flood Hazard Layer, flood hazard zones",
+  "source_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "zonesOnParcel": [
+    {
+     "zone": "A",
+     "subtype": null
+    },
+    {
+     "zone": "AE",
+     "subtype": "FLOODWAY"
+    },
+    {
+     "zone": "AE",
+     "subtype": null
+    },
+    {
+     "zone": "X",
+     "subtype": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD"
+    },
+    {
+     "zone": "X",
+     "subtype": "AREA OF MINIMAL FLOOD HAZARD"
+    }
+   ],
+   "sfhaOnParcel": true,
+   "zoneAtCentre": "X"
+  }
+ },
+ "zoningJurisdiction": {
+  "status": "not_fetched",
+  "note": "No public statewide zoning layer was queried. Atria module zoningJurisdiction would answer this."
+ },
+ "energyOrdinance": {
+  "status": "not_fetched",
+  "note": "Siting ordinances and moratoriums were not fetched. Atria module energyOrdinance (wind and solar only) would answer part of this."
+ },
+ "permitPath": {
+  "status": "not_fetched",
+  "note": "Local approval path, hearings and recent decisions were not fetched. Atria tool atria_permit_path would answer this."
+ },
+ "waterRights": {
+  "status": "not_fetched",
+  "note": "Water rights and allocations have no public bulk source here."
+ },
+ "gasCapacity": {
+  "status": "not_fetched",
+  "note": "Pipeline capacity and firm availability were not fetched. Atria module gasSupply has it only for Energy Transfer EGT, MRT and Gulf Run."
+ },
+ "gridHeadroom": {
+  "status": "not_fetched",
+  "note": "Substation headroom and load-interconnection queue position are not public. Atria module gridCapacity reports headroom as null too."
+ },
+ "correction": "2026-10-28: first published as Ellis County (the anchor substation's county). The parcel record (Johnson Appraisal District) and the Census geocoder put it in Johnson County, also in the DFW Severe ozone area. Layer data was queried at the parcel point and is unchanged."
+}

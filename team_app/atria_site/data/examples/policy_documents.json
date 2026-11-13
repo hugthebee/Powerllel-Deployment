@@ -1,0 +1,36 @@
+{
+ "_note": "EXAMPLE DOCUMENTS. Written for the demo; not real meetings, articles or people. Each carries the answer an LLM might return ('llm_answer'), which runs through atria_model.extract.validate exactly as a live answer would: malformed JSON and quotes not in the text are dropped.",
+ "documents": [
+  {
+   "id": "ex-milam-1", "site_id": "milam-sandow", "jurisdiction": "Milam County", "kind": "Meeting minutes", "date": "2026-08-11",
+   "title": "Example: commissioners court minutes, industrial reuse item",
+   "text": "Item 7. Staff summarized a request to reuse former industrial land for a data center campus of about 300 MW. A resident said \"The jobs would help Rockdale, and the land has been empty for years.\" Another resident said \"I worry about the water table, our wells are already low.\" A business owner said \"We support this if the road repairs are paid for.\" No action was taken; the item returns for a hearing.",
+   "llm_answer": "{\"relevant\": true, \"events\": [{\"type\": \"hearing\", \"stage\": \"public_request\", \"date\": \"2026-08-11\", \"body\": \"Commissioners court\", \"vote_for\": null, \"vote_against\": null, \"project\": \"data center campus\", \"developer\": null, \"mw\": 300, \"location\": \"former industrial land\"}], \"statements\": [{\"speaker_role\": \"resident\", \"stance\": \"support\", \"concerns\": [\"land_use\"], \"quote\": \"The jobs would help Rockdale, and the land has been empty for years.\"}, {\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"water\"], \"quote\": \"I worry about the water table, our wells are already low.\"}, {\"speaker_role\": \"business\", \"stance\": \"support\", \"concerns\": [\"traffic\"], \"quote\": \"We support this if the road repairs are paid for.\"}]}"
+  },
+  {
+   "id": "ex-milam-2", "site_id": "milam-sandow", "jurisdiction": "Milam County", "kind": "Local news", "date": "2026-09-22",
+   "title": "Example: local paper on the hearing date",
+   "text": "The hearing on the data center request was set for October. One neighbor said \"Nobody asked us about the noise from the turbines.\" The county judge said the court would hear all sides.",
+   "llm_answer": "{\"relevant\": true, \"events\": [{\"type\": \"hearing\", \"stage\": \"staff_study\", \"date\": \"2026-09-22\", \"body\": \"Commissioners court\", \"vote_for\": null, \"vote_against\": null, \"project\": null, \"developer\": null, \"mw\": null, \"location\": null}], \"statements\": [{\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"noise\"], \"quote\": \"Nobody asked us about the noise from the turbines.\"}, {\"speaker_role\": \"official\", \"stance\": \"neutral\", \"concerns\": [], \"quote\": \"The county will listen to everyone before deciding.\"}]}"
+  },
+  {
+   "id": "ex-elpaso-1", "site_id": "el-paso-caliente", "jurisdiction": "El Paso County", "kind": "Meeting minutes", "date": "2026-07-28",
+   "title": "Example: county work session on large water users",
+   "text": "Commissioners discussed large water users. A resident said \"We are in a desert and this would drink our aquifer.\" Another said \"Data centers bring tax base without many cars on the road.\" A third said \"The base is right there; nobody has explained the security review.\" Staff will study a water-use guideline.",
+   "llm_answer": "{\"relevant\": true, \"events\": [{\"type\": \"ordinance\", \"stage\": \"staff_study\", \"date\": \"2026-07-28\", \"body\": \"County commissioners\", \"vote_for\": null, \"vote_against\": null, \"project\": null, \"developer\": null, \"mw\": null, \"location\": null}], \"statements\": [{\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"water\"], \"quote\": \"We are in a desert and this would drink our aquifer.\"}, {\"speaker_role\": \"resident\", \"stance\": \"support\", \"concerns\": [\"tax_breaks\"], \"quote\": \"Data centers bring tax base without many cars on the road.\"}, {\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"other\"], \"quote\": \"The base is right there; nobody has explained the security review.\"}]}"
+  },
+  {
+   "id": "ex-elpaso-2", "site_id": "el-paso-caliente", "jurisdiction": "El Paso County", "kind": "Public post", "date": "2026-10-03",
+   "title": "Example: public group post (aggregated, no personal data kept)",
+   "text": "Water is the issue. Ask how many gallons a day.",
+   "llm_answer": "{\"relevant\": true, \"events\": [], \"statements\": [{\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"water\"], \"quote\": \"Water is the issue.\"}"
+  },
+  {
+   "id": "ex-johnson-1", "site_id": "johnson-venus", "jurisdiction": "Johnson County", "kind": "Meeting minutes", "date": "2026-09-08",
+   "title": "Example: commissioners court, request for a study of data center rules",
+   "text": "Residents asked the court to study rules for data centers. A resident said \"The power lines already cross my land and now they want gas turbines too.\" Another said \"Hail took my roof last year; who pays when this plant floods the creek?\" A business owner said \"These projects pay school taxes we badly need.\" The court directed staff to study a possible pause on new large-load permits.",
+   "llm_answer": "{\"relevant\": true, \"events\": [{\"type\": \"moratorium\", \"stage\": \"staff_study\", \"date\": \"2026-09-08\", \"body\": \"Commissioners court\", \"vote_for\": null, \"vote_against\": null, \"project\": null, \"developer\": null, \"mw\": null, \"location\": \"county-wide\"}], \"statements\": [{\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"land_use\", \"air_quality\"], \"quote\": \"The power lines already cross my land and now they want gas turbines too.\"}, {\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"water\", \"developer_trust\"], \"quote\": \"Hail took my roof last year; who pays when this plant floods the creek?\"}, {\"speaker_role\": \"business\", \"stance\": \"support\", \"concerns\": [\"tax_breaks\"], \"quote\": \"These projects pay school taxes we badly need.\"}]}"
+  }
+ ],
+ "posts_per_week": {"milam-sandow": [2, 3, 3, 5], "el-paso-caliente": [6, 8, 7, 11], "johnson-venus": [4, 6, 9, 12]}
+}

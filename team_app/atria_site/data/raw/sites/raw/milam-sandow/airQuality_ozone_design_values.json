@@ -1,0 +1,4091 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "uniqueIdField": {
+  "name": "OBJECTID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "GlobalID",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "site_name",
+   "type": "esriFieldTypeString",
+   "alias": "Site Name",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"Name of the air quality monitoring site.\",\"fieldValueType\":\"nameOrTitle\"}"
+  },
+  {
+   "name": "county_name",
+   "type": "esriFieldTypeString",
+   "alias": "County Name",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"County name where the monitoring site is located.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+  },
+  {
+   "name": "dv_year",
+   "type": "esriFieldTypeDate",
+   "alias": "Design Value Year",
+   "sqlType": "sqlTypeOther",
+   "length": 8,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"Design value year used for the ozone statistic.\",\"fieldValueType\":\"dateAndTime\"}"
+  },
+  {
+   "name": "dv",
+   "type": "esriFieldTypeInteger",
+   "alias": "Design Value (ppb)",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The level of the 2015 8-hour ozone NAAQS is 0.070 parts per million (ppm). The design value is the 3-year average of the annual 4th highest daily maximum 8-hour ozone concentration. Monitors with design values less than or equal to 0.070 ppm must have 75% annual data capture and 90% 3-year average data capture in order to be considered valid.\",\"fieldValueType\":\"\"}"
+  },
+  {
+   "name": "valid",
+   "type": "esriFieldTypeString",
+   "alias": "Valid? (Y/N)",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"Indicates whether the design value is valid for comparison to the NAAQS.\",\"fieldValueType\":\"binary\"}"
+  },
+  {
+   "name": "AQSID",
+   "type": "esriFieldTypeString",
+   "alias": "AQS ID",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"EPA AQS site identification code for the monitoring station.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+  },
+  {
+   "name": "naa_name",
+   "type": "esriFieldTypeString",
+   "alias": "Nonattainment Area Name",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"Nonattainment area name associated with the site, if applicable.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1749340800000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.431055,
+    "y": 31.122413
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1686178800000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.431052,
+    "y": 31.122419
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1717801200000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.431052,
+    "y": 31.122419
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1433718000000,
+    "dv": 64,
+    "valid": "N",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1623106800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1528412400000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1370646000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1559948400000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1654642800000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1465340400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1496876400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1591570800000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1402182000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1749340800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "484530014",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.761737,
+    "y": 30.354934
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1528412400000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "484530014",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.76180299999999,
+    "y": 30.354944000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1623106800000,
+    "dv": 59,
+    "valid": "N",
+    "AQSID": "484530014",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.76180299999999,
+    "y": 30.354944000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1433718000000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "484530014",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.76180299999999,
+    "y": 30.354944000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1591570800000,
+    "dv": 61,
+    "valid": "N",
+    "AQSID": "484530014",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.76180299999999,
+    "y": 30.354944000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1402182000000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "484530014",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.76180299999999,
+    "y": 30.354944000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1496876400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "484530014",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.76180299999999,
+    "y": 30.354944000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1559948400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "484530014",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.76180299999999,
+    "y": 30.354944000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1654642800000,
+    "dv": 61,
+    "valid": "N",
+    "AQSID": "484530014",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.76180299999999,
+    "y": 30.354944000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1465340400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "484530014",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.76180299999999,
+    "y": 30.354944000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1370646000000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "484530014",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.76180299999999,
+    "y": 30.354944000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1717801200000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "484530014",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.761803,
+    "y": 30.354944
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin North Hills Drive",
+    "county_name": "Travis",
+    "dv_year": 1686178800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "484530014",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.761803,
+    "y": 30.354944
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1749340800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.872324,
+    "y": 30.483166
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1623106800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.87508399999996,
+    "y": 30.483163000000047
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1528412400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.87508399999996,
+    "y": 30.483163000000047
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1433718000000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.87508399999996,
+    "y": 30.483163000000047
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1591570800000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.87508399999996,
+    "y": 30.483163000000047
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1402182000000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.87508399999996,
+    "y": 30.483163000000047
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1370646000000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.87508399999996,
+    "y": 30.483163000000047
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1559948400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.87508399999996,
+    "y": 30.483163000000047
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1654642800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.87508399999996,
+    "y": 30.483163000000047
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1465340400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.87508399999996,
+    "y": 30.483163000000047
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1496876400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.87508399999996,
+    "y": 30.483163000000047
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1686178800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.875084,
+    "y": 30.483163
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Austin Audubon Society",
+    "county_name": "Travis",
+    "dv_year": 1717801200000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "484530020",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.875084,
+    "y": 30.483163
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1686178800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.679734,
+    "y": 31.088002
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1717801200000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.679734,
+    "y": 31.088002
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1623106800000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1528412400000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1433718000000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1402182000000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1591570800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1496876400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1370646000000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1559948400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1654642800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1465340400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1749340800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.679743,
+    "y": 31.087999
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1749340800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.070699,
+    "y": 31.653084
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1717801200000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.070704,
+    "y": 31.653086
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1686178800000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.070704,
+    "y": 31.653086
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1433718000000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1528412400000,
+    "dv": 64,
+    "valid": "N",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1623106800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1591570800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1496876400000,
+    "dv": 64,
+    "valid": "N",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1402182000000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1559948400000,
+    "dv": 65,
+    "valid": "N",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1654642800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1465340400000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1370646000000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1717801200000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.673951,
+    "y": 30.039524
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1686178800000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.673951,
+    "y": 30.039524
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1623106800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.67395099999999,
+    "y": 30.03952400000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1433718000000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.67395099999999,
+    "y": 30.03952400000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1528412400000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.67395099999999,
+    "y": 30.03952400000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1591570800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.67395099999999,
+    "y": 30.03952400000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1402182000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.67395099999999,
+    "y": 30.03952400000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1496876400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.67395099999999,
+    "y": 30.03952400000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1465340400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.67395099999999,
+    "y": 30.03952400000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1654642800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.67395099999999,
+    "y": 30.03952400000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1370646000000,
+    "dv": 82,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.67395099999999,
+    "y": 30.03952400000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1559948400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.67395099999999,
+    "y": 30.03952400000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Northwest Harris County",
+    "county_name": "Harris",
+    "dv_year": 1749340800000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "482010029",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.673918,
+    "y": 30.039522
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1717801200000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.399141,
+    "y": 32.031934
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1686178800000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.399141,
+    "y": 32.031934
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1370646000000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1559948400000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1654642800000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1465340400000,
+    "dv": 61,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1496876400000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1591570800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1402182000000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1433718000000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1623106800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1528412400000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1749340800000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.399147,
+    "y": 32.031946
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1749340800000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.635941,
+    "y": 29.723333
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1654642800000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.63583299999999,
+    "y": 29.723333000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1465340400000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.63583299999999,
+    "y": 29.723333000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1559948400000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.63583299999999,
+    "y": 29.723333000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1402182000000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.63583299999999,
+    "y": 29.723333000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1591570800000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.63583299999999,
+    "y": 29.723333000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1496876400000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.63583299999999,
+    "y": 29.723333000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1623106800000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.63583299999999,
+    "y": 29.723333000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1370646000000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.63583299999999,
+    "y": 29.723333000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1528412400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.63583299999999,
+    "y": 29.723333000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1433718000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.63583299999999,
+    "y": 29.723333000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1717801200000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.635833,
+    "y": 29.723333
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Westhollow",
+    "county_name": "Harris",
+    "dv_year": 1686178800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482010066",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.635833,
+    "y": 29.723333
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1749340800000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.425137,
+    "y": 30.350325
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1717801200000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.425128,
+    "y": 30.350302
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1686178800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.425128,
+    "y": 30.350302
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1623106800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.42512799999997,
+    "y": 30.350302000000056
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1654642800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.42512799999997,
+    "y": 30.350302000000056
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1528412400000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.42512799999997,
+    "y": 30.350302000000056
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1433718000000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.42512799999997,
+    "y": 30.350302000000056
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1402182000000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.42512799999997,
+    "y": 30.350302000000056
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1591570800000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.42512799999997,
+    "y": 30.350302000000056
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1496876400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.42512799999997,
+    "y": 30.350302000000056
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1370646000000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.42512799999997,
+    "y": 30.350302000000056
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1559948400000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.42512799999997,
+    "y": 30.350302000000056
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Conroe Relocated",
+    "county_name": "Montgomery",
+    "dv_year": 1465340400000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "483390078",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.42512799999997,
+    "y": 30.350302000000056
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1686178800000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.870189,
+    "y": 32.175417
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1717801200000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.870189,
+    "y": 32.175417
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1433718000000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1496876400000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1591570800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1402182000000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1654642800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1528412400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1623106800000,
+    "dv": 61,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1370646000000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1559948400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1465340400000,
+    "dv": 62,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1749340800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.870194,
+    "y": 32.175432
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1686178800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.489167,
+    "y": 29.834167
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1717801200000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.489167,
+    "y": 29.834167
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1370646000000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.48916699999995,
+    "y": 29.834167000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1623106800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.48916699999995,
+    "y": 29.834167000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1528412400000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.48916699999995,
+    "y": 29.834167000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1433718000000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.48916699999995,
+    "y": 29.834167000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1654642800000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.48916699999995,
+    "y": 29.834167000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1465340400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.48916699999995,
+    "y": 29.834167000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1559948400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.48916699999995,
+    "y": 29.834167000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1591570800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.48916699999995,
+    "y": 29.834167000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1402182000000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.48916699999995,
+    "y": 29.834167000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1496876400000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.48916699999995,
+    "y": 29.834167000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Lang",
+    "county_name": "Harris",
+    "dv_year": 1749340800000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "482010047",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.489129,
+    "y": 29.834167
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1623106800000,
+    "dv": 61,
+    "valid": "Y",
+    "AQSID": "484690003",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.00552499999998,
+    "y": 28.83621400000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1433718000000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "484690003",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.00552499999998,
+    "y": 28.83621400000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1528412400000,
+    "dv": 64,
+    "valid": "N",
+    "AQSID": "484690003",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.00552499999998,
+    "y": 28.83621400000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1496876400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "484690003",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.00552499999998,
+    "y": 28.83621400000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1402182000000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "484690003",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.00552499999998,
+    "y": 28.83621400000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1591570800000,
+    "dv": 62,
+    "valid": "N",
+    "AQSID": "484690003",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.00552499999998,
+    "y": 28.83621400000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1559948400000,
+    "dv": 63,
+    "valid": "N",
+    "AQSID": "484690003",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.00552499999998,
+    "y": 28.83621400000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1370646000000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "484690003",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.00552499999998,
+    "y": 28.83621400000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1654642800000,
+    "dv": 60,
+    "valid": "Y",
+    "AQSID": "484690003",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.00552499999998,
+    "y": 28.83621400000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1465340400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "484690003",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.00552499999998,
+    "y": 28.83621400000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1686178800000,
+    "dv": 60,
+    "valid": "Y",
+    "AQSID": "484690003",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.005525,
+    "y": 28.836214
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1717801200000,
+    "dv": 62,
+    "valid": "Y",
+    "AQSID": "484690003",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.005525,
+    "y": 28.836214
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Victoria",
+    "county_name": "Victoria",
+    "dv_year": 1749340800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "484690003",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.005521,
+    "y": 28.836212
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1528412400000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.49921899999998,
+    "y": 29.69572900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1433718000000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.49921899999998,
+    "y": 29.69572900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1623106800000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.49921899999998,
+    "y": 29.69572900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1370646000000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.49921899999998,
+    "y": 29.69572900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1559948400000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.49921899999998,
+    "y": 29.69572900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1654642800000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.49921899999998,
+    "y": 29.69572900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1496876400000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.49921899999998,
+    "y": 29.69572900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1402182000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.49921899999998,
+    "y": 29.69572900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1591570800000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.49921899999998,
+    "y": 29.69572900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1465340400000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.49921899999998,
+    "y": 29.69572900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1717801200000,
+    "dv": 84,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.499219,
+    "y": 29.695729
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1686178800000,
+    "dv": 83,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.499219,
+    "y": 29.695729
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Bayland Park",
+    "county_name": "Harris",
+    "dv_year": 1749340800000,
+    "dv": 83,
+    "valid": "Y",
+    "AQSID": "482010055",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.49924,
+    "y": 29.69566
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1749340800000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.564918,
+    "y": 29.632077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1623106800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.56493599999999,
+    "y": 29.63205800000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1528412400000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.56493599999999,
+    "y": 29.63205800000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1433718000000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.56493599999999,
+    "y": 29.63205800000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1496876400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.56493599999999,
+    "y": 29.63205800000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1591570800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.56493599999999,
+    "y": 29.63205800000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1402182000000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.56493599999999,
+    "y": 29.63205800000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1465340400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.56493599999999,
+    "y": 29.63205800000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1654642800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.56493599999999,
+    "y": 29.63205800000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1370646000000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.56493599999999,
+    "y": 29.63205800000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1559948400000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.56493599999999,
+    "y": 29.63205800000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1686178800000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.564936,
+    "y": 29.632058
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Camp Bullis",
+    "county_name": "Bexar",
+    "dv_year": 1717801200000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "480290052",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.564936,
+    "y": 29.632058
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1528412400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.31169199999994,
+    "y": 29.27538100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1623106800000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.31169199999994,
+    "y": 29.27538100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1433718000000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.31169199999994,
+    "y": 29.27538100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1370646000000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.31169199999994,
+    "y": 29.27538100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1496876400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.31169199999994,
+    "y": 29.27538100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1654642800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.31169199999994,
+    "y": 29.27538100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1465340400000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.31169199999994,
+    "y": 29.27538100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1559948400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.31169199999994,
+    "y": 29.27538100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1591570800000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.31169199999994,
+    "y": 29.27538100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1402182000000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.31169199999994,
+    "y": 29.27538100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1717801200000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.311692,
+    "y": 29.275381
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1686178800000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.311692,
+    "y": 29.275381
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Calaveras Lake",
+    "county_name": "Bexar",
+    "dv_year": 1749340800000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "480290059",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.3117,
+    "y": 29.275371
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1749340800000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.474333,
+    "y": 29.623961
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1402182000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.47416699999997,
+    "y": 29.623889000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1591570800000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.47416699999997,
+    "y": 29.623889000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1465340400000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.47416699999997,
+    "y": 29.623889000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1559948400000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.47416699999997,
+    "y": 29.623889000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1654642800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.47416699999997,
+    "y": 29.623889000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1496876400000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.47416699999997,
+    "y": 29.623889000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1433718000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.47416699999997,
+    "y": 29.623889000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1528412400000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.47416699999997,
+    "y": 29.623889000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1370646000000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.47416699999997,
+    "y": 29.623889000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1623106800000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.47416699999997,
+    "y": 29.623889000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1717801200000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.474167,
+    "y": 29.623889
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Croquet",
+    "county_name": "Harris",
+    "dv_year": 1686178800000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "482010051",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.474167,
+    "y": 29.623889
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Harvard Street",
+    "county_name": "Harris",
+    "dv_year": 1749340800000,
+    "dv": 82,
+    "valid": "Y",
+    "AQSID": "482010417",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.395937,
+    "y": 29.772857
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Harvard Street",
+    "county_name": "Harris",
+    "dv_year": 1623106800000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "482010417",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.39578399999999,
+    "y": 29.77291500000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Harvard Street",
+    "county_name": "Harris",
+    "dv_year": 1654642800000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "482010417",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.39578399999999,
+    "y": 29.77291500000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Harvard Street",
+    "county_name": "Harris",
+    "dv_year": 1717801200000,
+    "dv": 82,
+    "valid": "Y",
+    "AQSID": "482010417",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.395784,
+    "y": 29.772915
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Harvard Street",
+    "county_name": "Harris",
+    "dv_year": 1686178800000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "482010417",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.395784,
+    "y": 29.772915
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1749340800000,
+    "dv": 82,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.326147,
+    "y": 29.90103
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1717801200000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.326137,
+    "y": 29.901036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1686178800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.326137,
+    "y": 29.901036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1402182000000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.32613699999996,
+    "y": 29.901036000000033
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1496876400000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.32613699999996,
+    "y": 29.901036000000033
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1591570800000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.32613699999996,
+    "y": 29.901036000000033
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1370646000000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.32613699999996,
+    "y": 29.901036000000033
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1559948400000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.32613699999996,
+    "y": 29.901036000000033
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1654642800000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.32613699999996,
+    "y": 29.901036000000033
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1465340400000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.32613699999996,
+    "y": 29.901036000000033
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1433718000000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.32613699999996,
+    "y": 29.901036000000033
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1528412400000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.32613699999996,
+    "y": 29.901036000000033
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Aldine",
+    "county_name": "Harris",
+    "dv_year": 1623106800000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "482010024",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.32613699999996,
+    "y": 29.901036000000033
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1496876400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.62016599999998,
+    "y": 29.515090000000043
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1591570800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.62016599999998,
+    "y": 29.515090000000043
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1402182000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.62016599999998,
+    "y": 29.515090000000043
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1465340400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.62016599999998,
+    "y": 29.515090000000043
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1654642800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.62016599999998,
+    "y": 29.515090000000043
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1559948400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.62016599999998,
+    "y": 29.515090000000043
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1370646000000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.62016599999998,
+    "y": 29.515090000000043
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1433718000000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.62016599999998,
+    "y": 29.515090000000043
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1528412400000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.62016599999998,
+    "y": 29.515090000000043
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1623106800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.62016599999998,
+    "y": 29.515090000000043
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1686178800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.620166,
+    "y": 29.51509
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1717801200000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.620166,
+    "y": 29.51509
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "San Antonio Northwest",
+    "county_name": "Bexar",
+    "dv_year": 1749340800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "480290032",
+    "naa_name": "San Antonio, TX"
+   },
+   "geometry": {
+    "x": -98.620211,
+    "y": 29.515061
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1749340800000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.283956,
+    "y": 29.828516
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1686178800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.284096,
+    "y": 29.828086
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1717801200000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.284096,
+    "y": 29.828086
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1528412400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.28409599999998,
+    "y": 29.82808600000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1433718000000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.28409599999998,
+    "y": 29.82808600000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1623106800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.28409599999998,
+    "y": 29.82808600000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1465340400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.28409599999998,
+    "y": 29.82808600000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1370646000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.28409599999998,
+    "y": 29.82808600000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1402182000000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.28409599999998,
+    "y": 29.82808600000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1654642800000,
+    "dv": 62,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.28409599999998,
+    "y": 29.82808600000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1559948400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.28409599999998,
+    "y": 29.82808600000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1591570800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.28409599999998,
+    "y": 29.82808600000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston North Wayside",
+    "county_name": "Harris",
+    "dv_year": 1496876400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "482010046",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.28409599999998,
+    "y": 29.82808600000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Regional Office",
+    "county_name": "Harris",
+    "dv_year": 1402182000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "482010070",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.31558299999995,
+    "y": 29.73512900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Houston Regional Office",
+    "county_name": "Harris",
+    "dv_year": 1370646000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "482010070",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.31558299999995,
+    "y": 29.73512900000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1559948400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.29472199999998,
+    "y": 29.686389000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1496876400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.29472199999998,
+    "y": 29.686389000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1654642800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.29472199999998,
+    "y": 29.686389000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1465340400000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.29472199999998,
+    "y": 29.686389000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1370646000000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.29472199999998,
+    "y": 29.686389000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1528412400000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.29472199999998,
+    "y": 29.686389000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1402182000000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.29472199999998,
+    "y": 29.686389000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1433718000000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.29472199999998,
+    "y": 29.686389000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1623106800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.29472199999998,
+    "y": 29.686389000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1591570800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.29472199999998,
+    "y": 29.686389000000077
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1686178800000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.294722,
+    "y": 29.686389
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1717801200000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.294722,
+    "y": 29.686389
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Park Place",
+    "county_name": "Harris",
+    "dv_year": 1749340800000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "482010416",
+    "naa_name": "Houston-Galveston-Brazoria, TX"
+   },
+   "geometry": {
+    "x": -95.294723,
+    "y": 29.686289
+   }
+  }
+ ]
+}

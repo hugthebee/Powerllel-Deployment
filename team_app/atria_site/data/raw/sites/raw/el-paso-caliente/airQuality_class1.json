@@ -1,0 +1,151 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "NAME": "Guadalupe Mountains NP",
+    "STATE": "TX",
+    "AGENCY": "USDI-NPS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Carlsbad Caverns NP",
+    "STATE": "NM",
+    "AGENCY": "USDI-NPS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "White Mountain Wilderness",
+    "STATE": "NM",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Bosque del Apache",
+    "STATE": "NM",
+    "AGENCY": "USDI-FWS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Gila Wilderness",
+    "STATE": "NM",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Salt Creek Wilderness",
+    "STATE": "NM",
+    "AGENCY": "USDI-FWS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Chiricahua Wilderness",
+    "STATE": "AZ",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Chiricahua NM Wilderness",
+    "STATE": "AZ",
+    "AGENCY": "USDI-NPS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Mount Baldy Wilderness",
+    "STATE": "AZ",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Galiuro Wilderness",
+    "STATE": "AZ",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Big Bend NP",
+    "STATE": "TX",
+    "AGENCY": "USDI-NPS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Saguaro Wilderness",
+    "STATE": "AZ",
+    "AGENCY": "USDI-NPS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Bandelier Wilderness",
+    "STATE": "NM",
+    "AGENCY": "USDI-NPS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Pecos Wilderness",
+    "STATE": "NM",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Petrified Forest NP",
+    "STATE": "AZ",
+    "AGENCY": "USDI-NPS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "San Pedro Parks Wilderness",
+    "STATE": "NM",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Sierra Ancha Wilderness",
+    "STATE": "AZ",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Superstition Wilderness",
+    "STATE": "AZ",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Wheeler Peak Wilderness",
+    "STATE": "NM",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Mazatzal Wilderness",
+    "STATE": "AZ",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Pine Mountain Wilderness",
+    "STATE": "AZ",
+    "AGENCY": "USDA-FS"
+   }
+  }
+ ]
+}

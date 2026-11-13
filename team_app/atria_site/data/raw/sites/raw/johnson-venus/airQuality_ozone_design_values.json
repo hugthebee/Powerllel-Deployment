@@ -1,0 +1,5066 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "uniqueIdField": {
+  "name": "OBJECTID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "GlobalID",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "site_name",
+   "type": "esriFieldTypeString",
+   "alias": "Site Name",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"Name of the air quality monitoring site.\",\"fieldValueType\":\"nameOrTitle\"}"
+  },
+  {
+   "name": "county_name",
+   "type": "esriFieldTypeString",
+   "alias": "County Name",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"County name where the monitoring site is located.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+  },
+  {
+   "name": "dv_year",
+   "type": "esriFieldTypeDate",
+   "alias": "Design Value Year",
+   "sqlType": "sqlTypeOther",
+   "length": 8,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"Design value year used for the ozone statistic.\",\"fieldValueType\":\"dateAndTime\"}"
+  },
+  {
+   "name": "dv",
+   "type": "esriFieldTypeInteger",
+   "alias": "Design Value (ppb)",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The level of the 2015 8-hour ozone NAAQS is 0.070 parts per million (ppm). The design value is the 3-year average of the annual 4th highest daily maximum 8-hour ozone concentration. Monitors with design values less than or equal to 0.070 ppm must have 75% annual data capture and 90% 3-year average data capture in order to be considered valid.\",\"fieldValueType\":\"\"}"
+  },
+  {
+   "name": "valid",
+   "type": "esriFieldTypeString",
+   "alias": "Valid? (Y/N)",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"Indicates whether the design value is valid for comparison to the NAAQS.\",\"fieldValueType\":\"binary\"}"
+  },
+  {
+   "name": "AQSID",
+   "type": "esriFieldTypeString",
+   "alias": "AQS ID",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"EPA AQS site identification code for the monitoring station.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+  },
+  {
+   "name": "naa_name",
+   "type": "esriFieldTypeString",
+   "alias": "Nonattainment Area Name",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"Nonattainment area name associated with the site, if applicable.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1686178800000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.026899,
+    "y": 32.482083
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1717801200000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.026899,
+    "y": 32.482083
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1528412400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.02689899999996,
+    "y": 32.482083000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1433718000000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.02689899999996,
+    "y": 32.482083000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1559948400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.02689899999996,
+    "y": 32.482083000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1465340400000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.02689899999996,
+    "y": 32.482083000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1370646000000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.02689899999996,
+    "y": 32.482083000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1623106800000,
+    "dv": 62,
+    "valid": "Y",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.02689899999996,
+    "y": 32.482083000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1402182000000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.02689899999996,
+    "y": 32.482083000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1654642800000,
+    "dv": 62,
+    "valid": "N",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.02689899999996,
+    "y": 32.482083000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1591570800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.02689899999996,
+    "y": 32.482083000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Midlothian Ofw",
+    "county_name": "Ellis",
+    "dv_year": 1496876400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "481390016",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.02689899999996,
+    "y": 32.482083000000046
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1749340800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.088592,
+    "y": 32.656365
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1686178800000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.088598,
+    "y": 32.65637
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1717801200000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.088598,
+    "y": 32.65637
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1402182000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.08859799999999,
+    "y": 32.65637000000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1591570800000,
+    "dv": 69,
+    "valid": "N",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.08859799999999,
+    "y": 32.65637000000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1433718000000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.08859799999999,
+    "y": 32.65637000000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1370646000000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.08859799999999,
+    "y": 32.65637000000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1559948400000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.08859799999999,
+    "y": 32.65637000000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1465340400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.08859799999999,
+    "y": 32.65637000000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1654642800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.08859799999999,
+    "y": 32.65637000000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1496876400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.08859799999999,
+    "y": 32.65637000000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1623106800000,
+    "dv": 67,
+    "valid": "N",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.08859799999999,
+    "y": 32.65637000000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Arlington Municipal Airport",
+    "county_name": "Tarrant",
+    "dv_year": 1528412400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "484393011",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.08859799999999,
+    "y": 32.65637000000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1717801200000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87206,
+    "y": 32.676451
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1686178800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87206,
+    "y": 32.676451
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1465340400000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87205999999998,
+    "y": 32.67645100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1433718000000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87205999999998,
+    "y": 32.67645100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1623106800000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87205999999998,
+    "y": 32.67645100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1559948400000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87205999999998,
+    "y": 32.67645100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1370646000000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87205999999998,
+    "y": 32.67645100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1528412400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87205999999998,
+    "y": 32.67645100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1402182000000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87205999999998,
+    "y": 32.67645100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1591570800000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87205999999998,
+    "y": 32.67645100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1496876400000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87205999999998,
+    "y": 32.67645100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1654642800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87205999999998,
+    "y": 32.67645100000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Redbird Airport Executive",
+    "county_name": "Dallas",
+    "dv_year": 1749340800000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "481130087",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87205,
+    "y": 32.676448
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1370646000000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.43674199999998,
+    "y": 32.35359500000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1433718000000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.43674199999998,
+    "y": 32.35359500000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1623106800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.43674199999998,
+    "y": 32.35359500000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1465340400000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.43674199999998,
+    "y": 32.35359500000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1654642800000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.43674199999998,
+    "y": 32.35359500000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1559948400000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.43674199999998,
+    "y": 32.35359500000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1496876400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.43674199999998,
+    "y": 32.35359500000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1591570800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.43674199999998,
+    "y": 32.35359500000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1402182000000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.43674199999998,
+    "y": 32.35359500000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1528412400000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.43674199999998,
+    "y": 32.35359500000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1686178800000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.436742,
+    "y": 32.353595
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1717801200000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.436742,
+    "y": 32.353595
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Cleburne Airport",
+    "county_name": "Johnson",
+    "dv_year": 1749340800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "482510003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.43679,
+    "y": 32.353592
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1749340800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.870194,
+    "y": 32.175432
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1654642800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1402182000000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1591570800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1496876400000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1433718000000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1528412400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1370646000000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1465340400000,
+    "dv": 62,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1623106800000,
+    "dv": 61,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1559948400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.87018899999998,
+    "y": 32.17541700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1686178800000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.870189,
+    "y": 32.175417
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Italy",
+    "county_name": "Ellis",
+    "dv_year": 1717801200000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "481391044",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.870189,
+    "y": 32.175417
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1749340800000,
+    "dv": 65,
+    "valid": "N",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.860117,
+    "y": 32.820061
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1686178800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.860117,
+    "y": 32.820061
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1717801200000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.860117,
+    "y": 32.820061
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1559948400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.86011699999995,
+    "y": 32.82006100000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1623106800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.86011699999995,
+    "y": 32.82006100000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1433718000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.86011699999995,
+    "y": 32.82006100000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1528412400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.86011699999995,
+    "y": 32.82006100000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1370646000000,
+    "dv": 84,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.86011699999995,
+    "y": 32.82006100000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1402182000000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.86011699999995,
+    "y": 32.82006100000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1496876400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.86011699999995,
+    "y": 32.82006100000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1654642800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.86011699999995,
+    "y": 32.82006100000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1591570800000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.86011699999995,
+    "y": 32.82006100000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas Hinton",
+    "county_name": "Dallas",
+    "dv_year": 1465340400000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "481130069",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.86011699999995,
+    "y": 32.82006100000007
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1717801200000,
+    "dv": 83,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.356529,
+    "y": 32.80581
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1686178800000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.356529,
+    "y": 32.80581
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1559948400000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.35652899999997,
+    "y": 32.805810000000065
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1433718000000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.35652899999997,
+    "y": 32.805810000000065
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1623106800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.35652899999997,
+    "y": 32.805810000000065
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1496876400000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.35652899999997,
+    "y": 32.805810000000065
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1654642800000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.35652899999997,
+    "y": 32.805810000000065
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1465340400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.35652899999997,
+    "y": 32.805810000000065
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1370646000000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.35652899999997,
+    "y": 32.805810000000065
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1402182000000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.35652899999997,
+    "y": 32.805810000000065
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1591570800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.35652899999997,
+    "y": 32.805810000000065
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1528412400000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.35652899999997,
+    "y": 32.805810000000065
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Fort Worth Northwest",
+    "county_name": "Tarrant",
+    "dv_year": 1749340800000,
+    "dv": 83,
+    "valid": "Y",
+    "AQSID": "484391002",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.356526,
+    "y": 32.805816
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1749340800000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.282096,
+    "y": 32.922489
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1717801200000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.282099,
+    "y": 32.922492
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1686178800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.282099,
+    "y": 32.922492
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1433718000000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.28209899999996,
+    "y": 32.922492000000034
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1370646000000,
+    "dv": 85,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.28209899999996,
+    "y": 32.922492000000034
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1559948400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.28209899999996,
+    "y": 32.922492000000034
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1496876400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.28209899999996,
+    "y": 32.922492000000034
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1654642800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.28209899999996,
+    "y": 32.922492000000034
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1465340400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.28209899999996,
+    "y": 32.922492000000034
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1528412400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.28209899999996,
+    "y": 32.922492000000034
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1623106800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.28209899999996,
+    "y": 32.922492000000034
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1402182000000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.28209899999996,
+    "y": 32.922492000000034
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Keller",
+    "county_name": "Tarrant",
+    "dv_year": 1591570800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "484392003",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.28209899999996,
+    "y": 32.922492000000034
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1749340800000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.063702,
+    "y": 32.984258
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1717801200000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.063721,
+    "y": 32.98426
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1686178800000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.063721,
+    "y": 32.98426
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1496876400000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.06372099999999,
+    "y": 32.98426000000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1465340400000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.06372099999999,
+    "y": 32.98426000000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1559948400000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.06372099999999,
+    "y": 32.98426000000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1654642800000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.06372099999999,
+    "y": 32.98426000000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1402182000000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.06372099999999,
+    "y": 32.98426000000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1591570800000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.06372099999999,
+    "y": 32.98426000000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1623106800000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.06372099999999,
+    "y": 32.98426000000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1433718000000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.06372099999999,
+    "y": 32.98426000000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1370646000000,
+    "dv": 86,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.06372099999999,
+    "y": 32.98426000000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Grapevine Fairway",
+    "county_name": "Tarrant",
+    "dv_year": 1528412400000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "484393009",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.06372099999999,
+    "y": 32.98426000000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1749340800000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.808501,
+    "y": 32.919207
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1717801200000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.808498,
+    "y": 32.919206
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1686178800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.808498,
+    "y": 32.919206
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1623106800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.80849799999999,
+    "y": 32.91920600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1528412400000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.80849799999999,
+    "y": 32.91920600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1370646000000,
+    "dv": 83,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.80849799999999,
+    "y": 32.91920600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1465340400000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.80849799999999,
+    "y": 32.91920600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1402182000000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.80849799999999,
+    "y": 32.91920600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1496876400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.80849799999999,
+    "y": 32.91920600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1654642800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.80849799999999,
+    "y": 32.91920600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1559948400000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.80849799999999,
+    "y": 32.91920600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1433718000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.80849799999999,
+    "y": 32.91920600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Dallas North #2",
+    "county_name": "Dallas",
+    "dv_year": 1591570800000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "481130075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.80849799999999,
+    "y": 32.91920600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1749340800000,
+    "dv": 82,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.477154,
+    "y": 32.987887
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1686178800000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.477175,
+    "y": 32.987891
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1717801200000,
+    "dv": 82,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.477175,
+    "y": 32.987891
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1496876400000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.47717499999999,
+    "y": 32.98789100000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1623106800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.47717499999999,
+    "y": 32.98789100000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1433718000000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.47717499999999,
+    "y": 32.98789100000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1528412400000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.47717499999999,
+    "y": 32.98789100000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1591570800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.47717499999999,
+    "y": 32.98789100000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1465340400000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.47717499999999,
+    "y": 32.98789100000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1654642800000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.47717499999999,
+    "y": 32.98789100000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1559948400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.47717499999999,
+    "y": 32.98789100000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1370646000000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.47717499999999,
+    "y": 32.98789100000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Eagle Mountain Lake",
+    "county_name": "Tarrant",
+    "dv_year": 1402182000000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "484390075",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.47717499999999,
+    "y": 32.98789100000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1370646000000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.80352899999997,
+    "y": 32.442304000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1623106800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.80352899999997,
+    "y": 32.442304000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1528412400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.80352899999997,
+    "y": 32.442304000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1559948400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.80352899999997,
+    "y": 32.442304000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1433718000000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.80352899999997,
+    "y": 32.442304000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1496876400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.80352899999997,
+    "y": 32.442304000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1591570800000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.80352899999997,
+    "y": 32.442304000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1402182000000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.80352899999997,
+    "y": 32.442304000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1465340400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.80352899999997,
+    "y": 32.442304000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1654642800000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.80352899999997,
+    "y": 32.442304000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1717801200000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.803529,
+    "y": 32.442304
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1686178800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.803529,
+    "y": 32.442304
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Granbury",
+    "county_name": "Hood",
+    "dv_year": 1749340800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "482210001",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.803549,
+    "y": 32.442308
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1717801200000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.786419,
+    "y": 33.1324
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1686178800000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.786419,
+    "y": 33.1324
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1496876400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.78641899999997,
+    "y": 33.132400000000075
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1559948400000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.78641899999997,
+    "y": 33.132400000000075
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1654642800000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.78641899999997,
+    "y": 33.132400000000075
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1402182000000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.78641899999997,
+    "y": 33.132400000000075
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1591570800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.78641899999997,
+    "y": 33.132400000000075
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1528412400000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.78641899999997,
+    "y": 33.132400000000075
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1370646000000,
+    "dv": 84,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.78641899999997,
+    "y": 33.132400000000075
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1433718000000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.78641899999997,
+    "y": 33.132400000000075
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1623106800000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.78641899999997,
+    "y": 33.132400000000075
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1465340400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.78641899999997,
+    "y": 33.132400000000075
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Frisco",
+    "county_name": "Collin",
+    "dv_year": 1749340800000,
+    "dv": 83,
+    "valid": "Y",
+    "AQSID": "480850005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.786404,
+    "y": 33.132423
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1686178800000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.196284,
+    "y": 33.219069
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1717801200000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.196284,
+    "y": 33.219069
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1433718000000,
+    "dv": 83,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.19628399999999,
+    "y": 33.21906900000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1623106800000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.19628399999999,
+    "y": 33.21906900000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1465340400000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.19628399999999,
+    "y": 33.21906900000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1370646000000,
+    "dv": 87,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.19628399999999,
+    "y": 33.21906900000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1559948400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.19628399999999,
+    "y": 33.21906900000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1402182000000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.19628399999999,
+    "y": 33.21906900000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1591570800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.19628399999999,
+    "y": 33.21906900000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1654642800000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.19628399999999,
+    "y": 33.21906900000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1528412400000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.19628399999999,
+    "y": 33.21906900000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1496876400000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.19628399999999,
+    "y": 33.21906900000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Denton Airport South",
+    "county_name": "Denton",
+    "dv_year": 1749340800000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "481210034",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.196296,
+    "y": 33.219074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1717801200000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.317687,
+    "y": 32.564968
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1686178800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.317687,
+    "y": 32.564968
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1402182000000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.31768699999998,
+    "y": 32.56496800000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1370646000000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.31768699999998,
+    "y": 32.56496800000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1559948400000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.31768699999998,
+    "y": 32.56496800000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1528412400000,
+    "dv": 61,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.31768699999998,
+    "y": 32.56496800000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1623106800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.31768699999998,
+    "y": 32.56496800000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1433718000000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.31768699999998,
+    "y": 32.56496800000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1654642800000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.31768699999998,
+    "y": 32.56496800000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1465340400000,
+    "dv": 61,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.31768699999998,
+    "y": 32.56496800000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1496876400000,
+    "dv": 61,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.31768699999998,
+    "y": 32.56496800000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1591570800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.31768699999998,
+    "y": 32.56496800000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Kaufman",
+    "county_name": "Kaufman",
+    "dv_year": 1749340800000,
+    "dv": 69,
+    "valid": "N",
+    "AQSID": "482570005",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.317683,
+    "y": 32.564967
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1749340800000,
+    "dv": 63,
+    "valid": "N",
+    "AQSID": "483970001",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.459244,
+    "y": 32.936527
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1717801200000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483970001",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.459211,
+    "y": 32.936523
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1686178800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483970001",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.459211,
+    "y": 32.936523
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1559948400000,
+    "dv": 69,
+    "valid": "N",
+    "AQSID": "483970001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.45921099999998,
+    "y": 32.93652300000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1465340400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "483970001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.45921099999998,
+    "y": 32.93652300000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1654642800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "483970001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.45921099999998,
+    "y": 32.93652300000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1591570800000,
+    "dv": 68,
+    "valid": "N",
+    "AQSID": "483970001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.45921099999998,
+    "y": 32.93652300000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1370646000000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "483970001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.45921099999998,
+    "y": 32.93652300000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1623106800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "483970001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.45921099999998,
+    "y": 32.93652300000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1528412400000,
+    "dv": 68,
+    "valid": "N",
+    "AQSID": "483970001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.45921099999998,
+    "y": 32.93652300000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1433718000000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "483970001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.45921099999998,
+    "y": 32.93652300000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1402182000000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "483970001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.45921099999998,
+    "y": 32.93652300000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Rockwall Heath",
+    "county_name": "Rockwall",
+    "dv_year": 1496876400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "483970001",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.45921099999998,
+    "y": 32.93652300000008
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1623106800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1591570800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1559948400000,
+    "dv": 65,
+    "valid": "N",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1496876400000,
+    "dv": 64,
+    "valid": "N",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1433718000000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1402182000000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1654642800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1370646000000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1465340400000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1528412400000,
+    "dv": 64,
+    "valid": "N",
+    "AQSID": "483091037",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.07070399999998,
+    "y": 31.65308600000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1686178800000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.070704,
+    "y": 31.653086
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1717801200000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.070704,
+    "y": 31.653086
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Waco Mazanec",
+    "county_name": "McLennan",
+    "dv_year": 1749340800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "483091037",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.070699,
+    "y": 31.653084
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1749340800000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.399147,
+    "y": 32.031946
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1654642800000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1370646000000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1465340400000,
+    "dv": 61,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1433718000000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1528412400000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1591570800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1559948400000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1402182000000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1496876400000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1623106800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.39914099999999,
+    "y": 32.031934000000035
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1686178800000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.399141,
+    "y": 32.031934
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Corsicana Airport",
+    "county_name": "Navarro",
+    "dv_year": 1717801200000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "483491051",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.399141,
+    "y": 32.031934
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1370646000000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.90593099999995,
+    "y": 32.86877300000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1559948400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.90593099999995,
+    "y": 32.86877300000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1623106800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.90593099999995,
+    "y": 32.86877300000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1591570800000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.90593099999995,
+    "y": 32.86877300000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1654642800000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.90593099999995,
+    "y": 32.86877300000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1402182000000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.90593099999995,
+    "y": 32.86877300000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1465340400000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.90593099999995,
+    "y": 32.86877300000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1496876400000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.90593099999995,
+    "y": 32.86877300000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1528412400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.90593099999995,
+    "y": 32.86877300000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1433718000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.90593099999995,
+    "y": 32.86877300000003
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1717801200000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.905931,
+    "y": 32.868773
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1686178800000,
+    "dv": 73,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.905931,
+    "y": 32.868773
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Parker County",
+    "county_name": "Parker",
+    "dv_year": 1749340800000,
+    "dv": 78,
+    "valid": "Y",
+    "AQSID": "483670081",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -97.905937,
+    "y": 32.868761
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1686178800000,
+    "dv": 81,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94459,
+    "y": 33.410648
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1717801200000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94459,
+    "y": 33.410648
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1528412400000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94458999999995,
+    "y": 33.41064800000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1402182000000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94458999999995,
+    "y": 33.41064800000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1654642800000,
+    "dv": 77,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94458999999995,
+    "y": 33.41064800000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1465340400000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94458999999995,
+    "y": 33.41064800000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1623106800000,
+    "dv": 76,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94458999999995,
+    "y": 33.41064800000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1433718000000,
+    "dv": 79,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94458999999995,
+    "y": 33.41064800000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1591570800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94458999999995,
+    "y": 33.41064800000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1496876400000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94458999999995,
+    "y": 33.41064800000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1370646000000,
+    "dv": 84,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94458999999995,
+    "y": 33.41064800000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1559948400000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.94458999999995,
+    "y": 33.41064800000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Pilot Point",
+    "county_name": "Denton",
+    "dv_year": 1749340800000,
+    "dv": 80,
+    "valid": "Y",
+    "AQSID": "481211032",
+    "naa_name": "Dallas-Fort Worth, TX"
+   },
+   "geometry": {
+    "x": -96.944599,
+    "y": 33.410657
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1717801200000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.115572,
+    "y": 33.153088
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1686178800000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.115572,
+    "y": 33.153088
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1623106800000,
+    "dv": 62,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.11557199999999,
+    "y": 33.153088000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1370646000000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.11557199999999,
+    "y": 33.153088000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1528412400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.11557199999999,
+    "y": 33.153088000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1433718000000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.11557199999999,
+    "y": 33.153088000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1654642800000,
+    "dv": 63,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.11557199999999,
+    "y": 33.153088000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1465340400000,
+    "dv": 60,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.11557199999999,
+    "y": 33.153088000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1559948400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.11557199999999,
+    "y": 33.153088000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1591570800000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.11557199999999,
+    "y": 33.153088000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1496876400000,
+    "dv": 62,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.11557199999999,
+    "y": 33.153088000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1402182000000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.11557199999999,
+    "y": 33.153088000000025
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Greenville",
+    "county_name": "Hunt",
+    "dv_year": 1749340800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "482311006",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -96.115569,
+    "y": 33.153086
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1559948400000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1623106800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1528412400000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1496876400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1654642800000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1465340400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1370646000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1433718000000,
+    "dv": 64,
+    "valid": "N",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1591570800000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1402182000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "480271045",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.43105199999997,
+    "y": 31.122419000000036
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1686178800000,
+    "dv": 70,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.431052,
+    "y": 31.122419
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1717801200000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.431052,
+    "y": 31.122419
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Temple Georgia",
+    "county_name": "Bell",
+    "dv_year": 1749340800000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "480271045",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.431055,
+    "y": 31.122413
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Burneyville",
+    "county_name": "Love",
+    "dv_year": 1749340800000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.275896,
+    "y": 33.880812
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Burneyville",
+    "county_name": "Love",
+    "dv_year": 1717801200000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.275896,
+    "y": 33.880812
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Burneyville",
+    "county_name": "Love",
+    "dv_year": 1686178800000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.275896,
+    "y": 33.880812
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Weather Station - Burnyeyville Mesonet Site",
+    "county_name": "Love",
+    "dv_year": 1623106800000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.27589599999999,
+    "y": 33.88081200000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Weather Station - Burnyeyville Mesonet Site",
+    "county_name": "Love",
+    "dv_year": 1402182000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.27589599999999,
+    "y": 33.88081200000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Weather Station - Burnyeyville Mesonet Site",
+    "county_name": "Love",
+    "dv_year": 1591570800000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.27589599999999,
+    "y": 33.88081200000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Weather Station - Burnyeyville Mesonet Site",
+    "county_name": "Love",
+    "dv_year": 1654642800000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.27589599999999,
+    "y": 33.88081200000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Weather Station - Burnyeyville Mesonet Site",
+    "county_name": "Love",
+    "dv_year": 1559948400000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.27589599999999,
+    "y": 33.88081200000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Weather Station - Burnyeyville Mesonet Site",
+    "county_name": "Love",
+    "dv_year": 1370646000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.27589599999999,
+    "y": 33.88081200000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Weather Station - Burnyeyville Mesonet Site",
+    "county_name": "Love",
+    "dv_year": 1433718000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.27589599999999,
+    "y": 33.88081200000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Weather Station - Burnyeyville Mesonet Site",
+    "county_name": "Love",
+    "dv_year": 1528412400000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.27589599999999,
+    "y": 33.88081200000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Weather Station - Burnyeyville Mesonet Site",
+    "county_name": "Love",
+    "dv_year": 1496876400000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.27589599999999,
+    "y": 33.88081200000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Weather Station - Burnyeyville Mesonet Site",
+    "county_name": "Love",
+    "dv_year": 1465340400000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400850300",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.27589599999999,
+    "y": 33.88081200000005
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1465340400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1654642800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1433718000000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1528412400000,
+    "dv": 68,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1496876400000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1591570800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1402182000000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1559948400000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1370646000000,
+    "dv": 74,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1623106800000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -97.67973399999994,
+    "y": 31.088002000000074
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1717801200000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.679734,
+    "y": 31.088002
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1686178800000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.679734,
+    "y": 31.088002
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Killeen Skylark Field",
+    "county_name": "Bell",
+    "dv_year": 1749340800000,
+    "dv": 72,
+    "valid": "Y",
+    "AQSID": "480271047",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -97.679743,
+    "y": 31.087999
+   }
+  },
+  {
+   "attributes": {
+    "site_name": null,
+    "county_name": "Bryan",
+    "dv_year": 1559948400000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400130380",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.40572599999996,
+    "y": 33.94537900000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": null,
+    "county_name": "Bryan",
+    "dv_year": 1370646000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400130380",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.40572599999996,
+    "y": 33.94537900000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": null,
+    "county_name": "Bryan",
+    "dv_year": 1496876400000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400130380",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.40572599999996,
+    "y": 33.94537900000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": null,
+    "county_name": "Bryan",
+    "dv_year": 1465340400000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400130380",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.40572599999996,
+    "y": 33.94537900000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": null,
+    "county_name": "Bryan",
+    "dv_year": 1433718000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400130380",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.40572599999996,
+    "y": 33.94537900000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": null,
+    "county_name": "Bryan",
+    "dv_year": 1591570800000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400130380",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.40572599999996,
+    "y": 33.94537900000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": null,
+    "county_name": "Bryan",
+    "dv_year": 1528412400000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400130380",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.40572599999996,
+    "y": 33.94537900000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": null,
+    "county_name": "Bryan",
+    "dv_year": 1402182000000,
+    "dv": null,
+    "valid": "N",
+    "AQSID": "400130380",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -96.40572599999996,
+    "y": 33.94537900000006
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1717801200000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -95.415754,
+    "y": 32.344027
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1686178800000,
+    "dv": 69,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -95.415754,
+    "y": 32.344027
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1496876400000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -95.41575399999994,
+    "y": 32.34402700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1402182000000,
+    "dv": 71,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -95.41575399999994,
+    "y": 32.34402700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1370646000000,
+    "dv": 75,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -95.41575399999994,
+    "y": 32.34402700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1559948400000,
+    "dv": 66,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -95.41575399999994,
+    "y": 32.34402700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1591570800000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -95.41575399999994,
+    "y": 32.34402700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1654642800000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -95.41575399999994,
+    "y": 32.34402700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1465340400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -95.41575399999994,
+    "y": 32.34402700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1528412400000,
+    "dv": 65,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -95.41575399999994,
+    "y": 32.34402700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1433718000000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -95.41575399999994,
+    "y": 32.34402700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1623106800000,
+    "dv": 64,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": null
+   },
+   "geometry": {
+    "x": -95.41575399999994,
+    "y": 32.34402700000004
+   }
+  },
+  {
+   "attributes": {
+    "site_name": "Tyler Airport Relocated",
+    "county_name": "Smith",
+    "dv_year": 1749340800000,
+    "dv": 67,
+    "valid": "Y",
+    "AQSID": "484230007",
+    "naa_name": " "
+   },
+   "geometry": {
+    "x": -95.415752,
+    "y": 32.344019
+   }
+  }
+ ]
+}

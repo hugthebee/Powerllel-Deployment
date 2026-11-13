@@ -1,0 +1,47 @@
+{
+ "objectIdFieldName": "FID",
+ "uniqueIdField": {
+  "name": "FID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "",
+ "geometryType": "esriGeometryPolygon",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 60,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "NAME_ABBREV",
+   "type": "esriFieldTypeString",
+   "alias": "NAME_ABBREV",
+   "sqlType": "sqlTypeOther",
+   "length": 256,
+   "domain": null,
+   "defaultValue": null
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "NAME": "MIDCONTINENT INDEPENDENT TRANSMISSION SYSTEM OPERATOR, INC..",
+    "NAME_ABBREV": "MISO"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.",
+    "NAME_ABBREV": "ERCOT"
+   }
+  }
+ ]
+}

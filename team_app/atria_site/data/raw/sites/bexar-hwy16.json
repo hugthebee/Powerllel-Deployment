@@ -1,0 +1,710 @@
+{
+ "id": "bexar-hwy16",
+ "label": "Bexar County, S State Hwy 16 (San Antonio)",
+ "state": "TX",
+ "county": "Bexar",
+ "airCase": "nonattainment",
+ "builtAt": "2026-10-30T16:51:40.963Z",
+ "builder": "scripts/atria_site_record.py from Atria MCP responses (data/raw/sites/atria/bexar-hwy16)",
+ "lat": 29.284933215272254,
+ "lng": -98.57794270879599,
+ "parcel": {
+  "status": "ok",
+  "source": "Atria atria_lookup (Bexar Appraisal District parcels)",
+  "source_url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0",
+  "fetched_at": "2026-10-30T16:51:40.963Z",
+  "data": {
+   "propId": "189299",
+   "geoId": "04296-000-0020",
+   "ownerName": "REEH PARTNERS LTD",
+   "situsAddress": "S STATE HWY 16, VON ORMY, TX 78073",
+   "gisAcres": 167.24928180217458,
+   "legalAcres": 166,
+   "legalDescription": "CB 4296 P-2, 2A & 2B ABS 374 159.6 AC CB 4298 P-18 ABS 421 6.4 AC",
+   "marketValue": 24200,
+   "stateLandUse": "D1 Qualified open-space land",
+   "county": "BEXAR COUNTY",
+   "centroid": [
+    29.284933215272254,
+    -98.57794270879599
+   ]
+  }
+ },
+ "airQuality": {
+  "status": "ok",
+  "source": "Atria airQuality (EPA Green Book)",
+  "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Nonattainment_Areas_and_Designations/FeatureServer",
+  "fetched_at": "2026-10-30T16:54:30.591Z",
+  "data": {
+   "attainment": false,
+   "inNonattainment": true,
+   "nonattainmentStandards": [
+    "Ozone 8-hr (2015)"
+   ],
+   "worstOzoneClassification": "Serious",
+   "ozoneNonattainment": [
+    {
+     "standard": "Ozone 8-hr (2015)",
+     "area": "San Antonio",
+     "classification": "Serious"
+    }
+   ],
+   "nearestClassIArea": {
+    "name": "Big Bend NP",
+    "state": "TX",
+    "agency": "USDI-NPS",
+    "distanceMi": 257.16,
+    "inside": false
+   },
+   "classIAreasWithin100Km": []
+  }
+ },
+ "substations": {
+  "status": "ok",
+  "source": "Atria substations (HIFLD) + atria_proximity",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.591Z",
+  "data": {
+   "nearest": {
+    "name": "HOWARD",
+    "maxKv": 138,
+    "minKv": 69,
+    "status": "IN SERVICE",
+    "lines": 4,
+    "miles": 0.14
+   },
+   "nearest345KvPlus": {
+    "name": "BROOKS FIELD",
+    "maxKv": 345,
+    "miles": 8.45
+   },
+   "list": [
+    {
+     "name": "HOWARD",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 4,
+     "miles": 0.14
+    },
+    {
+     "name": "TOYOTA",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 2.4
+    },
+    {
+     "name": "PALO ALTO",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 2.45
+    },
+    {
+     "name": "MAUERMAN",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 3.95
+    },
+    {
+     "name": "LEON CREEK",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 5,
+     "miles": 4.16
+    },
+    {
+     "name": "PEARSALL ROAD",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 4.77
+    },
+    {
+     "name": "SOMERSET",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 3,
+     "miles": 4.9
+    },
+    {
+     "name": "CHAVANEAUX",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 4.92
+    }
+   ]
+  }
+ },
+ "transmissionLines": {
+  "status": "ok",
+  "source": "Atria transmissionLines (HIFLD)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.591Z",
+  "data": {
+   "lines": [
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "HOWARD",
+     "to": "LEON CREEK",
+     "distanceMi": 0
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "HOWARD",
+     "to": "CAGNON ROAD",
+     "distanceMi": 0
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 345,
+     "voltClass": "345",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "ARTHUR VON ROSENBERG",
+     "to": "CAGNON ROAD",
+     "distanceMi": 0.01
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "VALLEY RD",
+     "to": "CAGNON ROAD",
+     "distanceMi": 0.01
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 345,
+     "voltClass": "345",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 345 SWITCHYARD",
+     "to": "CAGNON ROAD",
+     "distanceMi": 0.02
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "SOMERSET",
+     "to": "HOWARD",
+     "distanceMi": 0.12
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "TOYOTA",
+     "to": "HOWARD",
+     "distanceMi": 0.14
+    },
+    {
+     "owner": "KARNES ELECTRIC COOP INC",
+     "voltageKv": 345,
+     "voltClass": "345",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "TRUMBO",
+     "to": "LEON CREEK",
+     "distanceMi": 1.34
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "PALO ALTO",
+     "to": "LEON CREEK",
+     "distanceMi": 2.17
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "MAUERMAN",
+     "to": "TOYOTA",
+     "distanceMi": 2.34
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": null,
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CHAVANEAUX",
+     "to": "PALO ALTO",
+     "distanceMi": 2.45
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "ALAMO",
+     "to": "MAUERMAN",
+     "distanceMi": 3.72
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "PEARSALL ROAD",
+     "to": "LEON CREEK",
+     "distanceMi": 4.14
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "LEON CREEK",
+     "to": "SOUTH SAN ANTONIO",
+     "distanceMi": 4.15
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "QUINTANA",
+     "to": "MEDINA BASE",
+     "distanceMi": 4.17
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": null,
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "BROOKS FIELD",
+     "to": "CHAVANEAUX",
+     "distanceMi": 4.38
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 138KV SWITCHYARD",
+     "to": "SOUTH SAN ANTONIO",
+     "distanceMi": 4.74
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": null,
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 138KV SWITCHYARD",
+     "to": "HARLANDALE",
+     "distanceMi": 4.75
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "MEDINA BASE",
+     "to": "PEARSALL ROAD",
+     "distanceMi": 4.77
+    },
+    {
+     "owner": "KARNES ELECTRIC COOP INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": null,
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "ROSSVILLE",
+     "to": "SOMERSET",
+     "distanceMi": 4.9
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "LYTLE",
+     "to": "SOMERSET",
+     "distanceMi": 4.9
+    }
+   ]
+  }
+ },
+ "gasInfrastructure": {
+  "status": "ok",
+  "source": "Atria gasInfrastructure (EIA pipelines)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.591Z",
+  "data": {
+   "nearest": {
+    "operator": "El Paso Texas Pipeline Co",
+    "type": "Intrastate",
+    "status": "Operating",
+    "miles": 0.06
+   }
+  }
+ },
+ "generation": {
+  "status": "not_fetched",
+  "note": "Not in this screen."
+ },
+ "electricState": {
+  "status": "ok",
+  "source": "Atria electricState + interconnectionQueue (HIFLD)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.591Z",
+  "data": {
+   "utilities": [
+    {
+     "name": "BANDERA ELECTRIC COOP, INC",
+     "type": "COOPERATIVE"
+    },
+    {
+     "name": "GUADALUPE VALLEY ELEC COOP INC",
+     "type": "COOPERATIVE"
+    },
+    {
+     "name": "KARNES ELECTRIC COOP INC",
+     "type": "COOPERATIVE"
+    },
+    {
+     "name": "PEDERNALES ELECTRIC COOP, INC",
+     "type": "COOPERATIVE"
+    }
+   ],
+   "iso": [
+    "ERCOT"
+   ]
+  }
+ },
+ "contamination": {
+  "status": "ok",
+  "source": "Atria contamination (EPA FRS)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.591Z",
+  "data": {
+   "npl": {
+    "listRadiusMi": 1,
+    "listRadiusBasis": "ASTM E1527-21 search distance for NPL sites (1 mi)",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 0,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "R & H OIL/TROPICANA ENERGY",
+     "id": "TXD057577579",
+     "status": "PROPOSED FOR NPL",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110005054662",
+     "distanceMi": 6.13,
+     "onParcel": false
+    }
+   },
+   "superfundNonNpl": {
+    "listRadiusMi": 0.5,
+    "listRadiusBasis": "ASTM E1527-21 search distance for non-NPL SEMS sites (0.5 mi)",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 0,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "KELLY AIR FORCE BASE",
+     "id": "TX2571724333",
+     "status": "NOT ON THE NPL",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110071101699",
+     "distanceMi": 5.29,
+     "onParcel": false
+    }
+   },
+   "superfundCountWithinScreeningRadius": 0,
+   "nearestSuperfund": {
+    "name": "KELLY AIR FORCE BASE",
+    "id": "TX2571724333",
+    "status": "NOT ON THE NPL",
+    "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110071101699",
+    "distanceMi": 5.29,
+    "onParcel": false,
+    "npl": false
+   },
+   "brownfields": {
+    "listRadiusMi": 0.5,
+    "listRadiusBasis": "ASTM E1527-21 search distance for brownfield sites (0.5 mi)",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 1,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "PEARSALL RD. PARK PROJECT",
+     "id": "14957",
+     "status": null,
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110071967099",
+     "distanceMi": 4.73,
+     "onParcel": false
+    }
+   },
+   "rcraTsd": {
+    "listRadiusMi": 0.5,
+    "listRadiusBasis": "ASTM E1527-21 search distance for RCRA TSD facilities (0.5 mi)",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 0,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "STANDARD INDUSTRIES",
+     "id": "TXD990709685",
+     "status": "Y",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110020479828",
+     "distanceMi": 5.12,
+     "onParcel": false
+    }
+   },
+   "ustFacilities": {
+    "listRadiusMi": 0.25,
+    "listRadiusBasis": "ASTM E1527-21 search distance for registered USTs is the property and adjoining properties; listed to 0.25 mi",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 0.62,
+    "countWithinScreeningRadius": 1,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 4.97,
+    "nearest": {
+     "name": "SAN ANTONIO SPEEDWAY",
+     "id": "TX87297",
+     "status": "Closed UST(s)",
+     "url": null,
+     "detail": "0 open, 1 closed tanks",
+     "distanceMi": 0.51,
+     "onParcel": false
+    }
+   },
+   "openLustReleases": {
+    "listRadiusMi": 0.5,
+    "listRadiusBasis": "ASTM E1527-21 search distance for LUST sites (0.5 mi)",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 0.62,
+    "countWithinScreeningRadius": 0,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 4.97,
+    "nearest": null
+   },
+   "rePowering": {
+    "listRadiusMi": 0.62,
+    "listRadiusBasis": "Within 1 km, the distance used for the brownfield/RE-Powering incentive flag",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 7,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "WASTE TREATMENT/RECYCLING FACILITY",
+     "id": "RN100611987",
+     "status": "TEXAS VOLUNTARY CLEANUP PROGRAM",
+     "url": null,
+     "detail": null,
+     "distanceMi": 1,
+     "onParcel": false
+    }
+   },
+   "nearRePoweringSite": false,
+   "orphanedWells": {
+    "listRadiusMi": 0.62,
+    "listRadiusBasis": "Within 1 km",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 21,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "Documented orphaned well",
+     "id": null,
+     "status": null,
+     "url": null,
+     "detail": null,
+     "distanceMi": 2.93,
+     "onParcel": false
+    }
+   },
+   "sources": [
+    {
+     "title": "EPA FRS: Superfund (SEMS)",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_SEMS/FeatureServer/0"
+    },
+    {
+     "title": "EPA FRS: Brownfields (ACRES)",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_ACRES/FeatureServer/0"
+    },
+    {
+     "title": "EPA FRS: RCRA TSD facilities",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_RCRA_TSD/FeatureServer/0"
+    },
+    {
+     "title": "EPA UST Finder: facilities",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/UST_Finder_Feature_Layer_2/FeatureServer/0"
+    },
+    {
+     "title": "EPA UST Finder: releases",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/UST_Finder_Feature_Layer_2/FeatureServer/1"
+    },
+    {
+     "title": "EPA RE-Powering Mapper sites (2022)",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/RE_Powering_Mapper_Sites_2022/FeatureServer/0"
+    },
+    {
+     "title": "Orphaned oil and gas wells (2022)",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Orphan_Wells/FeatureServer/0"
+    }
+   ],
+   "asOf": "2026-10-30",
+   "onParcel": [],
+   "summary": "No database record on the parcel. Nothing within the search distances."
+  }
+ },
+ "waterSewer": {
+  "status": "ok",
+  "source": "Atria waterSewer (EPA water system boundaries)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.591Z",
+  "data": {
+   "systems": [
+    {
+     "pwsid": "TX0150018",
+     "name": "SAN ANTONIO WATER SYSTEM"
+    }
+   ]
+  }
+ },
+ "floodZone": {
+  "status": "ok",
+  "source": "Atria floodZone (FEMA NFHL)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.591Z",
+  "data": {
+   "zonesOnParcel": [
+    {
+     "zone": "X",
+     "subtype": "AREA OF MINIMAL FLOOD HAZARD"
+    },
+    {
+     "zone": "X",
+     "subtype": "1 PCT FUTURE CONDITIONS"
+    }
+   ],
+   "sfhaOnParcel": false,
+   "zoneAtCentre": "X"
+  }
+ },
+ "zoningJurisdiction": {
+  "status": "ok",
+  "note": "Parcel is inside the city limits of San Antonio city; municipal zoning applies. Zoned BP (Business Park District (Sec. 35-347)) per COSA_Zoning. The parcel is split: BP 99.6%, DR 0.8% (sliver), MXD 0% (sliver), R-5 0% (sliver)."
+ },
+ "energyOrdinance": {
+  "status": "ok",
+  "data": {
+   "solarProhibited": false
+  }
+ },
+ "permitPath": {
+  "status": "absent",
+  "note": "Atria has not researched the data-center approval path for San Antonio yet."
+ },
+ "waterRights": {
+  "status": "not_fetched",
+  "note": "No public bulk source."
+ },
+ "gasCapacity": {
+  "status": "not_fetched",
+  "note": "Not in Atria gasSupply for this pipeline."
+ },
+ "gridHeadroom": {
+  "status": "absent",
+  "note": "Atria gridCapacity has no data for ERCOT."
+ }
+}

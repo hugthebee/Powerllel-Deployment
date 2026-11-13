@@ -1,0 +1,239 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "uniqueIdField": {
+  "name": "OBJECTID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "PRIMARY_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "Facility Site Name",
+   "sqlType": "sqlTypeOther",
+   "length": 150,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The public or commercial name of a facility site (i.e., the full name that commonly appears on invoices, signs, or other business documents, or as assigned by the state when the name is ambiguous).\",\"fieldValueType\":\"nameOrTitle\"}"
+  },
+  {
+   "name": "REGISTRY_ID",
+   "type": "esriFieldTypeString",
+   "alias": "Registry ID",
+   "sqlType": "sqlTypeOther",
+   "length": 12,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The identification number assigned by the EPA Facility Registry System to uniquely identify a facility site.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+  },
+  {
+   "name": "LATITUDE83",
+   "type": "esriFieldTypeDouble",
+   "alias": "Latitude Measure (NAD83)",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The measure of the angular distance on a meridian north or south of the equator standardized to NAD83 horizontal datum. \",\"fieldValueType\":\"coordinate\"}"
+  },
+  {
+   "name": "LONGITUDE83",
+   "type": "esriFieldTypeDouble",
+   "alias": "Longitude Measure (NAD83)",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The measure of the angular distance on a meridian east or west of the prime meridian standardized to NAD83 horizontal datum. \",\"fieldValueType\":\"coordinate\"}"
+  },
+  {
+   "name": "ACTIVE_STATUS",
+   "type": "esriFieldTypeString",
+   "alias": "Active Status",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The status of the environmental interest at the facility or site (e.g., Active, Inactive, Operating, Proposed for NPL, Deleted from Final NPL, Currently on Final NPL).\",\"fieldValueType\":\"typeOrCategory\"}"
+  },
+  {
+   "name": "FAC_URL",
+   "type": "esriFieldTypeString",
+   "alias": "Facility URL",
+   "sqlType": "sqlTypeOther",
+   "length": 100,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"Web link to the EPA Facility Registry Service page for detailed facility information.\",\"fieldValueType\":\"description\"}"
+  },
+  {
+   "name": "CITY_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "City Name",
+   "sqlType": "sqlTypeOther",
+   "length": 60,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The name of the city, town, village or other locality, when identifiable, within whose boundaries (the majority of) the facility site is located. This is not always the same as the city used for USPS mail delivery.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "PRIMARY_NAME": "BUCKLEY OIL MIDLOTHIAN FACILITY",
+    "REGISTRY_ID": "110064619391",
+    "LATITUDE83": 32.44836,
+    "LONGITUDE83": -97.05641,
+    "ACTIVE_STATUS": "ACTIVE",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110064619391",
+    "CITY_NAME": "MIDLOTHIAN"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "JOHNSON COUNTY PIPE",
+    "REGISTRY_ID": "110054205025",
+    "LATITUDE83": 32.408889,
+    "LONGITUDE83": -97.15471699999999,
+    "ACTIVE_STATUS": "***UNCHANGED***",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110054205025",
+    "CITY_NAME": "ALVARADO"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "NORTH AMERICAN KITCHEN SOLUTIONS, INC.",
+    "REGISTRY_ID": "110072214796",
+    "LATITUDE83": 32.457312,
+    "LONGITUDE83": -97.11786,
+    "ACTIVE_STATUS": "***UNCHANGED***",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110072214796",
+    "CITY_NAME": "VENUS"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "QUALICO STEEL TEXAS DIVISION",
+    "REGISTRY_ID": "110005186244",
+    "LATITUDE83": 32.45332,
+    "LONGITUDE83": -97.05949,
+    "ACTIVE_STATUS": "ACTIVE",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110005186244",
+    "CITY_NAME": "MIDLOTHIAN"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "CHARLES SMITH",
+    "REGISTRY_ID": "110070690144",
+    "LATITUDE83": 32.42574,
+    "LONGITUDE83": -97.14748999999999,
+    "ACTIVE_STATUS": null,
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110070690144",
+    "CITY_NAME": "ALVARADO"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "MIDLOTHIAN PLANT",
+    "REGISTRY_ID": "110070559738",
+    "LATITUDE83": 32.448855,
+    "LONGITUDE83": -97.07217999999999,
+    "ACTIVE_STATUS": null,
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110070559738",
+    "CITY_NAME": "MIDLOTHIAN"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "DAKOTA DISTRIBUTING",
+    "REGISTRY_ID": "110034346795",
+    "LATITUDE83": 32.5275,
+    "LONGITUDE83": -97.1063,
+    "ACTIVE_STATUS": "ACTIVE",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110034346795",
+    "CITY_NAME": "VENUS"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "K-T GALVANIZING VENUS FACILITY",
+    "REGISTRY_ID": "110002132647",
+    "LATITUDE83": 32.52502,
+    "LONGITUDE83": -97.10372199999999,
+    "ACTIVE_STATUS": "ACTIVE",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110002132647",
+    "CITY_NAME": "VENUS"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "MIDLOTHIAN PLANT",
+    "REGISTRY_ID": "110069257672",
+    "LATITUDE83": 32.511538,
+    "LONGITUDE83": -97.06564399999999,
+    "ACTIVE_STATUS": null,
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110069257672",
+    "CITY_NAME": "MIDLOTHIAN"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "MANSFIELD READY MIX",
+    "REGISTRY_ID": "110006688281",
+    "LATITUDE83": 32.524502999999996,
+    "LONGITUDE83": -97.103365,
+    "ACTIVE_STATUS": "ACTIVE",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110006688281",
+    "CITY_NAME": "VENUS"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "GERDAU MIDLOTHIAN PLANT",
+    "REGISTRY_ID": "110000459183",
+    "LATITUDE83": 32.458248999999995,
+    "LONGITUDE83": -97.03660699999999,
+    "ACTIVE_STATUS": "OPEN",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110000459183",
+    "CITY_NAME": "MIDLOTHIAN"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "JOHNSON COUNTY PIPE INC",
+    "REGISTRY_ID": "110031506706",
+    "LATITUDE83": 32.409304,
+    "LONGITUDE83": -97.152998,
+    "ACTIVE_STATUS": "ACTIVE",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110031506706",
+    "CITY_NAME": "ALVARADO"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "MARTIN MARIETTA MIDLOTHIAN FACILITY",
+    "REGISTRY_ID": "110000459209",
+    "LATITUDE83": 32.462679,
+    "LONGITUDE83": -97.025572,
+    "ACTIVE_STATUS": "OPEN",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110000459209",
+    "CITY_NAME": "MIDLOTHIAN"
+   }
+  },
+  {
+   "attributes": {
+    "PRIMARY_NAME": "AIR PRODUCTS MIDLOTHIAN PLANT",
+    "REGISTRY_ID": "110002132610",
+    "LATITUDE83": 32.458729999999996,
+    "LONGITUDE83": -97.028505,
+    "ACTIVE_STATUS": "ACTIVE",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110002132610",
+    "CITY_NAME": "MIDLOTHIAN"
+   }
+  }
+ ]
+}

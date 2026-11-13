@@ -1,0 +1,248 @@
+{
+ "_note": "Hand-edited (the spreadsheet has no value-function anchors). Every indicator and gate names the data-map row it reads (config/data_map.json id); tests/test_config.py fails if a row id is unknown. Anchors are fixed: adding a site never changes another site's score.",
+ "categories": [
+  "Technical",
+  "Environmental",
+  "Cultural",
+  "Policy",
+  "Security"
+ ],
+ "detail_categories": [
+  "Technical",
+  "Environmental",
+  "Cultural",
+  "Policy",
+  "Security",
+  "Economics"
+ ],
+ "default_weights": {
+  "Technical": 0.35,
+  "Environmental": 0.2,
+  "Cultural": 0.15,
+  "Policy": 0.2,
+  "Security": 0.1
+ },
+ "value_functions": {
+  "dist_345kv_mi": {
+   "category": "Technical",
+   "weight": 0.35,
+   "best": 1.0,
+   "worst": 10.0,
+   "unit": "mi",
+   "label": "Distance to a 345 kV substation",
+   "data_map": "technical.substations"
+  },
+  "gas_dist_mi": {
+   "category": "Technical",
+   "weight": 0.25,
+   "best": 0.5,
+   "worst": 10.0,
+   "unit": "mi",
+   "label": "Distance to a gas pipeline",
+   "data_map": "technical.gas_pipelines"
+  },
+  "fiber_ix_dist_mi": {
+   "category": "Technical",
+   "weight": 0.1,
+   "best": 5.0,
+   "worst": 100.0,
+   "unit": "mi",
+   "label": "Distance to an internet exchange",
+   "data_map": "technical.fiber_internet_exchange"
+  },
+  "usable_acres": {
+   "category": "Technical",
+   "weight": 0.3,
+   "best": 1000.0,
+   "worst": 200.0,
+   "unit": "acres",
+   "label": "Usable acreage",
+   "data_map": "technical.parcel"
+  },
+  "water_stress_0_5": {
+   "category": "Environmental",
+   "weight": 0.4,
+   "best": 0.0,
+   "worst": 5.0,
+   "unit": "0-5",
+   "label": "Baseline water stress",
+   "data_map": "environmental.water_stress"
+  },
+  "wetland_share": {
+   "category": "Environmental",
+   "weight": 0.2,
+   "best": 0.0,
+   "worst": 0.3,
+   "unit": "share",
+   "label": "Share of parcel in wetlands",
+   "data_map": "environmental.wetlands"
+  },
+  "heat_days": {
+   "category": "Environmental",
+   "weight": 0.2,
+   "best": 10.0,
+   "worst": 90.0,
+   "unit": "days/yr",
+   "label": "Hot days a year (32 °C / 90 °F or more)",
+   "data_map": "environmental.heat_stress_cooling"
+  },
+  "air_major_tpy": {
+   "category": "Environmental",
+   "weight": 0.2,
+   "best": 250.0,
+   "worst": 25.0,
+   "unit": "tpy",
+   "label": "Major-source NOx threshold",
+   "data_map": "environmental.air_attainment_status"
+  },
+  "share_oppose": {
+   "category": "Cultural",
+   "weight": 0.5,
+   "best": 0.0,
+   "worst": 0.8,
+   "unit": "share",
+   "label": "Share of statements opposed",
+   "data_map": "cultural.opposition_history_and"
+  },
+  "noise_dba_home": {
+   "category": "Cultural",
+   "weight": 0.3,
+   "best": 40.0,
+   "worst": 65.0,
+   "unit": "dBA",
+   "label": "Noise at the nearest home",
+   "data_map": "cultural.noise_exposure"
+  },
+  "burden_pct": {
+   "category": "Cultural",
+   "weight": 0.2,
+   "best": 0.0,
+   "worst": 100.0,
+   "unit": "pctile",
+   "label": "Community burden percentile",
+   "data_map": "cultural.community_burden"
+  },
+  "moratorium_stage": {
+   "category": "Policy",
+   "weight": 0.6,
+   "best": 0.0,
+   "worst": 4.0,
+   "unit": "stage",
+   "label": "Local moratorium stage",
+   "data_map": "policy.local_moratoriums_and"
+  },
+  "permit_months": {
+   "category": "Policy",
+   "weight": 0.4,
+   "best": 6.0,
+   "worst": 30.0,
+   "unit": "months",
+   "label": "Months to local approval",
+   "data_map": "policy.local_approval_path"
+  },
+  "hazard_index": {
+   "category": "Security",
+   "weight": 1.0,
+   "best": 0.0,
+   "worst": 100.0,
+   "unit": "0-100",
+   "label": "Natural hazard risk index",
+   "data_map": "security.natural_hazards"
+  }
+ },
+ "moratorium_stage_ordinal": {
+  "none": 0,
+  "public_request": 1,
+  "staff_study": 2,
+  "first_reading": 3,
+  "adopted": 4,
+  "extended": 4,
+  "repealed": 0,
+  "rejected": 0
+ },
+ "gates": {
+  "critical_habitat_on_site": {
+   "label": "Critical habitat on site",
+   "data_map": "environmental.endangered_species_critical",
+   "category": "Environmental"
+  },
+  "in_floodway": {
+   "label": "Floodway on site",
+   "data_map": "environmental.floodplain",
+   "category": "Environmental"
+  },
+  "active_moratorium": {
+   "label": "Active moratorium",
+   "data_map": "policy.local_moratoriums_and",
+   "category": "Policy"
+  },
+  "no_feasible_voltage": {
+   "label": "No feasible transmission voltage",
+   "data_map": "technical.substations",
+   "category": "Technical"
+  },
+  "ownership_blocked_sb17_cfius": {
+   "label": "SB 17 / CFIUS block for this buyer",
+   "data_map": "security.foreignownership_limits",
+   "category": "Security"
+  }
+ },
+ "stall_priors": {
+  "_note": "Model B priors until the hazard model is trained (the tab-4 toy uses the same layers).",
+  "p_local": 0.08,
+  "p_state": 0.05,
+  "p_commercial": 0.03,
+  "p_commercial_by_status": {
+   "Unknown": 0.03,
+   "LOI signed": 0.02,
+   "Lease signed": 0.01,
+   "No tenant": 0.08
+  }
+ },
+ "verdicts": [
+  {
+   "min": 60,
+   "label": "Pursue"
+  },
+  {
+   "min": 40,
+   "label": "Pursue with conditions"
+  },
+  {
+   "min": 20,
+   "label": "Watch"
+  },
+  {
+   "min": 0,
+   "label": "Pass"
+  }
+ ],
+ "gate_thresholds": {
+  "_note": "A gate fires above these shares; below them the fact is shown as a risk, not a fatal flaw.",
+  "floodway_pct_of_parcel": 10,
+  "wetland_share_of_parcel": 0.5,
+  "max_345kv_mi": 25
+ },
+ "water_intensity_gal_per_mwh": {
+  "_note": "Assumption: site water use per MWh of IT load by cooling type (screening values).",
+  "Air-cooled": 25,
+  "Evaporative": 450,
+  "Liquid": 60
+ },
+ "appetite_max_stall": {
+  "_note": "Most stall probability a site may carry and still pass, by risk appetite (customer input 'Risk appetite'; default Medium).",
+  "Low": 0.1,
+  "Medium": 0.2,
+  "High": 0.35
+ },
+ "sb17_designated": {
+  "_note": "Texas SB 17 (2025) restricts land purchases by entities tied to these countries; legal review decides.",
+  "countries": [
+   "China",
+   "Iran",
+   "North Korea",
+   "Russia"
+  ]
+ },
+ "cfius_military_mi": 1.0
+}

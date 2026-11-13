@@ -1,0 +1,91 @@
+{
+ "objectIdFieldName": "FID",
+ "uniqueIdField": {
+  "name": "FID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "",
+ "geometryType": "esriGeometryPolygon",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "TYPE",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "HOLDING_CO",
+   "type": "esriFieldTypeString",
+   "alias": "HOLDING_CO",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CNTRL_AREA",
+   "type": "esriFieldTypeString",
+   "alias": "CNTRL_AREA",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "WEBSITE",
+   "type": "esriFieldTypeString",
+   "alias": "WEBSITE",
+   "sqlType": "sqlTypeOther",
+   "length": 131,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "REGULATED",
+   "type": "esriFieldTypeString",
+   "alias": "REGULATED",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "NAME": "RIO GRANDE ELECTRIC COOP, INC",
+    "TYPE": "COOPERATIVE",
+    "HOLDING_CO": "RIO GRANDE ELECTRIC COOP, INC",
+    "CNTRL_AREA": "EPE, ERCO",
+    "WEBSITE": "http://www.riogrande.coop/",
+    "REGULATED": "NOT AVAILABLE"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "EL PASO ELECTRIC CO",
+    "TYPE": "INVESTOR OWNED",
+    "HOLDING_CO": "EL PASO ELECTRIC POWER COMPANY",
+    "CNTRL_AREA": "EPE",
+    "WEBSITE": "http://www.epelectric.com/",
+    "REGULATED": "NOT AVAILABLE"
+   }
+  }
+ ]
+}

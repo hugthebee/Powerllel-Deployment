@@ -1,0 +1,814 @@
+{
+ "_generated_from": "Atria_Data_Model_Map.xlsx by scripts/build_config.py; do not edit by hand",
+ "rows": [
+  {
+   "id": "technical.parcel",
+   "category": "Technical",
+   "factor": "Parcel, owner of record, acreage, deed, sale history",
+   "data_api": "Atria atria_lookup, assessorRecord (county appraisal / TxGIO StratMap)",
+   "how_obtained": "Atria module (crawled county data)",
+   "atria_status": "Available",
+   "frequency": "Quarterly; monthly for shortlisted sites",
+   "model": "Lookup; conflicts shown side by side",
+   "assumption": "County records lag deeds by weeks",
+   "proof": "Atria Data Sheet",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 91,
+   "row": 5
+  },
+  {
+   "id": "technical.adjoining_parcels_assemblage",
+   "category": "Technical",
+   "factor": "Adjoining parcels / assemblage",
+   "data_api": "Atria adjoiningParcels",
+   "how_obtained": "Atria module",
+   "atria_status": "Available",
+   "frequency": "Quarterly",
+   "model": "Same-owner acreage; assembly candidates",
+   "assumption": "\"Affiliate\" matching unclear",
+   "proof": "Atria Data Sheet",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 91,
+   "row": 6
+  },
+  {
+   "id": "technical.easements_and_lines",
+   "category": "Technical",
+   "factor": "Easements and lines crossing",
+   "data_api": "Atria easementIndicators",
+   "how_obtained": "Atria module (derived from GIS layers)",
+   "atria_status": "Available",
+   "frequency": "Quarterly",
+   "model": "Flags only",
+   "assumption": "Not recorded easements; title needed",
+   "proof": "Atria Data Sheet",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 91,
+   "row": 7
+  },
+  {
+   "id": "technical.substations",
+   "category": "Technical",
+   "factor": "Substations, transmission lines, voltage, distance",
+   "data_api": "Atria substations, transmissionLines (HIFLD archive, OSM)",
+   "how_obtained": "Atria module / download",
+   "atria_status": "Available",
+   "frequency": "Quarterly",
+   "model": "Distance + voltage value functions",
+   "assumption": "HIFLD Open shut down Sept 2025; archive may go stale",
+   "proof": "NAPSG HIFLD transition",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module",
+    "Download"
+   ],
+   "frequency_days": 91,
+   "row": 8
+  },
+  {
+   "id": "technical.grid_headroom_load",
+   "category": "Technical",
+   "factor": "Grid headroom / load capacity",
+   "data_api": "Atria gridCapacity (empty for ERCOT/WECC); utility pre-application feedback",
+   "how_obtained": "Atria module + Customer provided",
+   "atria_status": "Need to add",
+   "frequency": "Whenever received",
+   "model": "Input to model A",
+   "assumption": "Unknown is not zero",
+   "proof": "ESIG 2026",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Atria module",
+    "Customer provided"
+   ],
+   "frequency_days": null,
+   "row": 9
+  },
+  {
+   "id": "technical.ercot_largeload_queue",
+   "category": "Technical",
+   "factor": "ERCOT large-load queue by stage and zone",
+   "data_api": "ERCOT Large Load Integration PDFs; ERCOT monthly operational overview",
+   "how_obtained": "Crawled (PDF parse)",
+   "atria_status": "Need to add",
+   "frequency": "Monthly",
+   "model": "Model A feature: MW queued in zone",
+   "assumption": "Aggregated, no project list",
+   "proof": "ERCOT LLI status updates",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Crawled"
+   ],
+   "frequency_days": 30,
+   "row": 10
+  },
+  {
+   "id": "technical.grid_arrival",
+   "category": "Technical",
+   "factor": "Grid arrival (P10/P50/P90)",
+   "data_api": "Model A output",
+   "how_obtained": "Derived (model)",
+   "atria_status": "Partial (heuristic today)",
+   "frequency": "Recomputed monthly or on new input",
+   "model": "Survival model (Weibull AFT / Bayesian hierarchical)",
+   "assumption": "Expert priors until real timelines",
+   "proof": "LBNL Queued Up 2026; Kalbfleisch & Prentice",
+   "status_class": "Partial",
+   "how_tags": [
+    "Derived (model)"
+   ],
+   "frequency_days": 30,
+   "row": 11
+  },
+  {
+   "id": "technical.bridge_power_need",
+   "category": "Technical",
+   "factor": "Bridge power need, mix, cost, CO2",
+   "data_api": "Faraday + Monte Carlo",
+   "how_obtained": "Derived (model)",
+   "atria_status": "Partial (Faraday exists, Monte Carlo to add)",
+   "frequency": "On demand per site; cached",
+   "model": "Hourly dispatch, 500 draws",
+   "assumption": "ERCOT price/weather shapes",
+   "proof": "Rode, Fischbeck & Dean 2001; Princeton ZERO Lab 2025",
+   "status_class": "Partial",
+   "how_tags": [
+    "Derived (model)"
+   ],
+   "frequency_days": null,
+   "row": 12
+  },
+  {
+   "id": "technical.power_prices_by",
+   "category": "Technical",
+   "factor": "Power prices by zone",
+   "data_api": "ERCOT Public API (free key) / gridstatus library",
+   "how_obtained": "API",
+   "atria_status": "Partial (ERCOT 2023 only)",
+   "frequency": "Hourly data, refreshed daily",
+   "model": "Faraday input",
+   "assumption": "Zone price as site proxy",
+   "proof": "ERCOT developer portal",
+   "status_class": "Partial",
+   "how_tags": [
+    "API"
+   ],
+   "frequency_days": 1,
+   "row": 13
+  },
+  {
+   "id": "technical.gas_pipelines",
+   "category": "Technical",
+   "factor": "Gas pipelines, operators, distance",
+   "data_api": "Atria gasInfrastructure; Texas RRC GIS downloads; EIA pipelines",
+   "how_obtained": "Atria module + download",
+   "atria_status": "Available (distance); capacity partial",
+   "frequency": "Quarterly",
+   "model": "Distance rules; BTM flag",
+   "assumption": "Firm capacity often unknown",
+   "proof": "Texas RRC data sets",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module",
+    "Download"
+   ],
+   "frequency_days": 91,
+   "row": 14
+  },
+  {
+   "id": "technical.gas_firm_capacity",
+   "category": "Technical",
+   "factor": "Gas firm capacity",
+   "data_api": "Atria gasSupply (3 pipelines only); pipeline EBB postings",
+   "how_obtained": "Atria module + crawled",
+   "atria_status": "Need to add",
+   "frequency": "Weekly",
+   "model": "Capacity check",
+   "assumption": "Posted capacity changes often",
+   "proof": "—",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Atria module",
+    "Crawled"
+   ],
+   "frequency_days": 7,
+   "row": 15
+  },
+  {
+   "id": "technical.fiber_internet_exchange",
+   "category": "Technical",
+   "factor": "Fiber / internet exchange proximity",
+   "data_api": "PeeringDB API (free); FCC National Broadband Map API",
+   "how_obtained": "API",
+   "atria_status": "Need to add",
+   "frequency": "Monthly",
+   "model": "Distance value function",
+   "assumption": "Proxy for latency",
+   "proof": "PeeringDB",
+   "status_class": "Need to add",
+   "how_tags": [
+    "API"
+   ],
+   "frequency_days": 30,
+   "row": 16
+  },
+  {
+   "id": "technical.soils",
+   "category": "Technical",
+   "factor": "Soils, slope, buildability",
+   "data_api": "USDA Soil Data Access API; Atria elevation, landCover",
+   "how_obtained": "API + Atria module",
+   "atria_status": "Partial",
+   "frequency": "Annual",
+   "model": "Slope/soil rules",
+   "assumption": "Screening only",
+   "proof": "—",
+   "status_class": "Partial",
+   "how_tags": [
+    "Atria module",
+    "API"
+   ],
+   "frequency_days": 365,
+   "row": 17
+  },
+  {
+   "id": "environmental.water_stress",
+   "category": "Environmental",
+   "factor": "Water stress",
+   "data_api": "WRI Aqueduct 4.0 (download or Google Earth Engine)",
+   "how_obtained": "API / download",
+   "atria_status": "Need to add",
+   "frequency": "Annual check (dataset multi-year)",
+   "model": "Baseline water stress value function",
+   "assumption": "Basin level, not local supply",
+   "proof": "Kuzma et al. 2023 (WRI Aqueduct 4.0)",
+   "status_class": "Need to add",
+   "how_tags": [
+    "API",
+    "Download"
+   ],
+   "frequency_days": 365,
+   "row": 18
+  },
+  {
+   "id": "environmental.water_supply",
+   "category": "Environmental",
+   "factor": "Water supply, sewer, surface water, drought",
+   "data_api": "Atria waterSupply, waterSewer, surfaceWater, coastalWater",
+   "how_obtained": "Atria module",
+   "atria_status": "Available (no water rights)",
+   "frequency": "Quarterly",
+   "model": "Supply vs cooling demand",
+   "assumption": "Physical availability only",
+   "proof": "Atria Data Sheet",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 91,
+   "row": 19
+  },
+  {
+   "id": "environmental.cooling_water_demand",
+   "category": "Environmental",
+   "factor": "Cooling water demand",
+   "data_api": "Customer cooling type × Faraday MW × water intensity",
+   "how_obtained": "Derived (model) + Customer provided",
+   "atria_status": "Need to add",
+   "frequency": "Per project",
+   "model": "Demand vs supply ratio",
+   "assumption": "Water intensity by cooling type",
+   "proof": "—",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Derived (model)",
+    "Customer provided"
+   ],
+   "frequency_days": null,
+   "row": 20
+  },
+  {
+   "id": "environmental.heat_stress_cooling",
+   "category": "Environmental",
+   "factor": "Heat stress / cooling climate",
+   "data_api": "Atria coolingClimate; FEMA National Risk Index (heat wave); NOAA",
+   "how_obtained": "Atria module + download",
+   "atria_status": "Partial",
+   "frequency": "Annual",
+   "model": "Cooling degree days, extreme heat",
+   "assumption": "Historical climate proxy",
+   "proof": "FEMA NRI method",
+   "status_class": "Partial",
+   "how_tags": [
+    "Atria module",
+    "Download"
+   ],
+   "frequency_days": 365,
+   "row": 21
+  },
+  {
+   "id": "environmental.wetlands",
+   "category": "Environmental",
+   "factor": "Wetlands",
+   "data_api": "Atria wetlands (National Wetlands Inventory)",
+   "how_obtained": "Atria module",
+   "atria_status": "Available",
+   "frequency": "Annual",
+   "model": "Gate if > threshold share",
+   "assumption": "NWI not jurisdictional",
+   "proof": "Lopez et al. 2023",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 365,
+   "row": 22
+  },
+  {
+   "id": "environmental.endangered_species_critical",
+   "category": "Environmental",
+   "factor": "Endangered species / critical habitat",
+   "data_api": "USFWS IPaC location API; ECOS services",
+   "how_obtained": "API",
+   "atria_status": "Need to add",
+   "frequency": "Monthly for shortlisted sites",
+   "model": "Gate if critical habitat on site",
+   "assumption": "Desktop screen only",
+   "proof": "USFWS IPaC",
+   "status_class": "Need to add",
+   "how_tags": [
+    "API"
+   ],
+   "frequency_days": 30,
+   "row": 23
+  },
+  {
+   "id": "environmental.floodplain",
+   "category": "Environmental",
+   "factor": "Floodplain",
+   "data_api": "Atria floodZone (FEMA NFHL)",
+   "how_obtained": "Atria module",
+   "atria_status": "Available",
+   "frequency": "Quarterly (map changes)",
+   "model": "Gate if floodway",
+   "assumption": "Unmapped = unknown",
+   "proof": "Atria Data Sheet",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 91,
+   "row": 24
+  },
+  {
+   "id": "environmental.air_attainment_status",
+   "category": "Environmental",
+   "factor": "Air attainment status, Class I parks",
+   "data_api": "Atria airQuality (EPA Green Book)",
+   "how_obtained": "Atria module",
+   "atria_status": "Available",
+   "frequency": "Quarterly / on EPA action",
+   "model": "Model C thresholds",
+   "assumption": "EPA layer may lag court rulings (El Paso)",
+   "proof": "EPA Green Book",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 91,
+   "row": 25
+  },
+  {
+   "id": "environmental.air_permit_precedent",
+   "category": "Environmental",
+   "factor": "Air permit precedent (granted limits)",
+   "data_api": "TCEQ issued permits for gas turbines >=20 MW (xlsx)",
+   "how_obtained": "Download",
+   "atria_status": "Need to add",
+   "frequency": "Monthly",
+   "model": "Model C emission inputs",
+   "assumption": "Similar units get similar limits",
+   "proof": "TCEQ turbine list",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Download"
+   ],
+   "frequency_days": 30,
+   "row": 26
+  },
+  {
+   "id": "environmental.air_permit_path",
+   "category": "Environmental",
+   "factor": "Air permit path and duration",
+   "data_api": "Model C output",
+   "how_obtained": "Derived (model)",
+   "atria_status": "Partial (screening)",
+   "frequency": "On demand per site",
+   "model": "Rules engine + AERSCREEN",
+   "assumption": "AP-42 factors; durations from TCEQ dates",
+   "proof": "EPA AP-42; 40 CFR Part 51 App S",
+   "status_class": "Partial",
+   "how_tags": [
+    "Derived (model)"
+   ],
+   "frequency_days": null,
+   "row": 27
+  },
+  {
+   "id": "environmental.contamination",
+   "category": "Environmental",
+   "factor": "Contamination, regulated facilities",
+   "data_api": "Atria contamination, regulatedFacilities, environmentalFacilities; EPA Envirofacts/ECHO APIs",
+   "how_obtained": "Atria module + API",
+   "atria_status": "Available",
+   "frequency": "Quarterly",
+   "model": "Phase I style flags",
+   "assumption": "Records only",
+   "proof": "Atria Data Sheet",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module",
+    "API"
+   ],
+   "frequency_days": 91,
+   "row": 28
+  },
+  {
+   "id": "environmental.carbon_intensity_of",
+   "category": "Environmental",
+   "factor": "Carbon intensity of grid power",
+   "data_api": "eGRID (average); WattTime API (marginal)",
+   "how_obtained": "Download / API",
+   "atria_status": "Partial (eGRID in Faraday)",
+   "frequency": "Hourly (WattTime), refreshed daily",
+   "model": "Faraday CO2",
+   "assumption": "Average vs marginal",
+   "proof": "WattTime docs",
+   "status_class": "Partial",
+   "how_tags": [
+    "API",
+    "Download"
+   ],
+   "frequency_days": 1,
+   "row": 29
+  },
+  {
+   "id": "cultural.opposition_history_and",
+   "category": "Cultural",
+   "factor": "Opposition history and current sentiment",
+   "data_api": "City/county agendas and minutes (Legistar API or crawl), local news, petitions, public Facebook groups",
+   "how_obtained": "Crawled + LLM extraction",
+   "atria_status": "Need to add",
+   "frequency": "Daily crawl; features weekly",
+   "model": "LLM stance detection → model B features",
+   "assumption": "Online sentiment precedes hearings",
+   "proof": "Susskind et al. 2022; Data Center Watch; Spark",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Crawled"
+   ],
+   "frequency_days": 1,
+   "row": 30
+  },
+  {
+   "id": "cultural.opposition_tracker_events",
+   "category": "Cultural",
+   "factor": "Opposition tracker events",
+   "data_api": "GatherGov / Data Center Watch / Sabin Center",
+   "how_obtained": "Licensed or download",
+   "atria_status": "Need to add",
+   "frequency": "Weekly",
+   "model": "Labels for model B",
+   "assumption": "Coverage gaps in small towns",
+   "proof": "GatherGov 2026; Sabin Center",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Download",
+    "Licensed"
+   ],
+   "frequency_days": 7,
+   "row": 31
+  },
+  {
+   "id": "cultural.community_burden",
+   "category": "Cultural",
+   "factor": "Community burden (EJ)",
+   "data_api": "EJScreen mirror (EPA tool removed 2025); Census ACS API",
+   "how_obtained": "Download / API",
+   "atria_status": "Need to add",
+   "frequency": "Annual",
+   "model": "Model B feature",
+   "assumption": "Burden raises scrutiny",
+   "proof": "Gridguard project; Data Center Watch",
+   "status_class": "Need to add",
+   "how_tags": [
+    "API",
+    "Download"
+   ],
+   "frequency_days": 365,
+   "row": 32
+  },
+  {
+   "id": "cultural.demographics",
+   "category": "Cultural",
+   "factor": "Demographics",
+   "data_api": "Atria demographics",
+   "how_obtained": "Atria module",
+   "atria_status": "Available",
+   "frequency": "Annual",
+   "model": "Model B feature",
+   "assumption": "—",
+   "proof": "Atria Data Sheet",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 365,
+   "row": 33
+  },
+  {
+   "id": "cultural.noise_exposure",
+   "category": "Cultural",
+   "factor": "Noise exposure (homes near gas plant)",
+   "data_api": "Building footprints (open data) + ISO 9613-2 propagation",
+   "how_obtained": "Derived (model)",
+   "atria_status": "Need to add",
+   "frequency": "Per site",
+   "model": "dB at nearest homes vs limit",
+   "assumption": "Simple propagation",
+   "proof": "ISO 9613-2",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Derived (model)"
+   ],
+   "frequency_days": null,
+   "row": 34
+  },
+  {
+   "id": "cultural.historic_sites",
+   "category": "Cultural",
+   "factor": "Historic sites, tribal areas",
+   "data_api": "National Register of Historic Places; Texas Historical Commission Atlas; Census tribal areas",
+   "how_obtained": "Download / crawl",
+   "atria_status": "Need to add",
+   "frequency": "Annual",
+   "model": "Proximity flags",
+   "assumption": "Federal nexus triggers review",
+   "proof": "Data Center Watch (heritage)",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Download",
+    "Crawled"
+   ],
+   "frequency_days": 365,
+   "row": 35
+  },
+  {
+   "id": "policy.zoning_status_and",
+   "category": "Policy",
+   "factor": "Zoning status and rules",
+   "data_api": "Atria zoningJurisdiction, zoningRules",
+   "how_obtained": "Atria module",
+   "atria_status": "Available",
+   "frequency": "Quarterly",
+   "model": "Land gate / value function",
+   "assumption": "Texas counties mostly unzoned",
+   "proof": "Atria Data Sheet",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 91,
+   "row": 36
+  },
+  {
+   "id": "policy.local_moratoriums_and",
+   "category": "Policy",
+   "factor": "Local moratoriums and ordinances",
+   "data_api": "Atria energyOrdinance (wind/solar only); city agendas; GatherGov",
+   "how_obtained": "Atria module + crawled + LLM",
+   "atria_status": "Partial (wind/solar only)",
+   "frequency": "Daily crawl",
+   "model": "Model B local layer",
+   "assumption": "Stage taxonomy from GatherGov",
+   "proof": "Berry & Berry 1990; GatherGov 2026",
+   "status_class": "Partial",
+   "how_tags": [
+    "Atria module",
+    "Crawled"
+   ],
+   "frequency_days": 1,
+   "row": 37
+  },
+  {
+   "id": "policy.local_approval_path",
+   "category": "Policy",
+   "factor": "Local approval path, hearings, fees",
+   "data_api": "Atria atria_permit_path",
+   "how_obtained": "Atria module (100 credits)",
+   "atria_status": "Available (not yet pulled)",
+   "frequency": "Per site; monthly for shortlisted",
+   "model": "Permits tile",
+   "assumption": "—",
+   "proof": "Atria Data Sheet",
+   "status_class": "Available",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 30,
+   "row": 38
+  },
+  {
+   "id": "policy.state_and_grid",
+   "category": "Policy",
+   "factor": "State and grid rules (ERCOT, PUCT, SB 6, pauses)",
+   "data_api": "ERCOT market notices; PUCT Interchange filings; Governor directives",
+   "how_obtained": "Crawled + LLM",
+   "atria_status": "Need to add",
+   "frequency": "Daily",
+   "model": "Model B state layer (scenario probability)",
+   "assumption": "Updated when news breaks",
+   "proof": "ERCOT Q&A; Baker Botts Aug 2026",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Crawled"
+   ],
+   "frequency_days": 1,
+   "row": 39
+  },
+  {
+   "id": "policy.federal_permitting",
+   "category": "Policy",
+   "factor": "Federal permitting (BAAJA)",
+   "data_api": "Congress.gov; CGEP timeline tool",
+   "how_obtained": "Crawled",
+   "atria_status": "Need to add",
+   "frequency": "Weekly while pending",
+   "model": "Scenario",
+   "assumption": "Not law yet",
+   "proof": "CGEP",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Crawled"
+   ],
+   "frequency_days": 7,
+   "row": 40
+  },
+  {
+   "id": "policy.incentives",
+   "category": "Policy",
+   "factor": "Incentives (state data center exemption, abatements)",
+   "data_api": "Texas Comptroller data center program and lists; Atria incentives",
+   "how_obtained": "Download + Atria module",
+   "atria_status": "Partial",
+   "frequency": "Monthly",
+   "model": "Economics input; pipeline signal",
+   "assumption": "—",
+   "proof": "Texas Comptroller",
+   "status_class": "Partial",
+   "how_tags": [
+    "Atria module",
+    "Download"
+   ],
+   "frequency_days": 30,
+   "row": 41
+  },
+  {
+   "id": "security.foreignownership_limits",
+   "category": "Security",
+   "factor": "Foreign-ownership limits (Texas SB 17)",
+   "data_api": "Statute + legal review; customer ownership disclosure",
+   "how_obtained": "Customer provided + legal rule",
+   "atria_status": "Need to add",
+   "frequency": "Per deal; law check quarterly",
+   "model": "Gate G",
+   "assumption": "Legal advice required",
+   "proof": "Greenberg Traurig / Polsinelli on SB 17",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Customer provided"
+   ],
+   "frequency_days": 91,
+   "row": 42
+  },
+  {
+   "id": "security.cfius_real_estate",
+   "category": "Security",
+   "factor": "CFIUS real estate (near military sites)",
+   "data_api": "31 CFR Part 802 site list; DoD installation boundaries (MIRTA, HIFLD archive)",
+   "how_obtained": "Download + rule",
+   "atria_status": "Need to add",
+   "frequency": "Quarterly",
+   "model": "Distance → gate/flag for foreign buyers",
+   "assumption": "Applies to foreign persons",
+   "proof": "Gibson Dunn CFIUS note",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Download"
+   ],
+   "frequency_days": 91,
+   "row": 43
+  },
+  {
+   "id": "security.natural_hazards",
+   "category": "Security",
+   "factor": "Natural hazards (seismic, tornado, wildfire, hail)",
+   "data_api": "Atria geologyHazards, dams; FEMA National Risk Index",
+   "how_obtained": "Atria module + download",
+   "atria_status": "Partial",
+   "frequency": "Annual",
+   "model": "Expected-loss index",
+   "assumption": "—",
+   "proof": "FEMA NRI",
+   "status_class": "Partial",
+   "how_tags": [
+    "Atria module",
+    "Download"
+   ],
+   "frequency_days": 365,
+   "row": 44
+  },
+  {
+   "id": "security.critical_infrastructure_exposure",
+   "category": "Security",
+   "factor": "Critical infrastructure exposure (pipelines, rail, airports)",
+   "data_api": "Atria easementIndicators, builtEnvironment; FAA",
+   "how_obtained": "Atria module",
+   "atria_status": "Partial",
+   "frequency": "Quarterly",
+   "model": "Proximity rules",
+   "assumption": "—",
+   "proof": "—",
+   "status_class": "Partial",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 91,
+   "row": 45
+  },
+  {
+   "id": "economics.projects_stuck_waiting",
+   "category": "Economics",
+   "factor": "Projects stuck waiting for power (pipeline)",
+   "data_api": "Comptroller qualifying data centers; TCEQ pending NSR permits; PUCT filings; city agendas; news",
+   "how_obtained": "Crawled + LLM entity matching",
+   "atria_status": "Need to add",
+   "frequency": "Weekly",
+   "model": "Project records with confidence",
+   "assumption": "Matching by location and name",
+   "proof": "—",
+   "status_class": "Need to add",
+   "how_tags": [
+    "Crawled"
+   ],
+   "frequency_days": 7,
+   "row": 46
+  },
+  {
+   "id": "economics.land_value_vs",
+   "category": "Economics",
+   "factor": "Land value vs market",
+   "data_api": "Atria assessorRecord; Altus/Acres benchmarks",
+   "how_obtained": "Atria module + reference",
+   "atria_status": "Partial",
+   "frequency": "Quarterly",
+   "model": "Value check",
+   "assumption": "Assessed value lags market",
+   "proof": "Altus Group; Acres",
+   "status_class": "Partial",
+   "how_tags": [
+    "Atria module"
+   ],
+   "frequency_days": 91,
+   "row": 47
+  },
+  {
+   "id": "economics.bridge_contract_cash",
+   "category": "Economics",
+   "factor": "Bridge contract cash flows, breakeven, NPV/IRR",
+   "data_api": "Model F",
+   "how_obtained": "Derived (model) + Customer provided prices",
+   "atria_status": "Partial (screening)",
+   "frequency": "On demand",
+   "model": "Monte Carlo cash flows",
+   "assumption": "Screening grade",
+   "proof": "Rode et al. 2001; Yescombe",
+   "status_class": "Partial",
+   "how_tags": [
+    "Derived (model)",
+    "Customer provided"
+   ],
+   "frequency_days": null,
+   "row": 48
+  }
+ ]
+}

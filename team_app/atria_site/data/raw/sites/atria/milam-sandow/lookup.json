@@ -1,0 +1,49 @@
+{
+ "tool": "atria_lookup",
+ "input": {
+  "lat": 30.537621,
+  "lng": -97.040745
+ },
+ "credits": {
+  "charged": 100
+ },
+ "parcel": {
+  "status": "ok",
+  "value": {
+   "parcel_id": "A207-321-001-02",
+   "county": "MILAM",
+   "state": "TX",
+   "acreage": 7219.3391130490545,
+   "zoning": null,
+   "owner_name": "ALCOA USA CORP",
+   "owner_as_of": "2021",
+   "total_value": 10718790,
+   "land_value": 10704350,
+   "improved_value": 14440,
+   "centroid": {
+    "lat": 30.57019438897705,
+    "lng": -97.03486473263752
+   },
+   "geometry_rings_omitted": "8 rings, about 600 vertices; same parcel as the outline in data/sites/milam-sandow.json",
+   "source_layer_url": "https://services2.arcgis.com/82iS1Pc7dgs3LFZv/arcgis/rest/services/Milam_County_Parcel_Map_Tnris/FeatureServer/0",
+   "attributes": {
+    "PROP_ID": "20519037",
+    "GEO_ID": "A207-321-001-02",
+    "OWNER_NAME": "ALCOA USA CORP",
+    "LEGAL_AREA": 7136.231,
+    "GIS_AREA": 7211.99728434,
+    "LEGAL_DESC": "A2070 HARRIS, JAMES B.,7136.231 ACRES",
+    "MKT_VALUE": 10718790,
+    "MAIL_ADDR": "PROPERTY TAX DEPT 201 ISABELLA ST PITTSBURGH PA 15212",
+    "SOURCE": "BIS CONSULTING",
+    "DATE_ACQ": 202101,
+    "TAX_YEAR": 2021
+   }
+  },
+  "source": {
+   "name": "Milam County Parcel Map Tnris (services2.arcgis.com), parcel layer used for Milam County, TX",
+   "url": "https://services2.arcgis.com/82iS1Pc7dgs3LFZv/arcgis/rest/services/Milam_County_Parcel_Map_Tnris/FeatureServer/0"
+  },
+  "fetched_at": "2026-10-28T12:26:22.712Z"
+ }
+}

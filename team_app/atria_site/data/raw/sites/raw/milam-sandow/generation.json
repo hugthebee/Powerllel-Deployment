@@ -1,0 +1,976 @@
+{
+ "objectIdFieldName": "FID",
+ "uniqueIdField": {
+  "name": "FID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "Plant_Code",
+   "type": "esriFieldTypeInteger",
+   "alias": "Energy Information Administration (EIA) Power Plant Identification Number",
+   "sqlType": "sqlTypeInteger",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"A unique identification number assigned by the Energy Information Administration (EIA) to each power plant. This identifier is used across EIA surveys and reporting systems.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+  },
+  {
+   "name": "Plant_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Electric Power Plant Name",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 58,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The official name of the electric power plant as reported to the Energy Information Administration (EIA). Plant names are used for identification, reporting, and public reference.\",\"fieldValueType\":\"nameOrTitle\"}"
+  },
+  {
+   "name": "Utility_Na",
+   "type": "esriFieldTypeString",
+   "alias": "Operating Utility Name",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 65,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The name of the utility responsible for day-to-day operations of the power plant. This field reflects operational control rather than ownership in all cases.\",\"fieldValueType\":\"nameOrTitle\"}"
+  },
+  {
+   "name": "PrimSource",
+   "type": "esriFieldTypeString",
+   "alias": "Primary Energy Source",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 14,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The primary fuel or energy source used by the power plant for electricity generation. This field reflects the dominant source reported to the Energy Information Administration (EIA).\",\"fieldValueType\":\"typeOrCategory\"}"
+  },
+  {
+   "name": "tech_desc",
+   "type": "esriFieldTypeString",
+   "alias": "Generation Technology Description",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 130,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"A description of the generation technologies or prime movers used at the plant. Technology types describe how electricity is produced from energy sources.\",\"fieldValueType\":\"description\"}"
+  },
+  {
+   "name": "Total_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Maximum Summer Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The maximum electrical output of the plant during summer conditions, measured in megawatts. Summer capacity accounts for performance limits due to temperature and operating conditions.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "Coal_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Coal-Fired Generation Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The net summer capacity of coal-fired electric generators at the plant. Coal capacity represents conventional thermal generation resources.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "NG_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Natural Gas Generation Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The net summer capacity of natural gas-fired electric generators at the plant. Natural gas is a major fuel source for electricity generation in the United States.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "Nuclear_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Nuclear Generation Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The net summer capacity of nuclear-powered electric generators at the plant. Nuclear capacity reflects baseload electricity generation resources.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "County",
+   "type": "esriFieldTypeString",
+   "alias": "Plant County Location",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 25,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The county containing the power plant. County names are used for sub-state analysis and reporting.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "Plant_Code": 68244,
+    "Plant_Name": "Gransolar Texas One, LLC",
+    "Utility_Na": "Gransolar Texas One, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 50,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Milam"
+   },
+   "geometry": {
+    "x": -97.1547529999437,
+    "y": 30.59981700036483
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 65700,
+    "Plant_Name": "TX21 River Valley Storage 2",
+    "Utility_Na": "Key Capture Energy",
+    "PrimSource": "batteries",
+    "tech_desc": "Batteries",
+    "Total_MW": 50,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Williamson"
+   },
+   "geometry": {
+    "x": -97.35518000011236,
+    "y": 30.41432000003618
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 65699,
+    "Plant_Name": "TX19 River Valley Storage 1",
+    "Utility_Na": "Key Capture Energy",
+    "PrimSource": "batteries",
+    "tech_desc": "Batteries",
+    "Total_MW": 50,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Williamson"
+   },
+   "geometry": {
+    "x": -97.35701000039846,
+    "y": 30.4147700002906
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 68246,
+    "Plant_Name": "BT Jungmann",
+    "Utility_Na": "BT Jungmann, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 40,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Milam"
+   },
+   "geometry": {
+    "x": -97.05777999977028,
+    "y": 30.903763999621994
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 57659,
+    "Plant_Name": "East Blackland Solar Project 1",
+    "Utility_Na": "Duke Energy Renewables Services",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 144,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.46140000000402,
+    "y": 30.42139999982352
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 66821,
+    "Plant_Name": "Orion III Solar Project",
+    "Utility_Na": "Ben Milam Solar 3 LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 250,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Milam"
+   },
+   "geometry": {
+    "x": -97.12451999963066,
+    "y": 30.96021899991603
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 55154,
+    "Plant_Name": "Lost Pines 1 Power Project",
+    "Utility_Na": "Lower Colorado River Authority",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 510,
+    "Coal_MW": 0,
+    "NG_MW": 510,
+    "Nuclear_MW": 0,
+    "County": "Bastrop"
+   },
+   "geometry": {
+    "x": -97.27139999956135,
+    "y": 30.147800000252303
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 3601,
+    "Plant_Name": "Sim Gideon",
+    "Utility_Na": "Lower Colorado River Authority",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Steam Turbine",
+    "Total_MW": 607,
+    "Coal_MW": 0,
+    "NG_MW": 607,
+    "Nuclear_MW": 0,
+    "County": "Bastrop"
+   },
+   "geometry": {
+    "x": -97.27080000041005,
+    "y": 30.14560000000201
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 66859,
+    "Plant_Name": "Orion I Solar Project",
+    "Utility_Na": "Ben Milam Solar 1 LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 200,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Milam"
+   },
+   "geometry": {
+    "x": -97.00150500016906,
+    "y": 30.996510999939773
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 65695,
+    "Plant_Name": "TX12 Silicon Hill Storage",
+    "Utility_Na": "Key Capture Energy",
+    "PrimSource": "batteries",
+    "tech_desc": "Batteries",
+    "Total_MW": 100,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.57404999966388,
+    "y": 30.41217000013971
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64959,
+    "Plant_Name": "WAL5480",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Williamson"
+   },
+   "geometry": {
+    "x": -97.61201400012675,
+    "y": 30.533659999722303
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64958,
+    "Plant_Name": "WAL5479",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.60603500044523,
+    "y": 30.453114999784248
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 65694,
+    "Plant_Name": "TX11 Republic Road Storage",
+    "Utility_Na": "Key Capture Energy",
+    "PrimSource": "batteries",
+    "tech_desc": "Batteries",
+    "Total_MW": 50,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Robertson"
+   },
+   "geometry": {
+    "x": -96.62542000012405,
+    "y": 30.88142400005933
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 66420,
+    "Plant_Name": "Five Wells Solar Center - Hybrid",
+    "Utility_Na": "Five Wells Solar Center, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Batteries; Solar Photovoltaic;",
+    "Total_MW": 579,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Bell"
+   },
+   "geometry": {
+    "x": -97.25901700005087,
+    "y": 30.99864699980245
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 66941,
+    "Plant_Name": "Orion II Solar Project",
+    "Utility_Na": "Ben Milam Solar 2 LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 250,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Milam"
+   },
+   "geometry": {
+    "x": -96.93478299985205,
+    "y": 31.029027999756167
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 57699,
+    "Plant_Name": "Webberville Solar Project",
+    "Utility_Na": "FRV AE Solar LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 30,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.50881200002655,
+    "y": 30.23849199984706
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 67318,
+    "Plant_Name": "OTHERTexasA&M",
+    "Utility_Na": "Texas Microgrid, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 9.6,
+    "Coal_MW": 0,
+    "NG_MW": 9.6,
+    "Nuclear_MW": 0,
+    "County": "Brazos"
+   },
+   "geometry": {
+    "x": -96.46097099959819,
+    "y": 30.64195500012526
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 56674,
+    "Plant_Name": "Winchester Power Park",
+    "Utility_Na": "Lower Colorado River Authority",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combustion Turbine",
+    "Total_MW": 176,
+    "Coal_MW": 0,
+    "NG_MW": 176,
+    "Nuclear_MW": 0,
+    "County": "Fayette"
+   },
+   "geometry": {
+    "x": -96.99449999956725,
+    "y": 30.02546999975048
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 6243,
+    "Plant_Name": "Dansby",
+    "Utility_Na": "City of Bryan - (TX)",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine;",
+    "Total_MW": 204.2,
+    "Coal_MW": 0,
+    "NG_MW": 204.2,
+    "Nuclear_MW": 0,
+    "County": "Brazos"
+   },
+   "geometry": {
+    "x": -96.46079999989396,
+    "y": 30.721699999786686
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 66562,
+    "Plant_Name": "HEB00591",
+    "Utility_Na": "Texas Microgrid, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.6,
+    "Coal_MW": 0,
+    "NG_MW": 1.6,
+    "Nuclear_MW": 0,
+    "County": "Williamson"
+   },
+   "geometry": {
+    "x": -97.65853999986939,
+    "y": 30.51881799971032
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 56524,
+    "Plant_Name": "Austin Gas Recovery",
+    "Utility_Na": "WM Renewable Energy LLC",
+    "PrimSource": "biomass",
+    "tech_desc": "Landfill Gas",
+    "Total_MW": 4.8,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.62170000023612,
+    "y": 30.33439999977913
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 3548,
+    "Plant_Name": "Decker Creek",
+    "Utility_Na": "Austin Energy",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combustion Turbine",
+    "Total_MW": 208,
+    "Coal_MW": 0,
+    "NG_MW": 208,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.6127999999492,
+    "y": 30.303300000195446
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 60649,
+    "Plant_Name": "Rabbit Hill Energy Storage Project",
+    "Utility_Na": "Rabbit Hill Energy Storage Project",
+    "PrimSource": "batteries",
+    "tech_desc": "Batteries",
+    "Total_MW": 9.9,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Williamson"
+   },
+   "geometry": {
+    "x": -97.68702300026229,
+    "y": 30.587828000248393
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 58013,
+    "Plant_Name": "IKEA Round Rock 027",
+    "Utility_Na": "IKEA Property Inc",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 1.3,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Williamson"
+   },
+   "geometry": {
+    "x": -97.69028600027612,
+    "y": 30.5570440003079
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 58001,
+    "Plant_Name": "Temple Power Station",
+    "Utility_Na": "Temple Generation Holdings LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 1580,
+    "Coal_MW": 0,
+    "NG_MW": 1580,
+    "Nuclear_MW": 0,
+    "County": "Bell"
+   },
+   "geometry": {
+    "x": -97.31722200039562,
+    "y": 31.055832999760277
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 3561,
+    "Plant_Name": "Bryan (TX)",
+    "Utility_Na": "City of Bryan - (TX)",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combustion Turbine",
+    "Total_MW": 21,
+    "Coal_MW": 0,
+    "NG_MW": 21,
+    "Nuclear_MW": 0,
+    "County": "Brazos"
+   },
+   "geometry": {
+    "x": -96.37231600010374,
+    "y": 30.647409999764335
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 67860,
+    "Plant_Name": "GFTX BESS",
+    "Utility_Na": "Giga Texas Energy LLC",
+    "PrimSource": "batteries",
+    "tech_desc": "Batteries",
+    "Total_MW": 125,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.6188330000574,
+    "y": 30.22827599979014
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 55168,
+    "Plant_Name": "Bastrop Energy Center",
+    "Utility_Na": "Bastrop Energy Partners, LP",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 575,
+    "Coal_MW": 0,
+    "NG_MW": 575,
+    "Nuclear_MW": 0,
+    "County": "Bastrop"
+   },
+   "geometry": {
+    "x": -97.5500000001452,
+    "y": 30.145799999862806
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 65070,
+    "Plant_Name": "Austin TX GigaFactory",
+    "Utility_Na": "Tesla Inc.",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 1.9,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.61967999997923,
+    "y": 30.22021000030286
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 7900,
+    "Plant_Name": "Sand Hill",
+    "Utility_Na": "Austin Energy",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle; Natural Gas Fired Combustion Turbine;",
+    "Total_MW": 595.8,
+    "Coal_MW": 0,
+    "NG_MW": 595.8,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.61290000040663,
+    "y": 30.20979999988245
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 65274,
+    "Plant_Name": "HEB00182",
+    "Utility_Na": "Texas Microgrid, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Bell"
+   },
+   "geometry": {
+    "x": -97.37090099997977,
+    "y": 31.072119999858668
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 58151,
+    "Plant_Name": "Central Utility Plant - Texas A&M",
+    "Utility_Na": "Texas A&M, Utilities & Energy Services",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 43.4,
+    "Coal_MW": 0,
+    "NG_MW": 43.4,
+    "Nuclear_MW": 0,
+    "County": "Brazos"
+   },
+   "geometry": {
+    "x": -96.34333300011868,
+    "y": 30.61777799977639
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 61700,
+    "Plant_Name": "PowerFin Kingsbery",
+    "Utility_Na": "PowerFin ASL 1, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 2.6,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.68486099971517,
+    "y": 30.265877000113374
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 61741,
+    "Plant_Name": "Kingsberry Energy Storage System",
+    "Utility_Na": "Austin Energy",
+    "PrimSource": "batteries",
+    "tech_desc": "Batteries",
+    "Total_MW": 1.5,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.68613899963222,
+    "y": 30.266028000050945
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 56374,
+    "Plant_Name": "Robert Mueller Energy Center",
+    "Utility_Na": "Austin Energy",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combustion Turbine; Petroleum Liquids;",
+    "Total_MW": 5.2,
+    "Coal_MW": 0,
+    "NG_MW": 3.7,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.7076750000479,
+    "y": 30.304994000263108
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 68180,
+    "Plant_Name": "Big Elm Solar",
+    "Utility_Na": "Big Elm Solar, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 200,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Bell"
+   },
+   "geometry": {
+    "x": -97.21697600016262,
+    "y": 31.14105100019169
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 7030,
+    "Plant_Name": "Major Oak Power",
+    "Utility_Na": "Major Oak Power, LLC",
+    "PrimSource": "coal",
+    "tech_desc": "Conventional Steam Coal",
+    "Total_MW": 305,
+    "Coal_MW": 305,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Robertson"
+   },
+   "geometry": {
+    "x": -96.69502999963788,
+    "y": 31.09192499967949
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 67791,
+    "Plant_Name": "ABIA Parking Structure",
+    "Utility_Na": "SoCore Energy LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 1.8,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.66860000007259,
+    "y": 30.20469999968912
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 50118,
+    "Plant_Name": "Hal C Weaver Power Plant",
+    "Utility_Na": "University of Texas at Austin",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 146.8,
+    "Coal_MW": 0,
+    "NG_MW": 146.8,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.73560000022397,
+    "y": 30.286699999897944
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64816,
+    "Plant_Name": "WAL1232",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Bell"
+   },
+   "geometry": {
+    "x": -97.45775500039875,
+    "y": 31.08080800003767
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 61742,
+    "Plant_Name": "System Control Center",
+    "Utility_Na": "Austin Energy",
+    "PrimSource": "other",
+    "tech_desc": "Flywheels",
+    "Total_MW": 5,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.70880800020001,
+    "y": 30.219945999622983
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64963,
+    "Plant_Name": "WAL6929",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Bell"
+   },
+   "geometry": {
+    "x": -97.41444099971801,
+    "y": 31.114969999984293
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 6179,
+    "Plant_Name": "Fayette Power Project",
+    "Utility_Na": "Lower Colorado River Authority",
+    "PrimSource": "coal",
+    "tech_desc": "Conventional Steam Coal",
+    "Total_MW": 1615,
+    "Coal_MW": 1615,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Fayette"
+   },
+   "geometry": {
+    "x": -96.7505999996075,
+    "y": 29.917199999858447
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 68736,
+    "Plant_Name": "HEBTEMDistCenter2A",
+    "Utility_Na": "Texas Microgrid, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 3.2,
+    "Coal_MW": 0,
+    "NG_MW": 3.2,
+    "Nuclear_MW": 0,
+    "County": " "
+   },
+   "geometry": {
+    "x": -97.36118300008334,
+    "y": 31.152387000160385
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 67317,
+    "Plant_Name": "HEBTEMDistCenter",
+    "Utility_Na": "Texas Microgrid, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 4.8,
+    "Coal_MW": 0,
+    "NG_MW": 4.8,
+    "Nuclear_MW": 0,
+    "County": "Bell"
+   },
+   "geometry": {
+    "x": -97.36118300008334,
+    "y": 31.152387000160385
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 68735,
+    "Plant_Name": "HEBTEMDistCenter1B",
+    "Utility_Na": "Texas Microgrid, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.6,
+    "Coal_MW": 0,
+    "NG_MW": 1.6,
+    "Nuclear_MW": 0,
+    "County": " "
+   },
+   "geometry": {
+    "x": -97.36118300008334,
+    "y": 31.152387000160385
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 3594,
+    "Plant_Name": "Austin",
+    "Utility_Na": "Lower Colorado River Authority",
+    "PrimSource": "hydroelectric",
+    "tech_desc": "Conventional Hydroelectric",
+    "Total_MW": 17,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.78440800016435,
+    "y": 30.293423999984697
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 10184,
+    "Plant_Name": "Central Utility Plant",
+    "Utility_Na": "Silicon Hills Campus, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine; Natural Gas Steam Turbine;",
+    "Total_MW": 8.3,
+    "Coal_MW": 0,
+    "NG_MW": 8.3,
+    "Nuclear_MW": 0,
+    "County": "Travis"
+   },
+   "geometry": {
+    "x": -97.84258599984659,
+    "y": 30.39735100033779
+   }
+  }
+ ]
+}

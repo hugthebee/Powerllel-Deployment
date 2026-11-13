@@ -1,0 +1,32 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "NAME": "Wichita Mountains",
+    "STATE": "OK",
+    "AGENCY": "USDI-FWS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Caney Creek Wilderness",
+    "STATE": "AR",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Upper Buffalo Wilderness",
+    "STATE": "AR",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Hercules-Glades Wilderness",
+    "STATE": "MO",
+    "AGENCY": "USDA-FS"
+   }
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "_note": "The Atria Scout recon card for this parcel, as pasted by the user on 2026-10-29 (recon 'Powered land screening: Bexar', Data Center, TX, 75+ acres; scored Sep 29, 2026).",
+ "recon": {
+  "title": "Powered land screening: Bexar",
+  "use": "Data Center",
+  "state": "TX",
+  "criteria": "75+ acres",
+  "qualified": 152,
+  "assessed": 1040,
+  "scoredByRecon": 394
+ },
+ "apn": "04005-000-0780",
+ "ownerCity": "MCALLEN, TX",
+ "address": "15667 PLEASANTON RD, SAN ANTONIO, TX 78224",
+ "score": 88,
+ "tier": "Solid fit",
+ "tierNote": "Most criteria met - review outliers before pursuing.",
+ "asOf": "2026-09-29",
+ "facts": {
+  "lotSize": "156 ac",
+  "zoning": "Unzoned / rural",
+  "zoningNote": "no parcel-level zoning layer",
+  "fiberPop": "11 mi",
+  "fiberNote": "nearest carrier facility",
+  "owner": "SA MIERS WEST LTD"
+ },
+ "why": "This 155.69 acre parcel meets all core screening thresholds: it is well over the 75 acre minimum, sits 0.5 mi from the Mauerman substation, and is flat, flood zone X, and effectively vacant, making it a solid candidate for powered-land development. The only soft gap is that confirmed on-site fiber is unverified, with the nearest carrier interconnection facility 10.6 mi away, which is a due diligence item rather than a disqualifier.",
+ "measured": [
+  {
+   "label": "Acreage",
+   "state": "inside",
+   "text": "156 acres, at least 75 acres. County parcel layer."
+  },
+  {
+   "label": "Substation distance",
+   "state": "inside",
+   "text": "0.5 mi, limit 1 mi. HIFLD substations."
+  },
+  {
+   "label": "Highway distance",
+   "state": "inside",
+   "text": "3.55 mi, limit 5 mi. NTAD National Highway Network."
+  },
+  {
+   "label": "Flood zone",
+   "state": "inside",
+   "text": "X, one of X, X (unshaded), B, C, D. FEMA National Flood Hazard Layer."
+  },
+  {
+   "label": "Mean slope",
+   "state": "inside",
+   "text": "1%, limit 8%. USGS 3DEP elevation."
+  },
+  {
+   "label": "Effectively vacant",
+   "state": "inside",
+   "text": "yes. OpenStreetMap / USA Structures building footprints."
+  },
+  {
+   "label": "Parcel compactness",
+   "state": "inside",
+   "text": "0.74, at least 0.2. County parcel layer."
+  },
+  {
+   "label": "Owner acquirable",
+   "state": "inside",
+   "text": "yes. Owner classification (assessor name)."
+  },
+  {
+   "label": "Building footprint",
+   "state": null,
+   "text": "0 sq ft. OpenStreetMap / USA Structures building footprints."
+  },
+  {
+   "label": "Fiber facility distance",
+   "state": null,
+   "text": "10.6 mi. PeeringDB interconnection facilities."
+  },
+  {
+   "label": "Population within 2 mi",
+   "state": null,
+   "text": "3,105 people. US Census ACS."
+  },
+  {
+   "label": "Opportunity Zone",
+   "state": null,
+   "text": "yes. IRS Qualified Opportunity Zones."
+  }
+ ],
+ "read": [
+  {
+   "dir": "For",
+   "weight": "major",
+   "text": "The parcel offers 155.69 acres, more than double the 75 acre minimum for contiguous buildable land.",
+   "value": "155.687 acres"
+  },
+  {
+   "dir": "For",
+   "weight": "decisive",
+   "text": "The site sits just 0.5 miles from the Mauerman substation, well within the 1 mile adjacency requirement.",
+   "value": "0.5 mi"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "Flat terrain at 1% slope supports easy grading for large-footprint construction.",
+   "value": "1 %"
+  },
+  {
+   "dir": "For",
+   "weight": "major",
+   "text": "The parcel has zero measurable building footprint, confirming it is effectively vacant greenfield land.",
+   "value": "0 sq ft across 0 buildings, 0.00% of parcel"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "The parcel lies in flood zone X, posing minimal flood risk to construction.",
+   "value": "X"
+  },
+  {
+   "dir": "Against",
+   "weight": "major",
+   "text": "The nearest carrier interconnection facility is 10.6 miles away, beyond the preferred 5 mile confirmed fiber distance.",
+   "value": "10.56 mi"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "The parcel is located in a Qualified Opportunity Zone, adding a capital gains deferral incentive.",
+   "value": "yes"
+  }
+ ],
+ "change": "If a confirmed carrier fiber route or interconnection point were verified within 5 miles of the parcel, the site would reach a stronger tier, this parcel reads as a strong fit.",
+ "map": {
+  "image": "scout/bexar-pleasanton.jpg",
+  "bbox": [
+   -98.5195,
+   29.2665,
+   -98.4915,
+   29.2825
+  ],
+  "imageSource": "USGS NAIP imagery (imagery.nationalmap.gov)"
+ },
+ "checks": [
+  {
+   "recon": "Zoning: Unzoned / rural (no parcel-level zoning layer)",
+   "deep": "Inside San Antonio city limits, zoned MI-1 (Mixed Light Industry), Airport Hazard Overlay. Since Oct 29, 2026 every new data center needs a council Specific Use Authorization.",
+   "indicator": "zoning",
+   "category": "Policy",
+   "severity": "major"
+  },
+  {
+   "recon": "Flood zone X",
+   "deep": "94.6% zone X; 5.4% (8.0 acres) in the AE 100-year floodplain along Leon Creek. No floodway.",
+   "indicator": "flood_zone",
+   "category": "Environmental",
+   "severity": "minor"
+  },
+  {
+   "recon": "156 acres (legal acreage)",
+   "deep": "146.0 acres inside the mapped parcel outline (155.7 legal acres on the appraisal record). Upland 145.7 acres.",
+   "indicator": "parcel_acres",
+   "category": "Technical",
+   "severity": "minor"
+  },
+  {
+   "recon": "Substation 0.5 mi (Mauerman)",
+   "deep": "Mauerman is 138 kV. The nearest 345 kV substation is Brooks Field, 5.2 mi; 345 kV lines pass 0.05 mi from the parcel (a tap needs a new substation).",
+   "indicator": "dist_345kv_mi",
+   "category": "Technical",
+   "severity": "major"
+  },
+  {
+   "recon": "Air quality is not part of the recon screen",
+   "deep": "Serious ozone nonattainment (2015 standard): the NOx major-source line is 50 tons a year. Sized on-site gas emits about 121, so it needs a nonattainment NSR permit, and TCEQ data-center permits are halted until the ERCOT audit ends.",
+   "indicator": "air_major_tpy",
+   "category": "Environmental",
+   "severity": "major"
+  },
+  {
+   "recon": "Grid connection timing is not part of the recon screen",
+   "deep": "Large-load interconnections are paused statewide pending the ERCOT/PUCT audit (Aug 3, 2026). Grid estimate: median month 42; on-site bridge power reaches full load at month 24.",
+   "indicator": "grid_p50_months",
+   "category": "Technical",
+   "severity": "major"
+  }
+ ]
+}

@@ -1,0 +1,2 @@
+{"tool": "atria_permit_path", "input": {"target_use": "data_center"}, "credits": {"charged": 0}, "fetched_at": "2026-10-29T23:15:11.322Z",
+ "jurisdiction": {"name": "San Antonio", "kind": "city", "state": "TX"}, "permit_path": {"status": "absent", "reason": "Atria has not researched the permitting process for a hyperscale data center in San Antonio, TX yet, and on-request research is not switched on."}}

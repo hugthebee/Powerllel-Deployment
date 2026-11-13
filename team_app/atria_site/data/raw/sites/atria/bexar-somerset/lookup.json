@@ -1,0 +1,89 @@
+{
+ "tool": "atria_lookup",
+ "input": {
+  "apn": "04014-001-0917",
+  "county": "Bexar",
+  "state": "TX"
+ },
+ "credits": {
+  "charged": 100
+ },
+ "parcel": {
+  "status": "ok",
+  "value": {
+   "parcel_id": "04014-001-0917",
+   "address": "SOMERSET ROAD, TX",
+   "city": "SAN ANTONIO",
+   "county": "Bexar County",
+   "state": "TX",
+   "acreage": 104.37029556091616,
+   "zoning": null,
+   "land_use": "D1 Qualified open-space land",
+   "owner_name": "SUSTALA JERRY LYNN",
+   "centroid": {
+    "lat": 29.243388727761282,
+    "lng": -98.64314919582966
+   },
+   "geometry_rings": [
+    [
+     [
+      -98.6433514,
+      29.2381311
+     ],
+     [
+      -98.6442423,
+      29.2381312
+     ],
+     [
+      -98.6444701,
+      29.2460931
+     ],
+     [
+      -98.6461436,
+      29.2461321
+     ],
+     [
+      -98.6462184,
+      29.246253
+     ],
+     [
+      -98.6448535,
+      29.2482053
+     ],
+     [
+      -98.6442792,
+      29.2489966
+     ],
+     [
+      -98.6401943,
+      29.244814
+     ],
+     [
+      -98.6402743,
+      29.2381244
+     ],
+     [
+      -98.6433514,
+      29.2381311
+     ]
+    ]
+   ],
+   "source_layer_url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0",
+   "attributes": {
+    "PropID": 1455667,
+    "Geo_id": "04014-001-0917",
+    "Situs": "SOMERSET ROAD, TX",
+    "Owner_Name": "SUSTALA JERRY LYNN",
+    "addr_city": "SAN ANTONIO",
+    "legal_desc": "CB 4014  P-91A (104.129 AC) ABS 617  REF 81500-091-6170",
+    "state_cd": "D1",
+    "legal_acre": 104.129
+   }
+  },
+  "source": {
+   "name": "BCAD Parcels (services.arcgis.com), parcel layer used for Bexar County, TX",
+   "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0"
+  },
+  "fetched_at": "2026-10-30T16:51:41.002Z"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "uniqueIdField": {
+  "name": "OBJECTID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "PRIMARY_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "Facility Site Name",
+   "sqlType": "sqlTypeOther",
+   "length": 150,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The public or commercial name of a facility site (i.e., the full name that commonly appears on invoices, signs, or other business documents, or as assigned by the state when the name is ambiguous).\",\"fieldValueType\":\"nameOrTitle\"}"
+  },
+  {
+   "name": "REGISTRY_ID",
+   "type": "esriFieldTypeString",
+   "alias": "Registry ID",
+   "sqlType": "sqlTypeOther",
+   "length": 12,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The identification number assigned by the EPA Facility Registry System to uniquely identify a facility site.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+  },
+  {
+   "name": "LATITUDE83",
+   "type": "esriFieldTypeDouble",
+   "alias": "Latitude Measure (NAD83)",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The measure of the angular distance on a meridian north or south of the equator standardized to NAD83 horizontal datum. \",\"fieldValueType\":\"coordinate\"}"
+  },
+  {
+   "name": "LONGITUDE83",
+   "type": "esriFieldTypeDouble",
+   "alias": "Longitude Measure (NAD83)",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The measure of the angular distance on a meridian east or west of the prime meridian standardized to NAD83 horizontal datum. \",\"fieldValueType\":\"coordinate\"}"
+  },
+  {
+   "name": "ACTIVE_STATUS",
+   "type": "esriFieldTypeString",
+   "alias": "Active Status",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The status of the environmental interest at the facility or site (e.g., Active, Inactive, Operating, Proposed for NPL, Deleted from Final NPL, Currently on Final NPL).\",\"fieldValueType\":\"typeOrCategory\"}"
+  },
+  {
+   "name": "FAC_URL",
+   "type": "esriFieldTypeString",
+   "alias": "Facility URL",
+   "sqlType": "sqlTypeOther",
+   "length": 100,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"Web link to the EPA Facility Registry Service page for detailed facility information.\",\"fieldValueType\":\"description\"}"
+  },
+  {
+   "name": "CITY_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "City Name",
+   "sqlType": "sqlTypeOther",
+   "length": 60,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The name of the city, town, village or other locality, when identifiable, within whose boundaries (the majority of) the facility site is located. This is not always the same as the city used for USPS mail delivery.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "PRIMARY_NAME": "GERDAU MIDLOTHIAN PLANT",
+    "REGISTRY_ID": "110000459183",
+    "LATITUDE83": 32.458248999999995,
+    "LONGITUDE83": -97.03660699999999,
+    "ACTIVE_STATUS": "Y",
+    "FAC_URL": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110000459183",
+    "CITY_NAME": "MIDLOTHIAN"
+   }
+  }
+ ]
+}

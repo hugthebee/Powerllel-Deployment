@@ -1,0 +1,170 @@
+{
+ "_generated_from": "Atria_Data_Model_Map.xlsx by scripts/build_config.py; do not edit by hand",
+ "rows": [
+  {
+   "id": "thesis.organization_type",
+   "group": "Thesis",
+   "item": "Organization type (developer, investor/lender, on-site power provider, utility)",
+   "feeds": "All (changes copy and which outputs lead)",
+   "default": "Investor",
+   "default_value": null,
+   "frequency": "Once",
+   "required": false,
+   "row": 5
+  },
+  {
+   "id": "thesis.states_isos_load",
+   "group": "Thesis",
+   "item": "States / ISOs / load zones of interest",
+   "feeds": "1 Land, 3 Timing",
+   "default": "Texas (ERCOT)",
+   "default_value": null,
+   "frequency": "Per thesis change",
+   "required": false,
+   "row": 6
+  },
+  {
+   "id": "thesis.target_campus_mw",
+   "group": "Thesis",
+   "item": "Target campus MW, opening date, ramp to full load",
+   "feeds": "2 Power need, 3 Timing",
+   "default": "Per-site default from acreage",
+   "default_value": null,
+   "frequency": "Per project",
+   "required": false,
+   "row": 7
+  },
+  {
+   "id": "thesis.category_weights",
+   "group": "Thesis",
+   "item": "Category weights (Speed to power, Environmental, Local risks, Moratorium risks, Security) or priority template",
+   "feeds": "Formula weights w_k",
+   "default": "Atria defaults",
+   "default_value": null,
+   "frequency": "Per thesis change",
+   "required": false,
+   "row": 8
+  },
+  {
+   "id": "thesis.cost_of_delay",
+   "group": "Thesis",
+   "item": "Cost of delay: discount rate or $ per month late",
+   "feeds": "Formula time term r",
+   "default": "15%/yr",
+   "default_value": 0.15,
+   "frequency": "Per thesis change",
+   "required": false,
+   "row": 9
+  },
+  {
+   "id": "thesis.risk_appetite",
+   "group": "Thesis",
+   "item": "Risk appetite (max stall probability)",
+   "feeds": "Gate / filter on P_stall",
+   "default": "Medium",
+   "default_value": null,
+   "frequency": "Per thesis change",
+   "required": false,
+   "row": 10
+  },
+  {
+   "id": "power.resources_allowed",
+   "group": "Power",
+   "item": "Resources allowed (gas turbine, engine, fuel cell, battery, wind, solar, nuclear), carbon limit",
+   "feeds": "Faraday (D)",
+   "default": "All allowed, no carbon cap",
+   "default_value": null,
+   "frequency": "Per project",
+   "required": false,
+   "row": 11
+  },
+  {
+   "id": "power.load_profile",
+   "group": "Power",
+   "item": "Load profile: IT load, cooling type (air, evaporative, liquid), redundancy (N+1, 2N)",
+   "feeds": "2 Power need; water demand",
+   "default": "Air-cooled, N+1",
+   "default_value": null,
+   "frequency": "Per project",
+   "required": false,
+   "row": 12
+  },
+  {
+   "id": "permits.accept_a_majorsource",
+   "group": "Permits",
+   "item": "Accept a major-source air permit? Max months to permit",
+   "feeds": "C air-permit path filter",
+   "default": "Only if needed",
+   "default_value": null,
+   "frequency": "Per thesis change",
+   "required": false,
+   "row": 13
+  },
+  {
+   "id": "economics.bridge_contract_price",
+   "group": "Economics",
+   "item": "Bridge contract price ($/MWh or $/kW-month), post-grid backup revenue, minimum IRR",
+   "feeds": "F underwriting",
+   "default": "Assumption values",
+   "default_value": null,
+   "frequency": "Per deal",
+   "required": false,
+   "row": 14
+  },
+  {
+   "id": "sites.own_site_list",
+   "group": "Sites",
+   "item": "Own site list (address, lat/lng or APN + county); site control status per site",
+   "feeds": "Adds \"My sites\"; Land",
+   "default": "None",
+   "default_value": null,
+   "frequency": "When sites change",
+   "required": false,
+   "row": 15
+  },
+  {
+   "id": "security.buyer_ownership_and",
+   "group": "Security",
+   "item": "Buyer ownership and nationality of investors (for Texas SB 17 and CFIUS)",
+   "feeds": "Security gate G",
+   "default": "Customer must state",
+   "default_value": null,
+   "frequency": "Per deal (legal check)",
+   "required": true,
+   "row": 16
+  },
+  {
+   "id": "grid.utility_conversations",
+   "group": "Grid",
+   "item": "Utility conversations, service request numbers, study results, approved commissioning plan",
+   "feeds": "Updates model A from estimate to actual",
+   "default": "None",
+   "default_value": null,
+   "frequency": "Whenever received",
+   "required": false,
+   "row": 17
+  },
+  {
+   "id": "calibration.past_project_timelines",
+   "group": "Calibration",
+   "item": "Past project timelines (request → study → energized), outcomes of past sites",
+   "feeds": "Trains models A and B (proprietary data)",
+   "default": "None",
+   "default_value": null,
+   "frequency": "Once, then per project",
+   "required": false,
+   "row": 18
+  },
+  {
+   "id": "commercial.tenant_offtaker_status",
+   "group": "Commercial",
+   "item": "Tenant / offtaker status, financing stage",
+   "feeds": "B commercial stall layer",
+   "default": "Unknown",
+   "default_value": null,
+   "frequency": "Monthly",
+   "required": false,
+   "row": 19
+  }
+ ]
+}

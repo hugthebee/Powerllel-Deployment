@@ -1,0 +1,36 @@
+{
+ "read_date": "2026-11-02",
+ "documents": [
+  {
+   "id": "elpaso-ktep-0606",
+   "site_id": "el-paso-caliente",
+   "jurisdiction": "El Paso (city and county)",
+   "kind": "Local news",
+   "date": "2026-06-06",
+   "title": "El Paso residents voice concerns over rapid rise of data centers in Borderland region",
+   "publisher": "KTEP / KWBU",
+   "url": "https://www.kwbu.org/news-from-across-texas/2026-06-06/el-paso-residents-voice-concerns-over-rapid-rise-of-data-centers-in-borderland-region",
+   "text": "Residents packed El Paso City Council meetings over Meta's data center, which could use up to 2.5 million gallons of water a day; El Paso Electric is seeking approval for a 366 MW gas plant to serve it. On May 26 the council voted unanimously to stop incentivizing data centers. Sembrando Esperanza collected more than 1,500 petition signatures. No moratorium was proposed. Claire Wells, Northeast El Paso resident: \"For how many years can the water underneath this desert support both its people and the new data centers?\" Marcos Sanchez, high school student: \"Our city is not built for this infrastructure that these meta data centers want.\" Rep. Josh Acevedo: \"A bad deal is a bad deal and it should be broken.\" City Representative Chris Canales: \"Not every project that generates revenue is automatically the best fit for the city\" Meta spokesperson: \"In El Paso, we will restore 200% of the water consumed by the data center to local watersheds.\" Michael Ramirez, Sembrando Esperanza volunteer: \"it's about disclosing these things to us because we deserve to know. We should know. And we should have a say in it.\"",
+   "llm_answer": "{\"relevant\": true, \"events\": [], \"statements\": [{\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"water\"], \"quote\": \"For how many years can the water underneath this desert support both its people and the new data centers?\"}, {\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"other\"], \"quote\": \"Our city is not built for this infrastructure that these meta data centers want.\"}, {\"speaker_role\": \"official\", \"stance\": \"oppose\", \"concerns\": [\"water\", \"air_quality\"], \"quote\": \"A bad deal is a bad deal and it should be broken.\"}, {\"speaker_role\": \"official\", \"stance\": \"neutral\", \"concerns\": [\"tax_breaks\"], \"quote\": \"Not every project that generates revenue is automatically the best fit for the city\"}, {\"speaker_role\": \"business\", \"stance\": \"support\", \"concerns\": [\"water\"], \"quote\": \"In El Paso, we will restore 200% of the water consumed by the data center to local watersheds.\"}, {\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"developer_trust\"], \"quote\": \"it's about disclosing these things to us because we deserve to know. We should know. And we should have a say in it.\"}]}"
+  }
+ ],
+ "posts_per_week": [],
+ "state": {
+  "p_state": null,
+  "note": "Not on the ERCOT grid (El Paso Electric, WECC): the ERCOT interconnection pause does not apply. The TCEQ halt on data-center permits does.",
+  "events": [
+   {
+    "date": "2026-09-21",
+    "title": "Governor directs TCEQ to \"halt all permits sought by data centers until the Electric Reliability Council of Texas (ERCOT) completes its audit\"",
+    "applies": "Air permit for on-site gas",
+    "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+   }
+  ]
+ },
+ "approval": {
+  "value": "No zoning approval: El Paso County has no zoning authority outside cities. Expect county platting, floodplain review and site permits.",
+  "note": "Texas counties have no general zoning authority (Tex. Loc. Gov. Code ch. 231), per Atria zoning jurisdiction. Hill County adopted a data-center moratorium in 2026 and rescinded it after a federal lawsuit argued Texas counties lack that authority.",
+  "source": "Atria: zoning jurisdiction + Texas Local Government Code",
+  "url": "https://www.sacurrent.com/news/texas-news/texas-county-pauses-data-center-construction-in-rural-areas-for-a-year/"
+ }
+}

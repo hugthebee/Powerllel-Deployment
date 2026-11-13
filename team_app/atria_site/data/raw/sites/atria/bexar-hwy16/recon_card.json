@@ -1,0 +1,170 @@
+{
+ "apn": "04296-000-0020",
+ "ownerCity": "CALLIHAM, TX",
+ "address": "S STATE HWY 16, VON ORMY, TX 78073",
+ "score": 88,
+ "facts": {
+  "lotSize": "166 ac",
+  "zoning": "Unzoned / rural",
+  "zoningNote": "no parcel-level zoning layer",
+  "fiberPop": "11 mi",
+  "fiberNote": "nearest carrier facility",
+  "owner": "REEH PARTNERS LTD"
+ },
+ "why": "This 166 acre Bexar County parcel clears every core screening threshold with strong margin: ample contiguous acreage, a 138kV+ substation less than half a mile away, flat buildable terrain, and effectively vacant land under an acquirable private owner. The only soft gap is that confirmed carrier fiber is 11.4 miles out rather than within the preferred 5 mile range, which is a due-diligence item rather than a disqualifier.",
+ "measured": [
+  {
+   "label": "Acreage",
+   "state": "inside",
+   "text": "166 acres, at least 75 acres. County parcel layer."
+  },
+  {
+   "label": "Substation distance",
+   "state": "inside",
+   "text": "0.45 mi, limit 1 mi. HIFLD substations."
+  },
+  {
+   "label": "Highway distance",
+   "state": "inside",
+   "text": "0.68 mi, limit 5 mi. NTAD National Highway Network."
+  },
+  {
+   "label": "Flood zone",
+   "state": "inside",
+   "text": "X, one of X, X (unshaded), B, C, D. FEMA National Flood Hazard Layer."
+  },
+  {
+   "label": "Mean slope",
+   "state": "inside",
+   "text": "1.2%, limit 8%. USGS 3DEP elevation."
+  },
+  {
+   "label": "Effectively vacant",
+   "state": "inside",
+   "text": "yes. OpenStreetMap / USA Structures building footprints."
+  },
+  {
+   "label": "Parcel compactness",
+   "state": "inside",
+   "text": "0.78, at least 0.2. County parcel layer."
+  },
+  {
+   "label": "Owner acquirable",
+   "state": "inside",
+   "text": "yes. Owner classification (assessor name)."
+  },
+  {
+   "label": "Building footprint",
+   "state": null,
+   "text": "536 sq ft. OpenStreetMap / USA Structures building footprints."
+  },
+  {
+   "label": "Fiber facility distance",
+   "state": null,
+   "text": "11.4 mi. PeeringDB interconnection facilities."
+  },
+  {
+   "label": "Population within 2 mi",
+   "state": null,
+   "text": "1,786 people. US Census ACS."
+  },
+  {
+   "label": "Opportunity Zone",
+   "state": null,
+   "text": "yes. IRS Qualified Opportunity Zones."
+  }
+ ],
+ "read": [
+  {
+   "dir": "For",
+   "weight": "major",
+   "text": "The parcel offers 166 contiguous acres, well above the 75 acre minimum required.",
+   "value": "166 acres"
+  },
+  {
+   "dir": "For",
+   "weight": "decisive",
+   "text": "A substation sits just 0.45 miles from the parcel, comfortably inside the 1 mile threshold.",
+   "value": "0.45 mi"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "Flat terrain at 1.2% slope makes the site easy to grade for large-footprint construction.",
+   "value": "1.2 %"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "Only a 536 sq ft structure exists on the tract, so the land is effectively vacant for new construction.",
+   "value": "536 sq ft across 1 building, 0.01% of parcel"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "The parcel sits in Flood Zone X, avoiding flood-related construction risk.",
+   "value": "X"
+  },
+  {
+   "dir": "Against",
+   "weight": "minor",
+   "text": "The nearest confirmed carrier interconnection facility is 11.4 miles away, outside the preferred 5 mile range.",
+   "value": "11.38 mi"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "The parcel is held by a private LLC, REEH PARTNERS LTD, which is acquirable for development.",
+   "value": "REEH PARTNERS LTD"
+  }
+ ],
+ "change": "",
+ "checks": [
+  {
+   "recon": "Zoning: Unzoned / rural (no parcel-level zoning layer)",
+   "deep": "Inside San Antonio city limits despite the Von Ormy address, zoned BP (Business Park, Sec. 35-347) on 99.6% of the parcel. Since Oct 29, 2026 every new data center in the city needs a council Specific Use Authorization, and data centers are limited to heavy commercial and industrial districts.",
+   "indicator": "zoning",
+   "category": "Policy",
+   "severity": "major"
+  },
+  {
+   "recon": "Substation 0.45 mi",
+   "deep": "The nearest substation, Howard, is 138 kV (0.14 mi). The nearest 345 kV substation is Brooks Field, 8.5 mi away, though a 345 kV line runs along the parcel (a tap needs a new substation).",
+   "indicator": "dist_345kv_mi",
+   "category": "Technical",
+   "severity": "major"
+  },
+  {
+   "recon": "Air quality is not part of the recon screen",
+   "deep": "Serious ozone nonattainment (2015 standard): the NOx major-source line is 50 tons a year, so sized on-site gas likely needs a nonattainment NSR permit, and TCEQ data-center permits are halted until the ERCOT audit ends. A gas transmission pipeline is 0.06 mi away, so gas supply itself is easy.",
+   "indicator": "attainment",
+   "category": "Environmental",
+   "severity": "major"
+  },
+  {
+   "recon": "Grid connection timing is not part of the recon screen",
+   "deep": "Large-load interconnections are paused statewide pending the ERCOT/PUCT audit (Aug 3, 2026); see the grid arrival estimate on the Technical page.",
+   "indicator": "grid_p50_months",
+   "category": "Technical",
+   "severity": "major"
+  }
+ ],
+ "_note": "The Atria Scout recon card for this parcel, as pasted by the user on 2026-10-30 (recon \"Powered land screening: Bexar County\", scored Sep 29, 2026). checks: where the deep dive reads the parcel differently, from the Atria screen of 2026-10-30.",
+ "recon": {
+  "title": "Powered land screening: Bexar County",
+  "use": "Data Center",
+  "state": "TX",
+  "criteria": "75+ acres",
+  "qualified": 152,
+  "assessed": 1040,
+  "scoredByRecon": 394
+ },
+ "tier": "Solid fit",
+ "tierNote": "Most criteria met - review outliers before pursuing.",
+ "asOf": "2026-09-29",
+ "map": {
+  "image": "atria/bexar-hwy16.jpg",
+  "bbox": null,
+  "imageSource": "Esri World Imagery"
+ }
+}

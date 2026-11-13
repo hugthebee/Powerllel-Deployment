@@ -1,0 +1,6 @@
+{"tool": "atria_zoning_standards", "credits": {"charged": 50}, "fetched_at": "2026-10-29T23:21:24.662Z",
+ "district": "MI-1", "description": "Mixed Light Industry", "jurisdiction": "San Antonio",
+ "permittedUses": ["agricultural", "commercial", "light industrial"], "frontSetbackFt": 20, "confidence": "low", "extractedAt": "2026-10-29T23:19:04.668565+00:00",
+ "purpose": "Encourages the development of mixed agricultural, commercial and light industrial uses that are internally compatible, in an effort to achieve well designed development and provide a more efficient arrangement of land uses, building, and circulation systems. (35-310.18)",
+ "overlays": ["Airport Hazard Overlay District (AHOD)"], "zoningCase": "20030173",
+ "source": "https://docsonline.sanantonio.gov/fileuploads/dsd/examplespermitteduses.pdf"}

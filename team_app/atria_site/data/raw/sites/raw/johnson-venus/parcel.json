@@ -1,0 +1,115 @@
+[
+ {
+  "layerId": 0,
+  "layerName": "StratMap Land Parcels 48 Most Recent",
+  "displayFieldName": "OWNER_NAME",
+  "value": "PRAIRIE RIDGE SW LP",
+  "attributes": {
+   "objectid": "8155873",
+   "PROP_ID": "1865",
+   "GEO_ID": "126.0026.00250",
+   "OWNER_NAME": "PRAIRIE RIDGE SW LP",
+   "NAME_CARE": "Null",
+   "LEGAL_AREA": "644.5241",
+   "GIS_AREA": "380.301784",
+   "LEGAL_DESC": "Null",
+   "LAND_VALUE": "61728",
+   "IMP_VALUE": "0",
+   "MKT_VALUE": "61728",
+   "SITUS_ADDR": "11640 CR 506",
+   "SITUS_NUM": "Null",
+   "SITUS_STRE": "Null",
+   "SITUS_ST_1": "Null",
+   "SITUS_ST_2": "Null",
+   "SITUS_CITY": "Null",
+   "SITUS_STAT": "Null",
+   "SITUS_ZIP": "Null",
+   "MAIL_ADDR": "Null",
+   "MAIL_LINE1": "Null",
+   "MAIL_LINE2": "Null",
+   "MAIL_CITY": "Null",
+   "MAIL_STAT": "Null",
+   "MAIL_ZIP": "Null",
+   "SOURCE": "JOHNSON APPRAISAL DISTRICT",
+   "DATE_ACQ": "46235",
+   "FIPS": "48251",
+   "COUNTY": "JOHNSON",
+   "TAX_YEAR": "2026",
+   "YEAR_BUILT": "Null",
+   "shape": "Polygon",
+   "st_area(shape)": "2168216.410973",
+   "st_perimeter(shape)": "6287.633747",
+   "LGL_AREA_UNIT": "Null",
+   "GIS_AREA_UNIT": "Null",
+   "STAT_LAND_USE": "Null",
+   "LOC_LAND_USE": "Null"
+  },
+  "geometryType": "esriGeometryPolygon",
+  "geometry": {
+   "rings": [
+    [
+     [
+      -97.08706246573173,
+      32.466004223205694
+     ],
+     [
+      -97.08705530615892,
+      32.457864654790264
+     ],
+     [
+      -97.08814200175138,
+      32.45747383778765
+     ],
+     [
+      -97.0882334673153,
+      32.457625162676656
+     ],
+     [
+      -97.09591381775445,
+      32.45476867073815
+     ],
+     [
+      -97.10144030189136,
+      32.45274133362697
+     ],
+     [
+      -97.10160238312145,
+      32.452643105865356
+     ],
+     [
+      -97.10177193743638,
+      32.452938705284446
+     ],
+     [
+      -97.10573243704754,
+      32.45885556087432
+     ],
+     [
+      -97.09365373105976,
+      32.46473397378074
+     ],
+     [
+      -97.09073428184486,
+      32.466154506028815
+     ],
+     [
+      -97.0898812380578,
+      32.466568485084444
+     ],
+     [
+      -97.08803899283606,
+      32.46745207231415
+     ],
+     [
+      -97.08706246573173,
+      32.466004223205694
+     ]
+    ]
+   ],
+   "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+   }
+  }
+ }
+]

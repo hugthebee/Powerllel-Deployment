@@ -1,0 +1,25 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "NAME": "Wichita Mountains",
+    "STATE": "OK",
+    "AGENCY": "USDI-FWS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Caney Creek Wilderness",
+    "STATE": "AR",
+    "AGENCY": "USDA-FS"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "Big Bend NP",
+    "STATE": "TX",
+    "AGENCY": "USDI-NPS"
+   }
+  }
+ ]
+}

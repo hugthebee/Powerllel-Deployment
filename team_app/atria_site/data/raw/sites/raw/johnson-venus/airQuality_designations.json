@@ -1,0 +1,35 @@
+[
+ {
+  "layer": "Ozone 8-hr (1997 standard)",
+  "pollutant_name": "8-Hour Ozone (1997 Standard)",
+  "area_name": "Dallas-Fort Worth Area",
+  "current_status": "Nonattainment",
+  "classification": "Subpart 2/Serious",
+  "CurrentYearDesignValue": 0.083,
+  "dv_units": "ppm",
+  "designation_url": "https://www.govinfo.gov/link/fr/69/23858",
+  "classification_url": "https://www.govinfo.gov/link/fr/69/23951"
+ },
+ {
+  "layer": "Ozone 8-hr (2008 standard)",
+  "pollutant_name": "8-Hour Ozone (2008 Standard)",
+  "area_name": "Dallas-Fort Worth",
+  "current_status": "Nonattainment",
+  "classification": "Severe 15",
+  "CurrentYearDesignValue": 0.083,
+  "dv_units": "ppm",
+  "designation_url": "https://www.govinfo.gov/link/fr/77/30088",
+  "classification_url": null
+ },
+ {
+  "layer": "Ozone 8-hr (2015 Standard)",
+  "pollutant_name": "8-Hour Ozone (2015 Standard)",
+  "area_name": "Dallas-Fort Worth",
+  "current_status": "Nonattainment",
+  "classification": "Serious",
+  "CurrentYearDesignValue": 0.083,
+  "dv_units": "ppm",
+  "designation_url": "https://www.govinfo.gov/link/fr/83/25776",
+  "classification_url": null
+ }
+]

@@ -1,0 +1,128 @@
+{
+ "_generated_from": "Atria_Data_Model_Map.xlsx by scripts/build_config.py; do not edit by hand",
+ "rows": [
+  {
+   "id": "local_meetings",
+   "source": "Local meetings (city council, county commissioners, planning & zoning)",
+   "where": "Legistar API (/events, /matters, /eventitems) or crawl agenda/minutes PDFs; YouTube/meeting video transcripts",
+   "keywords": "\"data center\", \"hyperscale\", \"large load\", \"moratorium\", \"pause on development\", \"specific use permit\", \"conditional use\", \"rezoning\", \"planned development\", \"substation\", \"transmission line\", \"turbine\", \"generator\", \"noise\", \"water\", \"tax abatement\", \"Chapter 312\"",
+   "extracts": "Is it relevant (yes/no) → event type and stage (public request / staff study / first reading / adopted / extended / repealed / rejected) → date, body, vote count, project name, developer, MW, parcel/address → speakers for and against",
+   "frequency": "Daily",
+   "search_terms": [
+    "data center",
+    "hyperscale",
+    "large load",
+    "moratorium",
+    "pause on development",
+    "specific use permit",
+    "conditional use",
+    "rezoning",
+    "planned development",
+    "substation",
+    "transmission line",
+    "turbine",
+    "generator",
+    "noise",
+    "water",
+    "tax abatement",
+    "Chapter 312"
+   ],
+   "frequency_days": 1,
+   "row": 4
+  },
+  {
+   "id": "local_news",
+   "source": "Local news",
+   "where": "News search API or RSS by county/city names",
+   "keywords": "county or city name + \"data center\" OR \"moratorium\" OR \"power plant\" OR \"TCEQ permit\"",
+   "extracts": "Relevance → project mentions → stance of quoted residents and officials → concern categories",
+   "frequency": "Daily",
+   "search_terms": [
+    "data center",
+    "moratorium",
+    "power plant",
+    "TCEQ permit"
+   ],
+   "frequency_days": 1,
+   "row": 5
+  },
+  {
+   "id": "public_social",
+   "source": "Public social media (public groups, pages)",
+   "where": "Platform APIs where permitted; otherwise licensed data (e.g. Spark-style monitoring)",
+   "keywords": "Project names, developer names, city + \"data center\"",
+   "extracts": "Stance per post (support / oppose / neutral), concern category, engagement (comments, shares); never store personal data beyond aggregates",
+   "frequency": "Daily",
+   "search_terms": [
+    "data center"
+   ],
+   "frequency_days": 1,
+   "row": 6
+  },
+  {
+   "id": "petitions",
+   "source": "Petitions",
+   "where": "Public petition sites (search by city + data center)",
+   "keywords": "\"data center\" + city/county",
+   "extracts": "Signature counts over time; demands",
+   "frequency": "Weekly",
+   "search_terms": [
+    "data center"
+   ],
+   "frequency_days": 7,
+   "row": 7
+  },
+  {
+   "id": "tceq",
+   "source": "TCEQ (air permits)",
+   "where": "Pending NSR permits page; public notices; contested case database",
+   "keywords": "Applicant names, data center operators, turbine/engine projects, \"contested case hearing\", \"request for hearing\"",
+   "extracts": "New applications near tracked sites; hearing requests = opposition signal",
+   "frequency": "Weekly",
+   "search_terms": [
+    "contested case hearing",
+    "request for hearing"
+   ],
+   "frequency_days": 7,
+   "row": 8
+  },
+  {
+   "id": "ercot_and",
+   "source": "ERCOT and PUCT",
+   "where": "ERCOT market notices; PUCT Interchange filings",
+   "keywords": "\"large load\", \"Batch Zero\", \"verification\", \"Good Cause Exception\", \"PGRR\", \"SB 6\", \"net metering\", \"curtailment\"",
+   "extracts": "Rule change summaries; which sites/zones affected; effective dates",
+   "frequency": "Daily",
+   "search_terms": [
+    "large load",
+    "Batch Zero",
+    "verification",
+    "Good Cause Exception",
+    "PGRR",
+    "SB 6",
+    "net metering",
+    "curtailment"
+   ],
+   "frequency_days": 1,
+   "row": 9
+  },
+  {
+   "id": "state_government",
+   "source": "State government",
+   "where": "Governor and Attorney General press releases; Texas Legislature online",
+   "keywords": "\"data center\", \"large load\", \"moratorium\", \"county authority\", \"preemption\", \"foreign ownership\"",
+   "extracts": "Directives, AG opinions, bills; scenario probability updates (human reviewed)",
+   "frequency": "Daily during session; weekly otherwise",
+   "search_terms": [
+    "data center",
+    "large load",
+    "moratorium",
+    "county authority",
+    "preemption",
+    "foreign ownership"
+   ],
+   "frequency_days": 1,
+   "row": 10
+  }
+ ]
+}

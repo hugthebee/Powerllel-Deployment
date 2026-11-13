@@ -1,0 +1,31 @@
+date,build,tool,site,credits,note
+2026-10-28,atria-power-desk,atria_lookup,milam-sandow,100,inherited cached response (data/raw/sites/atria)
+2026-10-28,atria-power-desk,atria_screen,milam-sandow,440,22 modules; generation failed and was not billed
+2026-10-28,atria-power-desk,atria_lookup,el-paso-caliente,100,inherited cached response (data/raw/sites/atria)
+2026-10-28,atria-power-desk,atria_screen,el-paso-caliente,440,22 modules; generation failed and was not billed
+2026-10-28,atria-power-desk,atria_lookup,johnson-venus,100,inherited cached response (data/raw/sites/atria)
+2026-10-28,atria-power-desk,atria_screen,johnson-venus,440,22 modules; generation failed and was not billed
+2026-10-29,atria-site-decisions,atria_coverage,bexar-pleasanton,0,free
+2026-10-29,atria-site-decisions,atria_quote,bexar-pleasanton,0,free
+2026-10-29,atria-site-decisions,atria_lookup,bexar-pleasanton,100,APN 04005-000-0780
+2026-10-29,atria-site-decisions,atria_screen,bexar-pleasanton,575,30 modules; zoningRules pending (not charged); gridCapacity absent
+2026-10-29,atria-site-decisions,atria_proximity,bexar-pleasanton,10,nearest 345 kV substations (straight line)
+2026-10-29,atria-site-decisions,atria_permit_path,bexar-pleasanton,0,absent: San Antonio data-center path not researched yet; not charged
+2026-10-29,atria-site-decisions,atria_zoning_standards,bexar-pleasanton,50,MI-1 rules after the free extraction job; confidence low
+2026-10-30,atria-site-decisions,atria_quote,bexar (4 parcels),0,free: 30-module screen 590 credits per parcel
+2026-10-30,atria-site-decisions,atria_lookup,bexar-somerset,100,APN 04014-001-0917
+2026-10-30,atria-site-decisions,atria_lookup,bexar-hwy16,100,APN 04296-000-0020
+2026-10-30,atria-site-decisions,atria_lookup,bexar-hwy87,100,APN 05135-000-0058
+2026-10-30,atria-site-decisions,atria_lookup,bexar-rockport,100,APN 04230-000-0032
+2026-10-30,atria-site-decisions,atria_screen,bexar-somerset,500,23 modules + adjoining-parcel counts; not ok: waterSupply partial; zoningRules absent
+2026-10-30,atria-site-decisions,atria_screen,bexar-hwy16,485,23 modules + adjoining-parcel counts; not ok: wetlands; waterSupply; zoningRules
+2026-10-30,atria-site-decisions,atria_screen,bexar-hwy87,485,23 modules + adjoining-parcel counts; not ok: floodZone; wetlands; waterSupply; zoningRules
+2026-10-30,atria-site-decisions,atria_screen,bexar-rockport,485,23 modules + adjoining-parcel counts; not ok: wetlands; waterSupply; zoningRules
+2026-10-30,atria-site-decisions,atria_proximity,bexar-somerset,10,nearest 345 kV substations (straight line)
+2026-10-30,atria-site-decisions,atria_proximity,bexar-hwy16,10,nearest 345 kV substations (straight line)
+2026-10-30,atria-site-decisions,atria_proximity,bexar-rockport,10,nearest 345 kV substations (straight line)
+2026-10-30,atria-site-decisions,atria_screen,johnson-venus,90,6 modules missing from the older screen (hazards, climate, fiber, habitat, species, karst)
+2026-10-30,atria-site-decisions,atria_screen,milam-sandow,90,6 modules missing from the older screen (hazards, climate, fiber, habitat, species, karst)
+2026-10-30,atria-site-decisions,atria_screen,el-paso-caliente,90,6 modules missing from the older screen (hazards, climate, fiber, habitat, species, karst)
+2026-11-02,atria-site-decisions,atria_screen,el-paso-caliente,15,floodZone on the parcel outline: no digital FEMA map
+2026-11-02,atria-site-decisions,atria_screen,milam-sandow,15,floodZone on the parcel outline: no digital FEMA map

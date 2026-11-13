@@ -1,0 +1,454 @@
+{
+ "objectIdFieldName": "FID",
+ "uniqueIdField": {
+  "name": "FID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "Plant_Code",
+   "type": "esriFieldTypeInteger",
+   "alias": "Energy Information Administration (EIA) Power Plant Identification Number",
+   "sqlType": "sqlTypeInteger",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"A unique identification number assigned by the Energy Information Administration (EIA) to each power plant. This identifier is used across EIA surveys and reporting systems.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+  },
+  {
+   "name": "Plant_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Electric Power Plant Name",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 58,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The official name of the electric power plant as reported to the Energy Information Administration (EIA). Plant names are used for identification, reporting, and public reference.\",\"fieldValueType\":\"nameOrTitle\"}"
+  },
+  {
+   "name": "Utility_Na",
+   "type": "esriFieldTypeString",
+   "alias": "Operating Utility Name",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 65,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The name of the utility responsible for day-to-day operations of the power plant. This field reflects operational control rather than ownership in all cases.\",\"fieldValueType\":\"nameOrTitle\"}"
+  },
+  {
+   "name": "PrimSource",
+   "type": "esriFieldTypeString",
+   "alias": "Primary Energy Source",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 14,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The primary fuel or energy source used by the power plant for electricity generation. This field reflects the dominant source reported to the Energy Information Administration (EIA).\",\"fieldValueType\":\"typeOrCategory\"}"
+  },
+  {
+   "name": "tech_desc",
+   "type": "esriFieldTypeString",
+   "alias": "Generation Technology Description",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 130,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"A description of the generation technologies or prime movers used at the plant. Technology types describe how electricity is produced from energy sources.\",\"fieldValueType\":\"description\"}"
+  },
+  {
+   "name": "Total_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Maximum Summer Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The maximum electrical output of the plant during summer conditions, measured in megawatts. Summer capacity accounts for performance limits due to temperature and operating conditions.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "Coal_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Coal-Fired Generation Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The net summer capacity of coal-fired electric generators at the plant. Coal capacity represents conventional thermal generation resources.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "NG_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Natural Gas Generation Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The net summer capacity of natural gas-fired electric generators at the plant. Natural gas is a major fuel source for electricity generation in the United States.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "Nuclear_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Nuclear Generation Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The net summer capacity of nuclear-powered electric generators at the plant. Nuclear capacity reflects baseload electricity generation resources.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "County",
+   "type": "esriFieldTypeString",
+   "alias": "Plant County Location",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 25,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The county containing the power plant. County names are used for sub-state analysis and reporting.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "Plant_Code": 67827,
+    "Plant_Name": "TJX 2021 DG El Paso DC",
+    "Utility_Na": "SoCore Energy LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 1.5,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "El Paso"
+   },
+   "geometry": {
+    "x": -106.33778599996322,
+    "y": 31.80773299977581
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 60300,
+    "Plant_Name": "Montana Solar Facility",
+    "Utility_Na": "El Paso Electric Co",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 3,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "El Paso"
+   },
+   "geometry": {
+    "x": -106.21889200030795,
+    "y": 31.81306099977287
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 61887,
+    "Plant_Name": "Fort Bliss (DEA EPIC)",
+    "Utility_Na": "Ameresco Federal Solutions",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 2,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "El Paso"
+   },
+   "geometry": {
+    "x": -106.37286099960771,
+    "y": 31.829985999757564
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 58562,
+    "Plant_Name": "Montana Power Station",
+    "Utility_Na": "El Paso Electric Co",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combustion Turbine",
+    "Total_MW": 352,
+    "Coal_MW": 0,
+    "NG_MW": 352,
+    "Nuclear_MW": 0,
+    "County": "El Paso"
+   },
+   "geometry": {
+    "x": -106.21194399960754,
+    "y": 31.823888999946924
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 9,
+    "Plant_Name": "Copper",
+    "Utility_Na": "El Paso Electric Co",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combustion Turbine",
+    "Total_MW": 63,
+    "Coal_MW": 0,
+    "NG_MW": 63,
+    "Nuclear_MW": 0,
+    "County": "El Paso"
+   },
+   "geometry": {
+    "x": -106.3749999996903,
+    "y": 31.75689999993475
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 54628,
+    "Plant_Name": "Phelps Dodge Refining",
+    "Utility_Na": "Phelps Dodge Refining Corp",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combustion Turbine",
+    "Total_MW": 14.8,
+    "Coal_MW": 0,
+    "NG_MW": 14.8,
+    "Nuclear_MW": 0,
+    "County": "El Paso"
+   },
+   "geometry": {
+    "x": -106.39131399993462,
+    "y": 31.76445800015473
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 50241,
+    "Plant_Name": "Tenet Hospital",
+    "Utility_Na": "Tenet Hospital Ltd",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 4.2,
+    "Coal_MW": 0,
+    "NG_MW": 4.2,
+    "Nuclear_MW": 0,
+    "County": "El Paso"
+   },
+   "geometry": {
+    "x": -106.5014000002628,
+    "y": 31.769699999978897
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 59407,
+    "Plant_Name": "Newman Solar",
+    "Utility_Na": "Newman Solar LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 10.3,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "El Paso"
+   },
+   "geometry": {
+    "x": -106.42749999998992,
+    "y": 31.978332999872684
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 3456,
+    "Plant_Name": "Newman",
+    "Utility_Na": "El Paso Electric Co",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle; Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine",
+    "Total_MW": 930.8,
+    "Coal_MW": 0,
+    "NG_MW": 930.8,
+    "Nuclear_MW": 0,
+    "County": "El Paso"
+   },
+   "geometry": {
+    "x": -106.43177700033017,
+    "y": 31.983586999857465
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 2444,
+    "Plant_Name": "Rio Grande",
+    "Utility_Na": "El Paso Electric Co",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine;",
+    "Total_MW": 313,
+    "Coal_MW": 0,
+    "NG_MW": 313,
+    "Nuclear_MW": 0,
+    "County": "Dona Ana"
+   },
+   "geometry": {
+    "x": -106.54719999955913,
+    "y": 31.804699999905186
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 57986,
+    "Plant_Name": "SunE EPE1 LLC",
+    "Utility_Na": "SunE EPE1 LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 10,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Dona Ana"
+   },
+   "geometry": {
+    "x": -106.34098600022787,
+    "y": 32.03438300020858
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 66408,
+    "Plant_Name": "Buena Vista Energy Center",
+    "Utility_Na": "Buena Vista Energy Center, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Batteries; Solar Photovoltaic;",
+    "Total_MW": 170,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Otero"
+   },
+   "geometry": {
+    "x": -106.28530099973221,
+    "y": 32.06659300005205
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 60696,
+    "Plant_Name": "Nodal Power",
+    "Utility_Na": "ENERGYneering Solutions, Inc",
+    "PrimSource": "biomass",
+    "tech_desc": "Landfill Gas",
+    "Total_MW": 3.2,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Dona Ana"
+   },
+   "geometry": {
+    "x": -106.59326000004478,
+    "y": 31.811078000137876
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 57338,
+    "Plant_Name": "Roadrunner Solar",
+    "Utility_Na": "NRG Solar Roadrunner",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 20,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Dona Ana"
+   },
+   "geometry": {
+    "x": -106.67333300016793,
+    "y": 31.79277800001267
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 54975,
+    "Plant_Name": "New Mexico State University",
+    "Utility_Na": "New Mexico State University",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combustion Turbine",
+    "Total_MW": 4.5,
+    "Coal_MW": 0,
+    "NG_MW": 4.5,
+    "Nuclear_MW": 0,
+    "County": "Dona Ana"
+   },
+   "geometry": {
+    "x": -106.45128099989509,
+    "y": 32.16481800038004
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 55210,
+    "Plant_Name": "Afton Generating Station",
+    "Utility_Na": "Public Service Co of NM",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 238.6,
+    "Coal_MW": 0,
+    "NG_MW": 238.6,
+    "Nuclear_MW": 0,
+    "County": "Dona Ana"
+   },
+   "geometry": {
+    "x": -106.84648299989075,
+    "y": 32.11418499988516
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 58010,
+    "Plant_Name": "WSMR I",
+    "Utility_Na": "Siemens Government Technologies Inc",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 4.5,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Dona Ana"
+   },
+   "geometry": {
+    "x": -106.47722000014944,
+    "y": 32.39583299991869
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64881,
+    "Plant_Name": "NMSU Solar and Storage",
+    "Utility_Na": "El Paso Electric Co",
+    "PrimSource": "solar",
+    "tech_desc": "Batteries; Solar Photovoltaic;",
+    "Total_MW": 4,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Dona Ana"
+   },
+   "geometry": {
+    "x": -106.74452899957039,
+    "y": 32.28604800005605
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 57985,
+    "Plant_Name": "SunE EPE2 LLC",
+    "Utility_Na": "SunE EPE2, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 13.6,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Dona Ana"
+   },
+   "geometry": {
+    "x": -106.9133330002543,
+    "y": 32.251666999819136
+   }
+  }
+ ]
+}

@@ -1,0 +1,912 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "uniqueIdField": {
+  "name": "OBJECTID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "GlobalID",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MAX_VOLT",
+   "type": "esriFieldTypeSingle",
+   "alias": "MAX_VOLT",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MIN_VOLT",
+   "type": "esriFieldTypeSingle",
+   "alias": "MIN_VOLT",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "STATUS",
+   "type": "esriFieldTypeString",
+   "alias": "STATUS",
+   "sqlType": "sqlTypeOther",
+   "length": 60,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LINES",
+   "type": "esriFieldTypeDouble",
+   "alias": "LINES",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LATITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LATITUDE",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LONGITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LONGITUDE",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SOURCEDATE",
+   "type": "esriFieldTypeDate",
+   "alias": "SOURCEDATE",
+   "sqlType": "sqlTypeOther",
+   "length": 8,
+   "domain": null,
+   "defaultValue": null
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "NAME": "SANTA FE",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.75359800600006,
+    "LONGITUDE": -106.49031558199994,
+    "SOURCEDATE": 1495584000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "AUSTIN",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 5,
+    "LATITUDE": 31.783020020000038,
+    "LONGITUDE": -106.41998290999999,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "PICANTE",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 6,
+    "LATITUDE": 31.880230982000057,
+    "LONGITUDE": -106.31447894099995,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "FABENS",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.50513515800003,
+    "LONGITUDE": -106.15982230499998,
+    "SOURCEDATE": 1470873600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "ASARCO",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.786002602000053,
+    "LONGITUDE": -106.51773733299996,
+    "SOURCEDATE": 1470787200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "GR",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.806602853000072,
+    "LONGITUDE": -106.32940439699996,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "FARAH",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.771727498000075,
+    "LONGITUDE": -106.36667869399997,
+    "SOURCEDATE": 1433980800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "MARLOW",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.772277832000043,
+    "LONGITUDE": -106.40753173799999,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DYER",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 31.80121947600003,
+    "LONGITUDE": -106.44258861599997,
+    "SOURCEDATE": 1433980800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DALLAS",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.764994295000065,
+    "LONGITUDE": -106.46937853299994,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TROWBRIDGE",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.76525878900003,
+    "LONGITUDE": -106.39794921899994,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SOL",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.75016058800003,
+    "LONGITUDE": -106.30698465499995,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "BIGGS",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.864129280000043,
+    "LONGITUDE": -106.33960987999995,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "PELICANO",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.72850506800006,
+    "LONGITUDE": -106.21703916199999,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "COYOTE",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.81339539800007,
+    "LONGITUDE": -106.17841618599999,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "PENDALE",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.72329685400007,
+    "LONGITUDE": -106.31983743399996,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "ASCARTE",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 7,
+    "LATITUDE": 31.75953732200003,
+    "LONGITUDE": -106.39508056099999,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "FORT BLISS",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.808504319000065,
+    "LONGITUDE": -106.42063838899998,
+    "SOURCEDATE": 1495584000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SANTA FE",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 0,
+    "LATITUDE": 31.75251897100003,
+    "LONGITUDE": -106.48877362799999,
+    "SOURCEDATE": 1440633600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308876",
+    "MAX_VOLT": 3,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.80889484200003,
+    "LONGITUDE": -106.67340914899995,
+    "SOURCEDATE": 1475452800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "RIO BOSQUE",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.661513159000037,
+    "LONGITUDE": -106.31465000399999,
+    "SOURCEDATE": 1470873600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "BORDER STEEL",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 31.966724999000064,
+    "LONGITUDE": -106.58662168699999,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "AUSTIN NORTH",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 31.784226540000077,
+    "LONGITUDE": -106.41984918499998,
+    "SOURCEDATE": 1471219200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "MONTOYA",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 31.87984776500008,
+    "LONGITUDE": -106.58589756599997,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "CLINT",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.583775390000028,
+    "LONGITUDE": -106.25523902399999,
+    "SOURCEDATE": 1470873600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "ANTHONY",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 5,
+    "LATITUDE": 32.02421500400004,
+    "LONGITUDE": -106.60199142599998,
+    "SOURCEDATE": 1470787200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "VISTA",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 31.77691650400004,
+    "LONGITUDE": -106.31292724599996,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "PIPELINE",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.944772139000065,
+    "LONGITUDE": -106.36419074499997,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DIAMOND HEAD",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.752201914000068,
+    "LONGITUDE": -106.28206696099994,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "VALLEY",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.617995051000037,
+    "LONGITUDE": -106.28571156599997,
+    "SOURCEDATE": 1470873600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DURANZO",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.77496833600003,
+    "LONGITUDE": -106.43583859599994,
+    "SOURCEDATE": 1470700800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "BORDER STEEL",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 31.965637102000073,
+    "LONGITUDE": -106.58346679199997,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DIABLO",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 31.80485727000007,
+    "LONGITUDE": -106.58745067699999,
+    "SOURCEDATE": 1430697600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "PHELPS DODGE",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.765044158000023,
+    "LONGITUDE": -106.39259014999999,
+    "SOURCEDATE": 1433980800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "THORN",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.849362305000056,
+    "LONGITUDE": -106.56555420699999,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SANTA TERESA",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 3,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.852866936000055,
+    "LONGITUDE": -106.68328406299997,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "PROLER",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.930422942000064,
+    "LONGITUDE": -106.59780768699994,
+    "SOURCEDATE": 1470787200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "MONTWOOD",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.76859499300008,
+    "LONGITUDE": -106.23292074199998,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "RIPLEY",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.83667862300007,
+    "LONGITUDE": -106.57596690699995,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "AMERICAS",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.682782219000046,
+    "LONGITUDE": -106.30565619899994,
+    "SOURCEDATE": 1470873600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "FELIPE",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.517398574000026,
+    "LONGITUDE": -106.13169639999995,
+    "SOURCEDATE": 1470873600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304667",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 31.860828894000065,
+    "LONGITUDE": -106.44538149499999,
+    "SOURCEDATE": 1471219200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "LANE",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 6,
+    "LATITUDE": 31.72204775800003,
+    "LONGITUDE": -106.30450459099995,
+    "SOURCEDATE": 1440633600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "IND CPLX",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.859136157000023,
+    "LONGITUDE": -106.31529849299994,
+    "SOURCEDATE": 1470787200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "BUTTERFIELD",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.81924488800007,
+    "LONGITUDE": -106.40390952299998,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "LEO",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.861168116000044,
+    "LONGITUDE": -106.44617937499999,
+    "SOURCEDATE": 1495584000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SUNSET NORTH",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.76914529900006,
+    "LONGITUDE": -106.49853541699997,
+    "SOURCEDATE": 1440633600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "MANN",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.75076952200004,
+    "LONGITUDE": -106.33783075899998,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "NEWMAN",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 13,
+    "LATITUDE": 31.984375000000057,
+    "LONGITUDE": -106.43481445299994,
+    "SOURCEDATE": 1479772800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "VISCOUNT",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.780147699000054,
+    "LONGITUDE": -106.38513580499995,
+    "SOURCEDATE": 1440633600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SPARKS",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.67242219900004,
+    "LONGITUDE": -106.24997094599996,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SCOTTSDALE",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 31.783867361000034,
+    "LONGITUDE": -106.36177174599999,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SHEARMAN",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.914277579000043,
+    "LONGITUDE": -106.39067882099994,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "MESA",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.806435517000068,
+    "LONGITUDE": -106.51243027899994,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "CROMO",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.81316378400004,
+    "LONGITUDE": -106.53872238799994,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SMELTER",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 31.789487887000064,
+    "LONGITUDE": -106.52463194599994,
+    "SOURCEDATE": 1470787200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SUNSET",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 31.768528142000036,
+    "LONGITUDE": -106.49769284799999,
+    "SOURCEDATE": 1440633600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "CHAPARRAL",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.002040813000065,
+    "LONGITUDE": -106.40606145399994,
+    "SOURCEDATE": 1470873600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301436",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.07590899400003,
+    "LONGITUDE": -106.17537359599999,
+    "SOURCEDATE": 1551052800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "COPPER",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.757046039000045,
+    "LONGITUDE": -106.37449882599998,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "BERGEN",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.914658098000075,
+    "LONGITUDE": -106.59187199499996,
+    "SOURCEDATE": 1470787200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP302609",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 31.505964000000063,
+    "LONGITUDE": -106.16102899999998,
+    "SOURCEDATE": 1513900800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "WRANGLER",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.712541317000046,
+    "LONGITUDE": -106.29292193699996,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "MILAGRO",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.901716732000068,
+    "LONGITUDE": -106.42295015899998,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "RIO GRANDE",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 11,
+    "LATITUDE": 31.805653558000074,
+    "LONGITUDE": -106.54705626999998,
+    "SOURCEDATE": 1430697600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "CALIENTE",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 7,
+    "LATITUDE": 31.826091708000035,
+    "LONGITUDE": -106.25054870699995,
+    "SOURCEDATE": 1453852800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "HORIZON",
+    "MAX_VOLT": 115,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.68502829700003,
+    "LONGITUDE": -106.19808421599998,
+    "SOURCEDATE": 1452470400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SOCORRO",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.64201070200005,
+    "LONGITUDE": -106.29900014999998,
+    "SOURCEDATE": 1470873600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "LIBERTY",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 115,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 31.830257020000033,
+    "LONGITUDE": -106.31600685899997,
+    "SOURCEDATE": 1470787200000
+   }
+  }
+ ]
+}

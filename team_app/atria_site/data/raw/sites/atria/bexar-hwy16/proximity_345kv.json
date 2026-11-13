@@ -1,0 +1,23 @@
+{
+ "tool": "atria_proximity",
+ "mode": "nearest",
+ "set": "substations",
+ "min_kv": 345,
+ "travel_mode": "straightline",
+ "source": "HIFLD electric substations",
+ "fetched_at": "2026-10-30T16:54:58Z",
+ "candidates": [
+  {
+   "name": "BROOKS FIELD",
+   "maxVoltageKv": 345,
+   "miles": 8.45,
+   "status": "IN SERVICE"
+  },
+  {
+   "name": "ARTHUR VON ROSENBERG",
+   "maxVoltageKv": 345,
+   "miles": 11.82,
+   "status": "IN SERVICE"
+  }
+ ]
+}

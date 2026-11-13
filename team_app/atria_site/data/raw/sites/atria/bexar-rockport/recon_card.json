@@ -1,0 +1,177 @@
+{
+ "apn": "04230-000-0032",
+ "ownerCity": "VON ORMY, TX",
+ "address": "ROCKPORT ST, VON ORMY, TX 78073",
+ "score": 86,
+ "facts": {
+  "lotSize": "149 ac",
+  "zoning": "Unzoned / rural",
+  "zoningNote": "no parcel-level zoning layer",
+  "fiberPop": "15 mi",
+  "fiberNote": "4 networks (proxy)",
+  "owner": "VOLNER ANTHONY"
+ },
+ "why": "This 148.5 acre parcel meets all core screening thresholds with a nearby 138kV+ substation, flat buildable terrain, and no on-site improvements to complicate acquisition. Fiber is unconfirmed at 15 miles from the nearest carrier hotel, which is a due-diligence item rather than a disqualifier.",
+ "measured": [
+  {
+   "label": "Acreage",
+   "state": "inside",
+   "text": "149 acres, at least 75 acres. County parcel layer."
+  },
+  {
+   "label": "Substation distance",
+   "state": "inside",
+   "text": "0.65 mi, limit 1 mi. HIFLD substations."
+  },
+  {
+   "label": "Highway distance",
+   "state": "inside",
+   "text": "2.13 mi, limit 5 mi. NTAD National Highway Network."
+  },
+  {
+   "label": "Flood zone",
+   "state": "inside",
+   "text": "X, one of X, X (unshaded), B, C, D. FEMA National Flood Hazard Layer."
+  },
+  {
+   "label": "Mean slope",
+   "state": "inside",
+   "text": "0.7%, limit 8%. USGS 3DEP elevation."
+  },
+  {
+   "label": "Effectively vacant",
+   "state": "inside",
+   "text": "yes. OpenStreetMap / USA Structures building footprints."
+  },
+  {
+   "label": "Parcel compactness",
+   "state": "inside",
+   "text": "0.35, at least 0.2. County parcel layer."
+  },
+  {
+   "label": "Owner acquirable",
+   "state": "inside",
+   "text": "yes. Owner classification (assessor name)."
+  },
+  {
+   "label": "Building footprint",
+   "state": null,
+   "text": "0 sq ft. OpenStreetMap / USA Structures building footprints."
+  },
+  {
+   "label": "Fiber facility distance",
+   "state": null,
+   "text": "15 mi. PeeringDB interconnection facilities."
+  },
+  {
+   "label": "Population within 2 mi",
+   "state": null,
+   "text": "3,232 people. US Census ACS."
+  },
+  {
+   "label": "Opportunity Zone",
+   "state": null,
+   "text": "yes. IRS Qualified Opportunity Zones."
+  }
+ ],
+ "read": [
+  {
+   "dir": "For",
+   "weight": "major",
+   "text": "The parcel offers 148.5 contiguous acres, nearly double the 75 acre minimum.",
+   "value": "148.5 acres"
+  },
+  {
+   "dir": "For",
+   "weight": "decisive",
+   "text": "A 138kV+ class substation sits just 0.65 miles from the parcel, well inside the 1 mile requirement.",
+   "value": "0.65 mi"
+  },
+  {
+   "dir": "For",
+   "weight": "major",
+   "text": "The parcel has zero building footprint, confirming it is greenfield land ready for development.",
+   "value": "0 sq ft across 0 buildings, 0.00% of parcel"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "Flat terrain at 0.7% slope supports large-footprint construction with minimal grading cost.",
+   "value": "0.7 %"
+  },
+  {
+   "dir": "Against",
+   "weight": "major",
+   "text": "The nearest carrier interconnection facility is 15 miles away, beyond the preferred 5 mile confirmation range.",
+   "value": "15.0 mi"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "The parcel shape is moderately elongated at 0.35, still within the acceptable buildable range.",
+   "value": "0.35"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "The parcel sits within a Qualified Opportunity Zone, adding a capital gains tax incentive.",
+   "value": "yes"
+  }
+ ],
+ "change": "If a confirmed carrier fiber route were found within 5 miles of the parcel, the site would rate as a stronger candidate, this parcel reads as a strong fit.",
+ "checks": [
+  {
+   "recon": "Flood zone X",
+   "deep": "32.2% of the parcel (about 49 acres) is in the 100-year floodplain; no floodway. The buildable area is closer to 100 acres.",
+   "indicator": "flood_zone",
+   "category": "Environmental",
+   "severity": "major"
+  },
+  {
+   "recon": "Substation 0.65 mi (138 kV+)",
+   "deep": "The Somerset substation next door is 138 kV. The nearest 345 kV substation is Cagnon Road, 12.1 mi away; a 345 kV line passes 3.2 mi away.",
+   "indicator": "dist_345kv_mi",
+   "category": "Technical",
+   "severity": "major"
+  },
+  {
+   "recon": "Assemblage is not part of the recon screen",
+   "deep": "The same owner holds 385 acres on 2 adjoining parcels, so a larger campus could be assembled.",
+   "indicator": "same_owner_acres",
+   "category": "Technical",
+   "severity": "minor"
+  },
+  {
+   "recon": "Air quality is not part of the recon screen",
+   "deep": "Serious ozone nonattainment (2015 standard): the NOx major-source line is 50 tons a year, so sized on-site gas likely needs a nonattainment NSR permit, and TCEQ data-center permits are halted until the ERCOT audit ends.",
+   "indicator": "attainment",
+   "category": "Environmental",
+   "severity": "major"
+  },
+  {
+   "recon": "Grid connection timing is not part of the recon screen",
+   "deep": "Large-load interconnections are paused statewide pending the ERCOT/PUCT audit (Aug 3, 2026); see the grid arrival estimate on the Technical page.",
+   "indicator": "grid_p50_months",
+   "category": "Technical",
+   "severity": "major"
+  }
+ ],
+ "_note": "The Atria Scout recon card for this parcel, as pasted by the user on 2026-10-30 (recon \"Powered land screening: Bexar County\", scored Sep 29, 2026). checks: where the deep dive reads the parcel differently, from the Atria screen of 2026-10-30.",
+ "recon": {
+  "title": "Powered land screening: Bexar County",
+  "use": "Data Center",
+  "state": "TX",
+  "criteria": "75+ acres",
+  "qualified": 152,
+  "assessed": 1040,
+  "scoredByRecon": 394
+ },
+ "tier": "Solid fit",
+ "tierNote": "Most criteria met - review outliers before pursuing.",
+ "asOf": "2026-09-29",
+ "map": {
+  "image": "atria/bexar-rockport.jpg",
+  "bbox": null,
+  "imageSource": "Esri World Imagery"
+ }
+}

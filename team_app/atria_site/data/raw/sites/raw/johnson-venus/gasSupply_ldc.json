@@ -1,0 +1,61 @@
+{
+ "objectIdFieldName": "FID",
+ "uniqueIdField": {
+  "name": "FID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "",
+ "geometryType": "esriGeometryPolygon",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 75,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "TYPE",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 20,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "HOLDINGCO",
+   "type": "esriFieldTypeString",
+   "alias": "HOLDINGCO",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 75,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "WEBSITE",
+   "type": "esriFieldTypeString",
+   "alias": "WEBSITE",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 254,
+   "domain": null,
+   "defaultValue": null
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "NAME": "ATMOS ENERGY CORPORATION",
+    "TYPE": "INVESTOR-OWNED",
+    "HOLDINGCO": "NOT AVAILABLE",
+    "WEBSITE": "www.atmosenergy.com"
+   }
+  }
+ ]
+}

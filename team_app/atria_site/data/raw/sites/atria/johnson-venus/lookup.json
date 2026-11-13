@@ -1,0 +1,113 @@
+{
+ "tool": "atria_lookup",
+ "input": {
+  "lat": 32.459642,
+  "lng": -97.095154
+ },
+ "credits": {
+  "charged": 100
+ },
+ "parcel": {
+  "status": "ok",
+  "value": {
+   "parcel_id": null,
+   "address": "11640 CR 506",
+   "county": "Johnson County",
+   "state": "TX",
+   "acreage": 380.59255465082884,
+   "zoning": null,
+   "owner_name": "PRAIRIE RIDGE SW LP",
+   "total_value": 0,
+   "land_value": 0,
+   "improved_value": 0,
+   "centroid": {
+    "lat": 32.46013060831361,
+    "lng": -97.09330891628373
+   },
+   "geometry_rings": [
+    [
+     [
+      -97.0870625,
+      32.4660042
+     ],
+     [
+      -97.0870553,
+      32.4578647
+     ],
+     [
+      -97.088142,
+      32.4574738
+     ],
+     [
+      -97.0882335,
+      32.4576252
+     ],
+     [
+      -97.0959138,
+      32.4547687
+     ],
+     [
+      -97.1014403,
+      32.4527413
+     ],
+     [
+      -97.1016024,
+      32.4526431
+     ],
+     [
+      -97.1017719,
+      32.4529387
+     ],
+     [
+      -97.1057324,
+      32.4588556
+     ],
+     [
+      -97.0907343,
+      32.4661545
+     ],
+     [
+      -97.0898812,
+      32.4665685
+     ],
+     [
+      -97.088039,
+      32.4674521
+     ],
+     [
+      -97.0870625,
+      32.4660042
+     ]
+    ]
+   ],
+   "source_layer_url": "https://services5.arcgis.com/3ldvXzwJjobPzrfv/arcgis/rest/services/Johnson_County_Parcels/FeatureServer/1",
+   "attributes": {
+    "GEO_ACCOUN": "126.0026.00250",
+    "ACCOUNT_NU": "R000001865",
+    "NAME": "PRAIRIE RIDGE SW LP",
+    "INSTRUMENT": "2021-48065",
+    "DEED_CHANG": "WARRANTY DEED",
+    "SITUS": "11640 CR 506",
+    "AG_TYPE": "1D1",
+    "APPRAISAL_": 2026,
+    "COUNTY_JUR": "JOHNSON COUNTY",
+    "ISD_JURIS": "VENUS ISD",
+    "SPEC4_JURI": "VENUS FIRE DEPT",
+    "DESCRIPTIO": "ABST 26",
+    "DESCRIPT_1": "TR 17",
+    "DESCRIPT_2": "R BERRY",
+    "DESCRIPT_3": "ELLIS CO 89.2369@",
+    "DESCRIPT_4": "ELLIS CO LAND SPLIT",
+    "EFF_ACRES_": 380.9442
+   },
+   "filled_from": {
+    "total_value": "https://services5.arcgis.com/SNQMi91A9RRB0qcO/arcgis/rest/services/JohnsonCADWebService/FeatureServer/0"
+   }
+  },
+  "source": {
+   "name": "Johnson County Parcels (services5.arcgis.com), parcel layer used for Johnson County, TX",
+   "url": "https://services5.arcgis.com/3ldvXzwJjobPzrfv/arcgis/rest/services/Johnson_County_Parcels/FeatureServer/1"
+  },
+  "fetched_at": "2026-10-28T12:26:23.142Z"
+ }
+}

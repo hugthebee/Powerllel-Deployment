@@ -1,0 +1,276 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "uniqueIdField": {
+  "name": "OBJECTID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "GlobalID",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MAX_VOLT",
+   "type": "esriFieldTypeSingle",
+   "alias": "MAX_VOLT",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MIN_VOLT",
+   "type": "esriFieldTypeSingle",
+   "alias": "MIN_VOLT",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "STATUS",
+   "type": "esriFieldTypeString",
+   "alias": "STATUS",
+   "sqlType": "sqlTypeOther",
+   "length": 60,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LINES",
+   "type": "esriFieldTypeDouble",
+   "alias": "LINES",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LATITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LATITUDE",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LONGITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LONGITUDE",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SOURCEDATE",
+   "type": "esriFieldTypeDate",
+   "alias": "SOURCEDATE",
+   "sqlType": "sqlTypeOther",
+   "length": 8,
+   "domain": null,
+   "defaultValue": null
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "NAME": "TAP310549",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 30.30230529800008,
+    "LONGITUDE": -97.33252553199998,
+    "SOURCEDATE": 1442534400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304835",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 30.85050652500007,
+    "LONGITUDE": -97.19445600299997,
+    "SOURCEDATE": 1536537600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308318",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 30.18410751300007,
+    "LONGITUDE": -96.95109775499998,
+    "SOURCEDATE": 1440633600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301015",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 30.56827542900004,
+    "LONGITUDE": -97.06872017599994,
+    "SOURCEDATE": 1434931200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN302949",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 30.566847752000058,
+    "LONGITUDE": -97.06707299399994,
+    "SOURCEDATE": 1434931200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN302816",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 30.415719723000052,
+    "LONGITUDE": -97.00373468099997,
+    "SOURCEDATE": 1440633600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "ELGIN SWITCHING",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 6,
+    "LATITUDE": 30.41701721900006,
+    "LONGITUDE": -97.35910612199996,
+    "SOURCEDATE": 1493769600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303730",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 30.620054956000047,
+    "LONGITUDE": -97.21110652499999,
+    "SOURCEDATE": 1439510400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304512",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 30.684481497000036,
+    "LONGITUDE": -96.96790348299999,
+    "SOURCEDATE": 1440374400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306149",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 30.59625939500006,
+    "LONGITUDE": -97.13270947099994,
+    "SOURCEDATE": 1439510400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301186",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 9,
+    "LATITUDE": 30.577664966000043,
+    "LONGITUDE": -97.07680655599995,
+    "SOURCEDATE": 1453852800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "ELGIN",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 30.334675762000074,
+    "LONGITUDE": -97.34057078399996,
+    "SOURCEDATE": 1493769600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN300994",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 30.745724008000025,
+    "LONGITUDE": -96.95447661899999,
+    "SOURCEDATE": 1440633600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN300446",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 30.672985415000028,
+    "LONGITUDE": -97.01925677099996,
+    "SOURCEDATE": 1439510400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAYLOR",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 5,
+    "LATITUDE": 30.56659607200004,
+    "LONGITUDE": -97.39717970099997,
+    "SOURCEDATE": 1486512000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303337",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 30.214260961000036,
+    "LONGITUDE": -97.13478284899998,
+    "SOURCEDATE": 1440374400000
+   }
+  }
+ ]
+}

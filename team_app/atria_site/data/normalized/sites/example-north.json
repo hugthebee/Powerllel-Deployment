@@ -1,0 +1,874 @@
+{
+ "id": "example-north",
+ "kind": "example",
+ "label": "Example site A",
+ "county": "Example County",
+ "state": "TX",
+ "lat": 33.0,
+ "lng": -97.5,
+ "iso": "ERCOT",
+ "targetMW": 100.0,
+ "source": "Example site (made up)",
+ "readDate": "2026-10-29",
+ "flags": {
+  "critical_habitat_on_site": {
+   "value": false,
+   "status": "Example",
+   "source": "Example (made-up site)"
+  },
+  "in_floodway": {
+   "value": false,
+   "status": "Example",
+   "source": "Example (made-up site)"
+  },
+  "active_moratorium": {
+   "value": false,
+   "status": "Example",
+   "source": "Example (made-up site)"
+  },
+  "no_feasible_voltage": {
+   "value": false,
+   "status": "Example",
+   "source": "Example (made-up site)"
+  }
+ },
+ "extraction": {
+  "events": [],
+  "statements": [],
+  "dropped": [],
+  "documents": [],
+  "features": {
+   "share_oppose": null,
+   "net_stance": null,
+   "volume": 0,
+   "volume_trend": null,
+   "top_concern": null,
+   "concerns": {}
+  },
+  "moratorium_stage": "none",
+  "months": [],
+  "posts_per_week": []
+ },
+ "models": {
+  "A": {
+   "p10": 24.0,
+   "p50": 36.0,
+   "p90": 54.0,
+   "mean": 37.8,
+   "sigma": 0.3164,
+   "method": "Heuristic grid plan with a lognormal expert prior (P90 = 1.5 x P50); survival model to come",
+   "curve": [
+    {
+     "month": 0,
+     "p": 0.0
+    },
+    {
+     "month": 3,
+     "p": 0.0
+    },
+    {
+     "month": 6,
+     "p": 0.0
+    },
+    {
+     "month": 9,
+     "p": 0.0
+    },
+    {
+     "month": 12,
+     "p": 0.0003
+    },
+    {
+     "month": 15,
+     "p": 0.0028
+    },
+    {
+     "month": 18,
+     "p": 0.0142
+    },
+    {
+     "month": 21,
+     "p": 0.0442
+    },
+    {
+     "month": 24,
+     "p": 0.1
+    },
+    {
+     "month": 27,
+     "p": 0.1816
+    },
+    {
+     "month": 30,
+     "p": 0.2822
+    },
+    {
+     "month": 33,
+     "p": 0.3917
+    },
+    {
+     "month": 36,
+     "p": 0.5
+    },
+    {
+     "month": 39,
+     "p": 0.5999
+    },
+    {
+     "month": 42,
+     "p": 0.6869
+    },
+    {
+     "month": 45,
+     "p": 0.7597
+    },
+    {
+     "month": 48,
+     "p": 0.8184
+    },
+    {
+     "month": 51,
+     "p": 0.8645
+    },
+    {
+     "month": 54,
+     "p": 0.9
+    },
+    {
+     "month": 57,
+     "p": 0.9268
+    },
+    {
+     "month": 60,
+     "p": 0.9468
+    },
+    {
+     "month": 63,
+     "p": 0.9615
+    },
+    {
+     "month": 66,
+     "p": 0.9723
+    },
+    {
+     "month": 69,
+     "p": 0.9801
+    },
+    {
+     "month": 72,
+     "p": 0.9858
+    },
+    {
+     "month": 75,
+     "p": 0.9898
+    },
+    {
+     "month": 78,
+     "p": 0.9927
+    },
+    {
+     "month": 81,
+     "p": 0.9948
+    },
+    {
+     "month": 84,
+     "p": 0.9963
+    },
+    {
+     "month": 87,
+     "p": 0.9974
+    },
+    {
+     "month": 90,
+     "p": 0.9981
+    },
+    {
+     "month": 93,
+     "p": 0.9986
+    },
+    {
+     "month": 96,
+     "p": 0.999
+    },
+    {
+     "month": 99,
+     "p": 0.9993
+    },
+    {
+     "month": 102,
+     "p": 0.9995
+    },
+    {
+     "month": 105,
+     "p": 0.9996
+    },
+    {
+     "month": 108,
+     "p": 0.9997
+    },
+    {
+     "month": 111,
+     "p": 0.9998
+    },
+    {
+     "month": 114,
+     "p": 0.9999
+    },
+    {
+     "month": 117,
+     "p": 0.9999
+    },
+    {
+     "month": 120,
+     "p": 0.9999
+    }
+   ],
+   "bridgeFullMonth": null,
+   "opening": null
+  },
+  "C": {
+   "path": "psd"
+  },
+  "D": null,
+  "F": null,
+  "grid": null
+ },
+ "counts": {
+  "Answered": 0,
+  "Example": 16,
+  "Not pulled": 16,
+  "No source": 13
+ },
+ "indicators": [
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "usable_acres",
+   "value": 640,
+   "unit": "acres",
+   "source": "Example (made-up site)",
+   "how": "Atria module (crawled county data)",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "technical.parcel",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "dist_345kv_mi",
+   "value": 1.4,
+   "unit": "mi",
+   "source": "Example (made-up site)",
+   "how": "Atria module / download",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "technical.substations",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "gas_dist_mi",
+   "value": 0.6,
+   "unit": "mi",
+   "source": "Example (made-up site)",
+   "how": "Atria module + download",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "technical.gas_pipelines",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "fiber_ix_dist_mi",
+   "value": 20,
+   "unit": "mi",
+   "source": "Example (made-up site)",
+   "how": "API",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "technical.fiber_internet_exchange",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "water_stress_0_5",
+   "value": 2.5,
+   "unit": "0-5",
+   "source": "Example (made-up site)",
+   "how": "API / download",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "environmental.water_stress",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "wetland_share",
+   "value": 0.01,
+   "unit": "share",
+   "source": "Example (made-up site)",
+   "how": "Atria module",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "environmental.wetlands",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "heat_days",
+   "value": 40,
+   "unit": "days/yr",
+   "source": "Example (made-up site)",
+   "how": "Atria module + download",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "environmental.heat_stress_cooling",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "air_major_tpy",
+   "value": 250,
+   "unit": "tpy",
+   "source": "Example (made-up site)",
+   "how": "Atria module",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "environmental.air_attainment_status",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Cultural",
+   "name": "noise_dba_home",
+   "value": 43,
+   "unit": "dBA",
+   "source": "Example (made-up site)",
+   "how": "Derived (model)",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "cultural.noise_exposure",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Cultural",
+   "name": "burden_pct",
+   "value": 30,
+   "unit": "pctile",
+   "source": "Example (made-up site)",
+   "how": "Download / API",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "cultural.community_burden",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Policy",
+   "name": "permit_months",
+   "value": 8,
+   "unit": "months",
+   "source": "Example (made-up site)",
+   "how": "Atria module (100 credits)",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "policy.local_approval_path",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Security",
+   "name": "hazard_index",
+   "value": 45,
+   "unit": "0-100",
+   "source": "Example (made-up site)",
+   "how": "Atria module + download",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "security.natural_hazards",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "owner",
+   "value": "Example owner LLC",
+   "unit": "",
+   "source": "Example (made-up site)",
+   "how": "Example",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "technical.parcel",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Policy",
+   "name": "zoning",
+   "value": "Unzoned county land",
+   "unit": "",
+   "source": "Example (made-up site)",
+   "how": "Example",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "policy.zoning_status_and",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "flood_zone",
+   "value": "X (minimal hazard)",
+   "unit": "",
+   "source": "Example (made-up site)",
+   "how": "Example",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "environmental.floodplain",
+   "note": "Made-up site for the demo.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "grid_p50_months",
+   "value": 36.0,
+   "unit": "months",
+   "source": "Example (model A on example inputs)",
+   "how": "Derived (model)",
+   "read_date": "2026-10-29",
+   "status": "Example",
+   "data_map_id": "technical.grid_arrival",
+   "note": "",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "adjoining_parcels_assemblage",
+   "value": null,
+   "unit": "",
+   "source": "Atria adjoiningParcels",
+   "how": "Atria module",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "technical.adjoining_parcels_assemblage",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "easements_and_lines",
+   "value": null,
+   "unit": "",
+   "source": "Atria easementIndicators",
+   "how": "Atria module (derived from GIS layers)",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "technical.easements_and_lines",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "grid_headroom_load",
+   "value": null,
+   "unit": "",
+   "source": "Atria gridCapacity (empty for ERCOT/WECC); utility pre-application feedback",
+   "how": "Atria module + Customer provided",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "technical.grid_headroom_load",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "ercot_largeload_queue",
+   "value": null,
+   "unit": "",
+   "source": "ERCOT Large Load Integration PDFs; ERCOT monthly operational overview",
+   "how": "Crawled (PDF parse)",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "technical.ercot_largeload_queue",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "bridge_power_need",
+   "value": null,
+   "unit": "",
+   "source": "Faraday + Monte Carlo",
+   "how": "Derived (model)",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "technical.bridge_power_need",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "power_prices_by",
+   "value": null,
+   "unit": "",
+   "source": "ERCOT Public API (free key) / gridstatus library",
+   "how": "API",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "technical.power_prices_by",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "gas_firm_capacity",
+   "value": null,
+   "unit": "",
+   "source": "Atria gasSupply (3 pipelines only); pipeline EBB postings",
+   "how": "Atria module + crawled",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "technical.gas_firm_capacity",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Technical",
+   "name": "soils",
+   "value": null,
+   "unit": "",
+   "source": "USDA Soil Data Access API; Atria elevation, landCover",
+   "how": "API + Atria module",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "technical.soils",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "water_supply",
+   "value": null,
+   "unit": "",
+   "source": "Atria waterSupply, waterSewer, surfaceWater, coastalWater",
+   "how": "Atria module",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "environmental.water_supply",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "cooling_water_demand",
+   "value": null,
+   "unit": "",
+   "source": "Customer cooling type \u00d7 Faraday MW \u00d7 water intensity",
+   "how": "Derived (model) + Customer provided",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "environmental.cooling_water_demand",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "endangered_species_critical",
+   "value": null,
+   "unit": "",
+   "source": "USFWS IPaC location API; ECOS services",
+   "how": "API",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "environmental.endangered_species_critical",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "air_permit_precedent",
+   "value": null,
+   "unit": "",
+   "source": "TCEQ issued permits for gas turbines >=20 MW (xlsx)",
+   "how": "Download",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "environmental.air_permit_precedent",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "air_permit_path",
+   "value": null,
+   "unit": "",
+   "source": "Model C output",
+   "how": "Derived (model)",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "environmental.air_permit_path",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "contamination",
+   "value": null,
+   "unit": "",
+   "source": "Atria contamination, regulatedFacilities, environmentalFacilities; EPA Envirofacts/ECHO APIs",
+   "how": "Atria module + API",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "environmental.contamination",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Environmental",
+   "name": "carbon_intensity_of",
+   "value": null,
+   "unit": "",
+   "source": "eGRID (average); WattTime API (marginal)",
+   "how": "Download / API",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "environmental.carbon_intensity_of",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Cultural",
+   "name": "opposition_history_and",
+   "value": null,
+   "unit": "",
+   "source": "City/county agendas and minutes (Legistar API or crawl), local news, petitions, public Facebook groups",
+   "how": "Crawled + LLM extraction",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "cultural.opposition_history_and",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Cultural",
+   "name": "opposition_tracker_events",
+   "value": null,
+   "unit": "",
+   "source": "GatherGov / Data Center Watch / Sabin Center",
+   "how": "Licensed or download",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "cultural.opposition_tracker_events",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Cultural",
+   "name": "demographics",
+   "value": null,
+   "unit": "",
+   "source": "Atria demographics",
+   "how": "Atria module",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "cultural.demographics",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Cultural",
+   "name": "historic_sites",
+   "value": null,
+   "unit": "",
+   "source": "National Register of Historic Places; Texas Historical Commission Atlas; Census tribal areas",
+   "how": "Download / crawl",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "cultural.historic_sites",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Policy",
+   "name": "local_moratoriums_and",
+   "value": null,
+   "unit": "",
+   "source": "Atria energyOrdinance (wind/solar only); city agendas; GatherGov",
+   "how": "Atria module + crawled + LLM",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "policy.local_moratoriums_and",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Policy",
+   "name": "state_and_grid",
+   "value": null,
+   "unit": "",
+   "source": "ERCOT market notices; PUCT Interchange filings; Governor directives",
+   "how": "Crawled + LLM",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "policy.state_and_grid",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Policy",
+   "name": "federal_permitting",
+   "value": null,
+   "unit": "",
+   "source": "Congress.gov; CGEP timeline tool",
+   "how": "Crawled",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "policy.federal_permitting",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Policy",
+   "name": "incentives",
+   "value": null,
+   "unit": "",
+   "source": "Texas Comptroller data center program and lists; Atria incentives",
+   "how": "Download + Atria module",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "policy.incentives",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Security",
+   "name": "foreignownership_limits",
+   "value": null,
+   "unit": "",
+   "source": "Statute + legal review; customer ownership disclosure",
+   "how": "Customer provided + legal rule",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "security.foreignownership_limits",
+   "note": "Answered once you state buyer ownership in the thesis.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Security",
+   "name": "cfius_real_estate",
+   "value": null,
+   "unit": "",
+   "source": "31 CFR Part 802 site list; DoD installation boundaries (MIRTA, HIFLD archive)",
+   "how": "Download + rule",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "security.cfius_real_estate",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Security",
+   "name": "critical_infrastructure_exposure",
+   "value": null,
+   "unit": "",
+   "source": "Atria easementIndicators, builtEnvironment; FAA",
+   "how": "Atria module",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "security.critical_infrastructure_exposure",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Economics",
+   "name": "projects_stuck_waiting",
+   "value": null,
+   "unit": "",
+   "source": "Comptroller qualifying data centers; TCEQ pending NSR permits; PUCT filings; city agendas; news",
+   "how": "Crawled + LLM entity matching",
+   "read_date": null,
+   "status": "No source",
+   "data_map_id": "economics.projects_stuck_waiting",
+   "note": "Nothing answers this yet (data map: Need to add).",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Economics",
+   "name": "land_value_vs",
+   "value": null,
+   "unit": "",
+   "source": "Atria assessorRecord; Altus/Acres benchmarks",
+   "how": "Atria module + reference",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "economics.land_value_vs",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  },
+  {
+   "site_id": "example-north",
+   "category": "Economics",
+   "name": "bridge_contract_cash",
+   "value": null,
+   "unit": "",
+   "source": "Model F",
+   "how": "Derived (model) + Customer provided prices",
+   "read_date": null,
+   "status": "Not pulled",
+   "data_map_id": "economics.bridge_contract_cash",
+   "note": "A source exists but was not called for this site.",
+   "url": ""
+  }
+ ]
+}

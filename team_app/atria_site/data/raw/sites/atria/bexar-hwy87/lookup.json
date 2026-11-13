@@ -1,0 +1,121 @@
+{
+ "tool": "atria_lookup",
+ "input": {
+  "apn": "05135-000-0058",
+  "county": "Bexar",
+  "state": "TX"
+ },
+ "credits": {
+  "charged": 100
+ },
+ "parcel": {
+  "status": "ok",
+  "value": {
+   "parcel_id": "05135-000-0058",
+   "address": "US HIGHWAY 87 E, SAN ANTONIO, TX 78263",
+   "city": "SAN ANTONIO",
+   "county": "Bexar County",
+   "state": "TX",
+   "acreage": 21.90905146050131,
+   "zoning": null,
+   "land_use": null,
+   "owner_name": "MEH HOLDING COMPANY LTD",
+   "centroid": {
+    "lat": 29.375064442957502,
+    "lng": -98.32491186215987
+   },
+   "geometry_rings": [
+    [
+     [
+      -98.3237922,
+      29.3757186
+     ],
+     [
+      -98.323781,
+      29.3756416
+     ],
+     [
+      -98.3241729,
+      29.3756595
+     ],
+     [
+      -98.3244385,
+      29.3757173
+     ],
+     [
+      -98.3248307,
+      29.3743313
+     ],
+     [
+      -98.324848,
+      29.3739023
+     ],
+     [
+      -98.3252008,
+      29.3739132
+     ],
+     [
+      -98.3253994,
+      29.3739145
+     ],
+     [
+      -98.3256593,
+      29.3739017
+     ],
+     [
+      -98.3258324,
+      29.3738839
+     ],
+     [
+      -98.3259851,
+      29.373862
+     ],
+     [
+      -98.3262863,
+      29.3737575
+     ],
+     [
+      -98.3269283,
+      29.3736374
+     ],
+     [
+      -98.3256815,
+      29.3780357
+     ],
+     [
+      -98.3252538,
+      29.3780852
+     ],
+     [
+      -98.3238383,
+      29.3774498
+     ],
+     [
+      -98.3239778,
+      29.3769914
+     ],
+     [
+      -98.3237922,
+      29.3757186
+     ]
+    ]
+   ],
+   "source_layer_url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0",
+   "attributes": {
+    "PropID": 1464639,
+    "Geo_id": "05135-000-0058",
+    "Situs": "US HIGHWAY 87 E, SAN ANTONIO, TX 78263",
+    "Owner_Name": "MEH HOLDING COMPANY LTD",
+    "addr_city": "SAN ANTONIO",
+    "legal_desc": "CB 5135 P-5 (4.22) ABS 663, CB 5137 P-18C (0.87), P-19L (16.76) ABS 423",
+    "state_cd": "E1",
+    "legal_acre": 21.85
+   }
+  },
+  "source": {
+   "name": "BCAD Parcels (services.arcgis.com), parcel layer used for Bexar County, TX",
+   "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0"
+  },
+  "fetched_at": "2026-10-30T16:51:40.978Z"
+ }
+}

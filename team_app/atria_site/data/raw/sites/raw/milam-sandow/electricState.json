@@ -1,0 +1,121 @@
+{
+ "objectIdFieldName": "FID",
+ "uniqueIdField": {
+  "name": "FID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "",
+ "geometryType": "esriGeometryPolygon",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "TYPE",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "HOLDING_CO",
+   "type": "esriFieldTypeString",
+   "alias": "HOLDING_CO",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CNTRL_AREA",
+   "type": "esriFieldTypeString",
+   "alias": "CNTRL_AREA",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "WEBSITE",
+   "type": "esriFieldTypeString",
+   "alias": "WEBSITE",
+   "sqlType": "sqlTypeOther",
+   "length": 131,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "REGULATED",
+   "type": "esriFieldTypeString",
+   "alias": "REGULATED",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "NAME": "HEART OF TEXAS ELECTRIC COOP",
+    "TYPE": "COOPERATIVE",
+    "HOLDING_CO": "HEART OF TEXAS ELECTRIC COOP",
+    "CNTRL_AREA": "ERCO",
+    "WEBSITE": "http://www.hotec.coop/",
+    "REGULATED": "NOT AVAILABLE"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "BLUEBONNET ELECTRIC COOP, INC",
+    "TYPE": "COOPERATIVE",
+    "HOLDING_CO": "BLUEBONNET ELECTRIC COOP, INC",
+    "CNTRL_AREA": "ERCO",
+    "WEBSITE": "http://www.bluebonnetelectric.coop/",
+    "REGULATED": "REGULATED"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "ONCOR ELECTRIC DELIVERY COMPANY LLC",
+    "TYPE": "INVESTOR OWNED",
+    "HOLDING_CO": "ONCOR ELECTRIC DELIVERY COMPANY LLC",
+    "CNTRL_AREA": "NOT AVAILABLE",
+    "WEBSITE": "http://www.oncor.com/EN/Pages/Oncor-Electric-Delivery-Co-LLC.aspx",
+    "REGULATED": "NOT AVAILABLE"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "ENTERGY TEXAS INC.",
+    "TYPE": "INVESTOR OWNED",
+    "HOLDING_CO": "ENTERGY CORP",
+    "CNTRL_AREA": "MISO",
+    "WEBSITE": "http://www.entergy-texas.com/",
+    "REGULATED": "NOT AVAILABLE"
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "BARTLETT ELECTRIC COOP, INC",
+    "TYPE": "COOPERATIVE",
+    "HOLDING_CO": "BARTLETT ELECTRIC COOP, INC",
+    "CNTRL_AREA": "ERCO",
+    "WEBSITE": "http://www.bartlettec.coop/",
+    "REGULATED": "NOT AVAILABLE"
+   }
+  }
+ ]
+}

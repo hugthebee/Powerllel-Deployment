@@ -1,0 +1,85 @@
+{
+ "tool": "atria_lookup",
+ "input": {
+  "apn": "04296-000-0020",
+  "county": "Bexar",
+  "state": "TX"
+ },
+ "credits": {
+  "charged": 100
+ },
+ "parcel": {
+  "status": "ok",
+  "value": {
+   "parcel_id": "04296-000-0020",
+   "address": "S STATE HWY 16, VON ORMY, TX 78073",
+   "city": "CALLIHAM",
+   "county": "Bexar County",
+   "state": "TX",
+   "acreage": 167.24928180217458,
+   "zoning": null,
+   "land_use": "D1 Qualified open-space land",
+   "owner_name": "REEH PARTNERS LTD",
+   "centroid": {
+    "lat": 29.284933215272254,
+    "lng": -98.57794270879599
+   },
+   "geometry_rings": [
+    [
+     [
+      -98.5729667,
+      29.2891
+     ],
+     [
+      -98.5745619,
+      29.2811746
+     ],
+     [
+      -98.5776535,
+      29.2816084
+     ],
+     [
+      -98.5813579,
+      29.2821441
+     ],
+     [
+      -98.5817341,
+      29.2822015
+     ],
+     [
+      -98.5822242,
+      29.282265
+     ],
+     [
+      -98.5806662,
+      29.2901631
+     ],
+     [
+      -98.5806486,
+      29.2902366
+     ],
+     [
+      -98.5729667,
+      29.2891
+     ]
+    ]
+   ],
+   "source_layer_url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0",
+   "attributes": {
+    "PropID": 189299,
+    "Geo_id": "04296-000-0020",
+    "Situs": "S STATE HWY 16, VON ORMY, TX 78073",
+    "Owner_Name": "REEH PARTNERS LTD",
+    "addr_city": "CALLIHAM",
+    "legal_desc": "CB 4296 P-2, 2A & 2B ABS 374 159.6 AC CB 4298 P-18 ABS 421 6.4 AC",
+    "state_cd": "D1",
+    "legal_acre": 166
+   }
+  },
+  "source": {
+   "name": "BCAD Parcels (services.arcgis.com), parcel layer used for Bexar County, TX",
+   "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0"
+  },
+  "fetched_at": "2026-10-30T16:51:40.963Z"
+ }
+}

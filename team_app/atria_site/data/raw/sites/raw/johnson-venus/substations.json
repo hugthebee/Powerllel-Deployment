@@ -1,0 +1,2448 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "uniqueIdField": {
+  "name": "OBJECTID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "GlobalID",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MAX_VOLT",
+   "type": "esriFieldTypeSingle",
+   "alias": "MAX_VOLT",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MIN_VOLT",
+   "type": "esriFieldTypeSingle",
+   "alias": "MIN_VOLT",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "STATUS",
+   "type": "esriFieldTypeString",
+   "alias": "STATUS",
+   "sqlType": "sqlTypeOther",
+   "length": 60,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LINES",
+   "type": "esriFieldTypeDouble",
+   "alias": "LINES",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LATITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LATITUDE",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LONGITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LONGITUDE",
+   "sqlType": "sqlTypeOther",
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SOURCEDATE",
+   "type": "esriFieldTypeDate",
+   "alias": "SOURCEDATE",
+   "sqlType": "sqlTypeOther",
+   "length": 8,
+   "domain": null,
+   "defaultValue": null
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "NAME": "UNKNOWN300200",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 3,
+    "LATITUDE": 32.28341256400006,
+    "LONGITUDE": -97.29187828699997,
+    "SOURCEDATE": 1537747200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308534",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.81861512900008,
+    "LONGITUDE": -97.06359512799997,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP305210",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.38808682000007,
+    "LONGITUDE": -97.37912457999994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "IRVING HUNTER FERRELL",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.784800225000026,
+    "LONGITUDE": -96.99380600899997,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301622",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.81894044300003,
+    "LONGITUDE": -97.09654342099998,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304442",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.645656408000036,
+    "LONGITUDE": -97.31371382199995,
+    "SOURCEDATE": 1537747200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN300423",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 2,
+    "LATITUDE": 32.15339196900004,
+    "LONGITUDE": -97.12244154599995,
+    "SOURCEDATE": 1517270400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308890",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 1,
+    "LATITUDE": 32.42003635300006,
+    "LONGITUDE": -96.83588809399998,
+    "SOURCEDATE": 1513900800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "CEDAR CREST",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.72174389700007,
+    "LONGITUDE": -96.80232043999996,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN300972",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 3,
+    "LATITUDE": 32.39734627800004,
+    "LONGITUDE": -97.40810069899999,
+    "SOURCEDATE": 1433980800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304087",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 1,
+    "LATITUDE": 32.76341458600007,
+    "LONGITUDE": -97.19167579799995,
+    "SOURCEDATE": 1517270400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DANIELDALE",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.631926871000076,
+    "LONGITUDE": -96.92662467999997,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP305431",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.65278441800007,
+    "LONGITUDE": -97.28405813299997,
+    "SOURCEDATE": 1556755200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309965",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.513280886000075,
+    "LONGITUDE": -97.27573443899996,
+    "SOURCEDATE": 1517270400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304568",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.61262871100007,
+    "LONGITUDE": -97.35303823099997,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308309",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.742122047000066,
+    "LONGITUDE": -97.33644270499997,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN307106",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.60510926200004,
+    "LONGITUDE": -97.08078282899999,
+    "SOURCEDATE": 1453852800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP305311",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.73119400000007,
+    "LONGITUDE": -97.17080999999996,
+    "SOURCEDATE": 1530576000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SIMPSON STUART",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.66767824600004,
+    "LONGITUDE": -96.77167071199995,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "GRAND PRAIRIE",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.72968699900002,
+    "LONGITUDE": -96.99373867699995,
+    "SOURCEDATE": 1484092800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "EULESS SOUTH",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.815083138000034,
+    "LONGITUDE": -97.12213571399997,
+    "SOURCEDATE": 1482278400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "MIDLOTHIAN ENERGY FACILITY",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.42847870700007,
+    "LONGITUDE": -97.05282405299994,
+    "SOURCEDATE": 1482278400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301989",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 6,
+    "LATITUDE": 32.65796764600003,
+    "LONGITUDE": -97.40281042799995,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN305738",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.73341247600007,
+    "LONGITUDE": -97.27002451599998,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306454",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 1,
+    "LATITUDE": 32.692082276000065,
+    "LONGITUDE": -97.32927615799997,
+    "SOURCEDATE": 1515369600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306325",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.31097200000005,
+    "LONGITUDE": -97.37526899999995,
+    "SOURCEDATE": 1537747200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308887",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 0,
+    "LATITUDE": 32.202298910000025,
+    "LONGITUDE": -97.35986677599999,
+    "SOURCEDATE": 1530576000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303393",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 0,
+    "LATITUDE": 32.717075125000065,
+    "LONGITUDE": -97.18511439299999,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN307768",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 2,
+    "LATITUDE": 32.25999429800004,
+    "LONGITUDE": -96.89277186199996,
+    "SOURCEDATE": 1514851200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309033",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.46610091100007,
+    "LONGITUDE": -97.02594714099996,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN305809",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 2,
+    "LATITUDE": 32.502986460000045,
+    "LONGITUDE": -97.05958359899995,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP310845",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.74260356600007,
+    "LONGITUDE": -97.07346916599994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303703",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.673503061000076,
+    "LONGITUDE": -97.41751465399994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN302374",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.757496314000036,
+    "LONGITUDE": -97.03395987999994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN300086",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 2,
+    "LATITUDE": 32.52144096500007,
+    "LONGITUDE": -97.14022793399994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP310691",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.76441552000006,
+    "LONGITUDE": -97.07363967099997,
+    "SOURCEDATE": 1513900800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN302884",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 3,
+    "LATITUDE": 32.701497000000074,
+    "LONGITUDE": -97.19113599999997,
+    "SOURCEDATE": 1537747200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301734",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.353710000000035,
+    "LONGITUDE": -97.37496899999996,
+    "SOURCEDATE": 1537747200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "HEMPHILL",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.739385807000076,
+    "LONGITUDE": -97.33238299399994,
+    "SOURCEDATE": 1492992000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP310714",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.44822947100005,
+    "LONGITUDE": -96.85396947899994,
+    "SOURCEDATE": 1491350400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP308002",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.130914000000075,
+    "LONGITUDE": -96.94386599999996,
+    "SOURCEDATE": 1533513600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SOUTH OAK CLIFF",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.70209228300007,
+    "LONGITUDE": -96.82374287599998,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "FOREST HILL",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.64478707000006,
+    "LONGITUDE": -97.28607621499998,
+    "SOURCEDATE": 1482278400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "MIDLOTHIAN SOUTH",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 0,
+    "LATITUDE": 32.46735643100004,
+    "LONGITUDE": -96.99081224499997,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306445",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 0,
+    "LATITUDE": 32.71997238000006,
+    "LONGITUDE": -97.03143037399997,
+    "SOURCEDATE": 1513900800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP310846",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.45554479000003,
+    "LONGITUDE": -97.27431424999997,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303044",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 3,
+    "LATITUDE": 32.23614492000007,
+    "LONGITUDE": -97.17539697999996,
+    "SOURCEDATE": 1537833600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "CLEBURNE",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.354099715000075,
+    "LONGITUDE": -97.37487710899995,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN307467",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.55889975800005,
+    "LONGITUDE": -97.31758037599997,
+    "SOURCEDATE": 1537747200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "JOHNSON",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.39495442500004,
+    "LONGITUDE": -97.48547471799998,
+    "SOURCEDATE": 1482278400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306263",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 6,
+    "LATITUDE": 32.39169105600007,
+    "LONGITUDE": -97.48540342499996,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP305198",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.81128729200003,
+    "LONGITUDE": -97.15844519299998,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308623",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.73935203000008,
+    "LONGITUDE": -97.06971488999994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP310720",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.73671000000007,
+    "LONGITUDE": -96.98023699999999,
+    "SOURCEDATE": 1537833600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309085",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.746354405000034,
+    "LONGITUDE": -97.07383174499995,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301209",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 2,
+    "LATITUDE": 32.41467136500006,
+    "LONGITUDE": -97.32235130799995,
+    "SOURCEDATE": 1514851200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306135",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.50294798900006,
+    "LONGITUDE": -97.31585713199996,
+    "SOURCEDATE": 1514851200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301610",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.77826576900003,
+    "LONGITUDE": -97.06662721499998,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN300192",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.30019500000003,
+    "LONGITUDE": -96.75772799999999,
+    "SOURCEDATE": 1533513600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309530",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.78803090400004,
+    "LONGITUDE": -97.03793591099998,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SOUTH HAMPTON",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.66145367000007,
+    "LONGITUDE": -96.86158746899997,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303282",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.45652131400004,
+    "LONGITUDE": -97.03624371299998,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP308117",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.757484000000034,
+    "LONGITUDE": -97.15479099999999,
+    "SOURCEDATE": 1530576000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306390",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.463994773000024,
+    "LONGITUDE": -97.30567020199999,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301407",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.438836965000064,
+    "LONGITUDE": -96.85029056399998,
+    "SOURCEDATE": 1491350400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309627",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.62286450000005,
+    "LONGITUDE": -97.08200359999995,
+    "SOURCEDATE": 1539648000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306046",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.78885741000005,
+    "LONGITUDE": -97.02854793399996,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN300451",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.81078970900006,
+    "LONGITUDE": -97.15852465499995,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304110",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.51935527300003,
+    "LONGITUDE": -97.00702931899997,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP305269",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.64544595800004,
+    "LONGITUDE": -97.30406809199997,
+    "SOURCEDATE": 1556755200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303597",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.46035738100005,
+    "LONGITUDE": -97.41654469899999,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP308021",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.811236559000065,
+    "LONGITUDE": -97.15856159299994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "VOUGHT",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.741158435000045,
+    "LONGITUDE": -96.98081570099998,
+    "SOURCEDATE": 1484092800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306824",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 0,
+    "LATITUDE": 32.51150363600004,
+    "LONGITUDE": -96.97184868199997,
+    "SOURCEDATE": 1515369600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "MISTLETOE HEIGHTS",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.73454427100006,
+    "LONGITUDE": -97.35370560699994,
+    "SOURCEDATE": 1482278400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN300014",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 3,
+    "LATITUDE": 32.42808400000007,
+    "LONGITUDE": -97.42009199999995,
+    "SOURCEDATE": 1537747200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DESOTO PLEASANT RUN",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.60155279400004,
+    "LONGITUDE": -96.82763132299999,
+    "SOURCEDATE": 1484092800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SORCEY RD",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.63203532600005,
+    "LONGITUDE": -96.94610214299996,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303675",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.66886086300008,
+    "LONGITUDE": -97.38930226299999,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "FISH CREEK 138",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 5,
+    "LATITUDE": 32.73153285500007,
+    "LONGITUDE": -96.98659773099996,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309031",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.63878900000003,
+    "LONGITUDE": -97.05221199999994,
+    "SOURCEDATE": 1539648000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301121",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 5,
+    "LATITUDE": 32.59566439100007,
+    "LONGITUDE": -97.43995883499997,
+    "SOURCEDATE": 1453766400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "LANCASTER",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.58592989700003,
+    "LONGITUDE": -96.78150349199996,
+    "SOURCEDATE": 1484092800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "WATERMILL",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 13,
+    "LATITUDE": 32.55854043700003,
+    "LONGITUDE": -96.72617835399996,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP305232",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.76438598000004,
+    "LONGITUDE": -97.07362381999997,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "PARKERVILLE RD",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.57475618900003,
+    "LONGITUDE": -96.86935728699996,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303329",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.437730516000045,
+    "LONGITUDE": -96.85124234799997,
+    "SOURCEDATE": 1491350400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN300495",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 2,
+    "LATITUDE": 32.51386874800005,
+    "LONGITUDE": -96.97562533399997,
+    "SOURCEDATE": 1513900800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "COCKRELL HILL",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.70487351300005,
+    "LONGITUDE": -96.89228866699995,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN310169",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 12,
+    "LATITUDE": 32.728191999000046,
+    "LONGITUDE": -97.21665062199997,
+    "SOURCEDATE": 1440633600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP302600",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.80574209100007,
+    "LONGITUDE": -97.22260698299999,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301892",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 5,
+    "LATITUDE": 32.45776900300007,
+    "LONGITUDE": -96.87729333799996,
+    "SOURCEDATE": 1433980800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "ITASCA",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.15658369000005,
+    "LONGITUDE": -97.15508749199995,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "ALVARADO",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.39629551300004,
+    "LONGITUDE": -97.22349662599999,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "RISER307642",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.758376112000064,
+    "LONGITUDE": -97.33639622199996,
+    "SOURCEDATE": 1556755200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "CEDAR HILL",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.61495678400007,
+    "LONGITUDE": -96.92458178599998,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "T.R.A.",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.774556164000046,
+    "LONGITUDE": -96.92882551199995,
+    "SOURCEDATE": 1485907200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN305740",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.791480585000045,
+    "LONGITUDE": -97.01680145499995,
+    "SOURCEDATE": 1537833600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP302730",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.66659307300006,
+    "LONGITUDE": -96.77072171299994,
+    "SOURCEDATE": 1484611200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN305038",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.44255137400006,
+    "LONGITUDE": -96.83588791399995,
+    "SOURCEDATE": 1533513600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304386",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.53436939900007,
+    "LONGITUDE": -96.80572307099999,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP310766",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.80559631700004,
+    "LONGITUDE": -97.22255698299995,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DESOTO SW",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 5,
+    "LATITUDE": 32.55779292100004,
+    "LONGITUDE": -96.84349338699997,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303702",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 1,
+    "LATITUDE": 32.29787320100007,
+    "LONGITUDE": -96.75593394299995,
+    "SOURCEDATE": 1444608000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304247",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.67383767700005,
+    "LONGITUDE": -97.32238049399996,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304318",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.76398745400007,
+    "LONGITUDE": -97.07864428799996,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303455",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.46797447100005,
+    "LONGITUDE": -96.90769112499999,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN305666",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 3,
+    "LATITUDE": 32.72643400000004,
+    "LONGITUDE": -97.20448699999997,
+    "SOURCEDATE": 1537747200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN302256",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.69058984600008,
+    "LONGITUDE": -97.36382966599996,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308902",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.64782454500005,
+    "LONGITUDE": -97.34764592499994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "WESTMORELAND NORTH",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.75521089700004,
+    "LONGITUDE": -96.87462930799995,
+    "SOURCEDATE": 1484611200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN302951",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 2,
+    "LATITUDE": 32.352807926000025,
+    "LONGITUDE": -97.38313531299997,
+    "SOURCEDATE": 1475625600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN302961",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 0,
+    "LATITUDE": 32.69059358800007,
+    "LONGITUDE": -97.03490343899995,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309926",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.71102236000007,
+    "LONGITUDE": -97.15640897399999,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304862",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.26594828300006,
+    "LONGITUDE": -97.18616501099996,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DUNCANVILLE",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.66131757100004,
+    "LONGITUDE": -96.91236502599997,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN302319",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.63679997000003,
+    "LONGITUDE": -97.21375711599995,
+    "SOURCEDATE": 1453852800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309484",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.69439915000004,
+    "LONGITUDE": -97.29382062999997,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP310872",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.469577178000065,
+    "LONGITUDE": -97.41525062899996,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "P.T.S.",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.70105299900007,
+    "LONGITUDE": -96.83962355199998,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP308128",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.766252000000065,
+    "LONGITUDE": -97.22155899999996,
+    "SOURCEDATE": 1537747200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN305057",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.49504711600002,
+    "LONGITUDE": -97.42501416099998,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN307305",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.306313000000046,
+    "LONGITUDE": -96.73327899999998,
+    "SOURCEDATE": 1539216000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN305784",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 1,
+    "LATITUDE": 32.28647797000008,
+    "LONGITUDE": -97.30192135099998,
+    "SOURCEDATE": 1515024000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN307546",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 0,
+    "LATITUDE": 32.441413047000026,
+    "LONGITUDE": -96.83444899199998,
+    "SOURCEDATE": 1533513600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN307514",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.713684939000075,
+    "LONGITUDE": -97.11559670599996,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN307459",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.31937059200004,
+    "LONGITUDE": -96.98262125699995,
+    "SOURCEDATE": 1515369600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP307857",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.70457588000005,
+    "LONGITUDE": -96.89129404999994,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "CAMP WISDOM RD",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.661782035000044,
+    "LONGITUDE": -96.81560200599995,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303452",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.674553108000055,
+    "LONGITUDE": -97.22621170999997,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306936",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 1,
+    "LATITUDE": 32.18352661000006,
+    "LONGITUDE": -96.98220786199994,
+    "SOURCEDATE": 1517270400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "CEDAR CREST SW",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 8,
+    "LATITUDE": 32.721837221000044,
+    "LONGITUDE": -96.80426714799995,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "LOVE BIRD",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.67810446400006,
+    "LONGITUDE": -96.88312615099994,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304324",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.65617156900004,
+    "LONGITUDE": -97.13085258399997,
+    "SOURCEDATE": 1453852800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "BRYAN AVENUE",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.70435724500004,
+    "LONGITUDE": -97.32501184499995,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP302754",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.466857858000026,
+    "LONGITUDE": -96.90773210299994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306246",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.46871712400008,
+    "LONGITUDE": -97.26972762699995,
+    "SOURCEDATE": 1539648000000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303833",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.653812439000035,
+    "LONGITUDE": -97.30494689999995,
+    "SOURCEDATE": 1537747200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP305270",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.66228921000004,
+    "LONGITUDE": -96.88119912899998,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308277",
+    "MAX_VOLT": -999999,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.736569717000066,
+    "LONGITUDE": -96.97960251199999,
+    "SOURCEDATE": 1537833600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DAVIS ST.",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.749064058000044,
+    "LONGITUDE": -96.85772902599996,
+    "SOURCEDATE": 1484611200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "EAGLE FORD",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.649035955000045,
+    "LONGITUDE": -96.95957000599998,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308188",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.444516031000035,
+    "LONGITUDE": -96.84596164299995,
+    "SOURCEDATE": 1433980800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DESOTO HAMPTON RD",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.60923076000006,
+    "LONGITUDE": -96.85788606399996,
+    "SOURCEDATE": 1484092800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304540",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 0,
+    "LATITUDE": 32.65722719200005,
+    "LONGITUDE": -97.02694727999994,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306196",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 2,
+    "LATITUDE": 32.76879064000008,
+    "LONGITUDE": -97.12401228199997,
+    "SOURCEDATE": 1515369600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309049",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.72962254600003,
+    "LONGITUDE": -97.21999601599998,
+    "SOURCEDATE": 1556755200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP305194",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 5,
+    "LATITUDE": 32.77253389200007,
+    "LONGITUDE": -96.91808474999999,
+    "SOURCEDATE": 1485907200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "HAMPTON RD",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.69929310400005,
+    "LONGITUDE": -96.85844376199998,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304605",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.74433531900007,
+    "LONGITUDE": -97.03508476099995,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "JOSHUA",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.46186658900007,
+    "LONGITUDE": -97.38387930999994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN302895",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.65806774500004,
+    "LONGITUDE": -97.29482029999997,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "WESTMORELAND",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.72084782500008,
+    "LONGITUDE": -96.87351602699994,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309679",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 2,
+    "LATITUDE": 32.66149900800008,
+    "LONGITUDE": -97.28863957999994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SIMPSON STUART TAP",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.66816422100004,
+    "LONGITUDE": -96.77199320899996,
+    "SOURCEDATE": 1484611200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "MOUNTAIN CREEK SES",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 10,
+    "LATITUDE": 32.72436636400005,
+    "LONGITUDE": -96.93538502099995,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309888",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.67495854400005,
+    "LONGITUDE": -97.25440278099995,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304123",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.748573684000064,
+    "LONGITUDE": -97.33326575599995,
+    "SOURCEDATE": 1556755200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309625",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.32032767600003,
+    "LONGITUDE": -97.40222793499998,
+    "SOURCEDATE": 1433980800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "FOREST HILL SWITCHING STATION",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 6,
+    "LATITUDE": 32.64478611200008,
+    "LONGITUDE": -97.28708041899995,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "FARON STREET",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.70970922400005,
+    "LONGITUDE": -97.40513316899995,
+    "SOURCEDATE": 1440633600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "VENUS",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 16,
+    "LATITUDE": 32.44395046000005,
+    "LONGITUDE": -97.07277551299995,
+    "SOURCEDATE": 1453766400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "LILLIAN",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.490861782000025,
+    "LONGITUDE": -97.19503165199995,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN307180",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.49439927000003,
+    "LONGITUDE": -96.74155985499999,
+    "SOURCEDATE": 1433980800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308252",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.37741968700004,
+    "LONGITUDE": -96.85112008199997,
+    "SOURCEDATE": 1433980800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "FISH CREEK 69",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.731574170000044,
+    "LONGITUDE": -96.98519856899998,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "GRAND PRAIRIE",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 0,
+    "LATITUDE": 32.729187565000075,
+    "LONGITUDE": -96.99361294499994,
+    "SOURCEDATE": 1472083200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN300845",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.80553673700007,
+    "LONGITUDE": -97.22325184099998,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308920",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.58427635600003,
+    "LONGITUDE": -97.17395196799998,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN301032",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.342497535000064,
+    "LONGITUDE": -97.21500364499997,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304547",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": -999999,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 2,
+    "LATITUDE": 32.57259462500008,
+    "LONGITUDE": -96.94451661899996,
+    "SOURCEDATE": 1513900800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "NORTH CLEBURNE",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.38867730800007,
+    "LONGITUDE": -97.38943365899996,
+    "SOURCEDATE": 1482278400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308746",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.55133190000004,
+    "LONGITUDE": -97.07730420999997,
+    "SOURCEDATE": 1453852800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN308533",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 4,
+    "LATITUDE": 32.68007346400003,
+    "LONGITUDE": -97.08344836999999,
+    "SOURCEDATE": 1453852800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN307331",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.41132495000005,
+    "LONGITUDE": -97.45570073699997,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP305412",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.67465364200007,
+    "LONGITUDE": -97.22609494599999,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN304353",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": -999999,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.53554214600007,
+    "LONGITUDE": -97.25820954699998,
+    "SOURCEDATE": 1514851200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN302957",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.22707264300004,
+    "LONGITUDE": -97.31550971799999,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "CALUMET",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.74214464200003,
+    "LONGITUDE": -96.89454133899994,
+    "SOURCEDATE": 1436227200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP307957",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.812679768000066,
+    "LONGITUDE": -97.13957310899997,
+    "SOURCEDATE": 1556755200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303237",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.62981074800007,
+    "LONGITUDE": -97.41681792299994,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "RISER303656",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.743825628000025,
+    "LONGITUDE": -97.32626399299994,
+    "SOURCEDATE": 1556755200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "CEDAR HILL SW",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 12,
+    "LATITUDE": 32.66553337100004,
+    "LONGITUDE": -96.96105955099995,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "POLK ST",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 13.8,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 0,
+    "LATITUDE": 32.73327902200003,
+    "LONGITUDE": -96.83949402499996,
+    "SOURCEDATE": 1472083200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "TAP305248",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.74215575200003,
+    "LONGITUDE": -96.92949305699995,
+    "SOURCEDATE": 1484611200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303353",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.24895778500007,
+    "LONGITUDE": -97.06013125299995,
+    "SOURCEDATE": 1514851200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN303177",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 138,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 1,
+    "LATITUDE": 32.757076518000076,
+    "LONGITUDE": -97.16186967399995,
+    "SOURCEDATE": 1513900800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "DUVAL",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.72536754300006,
+    "LONGITUDE": -97.29522364799999,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN306502",
+    "MAX_VOLT": 69,
+    "MIN_VOLT": 69,
+    "STATUS": "NOT AVAILABLE",
+    "LINES": 2,
+    "LATITUDE": 32.456018706000066,
+    "LONGITUDE": -96.73681476499996,
+    "SOURCEDATE": 1515369600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "KEENE",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.367403925000076,
+    "LONGITUDE": -97.33611475999999,
+    "SOURCEDATE": 1493683200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN309624",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 138,
+    "STATUS": "IN SERVICE",
+    "LINES": 1,
+    "LATITUDE": 32.683289786000046,
+    "LONGITUDE": -97.18622390399997,
+    "SOURCEDATE": 1537747200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "GRANDVIEW TMPP",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.33663200500007,
+    "LONGITUDE": -97.24015951599995,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "EVERMAN",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 13,
+    "LATITUDE": 32.64004343100004,
+    "LONGITUDE": -97.25157128299998,
+    "SOURCEDATE": 1453766400000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SOUTH CLIFF PUMP",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 2,
+    "LATITUDE": 32.65388721000005,
+    "LONGITUDE": -96.80382579799999,
+    "SOURCEDATE": 1484265600000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "SHERRY",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 13.8,
+    "STATUS": "IN SERVICE",
+    "LINES": 5,
+    "LATITUDE": 32.713896109000075,
+    "LONGITUDE": -97.07054679599997,
+    "SOURCEDATE": 1493596800000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "LIGGETT",
+    "MAX_VOLT": 345,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 12,
+    "LATITUDE": 32.81478991600005,
+    "LONGITUDE": -97.02539778699997,
+    "SOURCEDATE": 1484611200000
+   }
+  },
+  {
+   "attributes": {
+    "NAME": "UNKNOWN307367",
+    "MAX_VOLT": 138,
+    "MIN_VOLT": 69,
+    "STATUS": "IN SERVICE",
+    "LINES": 3,
+    "LATITUDE": 32.770432191000054,
+    "LONGITUDE": -97.25652594799999,
+    "SOURCEDATE": 1493683200000
+   }
+  }
+ ]
+}

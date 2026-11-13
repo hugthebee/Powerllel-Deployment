@@ -1,0 +1,1354 @@
+{
+ "objectIdFieldName": "FID",
+ "uniqueIdField": {
+  "name": "FID",
+  "isSystemMaintained": true
+ },
+ "globalIdFieldName": "",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "Plant_Code",
+   "type": "esriFieldTypeInteger",
+   "alias": "Energy Information Administration (EIA) Power Plant Identification Number",
+   "sqlType": "sqlTypeInteger",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"A unique identification number assigned by the Energy Information Administration (EIA) to each power plant. This identifier is used across EIA surveys and reporting systems.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+  },
+  {
+   "name": "Plant_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Electric Power Plant Name",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 58,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The official name of the electric power plant as reported to the Energy Information Administration (EIA). Plant names are used for identification, reporting, and public reference.\",\"fieldValueType\":\"nameOrTitle\"}"
+  },
+  {
+   "name": "Utility_Na",
+   "type": "esriFieldTypeString",
+   "alias": "Operating Utility Name",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 65,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The name of the utility responsible for day-to-day operations of the power plant. This field reflects operational control rather than ownership in all cases.\",\"fieldValueType\":\"nameOrTitle\"}"
+  },
+  {
+   "name": "PrimSource",
+   "type": "esriFieldTypeString",
+   "alias": "Primary Energy Source",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 14,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The primary fuel or energy source used by the power plant for electricity generation. This field reflects the dominant source reported to the Energy Information Administration (EIA).\",\"fieldValueType\":\"typeOrCategory\"}"
+  },
+  {
+   "name": "tech_desc",
+   "type": "esriFieldTypeString",
+   "alias": "Generation Technology Description",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 130,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"A description of the generation technologies or prime movers used at the plant. Technology types describe how electricity is produced from energy sources.\",\"fieldValueType\":\"description\"}"
+  },
+  {
+   "name": "Total_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Maximum Summer Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The maximum electrical output of the plant during summer conditions, measured in megawatts. Summer capacity accounts for performance limits due to temperature and operating conditions.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "Coal_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Coal-Fired Generation Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The net summer capacity of coal-fired electric generators at the plant. Coal capacity represents conventional thermal generation resources.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "NG_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Natural Gas Generation Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The net summer capacity of natural gas-fired electric generators at the plant. Natural gas is a major fuel source for electricity generation in the United States.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "Nuclear_MW",
+   "type": "esriFieldTypeDouble",
+   "alias": "Nuclear Generation Capacity (Megawatts)",
+   "sqlType": "sqlTypeFloat",
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The net summer capacity of nuclear-powered electric generators at the plant. Nuclear capacity reflects baseload electricity generation resources.\",\"fieldValueType\":\"measurement\"}"
+  },
+  {
+   "name": "County",
+   "type": "esriFieldTypeString",
+   "alias": "Plant County Location",
+   "sqlType": "sqlTypeNVarchar",
+   "length": 25,
+   "domain": null,
+   "defaultValue": null,
+   "description": "{\"value\":\"The county containing the power plant. County names are used for sub-state analysis and reporting.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "Plant_Code": 63797,
+    "Plant_Name": "Ellis Solar LLC",
+    "Utility_Na": "174 Power Global Corp.",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 80,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Ellis"
+   },
+   "geometry": {
+    "x": -97.05433299963342,
+    "y": 32.46719399981947
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 55091,
+    "Plant_Name": "Midlothian Energy Facility",
+    "Utility_Na": "Midlothian Energy LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 1620,
+    "Coal_MW": 0,
+    "NG_MW": 1620,
+    "Nuclear_MW": 0,
+    "County": "Ellis"
+   },
+   "geometry": {
+    "x": -97.05369999997184,
+    "y": 32.43020000008936
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 68730,
+    "Plant_Name": "HEB00750",
+    "Utility_Na": "Generate ER-NG, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": " "
+   },
+   "geometry": {
+    "x": -97.11480199973423,
+    "y": 32.56721999969278
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64772,
+    "Plant_Name": "WAL284",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.13004800012378,
+    "y": 32.57615899998477
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64897,
+    "Plant_Name": "WAL3285",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -96.94691400036577,
+    "y": 32.59732000028482
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64884,
+    "Plant_Name": "WAL1801",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.13183400002896,
+    "y": 32.66872899992136
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 61355,
+    "Plant_Name": "Arlington Outlet Hydroelectric Generator",
+    "Utility_Na": "Tarrant Regional Water District",
+    "PrimSource": "hydroelectric",
+    "tech_desc": "Conventional Hydroelectric",
+    "Total_MW": 1.3,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.24290600019613,
+    "y": 32.63906899999828
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64807,
+    "Plant_Name": "WAL896",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -97.03623400020716,
+    "y": 32.67353199970567
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64924,
+    "Plant_Name": "WAL3432",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -96.87983600039658,
+    "y": 32.59292299972515
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 68684,
+    "Plant_Name": "Century BESS",
+    "Utility_Na": "Prologis Logistics Services Incorporated BESS",
+    "PrimSource": "batteries",
+    "tech_desc": "Batteries",
+    "Total_MW": 9.5,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": " "
+   },
+   "geometry": {
+    "x": -97.0832529998693,
+    "y": 32.68656999987031
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64896,
+    "Plant_Name": "WAL3284",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.20925400023363,
+    "y": 32.66673999975073
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64936,
+    "Plant_Name": "WAL3631",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.33851400041385,
+    "y": 32.576636000312725
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 54817,
+    "Plant_Name": "Johnson County",
+    "Utility_Na": "Johnson County Power LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 267,
+    "Coal_MW": 0,
+    "NG_MW": 267,
+    "Nuclear_MW": 0,
+    "County": "Johnson"
+   },
+   "geometry": {
+    "x": -97.40780000006258,
+    "y": 32.39939999996155
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 66324,
+    "Plant_Name": "BPL Files Solar",
+    "Utility_Na": "BPL Files Solar LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 145,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Hill"
+   },
+   "geometry": {
+    "x": -97.071410000134,
+    "y": 32.1839800002723
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 3491,
+    "Plant_Name": "Handley",
+    "Utility_Na": "Constellation Power, Inc",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Steam Turbine",
+    "Total_MW": 1245,
+    "Coal_MW": 0,
+    "NG_MW": 1245,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.2191999997357,
+    "y": 32.72829999993518
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 3453,
+    "Plant_Name": "Mountain Creek",
+    "Utility_Na": "Mountain Creek Power, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Steam Turbine",
+    "Total_MW": 808,
+    "Coal_MW": 0,
+    "NG_MW": 808,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -96.93579999965317,
+    "y": 32.72309999975944
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64883,
+    "Plant_Name": "WAL1455",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.16926100019138,
+    "y": 32.76448299989115
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 54520,
+    "Plant_Name": "Village Creek Water Reclamation Facility",
+    "Utility_Na": "Ft Worth City of",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combustion Turbine; Natural Gas Internal Combustion Engine;",
+    "Total_MW": 10.2,
+    "Coal_MW": 0,
+    "NG_MW": 10.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.14209000005073,
+    "y": 32.77509300017051
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64955,
+    "Plant_Name": "WAL5312",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.29180299982495,
+    "y": 32.77464300022221
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 68685,
+    "Plant_Name": "Liggett Switch",
+    "Utility_Na": "Prologis Logistics Services Incorporated BESS",
+    "PrimSource": "batteries",
+    "tech_desc": "Batteries",
+    "Total_MW": 9.7,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": " "
+   },
+   "geometry": {
+    "x": -97.02499999984398,
+    "y": 32.81478999969611
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 61309,
+    "Plant_Name": "IKEA Grand Prairie Rooftop PV System",
+    "Utility_Na": "IKEA Property Inc",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 1.1,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -97.05000000011498,
+    "y": 32.820000000177224
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 67381,
+    "Plant_Name": "OTHERTraditionClearfork",
+    "Utility_Na": "Texas Microgrid, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.40832800014218,
+    "y": 32.70717100016861
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64943,
+    "Plant_Name": "WAL4509",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.46772900038822,
+    "y": 32.67782900005155
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 55223,
+    "Plant_Name": "Ennis Power Company LLC",
+    "Utility_Na": "Ennis Power Company LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 359.5,
+    "Coal_MW": 0,
+    "NG_MW": 359.5,
+    "Nuclear_MW": 0,
+    "County": "Ellis"
+   },
+   "geometry": {
+    "x": -96.67499999964316,
+    "y": 32.32000000033122
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64948,
+    "Plant_Name": "WAL5080",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.18404999974813,
+    "y": 32.84793900035853
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 63764,
+    "Plant_Name": "Elm Branch Solar 1",
+    "Utility_Na": "Lightsource Renewable Energy Asset Management, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 134.7,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Ellis"
+   },
+   "geometry": {
+    "x": -96.70612099988591,
+    "y": 32.23255999991191
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64809,
+    "Plant_Name": "WAL940",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.43384300007399,
+    "y": 32.75503599981995
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 67309,
+    "Plant_Name": "OTHERBenEKDallas",
+    "Utility_Na": "Generate ER-NG, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.6,
+    "Coal_MW": 0,
+    "NG_MW": 1.6,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -96.85321500007684,
+    "y": 32.818471000354144
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 58946,
+    "Plant_Name": "Ameresco Dallas LLC",
+    "Utility_Na": "Ameresco Dallas LLC",
+    "PrimSource": "biomass",
+    "tech_desc": "Landfill Gas",
+    "Total_MW": 4.2,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -96.64444400018826,
+    "y": 32.64861100023518
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 67058,
+    "Plant_Name": "TX Fort Worth 5200 Gold Spike Drive",
+    "Utility_Na": "Catalyze Fort Worth 5200 Gold Spike Drive Microgrid, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 4,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.34726700038767,
+    "y": 32.83132799978174
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 65571,
+    "Plant_Name": "Verizon Hidden Ridge Solar Project",
+    "Utility_Na": "Verizon Communications",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 2.7,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -96.95371999987762,
+    "y": 32.87661999978206
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64937,
+    "Plant_Name": "WAL3773",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.48377499994564,
+    "y": 32.765261000053925
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64812,
+    "Plant_Name": "WAL972",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.42473899957258,
+    "y": 32.811848000019836
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 57020,
+    "Plant_Name": "Westside Landfill Gas Recovery",
+    "Utility_Na": "WM Renewable Energy LLC",
+    "PrimSource": "biomass",
+    "tech_desc": "Landfill Gas",
+    "Total_MW": 3.2,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Parker"
+   },
+   "geometry": {
+    "x": -97.53711799996911,
+    "y": 32.72455300006706
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64771,
+    "Plant_Name": "WAL266",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.08198599982292,
+    "y": 32.92204900013872
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64890,
+    "Plant_Name": "WAL2980",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.28653100032318,
+    "y": 32.89516999992061
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 63180,
+    "Plant_Name": "TPE Whitney Solar, LLC",
+    "Utility_Na": "Cardinal Renewables",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 9.9,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Bosque"
+   },
+   "geometry": {
+    "x": -97.34999999977379,
+    "y": 32.050000000137885
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 55390,
+    "Plant_Name": "State Farm Insur Support Center Central",
+    "Utility_Na": "State Farm Mutual Auto Ins Co",
+    "PrimSource": "petroleum",
+    "tech_desc": "Petroleum Liquids",
+    "Total_MW": 10.8,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -96.98939999959462,
+    "y": 32.919199999780886
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64887,
+    "Plant_Name": "WAL2667",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -96.68954300005095,
+    "y": 32.79382899978545
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 67310,
+    "Plant_Name": "HEB00055",
+    "Utility_Na": "Generate ER-NG, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.13131400034527,
+    "y": 32.938924000199044
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64956,
+    "Plant_Name": "WAL5316",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.38758599994486,
+    "y": 32.88211100025364
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 68734,
+    "Plant_Name": "HEB00801",
+    "Utility_Na": "Generate ER-NG, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": " "
+   },
+   "geometry": {
+    "x": -97.3089349996788,
+    "y": 32.9145050000343
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 63737,
+    "Plant_Name": "Chisholm Grid Energy Storage System",
+    "Utility_Na": "Chisholm Grid, LLC",
+    "PrimSource": "batteries",
+    "tech_desc": "Batteries",
+    "Total_MW": 100,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.38611100038433,
+    "y": 32.90444400032793
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 8063,
+    "Plant_Name": "DeCordova Steam Electric Station",
+    "Utility_Na": "Luminant Generation Company LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Batteries; Natural Gas Fired Combustion Turbine;",
+    "Total_MW": 534,
+    "Coal_MW": 0,
+    "NG_MW": 274,
+    "Nuclear_MW": 0,
+    "County": "Hood"
+   },
+   "geometry": {
+    "x": -97.70055599964329,
+    "y": 32.40305600016444
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64922,
+    "Plant_Name": "WAL3406",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -96.81663999985912,
+    "y": 32.95904799998809
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 55139,
+    "Plant_Name": "Wolf Hollow I LP",
+    "Utility_Na": "Wolf Hollow I Power, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 756,
+    "Coal_MW": 0,
+    "NG_MW": 756,
+    "Nuclear_MW": 0,
+    "County": "Hood"
+   },
+   "geometry": {
+    "x": -97.73168600010686,
+    "y": 32.334219999959686
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 59812,
+    "Plant_Name": "Wolf Hollow II",
+    "Utility_Na": "Constellation Power, Inc",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 1103.4,
+    "Coal_MW": 0,
+    "NG_MW": 1103.4,
+    "Nuclear_MW": 0,
+    "County": "Hood"
+   },
+   "geometry": {
+    "x": -97.73461199983683,
+    "y": 32.33767899962111
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64893,
+    "Plant_Name": "WAL3224",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -96.59802800005045,
+    "y": 32.84220899996556
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 63892,
+    "Plant_Name": "Lily Solar Hybrid",
+    "Utility_Na": "Lily Solar, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Batteries; Solar Photovoltaic;",
+    "Total_MW": 196,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Kaufman"
+   },
+   "geometry": {
+    "x": -96.42898499989028,
+    "y": 32.53327299966954
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64962,
+    "Plant_Name": "WAL5764",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Tarrant"
+   },
+   "geometry": {
+    "x": -97.4119760001205,
+    "y": 32.967341000217374
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 57165,
+    "Plant_Name": "Farmers Branch Renewable Energy Facility",
+    "Utility_Na": "WM Renewable Energy LLC",
+    "PrimSource": "biomass",
+    "tech_desc": "Landfill Gas",
+    "Total_MW": 3.2,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Denton"
+   },
+   "geometry": {
+    "x": -96.95722200026607,
+    "y": 33.031110999675676
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 63769,
+    "Plant_Name": "Briar Creek Solar 1",
+    "Utility_Na": "Lightsource Renewable Energy Asset Management, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 127,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Navarro"
+   },
+   "geometry": {
+    "x": -96.58513599982864,
+    "y": 32.06748300015478
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 55480,
+    "Plant_Name": "Forney Energy Center",
+    "Utility_Na": "LaFrontera Holdings LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 1770,
+    "Coal_MW": 0,
+    "NG_MW": 1770,
+    "Nuclear_MW": 0,
+    "County": "Kaufman"
+   },
+   "geometry": {
+    "x": -96.49159999974636,
+    "y": 32.75630000030045
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 65303,
+    "Plant_Name": "Sun Valley Solar Project",
+    "Utility_Na": "Sun Valley Solar LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 250,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Hill"
+   },
+   "geometry": {
+    "x": -97.01497999982377,
+    "y": 31.869759999890825
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 3452,
+    "Plant_Name": "Lake Hubbard",
+    "Utility_Na": "Luminant Generation Company LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Steam Turbine",
+    "Total_MW": 915,
+    "Coal_MW": 0,
+    "NG_MW": 915,
+    "Nuclear_MW": 0,
+    "County": "Dallas"
+   },
+   "geometry": {
+    "x": -96.54579999973741,
+    "y": 32.83580000013903
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 67024,
+    "Plant_Name": "Pitts Dudik Solar",
+    "Utility_Na": "Elawan Pitts Dudik Solar, LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 49.6,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Hill"
+   },
+   "geometry": {
+    "x": -96.87509999957369,
+    "y": 31.893200000011074
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 6145,
+    "Plant_Name": "Comanche Peak",
+    "Utility_Na": "Luminant Generation Company LLC",
+    "PrimSource": "nuclear",
+    "tech_desc": "Nuclear",
+    "Total_MW": 2400,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 2400,
+    "County": "Somervell"
+   },
+   "geometry": {
+    "x": -97.78551500037716,
+    "y": 32.29836500008716
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 794,
+    "Plant_Name": "Lewisville",
+    "Utility_Na": "City of Garland - (TX)",
+    "PrimSource": "hydroelectric",
+    "tech_desc": "Conventional Hydroelectric",
+    "Total_MW": 2,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Denton"
+   },
+   "geometry": {
+    "x": -96.96380600002007,
+    "y": 33.06847299987547
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 6414,
+    "Plant_Name": "Whitney",
+    "Utility_Na": "USACE-Fort Worth District",
+    "PrimSource": "hydroelectric",
+    "tech_desc": "Conventional Hydroelectric",
+    "Total_MW": 42,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Bosque"
+   },
+   "geometry": {
+    "x": -97.3666999998075,
+    "y": 31.869399999868932
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 55172,
+    "Plant_Name": "Thad Hill Energy Center",
+    "Utility_Na": "Thad Hill Energy Center, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Fired Combined Cycle",
+    "Total_MW": 763,
+    "Coal_MW": 0,
+    "NG_MW": 763,
+    "Nuclear_MW": 0,
+    "County": "Bosque"
+   },
+   "geometry": {
+    "x": -97.35859999958674,
+    "y": 31.859399999874608
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 67314,
+    "Plant_Name": "HEB00790",
+    "Utility_Na": "Generate ER-NG, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Collin"
+   },
+   "geometry": {
+    "x": -96.79668100000953,
+    "y": 33.055367000371746
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 61895,
+    "Plant_Name": "Toyota HQ Plan",
+    "Utility_Na": "MN8 Energy LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 5.9,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Collin"
+   },
+   "geometry": {
+    "x": -96.84112999959389,
+    "y": 33.084218999643824
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64889,
+    "Plant_Name": "WAL2883",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Collin"
+   },
+   "geometry": {
+    "x": -96.79859599978614,
+    "y": 33.09709400001376
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 61370,
+    "Plant_Name": "Walnut Springs Solar",
+    "Utility_Na": "Cypress Creek Renewables",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 5,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Bosque"
+   },
+   "geometry": {
+    "x": -97.76846399981586,
+    "y": 32.07867999986605
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64798,
+    "Plant_Name": "WAL565",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "natural gas",
+    "tech_desc": "Natural Gas Internal Combustion Engine",
+    "Total_MW": 1.2,
+    "Coal_MW": 0,
+    "NG_MW": 1.2,
+    "Nuclear_MW": 0,
+    "County": "Navarro"
+   },
+   "geometry": {
+    "x": -96.40376399968632,
+    "y": 32.10105399970373
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 64770,
+    "Plant_Name": "WAL202",
+    "Utility_Na": "Walmart Stores Texas, LLC",
+    "PrimSource": "petroleum",
+    "tech_desc": "Petroleum Liquids",
+    "Total_MW": 1.3,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Collin"
+   },
+   "geometry": {
+    "x": -96.80070800010454,
+    "y": 33.1003530002728
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 61873,
+    "Plant_Name": "Yellow Jacket",
+    "Utility_Na": "Cypress Creek Renewables",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 5,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Bosque"
+   },
+   "geometry": {
+    "x": -97.65374700004342,
+    "y": 31.93384099982753
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 66571,
+    "Plant_Name": "BKV Ponder Solar 1",
+    "Utility_Na": "PPM Solar LLC",
+    "PrimSource": "solar",
+    "tech_desc": "Solar Photovoltaic",
+    "Total_MW": 2.5,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Denton"
+   },
+   "geometry": {
+    "x": -97.25464400034944,
+    "y": 33.15576700012452
+   }
+  },
+  {
+   "attributes": {
+    "Plant_Code": 65048,
+    "Plant_Name": "Hubbard Wind",
+    "Utility_Na": "Hubbard Wind LLC",
+    "PrimSource": "wind",
+    "tech_desc": "Onshore Wind Turbine",
+    "Total_MW": 300,
+    "Coal_MW": 0,
+    "NG_MW": 0,
+    "Nuclear_MW": 0,
+    "County": "Limestone"
+   },
+   "geometry": {
+    "x": -96.82819600043759,
+    "y": 31.774710000157647
+   }
+  }
+ ]
+}

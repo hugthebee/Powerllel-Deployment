@@ -1,0 +1,485 @@
+{
+ "mode": "mock",
+ "built": "2026-11-02",
+ "sources": [
+  {
+   "id": "atria_screen",
+   "name": "Atria MCP screen (saved responses)",
+   "url": "https://askatria.ai",
+   "data_map": [
+    "technical.parcel",
+    "technical.adjoining_parcels_assemblage",
+    "technical.easements_and_lines",
+    "technical.substations",
+    "technical.gas_pipelines",
+    "technical.soils",
+    "technical.grid_headroom_load",
+    "environmental.water_supply",
+    "environmental.wetlands",
+    "environmental.floodplain",
+    "environmental.air_attainment_status",
+    "environmental.contamination",
+    "policy.zoning_status_and",
+    "policy.local_moratoriums_and",
+    "security.critical_infrastructure_exposure",
+    "cultural.demographics"
+   ],
+   "how": "Atria module",
+   "kind": "atria",
+   "cost": "Paid (credits)",
+   "status": "Answered",
+   "fetch_date": "2026-10-28",
+   "note": "Read 2026-10-28 by atria-power-desk; no new calls in this build. demographics was not in that screen.",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Annual; Daily crawl; Quarterly; Quarterly (map changes); Quarterly / on EPA action; Quarterly; monthly for shortlisted sites; Whenever received",
+   "frequency_days": 1
+  },
+  {
+   "id": "atria_permit_path",
+   "name": "Atria atria_permit_path",
+   "url": "https://askatria.ai",
+   "data_map": [
+    "policy.local_approval_path"
+   ],
+   "how": "Atria module",
+   "kind": "atria",
+   "cost": "100 credits per site",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "Not pulled: shortlisted sites only (credit funnel).",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Per site; monthly for shortlisted",
+   "frequency_days": 30
+  },
+  {
+   "id": "public_layers",
+   "name": "Public GIS layers (TxGIO parcels, HIFLD, EIA, EPA, FEMA)",
+   "url": "https://geographic.texas.gov",
+   "data_map": [
+    "technical.parcel",
+    "economics.land_value_vs"
+   ],
+   "how": "Download",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Answered",
+   "fetch_date": "2026-10-28",
+   "note": "Read 2026-10-28 by atria-power-desk scripts/fetch_site.py.",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Quarterly; Quarterly; monthly for shortlisted sites",
+   "frequency_days": 91
+  },
+  {
+   "id": "public_reads",
+   "name": "WRI Aqueduct 4.0, CDC SVI 2022, FEMA USA Structures (public ArcGIS services)",
+   "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/aqueduct_water_risk/FeatureServer/1",
+   "data_map": [
+    "environmental.water_stress",
+    "cultural.community_burden",
+    "cultural.noise_exposure"
+   ],
+   "how": "Download",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Answered",
+   "fetch_date": "2026-10-29",
+   "note": "",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Annual; Annual check (dataset multi-year); Per site",
+   "frequency_days": 365
+  },
+  {
+   "id": "tceq_turbines",
+   "name": "TCEQ issued gas-turbine permits (xlsx)",
+   "url": "https://www.tceq.texas.gov/permitting/air/guidance/newsourcereview/combustion/nsr_fac_turbines.html",
+   "data_map": [
+    "environmental.air_permit_precedent"
+   ],
+   "how": "Download",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "",
+   "sites": {
+    "bexar-hwy16": "Not pulled",
+    "bexar-hwy87": "Not pulled",
+    "bexar-pleasanton": "Not pulled",
+    "bexar-rockport": "Not pulled",
+    "bexar-somerset": "Not pulled",
+    "el-paso-caliente": "Not pulled",
+    "johnson-venus": "Not pulled",
+    "milam-sandow": "Not pulled"
+   },
+   "frequency": "Monthly",
+   "frequency_days": 30
+  },
+  {
+   "id": "tceq_nsr",
+   "name": "TCEQ pending NSR permits (HTML)",
+   "url": "https://www2.tceq.texas.gov/airperm/index.cfm",
+   "data_map": [
+    "economics.projects_stuck_waiting"
+   ],
+   "how": "Crawled",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "",
+   "sites": {
+    "bexar-hwy16": "Not pulled",
+    "bexar-hwy87": "Not pulled",
+    "bexar-pleasanton": "Not pulled",
+    "bexar-rockport": "Not pulled",
+    "bexar-somerset": "Not pulled",
+    "el-paso-caliente": "Not pulled",
+    "johnson-venus": "Not pulled",
+    "milam-sandow": "Not pulled"
+   },
+   "frequency": "Weekly",
+   "frequency_days": 7
+  },
+  {
+   "id": "comptroller",
+   "name": "Texas Comptroller qualifying data center list",
+   "url": "https://comptroller.texas.gov/taxes/data-centers/",
+   "data_map": [
+    "policy.incentives",
+    "economics.projects_stuck_waiting"
+   ],
+   "how": "Download",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Monthly; Weekly",
+   "frequency_days": 7
+  },
+  {
+   "id": "ercot_lli",
+   "name": "ERCOT large-load interconnection status (PDF)",
+   "url": "https://www.ercot.com/services/rq/large-load-integration",
+   "data_map": [
+    "technical.ercot_largeload_queue"
+   ],
+   "how": "Crawled",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "",
+   "sites": {
+    "bexar-hwy16": "Not pulled",
+    "bexar-hwy87": "Not pulled",
+    "bexar-pleasanton": "Not pulled",
+    "bexar-rockport": "Not pulled",
+    "bexar-somerset": "Not pulled",
+    "el-paso-caliente": "Not pulled",
+    "johnson-venus": "Not pulled",
+    "milam-sandow": "Not pulled"
+   },
+   "frequency": "Monthly",
+   "frequency_days": 30
+  },
+  {
+   "id": "greenbook",
+   "name": "EPA Green Book nonattainment areas",
+   "url": "https://www.epa.gov/green-book",
+   "data_map": [
+    "environmental.air_attainment_status"
+   ],
+   "how": "Download",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "Cross-check for the Atria airQuality answer, which already reads the Green Book layer.",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Quarterly / on EPA action",
+   "frequency_days": 91
+  },
+  {
+   "id": "fema_nri",
+   "name": "FEMA National Risk Index",
+   "url": "https://hazards.fema.gov/nri/data-resources",
+   "data_map": [
+    "security.natural_hazards",
+    "environmental.heat_stress_cooling"
+   ],
+   "how": "Download",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Annual",
+   "frequency_days": 365
+  },
+  {
+   "id": "aqueduct",
+   "name": "WRI Aqueduct 4.0",
+   "url": "https://www.wri.org/data/aqueduct-global-maps-40-data",
+   "data_map": [
+    "environmental.water_stress"
+   ],
+   "how": "Download",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Annual check (dataset multi-year)",
+   "frequency_days": 365
+  },
+  {
+   "id": "ipac",
+   "name": "USFWS IPaC location API",
+   "url": "https://ipac.ecosphere.fws.gov/location/api",
+   "data_map": [
+    "environmental.endangered_species_critical"
+   ],
+   "how": "API",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Monthly for shortlisted sites",
+   "frequency_days": 30
+  },
+  {
+   "id": "peeringdb",
+   "name": "PeeringDB API",
+   "url": "https://www.peeringdb.com/apidocs/",
+   "data_map": [
+    "technical.fiber_internet_exchange"
+   ],
+   "how": "API",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Monthly",
+   "frequency_days": 30
+  },
+  {
+   "id": "policy_llm",
+   "name": "Local agendas, minutes, news and public posts (LLM extraction)",
+   "url": "",
+   "data_map": [
+    "cultural.opposition_history_and",
+    "policy.local_moratoriums_and"
+   ],
+   "how": "Crawled",
+   "kind": "llm",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "Example documents and answers in this build.",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Daily crawl; Daily crawl; features weekly",
+   "frequency_days": 1
+  },
+  {
+   "id": "local_examples",
+   "name": "Not built yet: noise model, EJ burden, military sites, project matching",
+   "url": "",
+   "data_map": [
+    "cultural.noise_exposure",
+    "cultural.community_burden",
+    "security.cfius_real_estate",
+    "economics.projects_stuck_waiting"
+   ],
+   "how": "Derived (model)",
+   "kind": "public",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "Example values stand in; see each row for what would answer it.",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Annual; Per site; Quarterly; Weekly",
+   "frequency_days": 7
+  },
+  {
+   "id": "models",
+   "name": "Atria models A-F (Faraday dispatch, air-permit rules, underwriting)",
+   "url": "",
+   "data_map": [
+    "technical.grid_arrival",
+    "technical.bridge_power_need",
+    "technical.power_prices_by",
+    "environmental.air_permit_path",
+    "environmental.carbon_intensity_of",
+    "environmental.cooling_water_demand",
+    "economics.bridge_contract_cash"
+   ],
+   "how": "Derived (model)",
+   "kind": "model",
+   "cost": "Free",
+   "status": "Answered",
+   "fetch_date": "2026-10-29",
+   "note": "",
+   "sites": {
+    "bexar-hwy16": "Answered",
+    "bexar-hwy87": "Answered",
+    "bexar-pleasanton": "Answered",
+    "bexar-rockport": "Answered",
+    "bexar-somerset": "Answered",
+    "el-paso-caliente": "Answered",
+    "johnson-venus": "Answered",
+    "milam-sandow": "Answered"
+   },
+   "frequency": "Hourly (WattTime), refreshed daily; Hourly data, refreshed daily; On demand; On demand per site; On demand per site; cached; Per project; Recomputed monthly or on new input",
+   "frequency_days": 1
+  },
+  {
+   "id": "customer",
+   "name": "Your thesis (customer provided)",
+   "url": "",
+   "data_map": [
+    "security.foreignownership_limits"
+   ],
+   "how": "Customer provided",
+   "kind": "customer",
+   "cost": "Free",
+   "status": "Not pulled",
+   "fetch_date": null,
+   "note": "Answered on the home page; overrides defaults.",
+   "sites": {
+    "bexar-hwy16": "Not pulled",
+    "bexar-hwy87": "Not pulled",
+    "bexar-pleasanton": "Not pulled",
+    "bexar-rockport": "Not pulled",
+    "bexar-somerset": "Not pulled",
+    "el-paso-caliente": "Not pulled",
+    "johnson-venus": "Not pulled",
+    "milam-sandow": "Not pulled"
+   },
+   "frequency": "Per deal; law check quarterly",
+   "frequency_days": 91
+  }
+ ],
+ "uncovered": [
+  "technical.gas_firm_capacity",
+  "cultural.opposition_tracker_events",
+  "cultural.historic_sites",
+  "policy.state_and_grid",
+  "policy.federal_permitting"
+ ]
+}

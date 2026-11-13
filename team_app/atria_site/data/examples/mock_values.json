@@ -1,0 +1,132 @@
+{
+ "_note": "EXAMPLE VALUES. Made up for the demo, not read from any source. Every value here is stored with status 'Example' and shown with an Example tag. Each ingest module replaces its slice when it is run against the real source.",
+ "read_date": "2026-10-29",
+ "sites": {
+  "milam-sandow": {
+   "aqueduct": {
+    "water_stress_0_5": 2.1
+   },
+   "fema_nri": {
+    "heat_days": 38,
+    "hazard_index": 34,
+    "hazard_top": "Hail and tornado"
+   },
+   "peeringdb": {
+    "fiber_ix_dist_mi": 62,
+    "nearest_ix": "Austin-area exchange"
+   },
+   "ipac": {
+    "critical_habitat_on_site": false,
+    "listed_species_count": 3
+   },
+   "ercot_lli": {
+    "zone_queue_gw": 48.0,
+    "zone": "North-Central load zone"
+   },
+   "tceq_turbines": {
+    "similar_permits_count": 6,
+    "median_nox_ppm": 2.0
+   },
+   "tceq_nsr": {
+    "pending_nsr_in_county": 1
+   },
+   "comptroller": {
+    "dc_incentive": "Eligible for the state data center sales tax exemption",
+    "qualifying_dcs_in_county": 0
+   },
+   "greenbook": {},
+   "local": {
+    "noise_dba_home": 44,
+    "burden_pct": 38,
+    "permit_months": 9,
+    "military_dist_mi": 48,
+    "projects_stuck_in_county": 1
+   }
+  },
+  "el-paso-caliente": {
+   "aqueduct": {
+    "water_stress_0_5": 4.6
+   },
+   "fema_nri": {
+    "heat_days": 85,
+    "hazard_index": 41,
+    "hazard_top": "Heat wave and drought"
+   },
+   "peeringdb": {
+    "fiber_ix_dist_mi": 12,
+    "nearest_ix": "El Paso-area exchange"
+   },
+   "ipac": {
+    "critical_habitat_on_site": false,
+    "listed_species_count": 2
+   },
+   "ercot_lli": {
+    "zone_queue_gw": null,
+    "zone": "Outside ERCOT (WECC)"
+   },
+   "tceq_turbines": {
+    "similar_permits_count": 2,
+    "median_nox_ppm": 2.5
+   },
+   "tceq_nsr": {
+    "pending_nsr_in_county": 0
+   },
+   "comptroller": {
+    "dc_incentive": "Eligible for the state data center sales tax exemption",
+    "qualifying_dcs_in_county": 0
+   },
+   "greenbook": {},
+   "local": {
+    "noise_dba_home": 52,
+    "burden_pct": 72,
+    "permit_months": 12,
+    "military_dist_mi": 0.8,
+    "projects_stuck_in_county": 0
+   }
+  },
+  "johnson-venus": {
+   "aqueduct": {
+    "water_stress_0_5": 2.8
+   },
+   "fema_nri": {
+    "heat_days": 45,
+    "hazard_index": 52,
+    "hazard_top": "Tornado and hail"
+   },
+   "peeringdb": {
+    "fiber_ix_dist_mi": 28,
+    "nearest_ix": "Dallas-area exchange"
+   },
+   "ipac": {
+    "critical_habitat_on_site": false,
+    "listed_species_count": 1
+   },
+   "ercot_lli": {
+    "zone_queue_gw": 48.0,
+    "zone": "North-Central load zone"
+   },
+   "tceq_turbines": {
+    "similar_permits_count": 9,
+    "median_nox_ppm": 2.0
+   },
+   "tceq_nsr": {
+    "pending_nsr_in_county": 2
+   },
+   "comptroller": {
+    "dc_incentive": "Eligible for the state data center sales tax exemption",
+    "qualifying_dcs_in_county": 1
+   },
+   "greenbook": {},
+   "local": {
+    "noise_dba_home": 49,
+    "burden_pct": 55,
+    "permit_months": 10,
+    "military_dist_mi": 24,
+    "projects_stuck_in_county": 2
+   }
+  }
+ },
+ "example_sites": {
+  "_note": "Removed 2026-10-30: every site is now a real parcel."
+ }
+}

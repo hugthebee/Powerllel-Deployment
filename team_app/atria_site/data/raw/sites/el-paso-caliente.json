@@ -1,0 +1,796 @@
+{
+ "id": "el-paso-caliente",
+ "label": "El Paso County, east of El Paso",
+ "state": "TX",
+ "county": "El Paso",
+ "airCase": "marginal ozone",
+ "builtAt": "2026-10-28T03:01:37Z",
+ "builder": "scripts/fetch_site.py (public sources; Atria MCP not used)",
+ "lat": 31.818305,
+ "lng": -106.294789,
+ "parcel": {
+  "status": "ok",
+  "source": "TxGIO StratMap Land Parcels (county appraisal districts)",
+  "source_url": "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap_land_parcels_48_most_recent/MapServer",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "propId": "320751",
+   "geoId": "X57900023000000",
+   "ownerName": "BBC ARMY INTEGRATED LLC",
+   "ownerCareOf": "BBC ARMY INTEGRATED LLC",
+   "ownerMailingAddress": "c/o BELFOUR BEATTY COMMUNITIES ONE COUNTRY VIEW ROAD , MALVEN, PA 19355",
+   "situsAddress": ", , TX 79908",
+   "gisAcres": 321.623102,
+   "legalAcres": 319.1724,
+   "legalDescription": "79 TSP 2 SEC 30 T & P SURV (319.1724 AC)",
+   "landValue": 1112252.0,
+   "improvementValue": 0.0,
+   "marketValue": 1112252.0,
+   "taxYear": "2026",
+   "stateLandUse": null,
+   "localLandUse": null,
+   "appraisalDistrict": "EL PASO APPRAISAL DISTRICT",
+   "county": "EL PASO",
+   "centroid": [
+    31.818305,
+    -106.294789
+   ],
+   "outline": [
+    [
+     [
+      -106.29651234188898,
+      31.82757364998126
+     ],
+     [
+      -106.29388582700001,
+      31.826588870312058
+     ],
+     [
+      -106.28574640780629,
+      31.8239464057787
+     ],
+     [
+      -106.28566873228029,
+      31.823917631882793
+     ],
+     [
+      -106.28567452731218,
+      31.82332664531036
+     ],
+     [
+      -106.28624067435034,
+      31.82350636294765
+     ],
+     [
+      -106.29422421787598,
+      31.82604032798139
+     ],
+     [
+      -106.29785820413585,
+      31.82701703528271
+     ],
+     [
+      -106.29801134173896,
+      31.827065576335276
+     ],
+     [
+      -106.2985286123408,
+      31.827229533286772
+     ],
+     [
+      -106.29853094885885,
+      31.827072386796036
+     ],
+     [
+      -106.29853512243167,
+      31.82679179203922
+     ],
+     [
+      -106.29814396900751,
+      31.82666782104854
+     ],
+     [
+      -106.29826324102272,
+      31.818649474112178
+     ],
+     [
+      -106.28571830760588,
+      31.818860660153273
+     ],
+     [
+      -106.28555605839084,
+      31.813246370239685
+     ],
+     [
+      -106.28538805097482,
+      31.81324747406129
+     ],
+     [
+      -106.28538805007649,
+      31.813247173296638
+     ],
+     [
+      -106.30083310904818,
+      31.81297434192531
+     ],
+     [
+      -106.30170137299112,
+      31.82686557463953
+     ],
+     [
+      -106.30186826200459,
+      31.826904137815063
+     ],
+     [
+      -106.30223905780778,
+      31.826989814791375
+     ],
+     [
+      -106.30223590561947,
+      31.82718166779397
+     ],
+     [
+      -106.3022352255948,
+      31.82722302737304
+     ],
+     [
+      -106.30223077623917,
+      31.827493909298372
+     ],
+     [
+      -106.30182552016336,
+      31.827499567991826
+     ],
+     [
+      -106.29978482811221,
+      31.827528046922367
+     ],
+     [
+      -106.29852391055861,
+      31.82754562824791
+     ],
+     [
+      -106.29651234188898,
+      31.82757364998126
+     ]
+    ]
+   ]
+  },
+  "selection": {
+   "rule": "largest privately owned parcel of 300+ acres among 28 parcels found on a 0.0125 degree grid within 3.0 mi of the anchor substation",
+   "anchor": {
+    "name": "CALIENTE substation (345 kV, 7 lines)",
+    "lat": 31.826091708,
+    "lng": -106.250548707
+   }
+  }
+ },
+ "airQuality": {
+  "status": "ok",
+  "source": "EPA nonattainment and maintenance areas",
+  "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Nonattainment_Areas_and_Designations/FeatureServer",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "attainment": false,
+   "inNonattainment": true,
+   "nonattainmentStandards": [
+    "Ozone 8-hr (2015 Standard)"
+   ],
+   "inMaintenance": false,
+   "maintenanceStandards": [],
+   "ozoneNonattainment": [
+    {
+     "standard": "Ozone 8-hr (2015 Standard)",
+     "area": "El Paso-Las Cruces",
+     "classification": "Marginal",
+     "areaDesignValuePpm": 0.072,
+     "url": "https://www.govinfo.gov/link/fr/86/67864"
+    }
+   ],
+   "worstOzoneClassification": "Marginal",
+   "nearestOzoneMonitor": {
+    "site": "Ivanhoe",
+    "county": "El Paso",
+    "year": 2025,
+    "dvPpb": 62,
+    "valid": "Y",
+    "aqsid": "481410029",
+    "miles": 2.8
+   },
+   "designValueYear": 2025,
+   "nearestClassIArea": {
+    "name": "Guadalupe Mountains NP",
+    "state": "TX",
+    "agency": "USDI-NPS",
+    "miles": 74.7
+   },
+   "classIAreasWithin100Km": []
+  }
+ },
+ "substations": {
+  "status": "ok",
+  "source": "HIFLD Electric Substations",
+  "source_url": "https://services6.arcgis.com/OO2s4OoyCZkYJ6oE/arcgis/rest/services/Substations/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "nearest": {
+    "name": "LIBERTY",
+    "maxKv": 69,
+    "minKv": 115,
+    "status": "IN SERVICE",
+    "lines": 2,
+    "miles": 1.49
+   },
+   "nearest345KvPlus": {
+    "name": "CALIENTE",
+    "maxKv": 345,
+    "minKv": 115,
+    "status": "IN SERVICE",
+    "lines": 7,
+    "miles": 2.65
+   },
+   "countWithin10Km": 14,
+   "countWithin25Mi": 69,
+   "list": [
+    {
+     "name": "LIBERTY",
+     "maxKv": 69,
+     "minKv": 115,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 1.49
+    },
+    {
+     "name": "GR",
+     "maxKv": 115,
+     "minKv": 115,
+     "status": "IN SERVICE",
+     "lines": 3,
+     "miles": 2.19
+    },
+    {
+     "name": "CALIENTE",
+     "maxKv": 345,
+     "minKv": 115,
+     "status": "IN SERVICE",
+     "lines": 7,
+     "miles": 2.65
+    },
+    {
+     "name": "VISTA",
+     "maxKv": 115,
+     "minKv": 115,
+     "status": "IN SERVICE",
+     "lines": 4,
+     "miles": 3.05
+    },
+    {
+     "name": "IND CPLX",
+     "maxKv": 115,
+     "minKv": 115,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 3.07
+    },
+    {
+     "name": "BIGGS",
+     "maxKv": 115,
+     "minKv": 115,
+     "status": "IN SERVICE",
+     "lines": 3,
+     "miles": 4.12
+    },
+    {
+     "name": "PICANTE",
+     "maxKv": 345,
+     "minKv": 115,
+     "status": "IN SERVICE",
+     "lines": 6,
+     "miles": 4.43
+    },
+    {
+     "name": "SCOTTSDALE",
+     "maxKv": 115,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 4,
+     "miles": 4.6
+    },
+    {
+     "name": "DIAMOND HEAD",
+     "maxKv": 115,
+     "minKv": 115,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 4.63
+    },
+    {
+     "name": "SOL",
+     "maxKv": 115,
+     "minKv": 115,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 4.76
+    },
+    {
+     "name": "MONTWOOD",
+     "maxKv": 115,
+     "minKv": 115,
+     "status": "IN SERVICE",
+     "lines": 3,
+     "miles": 5.0
+    },
+    {
+     "name": "FARAH",
+     "maxKv": 69,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 5.31
+    }
+   ]
+  }
+ },
+ "transmissionLines": {
+  "status": "ok",
+  "source": "HIFLD Electric Power Transmission Lines",
+  "source_url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Electric_Power_Transmission_Lines/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "nearest": {
+    "owner": "EL PASO ELECTRIC CO.",
+    "kv": 115,
+    "voltClass": "100-161",
+    "status": "NOT AVAILABLE",
+    "sub1": "PICANTE",
+    "sub2": "CALIENTE",
+    "miles": 0.54
+   },
+   "nearest345KvPlus": {
+    "owner": "EL PASO ELECTRIC CO.",
+    "kv": 345,
+    "voltClass": "345",
+    "status": "NOT AVAILABLE",
+    "sub1": "PICANTE",
+    "sub2": "CALIENTE",
+    "miles": 0.55
+   },
+   "countWithin5Mi": 20,
+   "maxKvWithin5Mi": 345,
+   "list": [
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "PICANTE",
+     "sub2": "CALIENTE",
+     "miles": 0.54
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "NOT AVAILABLE",
+     "sub1": "PICANTE",
+     "sub2": "CALIENTE",
+     "miles": 0.55
+    },
+    {
+     "owner": "NOT AVAILABLE",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "IN SERVICE",
+     "sub1": "CALIENTE",
+     "sub2": "AMRAD",
+     "miles": 0.56
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "PICANTE",
+     "sub2": "GR",
+     "miles": 1.12
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "GR",
+     "sub2": "LIBERTY",
+     "miles": 1.13
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "VISTA",
+     "sub2": "GR",
+     "miles": 1.38
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "LIBERTY",
+     "sub2": "IND CPLX",
+     "miles": 1.39
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "DIAMOND HEAD",
+     "sub2": "CALIENTE",
+     "miles": 2.6
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "MONTWOOD",
+     "sub2": "CALIENTE",
+     "miles": 2.61
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "COYOTE",
+     "sub2": "CALIENTE",
+     "miles": 2.61
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "IND CPLX",
+     "sub2": "BIGGS",
+     "miles": 3.05
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "VISTA",
+     "sub2": "SOL",
+     "miles": 3.05
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "BIGGS",
+     "sub2": "PICANTE",
+     "miles": 3.65
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 115,
+     "voltClass": "100-161",
+     "status": "NOT AVAILABLE",
+     "sub1": "BIGGS",
+     "sub2": "PIPELINE",
+     "miles": 3.65
+    },
+    {
+     "owner": "EL PASO ELECTRIC CO.",
+     "kv": 345,
+     "voltClass": "345",
+     "status": "NOT AVAILABLE",
+     "sub1": "NEWMAN",
+     "sub2": "PICANTE",
+     "miles": 4.43
+    }
+   ]
+  }
+ },
+ "gasInfrastructure": {
+  "status": "ok",
+  "source": "EIA natural gas interstate and intrastate pipelines",
+  "source_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "nearest": {
+    "operator": "ONEOK Westex Pipeline",
+    "type": "Intrastate",
+    "status": "Operating",
+    "miles": 3.96
+   },
+   "pipelinesWithin10Mi": [
+    {
+     "operator": "ONEOK Westex Pipeline",
+     "type": "Intrastate",
+     "status": "Operating",
+     "miles": 3.96
+    },
+    {
+     "operator": "El Paso Natural Gas Co",
+     "type": "Interstate",
+     "status": "Operating",
+     "miles": 4.03
+    }
+   ],
+   "operatorsWithin5Mi": [
+    "El Paso Natural Gas Co",
+    "ONEOK Westex Pipeline"
+   ],
+   "interstateNearest": {
+    "operator": "El Paso Natural Gas Co",
+    "type": "Interstate",
+    "status": "Operating",
+    "miles": 4.03
+   },
+   "intrastateNearest": {
+    "operator": "ONEOK Westex Pipeline",
+    "type": "Intrastate",
+    "status": "Operating",
+    "miles": 3.96
+   },
+   "ldc": []
+  },
+  "also": {
+   "source": "HIFLD natural gas LDC service territories",
+   "source_url": "https://services.arcgis.com/kbDdtKcFi2adamXa/arcgis/rest/services/Natural_Gas_Local_Distribution_Company_Service_Territories/FeatureServer/0"
+  }
+ },
+ "generation": {
+  "status": "ok",
+  "source": "EIA-860 power plants (EIA Atlas)",
+  "source_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Power_Plants_in_the_US/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "within10Mi": [
+    {
+     "plantCode": 67827,
+     "name": "TJX 2021 DG El Paso DC",
+     "operator": "SoCore Energy LLC",
+     "source": "solar",
+     "tech": "Solar Photovoltaic",
+     "mw": 1.5,
+     "coalMw": 0,
+     "gasMw": 0,
+     "nuclearMw": 0,
+     "county": "El Paso",
+     "miles": 2.6
+    },
+    {
+     "plantCode": 60300,
+     "name": "Montana Solar Facility",
+     "operator": "El Paso Electric Co",
+     "source": "solar",
+     "tech": "Solar Photovoltaic",
+     "mw": 3,
+     "coalMw": 0,
+     "gasMw": 0,
+     "nuclearMw": 0,
+     "county": "El Paso",
+     "miles": 4.5
+    },
+    {
+     "plantCode": 61887,
+     "name": "Fort Bliss (DEA EPIC)",
+     "operator": "Ameresco Federal Solutions",
+     "source": "solar",
+     "tech": "Solar Photovoltaic",
+     "mw": 2,
+     "coalMw": 0,
+     "gasMw": 0,
+     "nuclearMw": 0,
+     "county": "El Paso",
+     "miles": 4.7
+    },
+    {
+     "plantCode": 58562,
+     "name": "Montana Power Station",
+     "operator": "El Paso Electric Co",
+     "source": "natural gas",
+     "tech": "Natural Gas Fired Combustion Turbine",
+     "mw": 352,
+     "coalMw": 0,
+     "gasMw": 352,
+     "nuclearMw": 0,
+     "county": "El Paso",
+     "miles": 4.9
+    },
+    {
+     "plantCode": 9,
+     "name": "Copper",
+     "operator": "El Paso Electric Co",
+     "source": "natural gas",
+     "tech": "Natural Gas Fired Combustion Turbine",
+     "mw": 63,
+     "coalMw": 0,
+     "gasMw": 63,
+     "nuclearMw": 0,
+     "county": "El Paso",
+     "miles": 6.3
+    },
+    {
+     "plantCode": 54628,
+     "name": "Phelps Dodge Refining",
+     "operator": "Phelps Dodge Refining Corp",
+     "source": "natural gas",
+     "tech": "Natural Gas Fired Combustion Turbine",
+     "mw": 14.8,
+     "coalMw": 0,
+     "gasMw": 14.8,
+     "nuclearMw": 0,
+     "county": "El Paso",
+     "miles": 6.8
+    }
+   ],
+   "coalWithin50Mi": [],
+   "nuclearWithin50Mi": [],
+   "countWithin50Mi": 19,
+   "totalMwWithin10Mi": 436.3
+  },
+  "note": "EIA Atlas layer lists operating plants; retired units are not in it."
+ },
+ "electricState": {
+  "status": "ok",
+  "source": "HIFLD Electric Retail Service Territories",
+  "source_url": "https://services6.arcgis.com/BAJNi3EgCdtQ1BCG/arcgis/rest/services/Electric_Retail_Service_Territories/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "utilities": [
+    {
+     "name": "RIO GRANDE ELECTRIC COOP, INC",
+     "type": "COOPERATIVE",
+     "holdingCompany": "RIO GRANDE ELECTRIC COOP, INC",
+     "controlArea": "EPE, ERCO",
+     "website": "http://www.riogrande.coop/"
+    },
+    {
+     "name": "EL PASO ELECTRIC CO",
+     "type": "INVESTOR OWNED",
+     "holdingCompany": "EL PASO ELECTRIC POWER COMPANY",
+     "controlArea": "EPE",
+     "website": "http://www.epelectric.com/"
+    }
+   ],
+   "ambiguous": true,
+   "iso": [],
+   "isoNames": []
+  },
+  "also": {
+   "source": "HIFLD Independent System Operators",
+   "source_url": "https://services5.arcgis.com/D509rM2leyoHuJvj/arcgis/rest/services/Independent_System_Operators/FeatureServer/0"
+  }
+ },
+ "contamination": {
+  "status": "ok",
+  "source": "EPA Facility Registry Service layers (see each list)",
+  "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_SEMS/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "superfund": {
+    "listRadiusMi": 1.0,
+    "countRadiusMi": 5.0,
+    "sites": [],
+    "countWithinCountRadius": 0,
+    "nearest": null,
+    "source": "EPA FRS: Superfund (SEMS)",
+    "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_SEMS/FeatureServer/0"
+   },
+   "brownfields": {
+    "listRadiusMi": 0.5,
+    "countRadiusMi": 5.0,
+    "sites": [],
+    "countWithinCountRadius": 1,
+    "nearest": {
+     "name": "1780 NORTH ZARAGOSA ROAD",
+     "id": "110039529659",
+     "status": null,
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110039529659",
+     "miles": 4.57
+    },
+    "source": "EPA FRS: Brownfields (ACRES)",
+    "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_ACRES/FeatureServer/0"
+   },
+   "rcraTsd": {
+    "listRadiusMi": 0.5,
+    "countRadiusMi": 5.0,
+    "sites": [],
+    "countWithinCountRadius": 0,
+    "nearest": null,
+    "source": "EPA FRS: RCRA TSD facilities",
+    "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_RCRA_TSD/FeatureServer/0"
+   },
+   "rmp": {
+    "listRadiusMi": 1.0,
+    "countRadiusMi": 6.2,
+    "sites": [],
+    "countWithinCountRadius": 5,
+    "nearest": {
+     "name": "NUSTAR EL PASO REFINED PRODUCTS TERMINAL",
+     "id": "110000466442",
+     "status": "ACTIVE",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110000466442",
+     "miles": 2.19
+    },
+    "source": "EPA FRS: Risk Management Program",
+    "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_RMP/FeatureServer/0"
+   },
+   "tri": {
+    "listRadiusMi": 1.0,
+    "countRadiusMi": 5.0,
+    "sites": [],
+    "countWithinCountRadius": 5,
+    "nearest": {
+     "name": "NUSTAR EL PASO REFINED PRODUCTS TERMINAL",
+     "id": "110000466442",
+     "status": "ACTIVE",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110000466442",
+     "miles": 2.19
+    },
+    "source": "EPA FRS: Toxics Release Inventory",
+    "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_TRI/FeatureServer/0"
+   },
+   "rePoweringWithin1Mi": []
+  }
+ },
+ "waterSewer": {
+  "status": "ok",
+  "source": "EPA community water system boundaries",
+  "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Water_System_Boundaries/FeatureServer/0",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "systems": [
+    {
+     "pwsid": "TX0710020",
+     "name": "FORT BLISS MAIN POST AREA",
+     "populationServed": 28000,
+     "serviceArea": "Other Residential"
+    }
+   ]
+  }
+ },
+ "floodZone": {
+  "status": "absent",
+  "source": "FEMA National Flood Hazard Layer, flood hazard zones",
+  "source_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28",
+  "fetched_at": "2026-10-28T03:01:37Z",
+  "data": {
+   "zonesOnParcel": [],
+   "sfhaOnParcel": false,
+   "zoneAtCentre": null
+  },
+  "note": "FEMA returned no mapped zone here (unmapped or zone outside the digital FIRM)."
+ },
+ "zoningJurisdiction": {
+  "status": "not_fetched",
+  "note": "No public statewide zoning layer was queried. Atria module zoningJurisdiction would answer this."
+ },
+ "energyOrdinance": {
+  "status": "not_fetched",
+  "note": "Siting ordinances and moratoriums were not fetched. Atria module energyOrdinance (wind and solar only) would answer part of this."
+ },
+ "permitPath": {
+  "status": "not_fetched",
+  "note": "Local approval path, hearings and recent decisions were not fetched. Atria tool atria_permit_path would answer this."
+ },
+ "waterRights": {
+  "status": "not_fetched",
+  "note": "Water rights and allocations have no public bulk source here."
+ },
+ "gasCapacity": {
+  "status": "not_fetched",
+  "note": "Pipeline capacity and firm availability were not fetched. Atria module gasSupply has it only for Energy Transfer EGT, MRT and Gulf Run."
+ },
+ "gridHeadroom": {
+  "status": "not_fetched",
+  "note": "Substation headroom and load-interconnection queue position are not public. Atria module gridCapacity reports headroom as null too."
+ }
+}

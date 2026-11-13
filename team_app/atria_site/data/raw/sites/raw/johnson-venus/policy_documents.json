@@ -1,0 +1,48 @@
+{
+ "read_date": "2026-11-02",
+ "documents": [
+  {
+   "id": "johnson-petition",
+   "site_id": "johnson-venus",
+   "jurisdiction": "Johnson County (unincorporated)",
+   "kind": "Public petition",
+   "date": "2026-10-30",
+   "title": "Stop data centers in Johnson County, Texas (petition, undated; read 2026-10-30)",
+   "publisher": "Change.org",
+   "url": "https://www.change.org/p/stop-data-centers-in-johnson-county-texas",
+   "text": "A resident petition asks Johnson County commissioners for a more measured approach to data-center growth, noting a data center can be built with only a basic development permit. No county moratorium has been proposed. Petition text: \"The only way the commissioners may even know that a data center is pursuing our county is if they come requesting tax incentives.\" Petition text: \"So far, Johnson County has rejected 2 requests for such tax abatements for data centers.\"",
+   "llm_answer": "{\"relevant\": true, \"events\": [], \"statements\": [{\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"developer_trust\"], \"quote\": \"The only way the commissioners may even know that a data center is pursuing our county is if they come requesting tax incentives.\"}, {\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"tax_breaks\"], \"quote\": \"So far, Johnson County has rejected 2 requests for such tax abatements for data centers.\"}]}"
+  }
+ ],
+ "posts_per_week": [],
+ "state": {
+  "p_state": 0.2,
+  "note": "Assumption (human judgement, as the data map specifies for the state layer): chance the statewide pause and audit stop this project outright. Delay is not modeled separately.",
+  "events": [
+   {
+    "date": "2026-08-03",
+    "title": "Governor directs PUCT and ERCOT to audit data centers in the interconnection queue; ERCOT pauses Batch Zero",
+    "applies": "Grid connection",
+    "url": "https://www.hklaw.com/en/insights/publications/2026/08/texas-gov-abbott-directs-data-center-audit"
+   },
+   {
+    "date": "2026-08-20",
+    "title": "PUCT grants ERCOT good-cause exceptions for the audit timeline",
+    "applies": "Grid connection",
+    "url": "https://www.akingump.com/en/insights/alerts/texas-pauses-data-center-interconnections-pending-statewide-audit"
+   },
+   {
+    "date": "2026-09-21",
+    "title": "Governor directs TCEQ to \"halt all permits sought by data centers until the Electric Reliability Council of Texas (ERCOT) completes its audit\"",
+    "applies": "Air permit for on-site gas",
+    "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+   }
+  ]
+ },
+ "approval": {
+  "value": "No zoning approval: Johnson County has no zoning authority outside cities. Expect county platting, floodplain review and site permits.",
+  "note": "Texas counties have no general zoning authority (Tex. Loc. Gov. Code ch. 231), per Atria zoning jurisdiction. Hill County adopted a data-center moratorium in 2026 and rescinded it after a federal lawsuit argued Texas counties lack that authority.",
+  "source": "Atria: zoning jurisdiction + Texas Local Government Code",
+  "url": "https://www.sacurrent.com/news/texas-news/texas-county-pauses-data-center-construction-in-rural-areas-for-a-year/"
+ }
+}

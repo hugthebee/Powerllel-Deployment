@@ -1,0 +1,3264 @@
+{
+ "location": {
+  "lat": 31.818305,
+  "lng": -106.294789,
+  "county": "El Paso",
+  "state": "TX"
+ },
+ "selection": {
+  "modules": [
+   "assessorRecord",
+   "airQuality",
+   "substations",
+   "transmissionLines",
+   "gasInfrastructure",
+   "gasSupply",
+   "generation",
+   "electricState",
+   "contamination",
+   "regulatedFacilities",
+   "waterSewer",
+   "floodZone",
+   "zoningJurisdiction",
+   "energyOrdinance",
+   "gridCapacity",
+   "interconnectionQueue",
+   "adjoiningParcels",
+   "easementIndicators",
+   "wetlands",
+   "elevation",
+   "landCover",
+   "exhibits"
+  ],
+  "preset": null,
+  "fields": [],
+  "defaulted": false,
+  "modules_run": [
+   "electricState",
+   "zoningJurisdiction",
+   "assessorRecord",
+   "exhibits",
+   "interconnectionQueue",
+   "waterSewer",
+   "elevation",
+   "floodZone",
+   "transmissionLines",
+   "landCover",
+   "airQuality",
+   "contamination",
+   "regulatedFacilities",
+   "adjoiningParcels",
+   "easementIndicators",
+   "substations",
+   "generation",
+   "gasInfrastructure",
+   "gasSupply",
+   "wetlands",
+   "gridCapacity",
+   "energyOrdinance"
+  ],
+  "projected": {}
+ },
+ "screens": {
+  "electricState": {
+   "status": "ok",
+   "value": {
+    "utilityName": null,
+    "utilityType": null,
+    "note": "HIFLD territories cannot tell which of these serves the point: EL PASO ELECTRIC CO; RIO GRANDE ELECTRIC COOP, INC. Confirm with the utilities.",
+    "state": "TX",
+    "layerName": "HIFLD Electric Retail Service Territories (national, EIA-861; coarse at utility boundaries, so confirm with the utility)",
+    "sourceUrl": "https://services6.arcgis.com/BAJNi3EgCdtQ1BCG/arcgis/rest/services/Electric_Retail_Service_Territories/FeatureServer/0",
+    "asOf": "2026-10-28",
+    "candidates": [
+     {
+      "name": "EL PASO ELECTRIC CO",
+      "type": "INVESTOR OWNED"
+     },
+     {
+      "name": "RIO GRANDE ELECTRIC COOP, INC",
+      "type": "COOPERATIVE"
+     }
+    ],
+    "ambiguous": true,
+    "basis": [
+     "outside any city: the territories cannot tell which serves the point; smallest listed first"
+    ],
+    "links": null
+   },
+   "source": {
+    "name": "electricState",
+    "url": "https://services6.arcgis.com/BAJNi3EgCdtQ1BCG/arcgis/rest/services/Electric_Retail_Service_Territories/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "zoningJurisdiction": {
+   "status": "ok",
+   "value": {
+    "insideIncorporatedPlace": false,
+    "placeName": null,
+    "placeFips": null,
+    "county": "El Paso",
+    "countyZoningExists": false,
+    "evidence": "Parcel is outside any incorporated place; El Paso County governs land use. Texas counties have no general zoning authority (Tex. Loc. Gov. Code ch. 231 grants zoning only to a few named counties and areas); unincorporated land is unzoned.",
+    "codeUrl": null,
+    "sources": [
+     {
+      "title": "Census TIGERweb incorporated places",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer/4"
+     },
+     {
+      "title": "TX statute on county zoning",
+      "url": "https://statutes.capitol.texas.gov/Docs/LG/htm/LG.231.htm"
+     }
+    ],
+    "asOf": "2026-10-28",
+    "district": null,
+    "layers": [],
+    "documents": []
+   },
+   "source": {
+    "name": "zoningJurisdiction",
+    "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer/4"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "assessorRecord": {
+   "status": "ok",
+   "value": {
+    "url": "https://services2.arcgis.com/fKvlzLJczghwPYHS/arcgis/rest/services/ElPasoCADWebService/FeatureServer",
+    "parcelId": "X57900023000000",
+    "deedBook": null,
+    "deedPage": null,
+    "instrument": null,
+    "saleHistory": [],
+    "fetched": true,
+    "note": "Assessor attributes as published on the county GIS server (Parcels); confirm against the recorded deed.",
+    "asOf": "2026-10-28",
+    "ownerName": null,
+    "ownerMailingAddress": "19355",
+    "propertyType": null,
+    "assessedAcres": null,
+    "gisAcres": null,
+    "timberAcres": null,
+    "landValue": 1112252,
+    "improvedValue": 0,
+    "totalValue": 1112252,
+    "valueYear": null,
+    "legalDescription": "79 TSP 2 SEC 30 T & P SURV          (319.1724 AC)",
+    "sectionTownshipRange": null,
+    "taxDistrict": null,
+    "platBook": null,
+    "platPage": null,
+    "saleDate": "1970-01-01",
+    "saleAmount": null,
+    "sourceUrl": "https://services2.arcgis.com/fKvlzLJczghwPYHS/arcgis/rest/services/ElPasoCADWebService/FeatureServer/0",
+    "raw": {
+     "prop_id_text": "320751",
+     "created_date": null,
+     "last_edited_date": null,
+     "prop_id": 320751,
+     "owner_tax_yr": 2027,
+     "file_as_name": "BBC ARMY INTEGRATED  LLC",
+     "legal_acreage": 319.1724,
+     "hood_cd": "600       ",
+     "school": "IEP  ",
+     "city": "",
+     "county": "G01  ",
+     "next_appraisal_dt": null,
+     "legal_desc": "79 TSP 2 SEC 30 T & P SURV          (319.1724 AC)",
+     "legal_desc2": null,
+     "legal_desc3": null,
+     "tract_or_lot": null,
+     "abs_subdv_cd": "X579",
+     "land_val": 1112252,
+     "imprv_val": 0,
+     "market": 1112252,
+     "block": null,
+     "map_id": "NEB130",
+     "geo_id": "X57900023000000",
+     "situs_num": null,
+     "situs_street_prefx": null,
+     "situs_street": null,
+     "situs_street_sufix": null,
+     "situs_city": null,
+     "situs_state": "TX",
+     "situs_zip": "79908",
+     "addr_line1": "c/o BELFOUR BEATTY COMMUNITIES",
+     "addr_line2": "1 COUNTRY VIEW RD",
+     "addr_line3": null,
+     "addr_city": "MALVERN",
+     "addr_state": "PA",
+     "zip": "19355",
+     "Deed_Seq": 0,
+     "Deed_Date": "12/13/2023",
+     "Volume": null,
+     "Page": null,
+     "Number": "20230090823",
+     "ObjectID_1": 395169,
+     "Shape__Area": 14009902.332519531,
+     "Shape__Length": 29266.454905272163
+    },
+    "layerId": 0
+   },
+   "source": {
+    "name": "assessorRecord",
+    "url": "https://services2.arcgis.com/fKvlzLJczghwPYHS/arcgis/rest/services/ElPasoCADWebService/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "exhibits": {
+   "status": "ok",
+   "value": {
+    "aerialImageUrl": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage?bbox=-106.304766765,31.810784405,-106.282860335,31.829763495&bboxSR=4326&imageSR=4326&size=981,1000&f=image&format=jpg",
+    "contourImageUrl": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/export?bbox=-106.304766765,31.810784405,-106.282860335,31.829763495&bboxSR=4326&imageSR=4326&size=981,1000&f=image&format=png&transparent=false",
+    "composed": false,
+    "topographyCaption": null,
+    "aerialCaption": null,
+    "landCoverImageUrl": null,
+    "landCoverCaption": null,
+    "sources": [
+     {
+      "title": "USGS NAIP aerial imagery",
+      "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage"
+     },
+     {
+      "title": "USGS Topo basemap (3DEP contours)",
+      "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/export"
+     }
+    ],
+    "asOf": "2026-10-28"
+   },
+   "source": {
+    "name": "exhibits",
+    "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer/exportImage"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "interconnectionQueue": {
+   "status": "ok",
+   "value": {
+    "iso": null,
+    "covered": false,
+    "note": "This point is outside every ISO/RTO (from the ISO/RTO footprint layer cited as the source); Atria reads project-level queue entries for MISO only, so no entries are listed here and no queue was read. That is a data gap, not an empty queue. County queue totals for every ISO and the non-ISO West and Southeast are in powerMarket.interconnectionQueue (LBNL Queued Up).",
+    "entries": [],
+    "sourceUrl": "https://services5.arcgis.com/D509rM2leyoHuJvj/arcgis/rest/services/Independent_System_Operators/FeatureServer/0",
+    "asOf": "2026-10-28",
+    "dataAsOf": "2020-06-24",
+    "dataState": "frozen",
+    "dataFreshness": [
+     {
+      "source": "HIFLD Independent System Operators",
+      "dataAsOf": "2020-06-24",
+      "state": "frozen",
+      "basis": "newest SOURCEDATE in the layer"
+     }
+    ]
+   },
+   "source": {
+    "name": "interconnectionQueue",
+    "url": "https://services5.arcgis.com/D509rM2leyoHuJvj/arcgis/rest/services/Independent_System_Operators/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "waterSewer": {
+   "status": "ok",
+   "value": {
+    "territoryProvider": {
+     "name": "FORT BLISS MAIN POST AREA",
+     "pwsId": "TX0710020",
+     "populationServed": 28000
+    },
+    "adjacentSystems": [
+     {
+      "name": "EL PASO WATER UTILITIES PUBLIC SERVICE B",
+      "pwsId": "TX0710002",
+      "populationServed": 748393,
+      "distanceMi": 1.59,
+      "note": null
+     },
+     {
+      "name": "EAST BIGGS WATER SYSTEM",
+      "pwsId": "TX0710187",
+      "populationServed": 15000,
+      "distanceMi": 2.3,
+      "note": null
+     },
+     {
+      "name": "QUAIL RUN MOBILE HOME PARK",
+      "pwsId": "TX0710102",
+      "populationServed": 45,
+      "distanceMi": 3.21,
+      "note": null
+     },
+     {
+      "name": "FORT BLISS BIGGS ARMY AIRFIELD",
+      "pwsId": "TX0710078",
+      "populationServed": 2961,
+      "distanceMi": 4.2,
+      "note": null
+     }
+    ],
+    "sewerProvider": null,
+    "sewerPermittedCapacityMgd": null,
+    "npdesPermit": "TX0102725",
+    "npdesOutfallDesignMgd": null,
+    "npdesFacilities": [
+     {
+      "permit": "TX0102725",
+      "name": "UNKNOWN",
+      "status": null,
+      "actualAverageMgd": null,
+      "designMgd": null,
+      "address": "UNKNOWN",
+      "reportUrl": "https://echo.epa.gov/detailed-facility-report?fid=TX0102725"
+     },
+     {
+      "permit": "TX0103381",
+      "name": "UNKNOWN",
+      "status": null,
+      "actualAverageMgd": null,
+      "designMgd": null,
+      "address": "UNKNOWN",
+      "reportUrl": "https://echo.epa.gov/detailed-facility-report?fid=TX0103381"
+     },
+     {
+      "permit": "TX0102628",
+      "name": "UNKNOWN",
+      "status": null,
+      "actualAverageMgd": null,
+      "designMgd": null,
+      "address": "UNKNOWN",
+      "reportUrl": "https://echo.epa.gov/detailed-facility-report?fid=TX0102628"
+     }
+    ],
+    "failedSources": [],
+    "sources": [
+     {
+      "title": "EPA community water system service area boundaries",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Water_System_Boundaries/FeatureServer/0"
+     },
+     {
+      "title": "EPA ECHO Clean Water Act facilities",
+      "url": "https://echo.epa.gov/"
+     }
+    ],
+    "asOf": "2026-10-28"
+   },
+   "source": {
+    "name": "waterSewer",
+    "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Water_System_Boundaries/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "elevation": {
+   "status": "ok",
+   "value": {
+    "minFt": 3987,
+    "maxFt": 4027,
+    "meanFt": 4009,
+    "reliefFt": 40,
+    "slope": {
+     "meanDegrees": 1.3,
+     "medianDegrees": 1.1,
+     "maxDegrees": 17,
+     "meanPercent": 2.3,
+     "medianPercent": 2,
+     "shareAtOrUnderGradePct": {
+      "2": 51,
+      "5": 95.6,
+      "10": 98.9,
+      "15": 99.3
+     },
+     "gradingDifficulty": "low",
+     "pixelSizeM": 10
+    },
+    "aspect": {
+     "dominant": "NW",
+     "sharePct": {
+      "N": 13.9,
+      "NE": 8.8,
+      "E": 6.8,
+      "SE": 8.2,
+      "S": 13.2,
+      "SW": 15,
+      "W": 16.8,
+      "NW": 17.4
+     },
+     "flatPct": 0,
+     "southFacingPct": 36.4
+    },
+    "extent": "parcel",
+    "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+    "asOf": "2026-10-28"
+   },
+   "source": {
+    "name": "elevation",
+    "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "floodZone": {
+   "status": "ok",
+   "source": {
+    "name": "floodZone",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28"
+   },
+   "fetched_at": "2026-11-02T18:32:23Z",
+   "value": {
+    "mapped": false,
+    "method": "parcel",
+    "zones": [],
+    "note": "No digital FEMA flood map (National Flood Hazard Layer) covers this parcel."
+   }
+  },
+  "transmissionLines": {
+   "status": "ok",
+   "value": {
+    "measuredFrom": "parcel_outline",
+    "radiusMi": 5,
+    "lines": [
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "PICANTE",
+      "to": "CALIENTE",
+      "distanceMi": 0
+     },
+     {
+      "owner": null,
+      "voltageKv": 345,
+      "voltClass": "345",
+      "voltageBasis": "numeric",
+      "status": "IN SERVICE",
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "CALIENTE",
+      "to": "AMRAD",
+      "distanceMi": 0
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 345,
+      "voltClass": "345",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "PICANTE",
+      "to": "CALIENTE",
+      "distanceMi": 0.01
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "PICANTE",
+      "to": "GR",
+      "distanceMi": 0.69
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "GR",
+      "to": "LIBERTY",
+      "distanceMi": 0.7
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "LIBERTY",
+      "to": "IND CPLX",
+      "distanceMi": 0.72
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "VISTA",
+      "to": "GR",
+      "distanceMi": 0.88
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "DIAMOND HEAD",
+      "to": "CALIENTE",
+      "distanceMi": 2.02
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "MONTWOOD",
+      "to": "CALIENTE",
+      "distanceMi": 2.06
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "COYOTE",
+      "to": "CALIENTE",
+      "distanceMi": 2.06
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "IND CPLX",
+      "to": "BIGGS",
+      "distanceMi": 2.3
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "VISTA",
+      "to": "SOL",
+      "distanceMi": 2.59
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "BIGGS",
+      "to": "PICANTE",
+      "distanceMi": 2.91
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "BIGGS",
+      "to": "PIPELINE",
+      "distanceMi": 2.92
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "NEWMAN",
+      "to": "PICANTE",
+      "distanceMi": 3.71
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 345,
+      "voltClass": "345",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "NEWMAN",
+      "to": "PICANTE",
+      "distanceMi": 3.71
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "LANE",
+      "to": "DIAMOND HEAD",
+      "distanceMi": 4.22
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "LANE",
+      "to": "SOL",
+      "distanceMi": 4.35
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "MONTWOOD",
+      "to": "PELICANO",
+      "distanceMi": 4.35
+     },
+     {
+      "owner": "EL PASO ELECTRIC CO.",
+      "voltageKv": 115,
+      "voltClass": "100-161",
+      "voltageBasis": "numeric",
+      "status": null,
+      "type": "AC; OVERHEAD",
+      "current": "AC",
+      "from": "MONTWOOD",
+      "to": "COYOTE",
+      "distanceMi": 4.35
+     }
+    ],
+    "nearest": {
+     "owner": "EL PASO ELECTRIC CO.",
+     "voltageKv": 115,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": null,
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "PICANTE",
+     "to": "CALIENTE",
+     "distanceMi": 0
+    },
+    "countWithinRadius": 20,
+    "maxVoltageKvWithinRadius": 345,
+    "bandKm": 2,
+    "countWithin2Km": 7,
+    "maxVoltageKvWithin2Km": 345,
+    "maxVoltClassWithin2Km": "345",
+    "nearest230KvPlus": {
+     "owner": null,
+     "voltageKv": 345,
+     "voltClass": "345",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALIENTE",
+     "to": "AMRAD",
+     "distanceMi": 0
+    },
+    "nearest345KvPlus": {
+     "owner": null,
+     "voltageKv": 345,
+     "voltClass": "345",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALIENTE",
+     "to": "AMRAD",
+     "distanceMi": 0
+    },
+    "hvSearchRadiusMi": 75,
+    "nearestHvdc": null,
+    "substationsWithin10Km": 15,
+    "redundancyFlag": true,
+    "redundancyRule": ">=2 HIFLD AC transmission segments within 2 km AND >=3 HIFLD substations within 10 km; HVDC lines cannot be tapped and do not count; map topology only, not an N-1 or deliverability claim.",
+    "sourceUrl": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Electric_Power_Transmission_Lines/FeatureServer/0",
+    "sources": [
+     {
+      "title": "HIFLD Electric Power Transmission Lines",
+      "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Electric_Power_Transmission_Lines/FeatureServer/0"
+     },
+     {
+      "title": "HIFLD Electric Substations",
+      "url": "https://services6.arcgis.com/OO2s4OoyCZkYJ6oE/arcgis/rest/services/Substations/FeatureServer/0"
+     }
+    ],
+    "asOf": "2026-10-28",
+    "dataAsOf": "2021-06-01",
+    "dataState": "frozen",
+    "dataFreshness": [
+     {
+      "source": "HIFLD Electric Power Transmission Lines",
+      "dataAsOf": "2021-06-01",
+      "state": "frozen",
+      "basis": "newest SOURCEDATE in the layer",
+      "note": "HIFLD Open closed on 2025-08-26; this layer is no longer updated."
+     },
+     {
+      "source": "HIFLD Electric Substations",
+      "dataAsOf": "2021-06-01",
+      "state": "frozen",
+      "basis": "newest SOURCEDATE in the layer",
+      "note": "HIFLD Open closed on 2025-08-26; this layer is no longer updated."
+     }
+    ]
+   },
+   "source": {
+    "name": "transmissionLines",
+    "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Electric_Power_Transmission_Lines/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "landCover": {
+   "status": "ok",
+   "value": {
+    "classes": [
+     {
+      "code": 52,
+      "name": "Shrub and scrub",
+      "percent": 90.9,
+      "acres": 292
+     },
+     {
+      "code": 21,
+      "name": "Developed, open space",
+      "percent": 5.2,
+      "acres": 17
+     },
+     {
+      "code": 22,
+      "name": "Developed, low intensity",
+      "percent": 3.4,
+      "acres": 11
+     },
+     {
+      "code": 23,
+      "name": "Developed, medium intensity",
+      "percent": 0.6,
+      "acres": 2
+     }
+    ],
+    "forestPercent": 0,
+    "developedPercent": 9.2,
+    "wetlandPercent": 0,
+    "waterPercent": 0,
+    "agriculturePercent": 0,
+    "extent": "parcel",
+    "note": "NLCD is a 30 m satellite classification; it screens land cover and does not substitute for a field wetland delineation.",
+    "treeCanopy": {
+     "meanPercent": 0,
+     "shareOver50Pct": 0,
+     "year": 2025,
+     "sourceUrl": "https://imagery.geoplatform.gov/iipp/rest/services/Vegetation/USFS_EDW_NLCD_TCC_CONUS/ImageServer"
+    },
+    "lcms": {
+     "year": 2025,
+     "landCover": [
+      {
+       "code": 9,
+       "name": "Barren and shrubs mix",
+       "percent": 87.9
+      },
+      {
+       "code": 12,
+       "name": "Barren or impervious",
+       "percent": 11.6
+      },
+      {
+       "code": 8,
+       "name": "Grass/forb/herb and shrubs mix",
+       "percent": 0.5
+      }
+     ],
+     "landUse": [
+      {
+       "code": 5,
+       "name": "Rangeland or pasture",
+       "percent": 95.6
+      },
+      {
+       "code": 2,
+       "name": "Developed",
+       "percent": 2.5
+      },
+      {
+       "code": 4,
+       "name": "Other",
+       "percent": 1.8
+      }
+     ],
+     "dominantLandCover": "Barren and shrubs mix",
+     "dominantLandUse": "Rangeland or pasture",
+     "sourceUrl": "https://imagery.geoplatform.gov/iipp/rest/services/Vegetation/USFS_EDW_LCMS_AnnualLandcover_CONUS/ImageServer"
+    },
+    "cropland": {
+     "year": 2025,
+     "atPoint": {
+      "code": 152,
+      "name": "Shrubland",
+      "cultivated": false
+     },
+     "isCultivated": false,
+     "history": [
+      {
+       "year": 2025,
+       "code": 152,
+       "name": "Shrubland"
+      },
+      {
+       "year": 2024,
+       "code": 176,
+       "name": "Grass/Pasture"
+      },
+      {
+       "year": 2023,
+       "code": 152,
+       "name": "Shrubland"
+      },
+      {
+       "year": 2022,
+       "code": 152,
+       "name": "Shrubland"
+      },
+      {
+       "year": 2021,
+       "code": 152,
+       "name": "Shrubland"
+      }
+     ],
+     "dominantCrop5yr": null,
+     "yearsUnavailable": [],
+     "yearsCultivated": 0,
+     "parcelClasses": [
+      {
+       "code": 152,
+       "name": "Shrubland",
+       "percent": 88.7,
+       "acres": 285.3
+      },
+      {
+       "code": 122,
+       "name": "Developed/Low Intensity",
+       "percent": 4.4,
+       "acres": 14.2
+      },
+      {
+       "code": 121,
+       "name": "Developed/Open Space",
+       "percent": 4.2,
+       "acres": 13.5
+      },
+      {
+       "code": 131,
+       "name": "Barren",
+       "percent": 1.8,
+       "acres": 5.8
+      },
+      {
+       "code": 123,
+       "name": "Developed/Medium Intensity",
+       "percent": 0.9,
+       "acres": 2.9
+      }
+     ],
+     "parcelCultivatedPercent": 0,
+     "parcelClip": "polygon",
+     "sourceUrl": "https://nassgeodata.gmu.edu/axis2/services/CDLService"
+    },
+    "ndvi": {
+     "latest": 0.177,
+     "latestDate": "2026-09-14",
+     "summerPeak": 0.186,
+     "summerMean": 0.172,
+     "summerYear": 2026,
+     "sourceUrl": "https://modis.ornl.gov/rst/api/v1/MOD13Q1/subset"
+    },
+    "unavailable": [],
+    "sourceUrl": "https://di-nlcd.img.arcgis.com/arcgis/rest/services/USA_NLCD_Annual_LandCover/ImageServer",
+    "sources": [
+     {
+      "title": "USGS NLCD Annual Land Cover",
+      "url": "https://di-nlcd.img.arcgis.com/arcgis/rest/services/USA_NLCD_Annual_LandCover/ImageServer"
+     },
+     {
+      "title": "USFS NLCD Tree Canopy Cover",
+      "url": "https://imagery.geoplatform.gov/iipp/rest/services/Vegetation/USFS_EDW_NLCD_TCC_CONUS/ImageServer"
+     },
+     {
+      "title": "USFS Landscape Change Monitoring System",
+      "url": "https://imagery.geoplatform.gov/iipp/rest/services/Vegetation/USFS_EDW_LCMS_AnnualLandcover_CONUS/ImageServer"
+     },
+     {
+      "title": "USDA NASS Cropland Data Layer (CropScape)",
+      "url": "https://nassgeodata.gmu.edu/axis2/services/CDLService"
+     },
+     {
+      "title": "MODIS MOD13Q1 NDVI (ORNL DAAC)",
+      "url": "https://modis.ornl.gov/rst/api/v1/MOD13Q1/subset"
+     }
+    ],
+    "asOf": "2026-10-28"
+   },
+   "source": {
+    "name": "landCover",
+    "url": "https://di-nlcd.img.arcgis.com/arcgis/rest/services/USA_NLCD_Annual_LandCover/ImageServer"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "airQuality": {
+   "status": "ok",
+   "value": {
+    "attainment": false,
+    "designations": [
+     {
+      "pollutant": "PM-10 (1987)",
+      "areaName": "El Paso County, TX - (Moderate)",
+      "partialCounty": true
+     },
+     {
+      "pollutant": "8-Hour Ozone (2015)",
+      "areaName": "El Paso-Las Cruces, TX-NM - (Marginal)",
+      "partialCounty": false
+     }
+    ],
+    "stateNonattainmentCounties": [
+     "Anderson County",
+     "Bexar County",
+     "Brazoria County",
+     "Chambers County",
+     "Collin County",
+     "Dallas County",
+     "Denton County",
+     "El Paso County",
+     "Ellis County",
+     "Fort Bend County",
+     "Freestone County",
+     "Galveston County",
+     "Harris County",
+     "Howard County",
+     "Hutchinson County",
+     "Johnson County",
+     "Kaufman County",
+     "Liberty County",
+     "Montgomery County",
+     "Navarro County",
+     "Panola County",
+     "Parker County",
+     "Rockwall County",
+     "Rusk County",
+     "Tarrant County",
+     "Titus County",
+     "Waller County",
+     "Wise County"
+    ],
+    "designationsBasis": "green_book_county",
+    "inNonattainment": true,
+    "nonattainmentStandards": [
+     "Ozone 8-hr (2015)"
+    ],
+    "inMaintenance": false,
+    "maintenanceStandards": [],
+    "worstClassification": "Marginal",
+    "pollutants": {
+     "ozone": {
+      "status": "Nonattainment",
+      "classification": "Marginal",
+      "areas": [
+       {
+        "standard": "Ozone 8-hr (2015)",
+        "areaName": "El Paso-Las Cruces",
+        "status": "Nonattainment",
+        "classification": "Marginal",
+        "classificationRaw": "Marginal",
+        "designationUrl": "https://www.govinfo.gov/link/fr/86/67864"
+       }
+      ]
+     },
+     "pm25": {
+      "status": "Attainment",
+      "classification": null,
+      "areas": []
+     },
+     "pm10": {
+      "status": "Attainment",
+      "classification": null,
+      "areas": []
+     },
+     "no2": {
+      "status": "Attainment",
+      "classification": null,
+      "areas": []
+     },
+     "so2": {
+      "status": "Attainment",
+      "classification": null,
+      "areas": []
+     },
+     "co": {
+      "status": "Attainment",
+      "classification": null,
+      "areas": []
+     },
+     "lead": {
+      "status": "Attainment",
+      "classification": null,
+      "areas": []
+     }
+    },
+    "designValues": {
+     "ozone8hr": {
+      "value": 62,
+      "units": "ppb",
+      "naaqsLevel": 70,
+      "exceedsNaaqs": false,
+      "period": "2023-2025",
+      "monitorId": "48-141-0029",
+      "monitorName": "Ivanhoe",
+      "distanceMi": 2.81
+     },
+     "pm25Annual": {
+      "value": 14.6,
+      "units": "\u00b5g/m\u00b3",
+      "naaqsLevel": 9,
+      "exceedsNaaqs": true,
+      "period": "2023-2025",
+      "monitorId": "48-141-0055",
+      "monitorName": "Ascarate Park SE",
+      "distanceMi": 8.04
+     },
+     "pm25_24hr": {
+      "value": 62,
+      "units": "\u00b5g/m\u00b3",
+      "naaqsLevel": 35,
+      "exceedsNaaqs": true,
+      "period": "2023-2025",
+      "monitorId": "48-141-0044",
+      "monitorName": "El Paso Chamizal",
+      "distanceMi": 10.1
+     },
+     "no2Annual": {
+      "value": 14.12,
+      "units": "ppb",
+      "naaqsLevel": 53,
+      "exceedsNaaqs": false,
+      "period": "2025",
+      "monitorId": "48-141-0055",
+      "monitorName": "Ascarate Park SE",
+      "distanceMi": 8.04
+     },
+     "no2_1hr": {
+      "value": 45,
+      "units": "ppb",
+      "naaqsLevel": 100,
+      "exceedsNaaqs": false,
+      "period": "2023-2025",
+      "monitorId": "35-013-0021",
+      "monitorName": "6ZM Desert View",
+      "distanceMi": 17.08
+     }
+    },
+    "nearestClassIArea": {
+     "name": "Guadalupe Mountains NP",
+     "state": "TX",
+     "agency": "USDI-NPS",
+     "distanceMi": 74.75,
+     "inside": false
+    },
+    "classIAreasWithin100Km": [],
+    "airDistrict": null,
+    "note": "The parcel lies in a nonattainment area for Ozone 8-hr (2015) (worst classification Marginal). New major sources of the affected pollutant face nonattainment new source review, including emission offsets and lowest achievable emission rate. Nearest Class I area: Guadalupe Mountains NP, 74.75 mi.",
+    "sourceUrl": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Nonattainment_Areas_and_Designations/FeatureServer",
+    "sources": [
+     {
+      "title": "EPA nonattainment and maintenance areas",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Nonattainment_Areas_and_Designations/FeatureServer"
+     },
+     {
+      "title": "EPA Green Book county listing",
+      "url": "https://www3.epa.gov/airquality/greenbook/ancl.html"
+     },
+     {
+      "title": "EPA AQS design values",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Air_Quality_Design_Values_for_Criteria_Pollutants/FeatureServer"
+     },
+     {
+      "title": "EPA mandatory Class I federal areas",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Mandatory_Class1_Federal_Areas/FeatureServer/0"
+     }
+    ],
+    "asOf": "2026-10-28"
+   },
+   "source": {
+    "name": "airQuality",
+    "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Nonattainment_Areas_and_Designations/FeatureServer"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "contamination": {
+   "status": "ok",
+   "value": {
+    "npl": {
+     "listRadiusMi": 1,
+     "listRadiusBasis": "ASTM E1527-21 search distance for NPL sites (1 mi)",
+     "countWithinListRadius": 0,
+     "sites": [],
+     "screeningRadiusMi": 4.97,
+     "countWithinScreeningRadius": 0,
+     "onParcel": false,
+     "nearestSearchRadiusMi": 31.07,
+     "nearest": null
+    },
+    "superfundNonNpl": {
+     "listRadiusMi": 0.5,
+     "listRadiusBasis": "ASTM E1527-21 search distance for non-NPL SEMS sites (0.5 mi)",
+     "countWithinListRadius": 0,
+     "sites": [],
+     "screeningRadiusMi": 4.97,
+     "countWithinScreeningRadius": 0,
+     "onParcel": false,
+     "nearestSearchRadiusMi": 31.07,
+     "nearest": {
+      "name": "US ARMY 1ST ARMORED DIV & FORT BLISS RANGES",
+      "id": "TX4213720101",
+      "status": "NOT ON THE NPL",
+      "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110001143414",
+      "distanceMi": 5.28,
+      "onParcel": false
+     }
+    },
+    "superfundCountWithinScreeningRadius": 0,
+    "nearestSuperfund": {
+     "name": "US ARMY 1ST ARMORED DIV & FORT BLISS RANGES",
+     "id": "TX4213720101",
+     "status": "NOT ON THE NPL",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110001143414",
+     "distanceMi": 5.28,
+     "onParcel": false,
+     "npl": false
+    },
+    "brownfields": {
+     "listRadiusMi": 0.5,
+     "listRadiusBasis": "ASTM E1527-21 search distance for brownfield sites (0.5 mi)",
+     "countWithinListRadius": 0,
+     "sites": [],
+     "screeningRadiusMi": 4.97,
+     "countWithinScreeningRadius": 2,
+     "onParcel": false,
+     "nearestSearchRadiusMi": 31.07,
+     "nearest": {
+      "name": "1780 NORTH ZARAGOSA ROAD",
+      "id": "12503",
+      "status": null,
+      "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110039529659",
+      "distanceMi": 4.13,
+      "onParcel": false
+     }
+    },
+    "rcraTsd": {
+     "listRadiusMi": 0.5,
+     "listRadiusBasis": "ASTM E1527-21 search distance for RCRA TSD facilities (0.5 mi)",
+     "countWithinListRadius": 0,
+     "sites": [],
+     "screeningRadiusMi": 4.97,
+     "countWithinScreeningRadius": 0,
+     "onParcel": false,
+     "nearestSearchRadiusMi": 31.07,
+     "nearest": {
+      "name": "EL PASO REFINERY",
+      "id": "TXD007399025",
+      "status": "Y",
+      "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110071719487",
+      "distanceMi": 6.67,
+      "onParcel": false
+     }
+    },
+    "ustFacilities": {
+     "listRadiusMi": 0.25,
+     "listRadiusBasis": "ASTM E1527-21 search distance for registered USTs is the property and adjoining properties; listed to 0.25 mi",
+     "countWithinListRadius": 0,
+     "sites": [],
+     "screeningRadiusMi": 0.62,
+     "countWithinScreeningRadius": 0,
+     "onParcel": false,
+     "nearestSearchRadiusMi": 4.97,
+     "nearest": {
+      "name": "HOWDYS 342",
+      "id": "TX120493",
+      "status": "Open UST(s)",
+      "url": null,
+      "detail": "2 open, 0 closed tanks",
+      "distanceMi": 0.63,
+      "onParcel": false
+     }
+    },
+    "openLustReleases": {
+     "listRadiusMi": 0.5,
+     "listRadiusBasis": "ASTM E1527-21 search distance for LUST sites (0.5 mi)",
+     "countWithinListRadius": 0,
+     "sites": [],
+     "screeningRadiusMi": 0.62,
+     "countWithinScreeningRadius": 0,
+     "onParcel": false,
+     "nearestSearchRadiusMi": 4.97,
+     "nearest": null
+    },
+    "rePowering": {
+     "listRadiusMi": 0.62,
+     "listRadiusBasis": "Within 1 km, the distance used for the brownfield/RE-Powering incentive flag",
+     "countWithinListRadius": 0,
+     "sites": [],
+     "screeningRadiusMi": 4.97,
+     "countWithinScreeningRadius": 8,
+     "onParcel": false,
+     "nearestSearchRadiusMi": 31.07,
+     "nearest": {
+      "name": "PEBBLE HILLS DEVELOPMENT",
+      "id": "RN101521078",
+      "status": "TEXAS MUNICIPAL SOLID WASTE",
+      "url": null,
+      "detail": null,
+      "distanceMi": 2.32,
+      "onParcel": false
+     }
+    },
+    "nearRePoweringSite": false,
+    "orphanedWells": {
+     "listRadiusMi": 0.62,
+     "listRadiusBasis": "Within 1 km",
+     "countWithinListRadius": 0,
+     "sites": [],
+     "screeningRadiusMi": 4.97,
+     "countWithinScreeningRadius": 0,
+     "onParcel": false,
+     "nearestSearchRadiusMi": 31.07,
+     "nearest": null
+    },
+    "sources": [
+     {
+      "title": "EPA FRS: Superfund (SEMS)",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_SEMS/FeatureServer/0"
+     },
+     {
+      "title": "EPA FRS: Brownfields (ACRES)",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_ACRES/FeatureServer/0"
+     },
+     {
+      "title": "EPA FRS: RCRA TSD facilities",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_RCRA_TSD/FeatureServer/0"
+     },
+     {
+      "title": "EPA UST Finder: facilities",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/UST_Finder_Feature_Layer_2/FeatureServer/0"
+     },
+     {
+      "title": "EPA UST Finder: releases",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/UST_Finder_Feature_Layer_2/FeatureServer/1"
+     },
+     {
+      "title": "EPA RE-Powering Mapper sites (2022)",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/RE_Powering_Mapper_Sites_2022/FeatureServer/0"
+     },
+     {
+      "title": "Orphaned oil and gas wells (2022)",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Orphan_Wells/FeatureServer/0"
+     }
+    ],
+    "asOf": "2026-10-28",
+    "onParcel": [],
+    "summary": "No database record on the parcel. Nothing within the search distances."
+   },
+   "source": {
+    "name": "contamination",
+    "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_SEMS/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "regulatedFacilities": {
+   "status": "ok",
+   "value": {
+    "rmp": {
+     "listRadiusMi": 1,
+     "listRadiusBasis": "Within 1 mi",
+     "countWithinListRadius": 0,
+     "sites": [],
+     "screeningRadiusMi": 6.21,
+     "countWithinScreeningRadius": 7,
+     "onParcel": false,
+     "nearestSearchRadiusMi": 31.07,
+     "nearest": {
+      "name": "NUSTAR EL PASO REFINED PRODUCTS TERMINAL",
+      "id": "100000164868",
+      "status": "ACTIVE",
+      "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110000466442",
+      "distanceMi": 1.62,
+      "onParcel": false
+     }
+    },
+    "tri": {
+     "listRadiusMi": 1,
+     "listRadiusBasis": "Within 1 mi",
+     "countWithinListRadius": 0,
+     "sites": [],
+     "screeningRadiusMi": 4.97,
+     "countWithinScreeningRadius": 12,
+     "onParcel": false,
+     "nearestSearchRadiusMi": 31.07,
+     "nearest": {
+      "name": "NUSTAR EL PASO REFINED PRODUCTS TERMINAL",
+      "id": "79938LPSRF4200J",
+      "status": "ACTIVE",
+      "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110000466442",
+      "distanceMi": 1.62,
+      "onParcel": false
+     }
+    },
+    "rcraLqg": {
+     "listRadiusMi": 0.25,
+     "listRadiusBasis": "ASTM E1527-21 search distance for RCRA generators is the property and adjoining properties; listed to 0.25 mi",
+     "countWithinListRadius": 0,
+     "sites": [],
+     "screeningRadiusMi": 1,
+     "countWithinScreeningRadius": 0,
+     "onParcel": false,
+     "nearestSearchRadiusMi": 31.07,
+     "nearest": {
+      "name": "US ARMY 1ST ARMORED DIV & FORT BLISS RANGES",
+      "id": "TX4213720101",
+      "status": "Y",
+      "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110001143414",
+      "distanceMi": 5.28,
+      "onParcel": false
+     }
+    },
+    "summary": "Nearest RMP facility: NUSTAR EL PASO REFINED PRODUCTS TERMINAL, 1.62 mi. Nearest TRI reporter: NUSTAR EL PASO REFINED PRODUCTS TERMINAL, 1.62 mi. Nearest RCRA large-quantity generator: US ARMY 1ST ARMORED DIV & FORT BLISS RANGES, 5.28 mi.",
+    "sources": [
+     {
+      "title": "EPA FRS: Risk Management Program facilities",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_RMP/FeatureServer/0"
+     },
+     {
+      "title": "EPA FRS: Toxics Release Inventory facilities",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_TRI/FeatureServer/0"
+     },
+     {
+      "title": "EPA FRS: RCRA large-quantity generators",
+      "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_RCRA_LQG/FeatureServer/0"
+     }
+    ],
+    "asOf": "2026-10-28"
+   },
+   "source": {
+    "name": "regulatedFacilities",
+    "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_RMP/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "adjoiningParcels": {
+   "status": "ok",
+   "value": {
+    "parcels": [
+     {
+      "parcelId": "X58000022400000",
+      "owner": null,
+      "acres": 740.16,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.30227,
+         31.840919
+        ],
+        [
+         -106.302231,
+         31.827494
+        ],
+        [
+         -106.302235,
+         31.827223
+        ],
+        [
+         -106.302236,
+         31.827182
+        ],
+        [
+         -106.302239,
+         31.82699
+        ],
+        [
+         -106.30768,
+         31.828247
+        ],
+        [
+         -106.314435,
+         31.828078
+        ],
+        [
+         -106.314263,
+         31.817202
+        ],
+        [
+         -106.319749,
+         31.817138
+        ],
+        [
+         -106.319593,
+         31.827134
+        ],
+        [
+         -106.319594,
+         31.827347
+        ],
+        [
+         -106.319655,
+         31.841162
+        ],
+        [
+         -106.310282,
+         31.841032
+        ],
+        [
+         -106.30227,
+         31.840919
+        ]
+       ],
+       [
+        [
+         -106.302244,
+         31.827184
+        ],
+        [
+         -106.302238,
+         31.827182
+        ],
+        [
+         -106.302238,
+         31.827182
+        ],
+        [
+         -106.302244,
+         31.827184
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X57900021900000",
+      "owner": null,
+      "acres": 568.26,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.285504,
+         31.840683
+        ],
+        [
+         -106.285631,
+         31.827725
+        ],
+        [
+         -106.295355,
+         31.82759
+        ],
+        [
+         -106.297193,
+         31.828279
+        ],
+        [
+         -106.298376,
+         31.828663
+        ],
+        [
+         -106.298506,
+         31.828717
+        ],
+        [
+         -106.298513,
+         31.828266
+        ],
+        [
+         -106.298387,
+         31.828225
+        ],
+        [
+         -106.297376,
+         31.827897
+        ],
+        [
+         -106.296512,
+         31.827574
+        ],
+        [
+         -106.298524,
+         31.827546
+        ],
+        [
+         -106.299212,
+         31.827536
+        ],
+        [
+         -106.302231,
+         31.827494
+        ],
+        [
+         -106.30227,
+         31.840919
+        ],
+        [
+         -106.285504,
+         31.840683
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X58000022400100",
+      "owner": null,
+      "acres": 527.53,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.302239,
+         31.82699
+        ],
+        [
+         -106.30247,
+         31.812945
+        ],
+        [
+         -106.302474,
+         31.812945
+        ],
+        [
+         -106.302738,
+         31.812941
+        ],
+        [
+         -106.308511,
+         31.812922
+        ],
+        [
+         -106.31978,
+         31.812886
+        ],
+        [
+         -106.319815,
+         31.812886
+        ],
+        [
+         -106.319749,
+         31.817138
+        ],
+        [
+         -106.314263,
+         31.817202
+        ],
+        [
+         -106.314435,
+         31.828078
+        ],
+        [
+         -106.30768,
+         31.828247
+        ],
+        [
+         -106.302239,
+         31.82699
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X57900023100000",
+      "owner": null,
+      "acres": 405.42,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.300625,
+         31.809649
+        ],
+        [
+         -106.300772,
+         31.812001
+        ],
+        [
+         -106.300772,
+         31.812001
+        ],
+        [
+         -106.300833,
+         31.812974
+        ],
+        [
+         -106.294426,
+         31.813088
+        ],
+        [
+         -106.285556,
+         31.813244
+        ],
+        [
+         -106.285342,
+         31.804465
+        ],
+        [
+         -106.285424,
+         31.804455
+        ],
+        [
+         -106.293445,
+         31.803422
+        ],
+        [
+         -106.294367,
+         31.803298
+        ],
+        [
+         -106.301829,
+         31.802297
+        ],
+        [
+         -106.302059,
+         31.809309
+        ],
+        [
+         -106.300625,
+         31.809649
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X57900022900100",
+      "owner": null,
+      "acres": 322.76,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.268425,
+         31.816318
+        ],
+        [
+         -106.268411,
+         31.813358
+        ],
+        [
+         -106.268683,
+         31.813356
+        ],
+        [
+         -106.268651,
+         31.814544
+        ],
+        [
+         -106.268659,
+         31.814731
+        ],
+        [
+         -106.268675,
+         31.814916
+        ],
+        [
+         -106.268699,
+         31.815102
+        ],
+        [
+         -106.268731,
+         31.815286
+        ],
+        [
+         -106.268771,
+         31.815469
+        ],
+        [
+         -106.268819,
+         31.815651
+        ],
+        [
+         -106.268875,
+         31.815831
+        ],
+        [
+         -106.268939,
+         31.816009
+        ],
+        [
+         -106.26901,
+         31.816185
+        ],
+        [
+         -106.26909,
+         31.816358
+        ],
+        [
+         -106.269176,
+         31.816529
+        ],
+        [
+         -106.269271,
+         31.816697
+        ],
+        [
+         -106.269372,
+         31.816862
+        ],
+        [
+         -106.269481,
+         31.817024
+        ],
+        [
+         -106.269597,
+         31.817182
+        ],
+        [
+         -106.269719,
+         31.817336
+        ],
+        [
+         -106.269849,
+         31.817486
+        ],
+        [
+         -106.269985,
+         31.817632
+        ],
+        [
+         -106.270127,
+         31.817773
+        ],
+        [
+         -106.270275,
+         31.81791
+        ],
+        [
+         -106.270429,
+         31.818042
+        ],
+        [
+         -106.270589,
+         31.818169
+        ],
+        [
+         -106.270754,
+         31.81829
+        ],
+        [
+         -106.270924,
+         31.818407
+        ],
+        [
+         -106.2711,
+         31.818517
+        ],
+        [
+         -106.27128,
+         31.818623
+        ],
+        [
+         -106.271464,
+         31.818722
+        ],
+        [
+         -106.271653,
+         31.818815
+        ],
+        [
+         -106.271846,
+         31.818902
+        ],
+        [
+         -106.272042,
+         31.818983
+        ],
+        [
+         -106.272242,
+         31.819058
+        ],
+        [
+         -106.272445,
+         31.819126
+        ],
+        [
+         -106.285413,
+         31.823244
+        ],
+        [
+         -106.28544,
+         31.823252
+        ],
+        [
+         -106.285675,
+         31.823327
+        ],
+        [
+         -106.285639,
+         31.826903
+        ],
+        [
+         -106.285631,
+         31.827725
+        ],
+        [
+         -106.268482,
+         31.827497
+        ],
+        [
+         -106.268478,
+         31.826675
+        ],
+        [
+         -106.268447,
+         31.820642
+        ],
+        [
+         -106.268425,
+         31.816318
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X57900022900200",
+      "owner": null,
+      "acres": 229.71,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.285413,
+         31.823244
+        ],
+        [
+         -106.272445,
+         31.819126
+        ],
+        [
+         -106.272242,
+         31.819058
+        ],
+        [
+         -106.272042,
+         31.818983
+        ],
+        [
+         -106.271846,
+         31.818902
+        ],
+        [
+         -106.271653,
+         31.818815
+        ],
+        [
+         -106.271464,
+         31.818722
+        ],
+        [
+         -106.27128,
+         31.818623
+        ],
+        [
+         -106.2711,
+         31.818517
+        ],
+        [
+         -106.270924,
+         31.818407
+        ],
+        [
+         -106.270754,
+         31.81829
+        ],
+        [
+         -106.270589,
+         31.818169
+        ],
+        [
+         -106.270429,
+         31.818042
+        ],
+        [
+         -106.270275,
+         31.81791
+        ],
+        [
+         -106.270127,
+         31.817773
+        ],
+        [
+         -106.269985,
+         31.817632
+        ],
+        [
+         -106.269849,
+         31.817486
+        ],
+        [
+         -106.269719,
+         31.817336
+        ],
+        [
+         -106.269597,
+         31.817182
+        ],
+        [
+         -106.269481,
+         31.817024
+        ],
+        [
+         -106.269372,
+         31.816862
+        ],
+        [
+         -106.269271,
+         31.816697
+        ],
+        [
+         -106.269176,
+         31.816529
+        ],
+        [
+         -106.26909,
+         31.816358
+        ],
+        [
+         -106.26901,
+         31.816185
+        ],
+        [
+         -106.268939,
+         31.816009
+        ],
+        [
+         -106.268875,
+         31.815831
+        ],
+        [
+         -106.268819,
+         31.815651
+        ],
+        [
+         -106.268771,
+         31.815469
+        ],
+        [
+         -106.268731,
+         31.815286
+        ],
+        [
+         -106.268699,
+         31.815102
+        ],
+        [
+         -106.268675,
+         31.814916
+        ],
+        [
+         -106.268659,
+         31.814731
+        ],
+        [
+         -106.268651,
+         31.814544
+        ],
+        [
+         -106.268683,
+         31.813356
+        ],
+        [
+         -106.279118,
+         31.813289
+        ],
+        [
+         -106.279214,
+         31.817495
+        ],
+        [
+         -106.284702,
+         31.819239
+        ],
+        [
+         -106.285137,
+         31.81887
+        ],
+        [
+         -106.28539,
+         31.818866
+        ],
+        [
+         -106.285417,
+         31.818866
+        ],
+        [
+         -106.285718,
+         31.818861
+        ],
+        [
+         -106.285675,
+         31.823327
+        ],
+        [
+         -106.28544,
+         31.823252
+        ],
+        [
+         -106.285413,
+         31.823244
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X57900023000100",
+      "owner": null,
+      "acres": 212.47,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.285675,
+         31.823327
+        ],
+        [
+         -106.285718,
+         31.818861
+        ],
+        [
+         -106.298263,
+         31.818649
+        ],
+        [
+         -106.298144,
+         31.826668
+        ],
+        [
+         -106.298535,
+         31.826792
+        ],
+        [
+         -106.298531,
+         31.827072
+        ],
+        [
+         -106.298529,
+         31.82723
+        ],
+        [
+         -106.298011,
+         31.827066
+        ],
+        [
+         -106.297858,
+         31.827017
+        ],
+        [
+         -106.294224,
+         31.82604
+        ],
+        [
+         -106.285675,
+         31.823327
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X57900023207000",
+      "owner": null,
+      "acres": 108.28,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.285556,
+         31.813244
+        ],
+        [
+         -106.285388,
+         31.813247
+        ],
+        [
+         -106.285388,
+         31.813248
+        ],
+        [
+         -106.285361,
+         31.813248
+        ],
+        [
+         -106.279118,
+         31.813289
+        ],
+        [
+         -106.279114,
+         31.813101
+        ],
+        [
+         -106.279111,
+         31.813005
+        ],
+        [
+         -106.280625,
+         31.81298
+        ],
+        [
+         -106.280568,
+         31.805069
+        ],
+        [
+         -106.281289,
+         31.804977
+        ],
+        [
+         -106.285315,
+         31.804468
+        ],
+        [
+         -106.285342,
+         31.804465
+        ],
+        [
+         -106.285556,
+         31.813244
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X57900022900300",
+      "owner": null,
+      "acres": 86.99,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.284702,
+         31.819239
+        ],
+        [
+         -106.279214,
+         31.817495
+        ],
+        [
+         -106.279118,
+         31.813289
+        ],
+        [
+         -106.285361,
+         31.813248
+        ],
+        [
+         -106.285388,
+         31.813248
+        ],
+        [
+         -106.285388,
+         31.813247
+        ],
+        [
+         -106.285556,
+         31.813246
+        ],
+        [
+         -106.285718,
+         31.818861
+        ],
+        [
+         -106.285417,
+         31.818866
+        ],
+        [
+         -106.28539,
+         31.818866
+        ],
+        [
+         -106.285137,
+         31.81887
+        ],
+        [
+         -106.284702,
+         31.819239
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X57900023000400",
+      "owner": null,
+      "acres": 39.4,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.301701,
+         31.826866
+        ],
+        [
+         -106.300833,
+         31.812974
+        ],
+        [
+         -106.30125,
+         31.812967
+        ],
+        [
+         -106.302106,
+         31.812952
+        ],
+        [
+         -106.30247,
+         31.812945
+        ],
+        [
+         -106.302239,
+         31.82699
+        ],
+        [
+         -106.301868,
+         31.826904
+        ],
+        [
+         -106.301701,
+         31.826866
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X57900023100100",
+      "owner": null,
+      "acres": 18.04,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.300772,
+         31.812001
+        ],
+        [
+         -106.302223,
+         31.811995
+        ],
+        [
+         -106.302208,
+         31.809308
+        ],
+        [
+         -106.302061,
+         31.809309
+        ],
+        [
+         -106.302059,
+         31.809309
+        ],
+        [
+         -106.301829,
+         31.802297
+        ],
+        [
+         -106.302646,
+         31.802187
+        ],
+        [
+         -106.302531,
+         31.809197
+        ],
+        [
+         -106.302519,
+         31.809931
+        ],
+        [
+         -106.30247,
+         31.812945
+        ],
+        [
+         -106.302106,
+         31.812952
+        ],
+        [
+         -106.30125,
+         31.812967
+        ],
+        [
+         -106.300833,
+         31.812974
+        ],
+        [
+         -106.300772,
+         31.812001
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X57900023000200",
+      "owner": null,
+      "acres": 11.8,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.295355,
+         31.82759
+        ],
+        [
+         -106.293703,
+         31.82697
+        ],
+        [
+         -106.285753,
+         31.82439
+        ],
+        [
+         -106.285664,
+         31.824361
+        ],
+        [
+         -106.285669,
+         31.823918
+        ],
+        [
+         -106.285746,
+         31.823946
+        ],
+        [
+         -106.293886,
+         31.826589
+        ],
+        [
+         -106.296512,
+         31.827574
+        ],
+        [
+         -106.295355,
+         31.82759
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X57900021900100",
+      "owner": null,
+      "acres": 2.98,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.295355,
+         31.82759
+        ],
+        [
+         -106.296512,
+         31.827574
+        ],
+        [
+         -106.297376,
+         31.827897
+        ],
+        [
+         -106.298387,
+         31.828225
+        ],
+        [
+         -106.298513,
+         31.828266
+        ],
+        [
+         -106.298506,
+         31.828717
+        ],
+        [
+         -106.298376,
+         31.828663
+        ],
+        [
+         -106.297193,
+         31.828279
+        ],
+        [
+         -106.295355,
+         31.82759
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     },
+     {
+      "parcelId": "X58000022400000",
+      "owner": null,
+      "acres": null,
+      "type": null,
+      "totalValue": null,
+      "sameOwner": false,
+      "geometryRings": [
+       [
+        [
+         -106.302238,
+         31.827182
+        ],
+        [
+         -106.302244,
+         31.827184
+        ],
+        [
+         -106.302238,
+         31.827182
+        ],
+        [
+         -106.302238,
+         31.827182
+        ]
+       ]
+      ],
+      "ownerClass": "unknown"
+     }
+    ],
+    "sameOwnerAdjoiningAcres": 0,
+    "sameOwnerAdjoiningCount": 0,
+    "affiliateAdjoiningAcres": 0,
+    "institutionalNeighbours": [],
+    "sourceUrl": "https://services2.arcgis.com/fKvlzLJczghwPYHS/arcgis/rest/services/ElPasoCADWebService/FeatureServer/0",
+    "asOf": "2026-10-28"
+   },
+   "source": {
+    "name": "adjoiningParcels",
+    "url": "https://services2.arcgis.com/fKvlzLJczghwPYHS/arcgis/rest/services/ElPasoCADWebService/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "easementIndicators": {
+   "status": "ok",
+   "value": {
+    "indicators": [
+     {
+      "kind": "road",
+      "name": "PURPLE HEART BLVD",
+      "operator": null,
+      "detail": null,
+      "source": "Streets"
+     },
+     {
+      "kind": "transmission_line",
+      "name": null,
+      "operator": "EL PASO ELECTRIC CO.",
+      "detail": "115 kV",
+      "source": "HIFLD electric transmission lines"
+     },
+     {
+      "kind": "transmission_line",
+      "name": null,
+      "operator": "NOT AVAILABLE",
+      "detail": "345 kV",
+      "source": "HIFLD electric transmission lines"
+     },
+     {
+      "kind": "transmission_line",
+      "name": null,
+      "operator": "EL PASO ELECTRIC CO.",
+      "detail": "345 kV",
+      "source": "HIFLD electric transmission lines"
+     }
+    ],
+    "failedSources": [],
+    "note": "Lines that cross the recorded parcel boundary in public GIS layers. Each implies a recorded or prescriptive easement or right-of-way that a title commitment and survey must confirm; absence of a mapped easement is not evidence that none exists.",
+    "sources": [
+     {
+      "title": "El Paso County GIS: Streets",
+      "url": "https://services2.arcgis.com/fKvlzLJczghwPYHS/arcgis/rest/services/ElPasoCADWebService/FeatureServer/6"
+     },
+     {
+      "title": "HIFLD electric transmission lines",
+      "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Electric_Power_Transmission_Lines/FeatureServer/0"
+     },
+     {
+      "title": "EIA natural gas pipelines",
+      "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0"
+     },
+     {
+      "title": "NTAD rail network",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0"
+     }
+    ],
+    "asOf": "2026-10-28"
+   },
+   "source": {
+    "name": "easementIndicators",
+    "url": "https://services2.arcgis.com/fKvlzLJczghwPYHS/arcgis/rest/services/ElPasoCADWebService/FeatureServer/6"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "substations": {
+   "status": "ok",
+   "value": {
+    "measuredFrom": "parcel_outline",
+    "radiusMi": 25,
+    "nearest": [
+     {
+      "name": "LIBERTY",
+      "maxVoltageKv": 69,
+      "minVoltageKv": 115,
+      "status": "IN SERVICE",
+      "lines": 2,
+      "city": "FORT BLISS",
+      "county": "EL PASO",
+      "state": "TX",
+      "lat": 31.830257,
+      "lng": -106.316007,
+      "distanceMi": 0.83
+     },
+     {
+      "name": "GR",
+      "maxVoltageKv": 115,
+      "minVoltageKv": 115,
+      "status": "IN SERVICE",
+      "lines": 3,
+      "city": "FORT BLISS",
+      "county": "EL PASO",
+      "state": "TX",
+      "lat": 31.806603,
+      "lng": -106.329404,
+      "distanceMi": 1.73
+     },
+     {
+      "name": "CALIENTE",
+      "maxVoltageKv": 345,
+      "minVoltageKv": 115,
+      "status": "IN SERVICE",
+      "lines": 7,
+      "city": "HOMESTEAD MEADOWS",
+      "county": "EL PASO",
+      "state": "TX",
+      "lat": 31.826092,
+      "lng": -106.250549,
+      "distanceMi": 2.06
+     },
+     {
+      "name": "IND CPLX",
+      "maxVoltageKv": 115,
+      "minVoltageKv": 115,
+      "status": "IN SERVICE",
+      "lines": 2,
+      "city": "FORT BLISS",
+      "county": "EL PASO",
+      "state": "TX",
+      "lat": 31.859136,
+      "lng": -106.315298,
+      "distanceMi": 2.31
+     },
+     {
+      "name": "VISTA",
+      "maxVoltageKv": 115,
+      "minVoltageKv": 115,
+      "status": "IN SERVICE",
+      "lines": 4,
+      "city": "EL PASO",
+      "county": "EL PASO",
+      "state": "TX",
+      "lat": 31.776917,
+      "lng": -106.312927,
+      "distanceMi": 2.59
+     },
+     {
+      "name": "BIGGS",
+      "maxVoltageKv": 115,
+      "minVoltageKv": 115,
+      "status": "IN SERVICE",
+      "lines": 3,
+      "city": "FORT BLISS",
+      "county": "EL PASO",
+      "state": "TX",
+      "lat": 31.864129,
+      "lng": -106.33961,
+      "distanceMi": 3.34
+     },
+     {
+      "name": "PICANTE",
+      "maxVoltageKv": 345,
+      "minVoltageKv": 115,
+      "status": "IN SERVICE",
+      "lines": 6,
+      "city": "FORT BLISS",
+      "county": "EL PASO",
+      "state": "TX",
+      "lat": 31.880231,
+      "lng": -106.314479,
+      "distanceMi": 3.71
+     },
+     {
+      "name": "SCOTTSDALE",
+      "maxVoltageKv": 115,
+      "minVoltageKv": 69,
+      "status": "IN SERVICE",
+      "lines": 4,
+      "city": "EL PASO",
+      "county": "EL PASO",
+      "state": "TX",
+      "lat": 31.783867,
+      "lng": -106.361772,
+      "distanceMi": 4.1
+     }
+    ],
+    "nearestDistanceMi": 0.83,
+    "nearestMaxVoltageKv": 69,
+    "nearestStatus": "IN SERVICE",
+    "countRadiusKm": 10,
+    "countWithin10Km": 16,
+    "countWithin10Km69KvPlus": 16,
+    "countWithinRadius": 68,
+    "maxVoltageKvWithinRadius": 345,
+    "nearest345KvPlus": {
+     "name": "CALIENTE",
+     "maxVoltageKv": 345,
+     "minVoltageKv": 115,
+     "status": "IN SERVICE",
+     "lines": 7,
+     "city": "HOMESTEAD MEADOWS",
+     "county": "EL PASO",
+     "state": "TX",
+     "lat": 31.826092,
+     "lng": -106.250549,
+     "distanceMi": 2.06
+    },
+    "ehvSearchRadiusMi": 25,
+    "sourceUrl": "https://services6.arcgis.com/OO2s4OoyCZkYJ6oE/arcgis/rest/services/Substations/FeatureServer/0",
+    "asOf": "2026-10-28",
+    "dataAsOf": "2021-06-01",
+    "dataState": "frozen",
+    "dataFreshness": [
+     {
+      "source": "HIFLD Electric Substations",
+      "dataAsOf": "2021-06-01",
+      "state": "frozen",
+      "basis": "newest SOURCEDATE in the layer",
+      "note": "HIFLD Open closed on 2025-08-26; this layer is no longer updated."
+     }
+    ]
+   },
+   "source": {
+    "name": "substations",
+    "url": "https://services6.arcgis.com/OO2s4OoyCZkYJ6oE/arcgis/rest/services/Substations/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "generation": {
+   "status": "failed",
+   "value": null,
+   "source": null,
+   "fetched_at": "2026-10-28T12:28:31.961Z",
+   "reason": "The source did not answer or the module errored; this says nothing about whether the site has this feature",
+   "retryable": true
+  },
+  "gasInfrastructure": {
+   "status": "ok",
+   "value": {
+    "measuredFrom": "parcel_outline",
+    "countRadiusMi": 5,
+    "gasPipelines": {
+     "nearest": {
+      "operator": "ONEOK Westex Pipeline",
+      "name": "ONEOK Westex Pipeline",
+      "type": "Intrastate",
+      "distanceMi": 3.32
+     },
+     "nearestInterstate": {
+      "operator": "El Paso Natural Gas Co",
+      "name": "El Paso Natural Gas Co",
+      "type": "Interstate",
+      "distanceMi": 3.41
+     },
+     "nearestIntrastate": {
+      "operator": "ONEOK Westex Pipeline",
+      "name": "ONEOK Westex Pipeline",
+      "type": "Intrastate",
+      "distanceMi": 3.32
+     },
+     "countWithinRadius": 4,
+     "interstateCountWithinRadius": 2,
+     "operatorsWithinRadius": [
+      "ONEOK Westex Pipeline",
+      "El Paso Natural Gas Co"
+     ],
+     "searchRadiusMi": 5
+    },
+    "petroleumProductPipelines": {
+     "nearest": {
+      "operator": "NUSTAR ENERGY",
+      "name": "Central West Refined Products Pipeline System",
+      "type": "Petroleum products",
+      "distanceMi": 1.46
+     },
+     "countWithinRadius": 4,
+     "searchRadiusMi": 10
+    },
+    "crudeOilPipelines": {
+     "nearest": {
+      "operator": "CENTURION PIPELINE",
+      "name": "Centurion Pipeline",
+      "type": "Crude oil",
+      "distanceMi": 107.38
+     },
+     "countWithinRadius": 0,
+     "searchRadiusMi": 150
+    },
+    "hglPipelines": {
+     "nearest": {
+      "operator": "ENTERPRISE PRODUCTS",
+      "name": "Rio Grande",
+      "type": "Hydrocarbon gas liquids",
+      "distanceMi": 17.59
+     },
+     "countWithinRadius": 0,
+     "searchRadiusMi": 50
+    },
+    "compressorStation": {
+     "name": "EL PASO",
+     "operator": "KINDER MORGAN INC.",
+     "pipeline": "EL PASO NATURAL GAS COMPANY L.L.C.",
+     "status": "IN SERVICE",
+     "certificatedHp": 58880,
+     "units": 5,
+     "distanceMi": 11.32
+    },
+    "compressorSearchRadiusMi": 25,
+    "undergroundStorage": {
+     "field": "WASHINGTON RANCH",
+     "reservoir": "MORROW",
+     "company": "EL PASO NATURAL GAS COMPANY",
+     "fieldType": "Depleted Field",
+     "status": "Active",
+     "workingGasCapacityMmcf": 44038,
+     "totalFieldCapacityMmcf": 68600,
+     "maxDailyDeliveryMmcf": 250,
+     "period": "December 2022",
+     "distanceMi": 106.77
+    },
+    "storageSearchRadiusMi": 125,
+    "lngTerminal": null,
+    "lngSearchRadiusMi": 400,
+    "shalePlays": [],
+    "inShalePlay": false,
+    "primaryShalePlay": null,
+    "sedimentaryBasin": null,
+    "btmGasCandidacy": true,
+    "intrastateWithin10Km": true,
+    "btmGasRule": "EIA interstate natural gas pipeline within 10 km of the parcel (distance only; not a capacity or deliverability claim).",
+    "sources": [
+     {
+      "title": "EIA natural gas interstate and intrastate pipelines",
+      "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0"
+     },
+     {
+      "title": "EIA petroleum product pipelines",
+      "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Petroleum_Products_Pipelines_1/FeatureServer/0"
+     },
+     {
+      "title": "EIA crude oil trunk pipelines",
+      "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Crude_Oil_Trunk_Pipelines_1/FeatureServer/0"
+     },
+     {
+      "title": "EIA hydrocarbon gas liquids pipelines",
+      "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Hydrocarbon_Gas_Liquids_Pipelines_1/FeatureServer/0"
+     },
+     {
+      "title": "HIFLD natural gas compressor stations (2023, republished)",
+      "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Natural_Gas_Compressor_Stations/FeatureServer/0"
+     },
+     {
+      "title": "EIA-191 underground natural gas storage (Dec 2022, republished)",
+      "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Natural_Gas_UndergroundStorage/FeatureServer/0"
+     },
+     {
+      "title": "HIFLD LNG import/export terminals (2019, republished)",
+      "url": "https://services.arcgis.com/kbDdtKcFi2adamXa/arcgis/rest/services/Liquified_Natural_Gas_Import_Exports_Terminals/FeatureServer/0"
+     },
+     {
+      "title": "EIA tight oil and shale gas plays",
+      "url": "https://services7.arcgis.com/FGr1D95XCGALKXqM/arcgis/rest/services/TightOil_ShaleGas_Plays_Lower48_EIA/FeatureServer/0"
+     },
+     {
+      "title": "EIA sedimentary basins",
+      "url": "https://services7.arcgis.com/FGr1D95XCGALKXqM/arcgis/rest/services/SedimentaryBasins_US_EIA/FeatureServer/109"
+     }
+    ],
+    "asOf": "2026-10-28"
+   },
+   "source": {
+    "name": "gasInfrastructure",
+    "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "gasSupply": {
+   "status": "ok",
+   "value": {
+    "location": {
+     "lat": 31.818305,
+     "lng": -106.294789,
+     "state": "TX",
+     "county": "EL PASO"
+    },
+    "nearestPipeline": {
+     "distanceMi": 3.95,
+     "operator": "ONEOK Westex Pipeline",
+     "pipelineName": "ONEOK Westex Pipeline",
+     "typeOrClass": "Intrastate",
+     "status": "Operating",
+     "interstate": false,
+     "sourceUrl": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0"
+    },
+    "nearbyPipelines": [
+     {
+      "distanceMi": 3.95,
+      "operator": "ONEOK Westex Pipeline",
+      "pipelineName": "ONEOK Westex Pipeline",
+      "typeOrClass": "Intrastate",
+      "status": "Operating",
+      "interstate": false,
+      "sourceUrl": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0"
+     },
+     {
+      "distanceMi": 4.02,
+      "operator": "El Paso Natural Gas Co",
+      "pipelineName": "El Paso Natural Gas Co",
+      "typeOrClass": "Interstate",
+      "status": "Operating",
+      "interstate": true,
+      "sourceUrl": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0"
+     },
+     {
+      "distanceMi": 17.59,
+      "operator": "Roadrunner",
+      "pipelineName": "Roadrunner",
+      "typeOrClass": "Intrastate",
+      "status": "Operating",
+      "interstate": false,
+      "sourceUrl": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0"
+     },
+     {
+      "distanceMi": 17.76,
+      "operator": "Comanche Trail Pipeline",
+      "pipelineName": "Comanche Trail Pipeline",
+      "typeOrClass": "Intrastate",
+      "status": "Operating",
+      "interstate": false,
+      "sourceUrl": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0"
+     },
+     {
+      "distanceMi": 19.08,
+      "operator": "Roadrunner Eastbound",
+      "pipelineName": "Roadrunner Eastbound",
+      "typeOrClass": "Intrastate",
+      "status": "Operating",
+      "interstate": false,
+      "sourceUrl": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0"
+     }
+    ],
+    "ldc": null,
+    "countyPoints": [],
+    "largestDeliveryPoints": [],
+    "unsubscribedPoints": [],
+    "contacts": [],
+    "sources": [
+     "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Natural_Gas_Interstate_and_Intrastate_Pipelines_1/FeatureServer/0"
+    ],
+    "failedSources": [],
+    "generatedAt": "2026-10-28T12:28:20.824Z",
+    "tariff": {
+     "name": null,
+     "url": null
+    },
+    "transporters": [
+     {
+      "operator": "ONEOK Westex Pipeline",
+      "distanceMi": 3.95
+     },
+     {
+      "operator": "El Paso Natural Gas Co",
+      "distanceMi": 4.02
+     }
+    ],
+    "notes": "Nearest transmission: ONEOK Westex Pipeline (Intrastate) 3.95 mi from the parcel. 0 pipeline points listed in EL PASO County; 0 MMBtu/day posted as unsubscribed firm capacity across them. Capacity figures are the pipeline\u2019s public postings at existing points, not a confirmed allocation to this parcel. Confirmed MMBtu/day, firm transportation terms, lateral and meter-station scope, delivery pressure and in-service date require a request to the transporter and a will-serve inquiry to the LDC.",
+    "asOf": "2026-10-28",
+    "sourceUrl": "https://services.arcgis.com/kbDdtKcFi2adamXa/arcgis/rest/services/Natural_Gas_Local_Distribution_Company_Service_Territories/FeatureServer/0"
+   },
+   "source": {
+    "name": "gasSupply",
+    "url": "https://services.arcgis.com/kbDdtKcFi2adamXa/arcgis/rest/services/Natural_Gas_Local_Distribution_Company_Service_Territories/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "wetlands": {
+   "status": "ok",
+   "value": {
+    "intersectsWetland": false,
+    "atCentre": null,
+    "wetlandAcresOnParcel": 0,
+    "wetlandPctOfParcel": 0,
+    "uplandAcres": 321.88,
+    "parcelAcres": 321.88,
+    "classesOnParcel": [],
+    "nearest": null,
+    "within100mCount": 0,
+    "within500mCount": 0,
+    "searchRadiusMi": 1,
+    "extent": "parcel",
+    "sourceUrl": "https://services5.arcgis.com/7weheFjxuNkGGiZi/arcgis/rest/services/USA_Wetlands/FeatureServer/0",
+    "asOf": "2026-10-28"
+   },
+   "source": {
+    "name": "wetlands",
+    "url": "https://services5.arcgis.com/7weheFjxuNkGGiZi/arcgis/rest/services/USA_Wetlands/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "gridCapacity": {
+   "status": "absent",
+   "value": null,
+   "source": null,
+   "fetched_at": "2026-10-28T12:28:31.961Z",
+   "reason": "Atria has no grid capacity data for eGRID AZNM yet. Grid capacity here is unknown, not zero. No operator capacity tool is known for this area.",
+   "billable": false
+  },
+  "energyOrdinance": {
+   "status": "ok",
+   "value": {
+    "state": "TX",
+    "county": "El Paso",
+    "countyFips": "48141",
+    "subdivision": "El Paso North Central CCD",
+    "subdivisionFips": "4814191225",
+    "wind": {
+     "localOrdinanceFound": false,
+     "jurisdictions": [],
+     "structureSetback": null,
+     "propertyLineSetback": null,
+     "roadSetback": null,
+     "maxHeight": null,
+     "noiseLimit": null,
+     "decommissioning": null,
+     "moratorium": {
+      "status": "none_found",
+      "through": null,
+      "basis": "nrel",
+      "asOf": "2025-09-12",
+      "rules": [],
+      "findings": [],
+      "searched": "None found as of 2025-09-12 in NREL U.S. Wind Siting Regulation and Zoning Ordinances (2025); a moratorium adopted after that, or published only in board minutes, is not covered."
+     },
+     "newerOrdinance": null,
+     "checkedAt": null,
+     "districts": {
+      "primary": [],
+      "special": [],
+      "accessory": [],
+      "prohibited": []
+     },
+     "setbacks": [],
+     "limits": [],
+     "prohibitions": [],
+     "requirements": []
+    },
+    "solar": {
+     "localOrdinanceFound": false,
+     "jurisdictions": [
+      {
+       "level": "state",
+       "name": "TX",
+       "fips": "48",
+       "ordinanceYear": null,
+       "documentUrl": "https://statutes.capitol.texas.gov/?tab=1&code=UT&chapter=UT.302&artSec="
+      }
+     ],
+     "structureSetback": null,
+     "propertyLineSetback": null,
+     "roadSetback": null,
+     "maxHeight": null,
+     "noiseLimit": null,
+     "decommissioning": {
+      "level": "state",
+      "jurisdiction": "TX",
+      "feature": "Decommissioning",
+      "value": null,
+      "units": null,
+      "rule": null,
+      "valueText": null,
+      "summary": "Solar power facility agreements to ensure the grantee is responsible for removing all solar equipment, foundations, cables, and lines, and restoring the land to its prior condition, including soil refilling, reseeding, and optional road or rock removal if requested by the landowner within 180 days of decommissioning. Section 302.0005 mandates that grantees provide financial assurance, such as a guaranty, letter of credit, or bond, sufficient to cover removal and land restoration costs (net of salvage value), with costs and estimates verified by independent engineers and updated regularly to ensure adequacy.",
+      "section": "Tex. Util. Code Ann. \u00a7 302. 0004",
+      "ordinanceYear": null,
+      "url": "https://statutes.capitol.texas.gov/?tab=1&code=UT&chapter=UT.302&artSec=",
+      "source": "nrel_oedi"
+     },
+     "moratorium": {
+      "status": "none_found",
+      "through": null,
+      "basis": "nrel",
+      "asOf": "2025-12-30",
+      "rules": [],
+      "findings": [],
+      "searched": "None found as of 2025-12-30 in NREL U.S. Solar Siting Regulation and Zoning Ordinances (2025); a moratorium adopted after that, or published only in board minutes, is not covered."
+     },
+     "newerOrdinance": null,
+     "checkedAt": null,
+     "districts": {
+      "primary": [],
+      "special": [],
+      "accessory": [],
+      "prohibited": []
+     },
+     "setbacks": [],
+     "limits": [],
+     "prohibitions": [],
+     "requirements": [
+      {
+       "level": "state",
+       "jurisdiction": "TX",
+       "feature": "Decommissioning",
+       "value": null,
+       "units": null,
+       "rule": null,
+       "valueText": null,
+       "summary": "Solar power facility agreements to ensure the grantee is responsible for removing all solar equipment, foundations, cables, and lines, and restoring the land to its prior condition, including soil refilling, reseeding, and optional road or rock removal if requested by the landowner within 180 days of decommissioning. Section 302.0005 mandates that grantees provide financial assurance, such as a guaranty, letter of credit, or bond, sufficient to cover removal and land restoration costs (net of salvage value), with costs and estimates verified by independent engineers and updated regularly to ensure adequacy.",
+       "section": "Tex. Util. Code Ann. \u00a7 302. 0004",
+       "ordinanceYear": null,
+       "url": "https://statutes.capitol.texas.gov/?tab=1&code=UT&chapter=UT.302&artSec=",
+       "source": "nrel_oedi"
+      }
+     ]
+    },
+    "notes": [
+     "Rules with source 'nrel_oedi' were compiled by NREL with large language models from the ordinance documents linked on each rule (NREL U.S. Wind Siting Regulation and Zoning Ordinances (2025) and NREL U.S. Solar Siting Regulation and Zoning Ordinances (2025), CC-BY 4.0). Confirm a rule against its ordinance before relying on it.",
+     "Rules are listed for every level that has one (state, county, county subdivision); the convenience fields (structureSetback and the rest) take the most local. Where both a county and a township regulate, both bind.",
+     "No county or township wind ordinance for this point is in NREL's dataset. That is not evidence there is none: the dataset does not cover every county.",
+     "No county or township solar ordinance for this point is in NREL's dataset. That is not evidence there is none: the dataset does not cover every county.",
+     "Atria has started a free check of this county for moratoria, bans and ordinance amendments newer than these rules (job 9cd4f3d0-37f7-4d80-b27b-32dac31e65d0). Until it finishes, moratorium status rests on NREL's data alone; re-run this screen afterwards."
+    ],
+    "sources": [
+     {
+      "title": "NREL U.S. Wind Siting Regulation and Zoning Ordinances (2025)",
+      "url": "https://data.openei.org/submissions/8519"
+     },
+     {
+      "title": "NREL U.S. Solar Siting Regulation and Zoning Ordinances (2025)",
+      "url": "https://data.openei.org/submissions/8602"
+     },
+     {
+      "title": "Census TIGERweb county subdivisions",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer/1"
+     }
+    ],
+    "asOf": "2026-10-28"
+   },
+   "source": {
+    "name": "energyOrdinance",
+    "url": "https://data.openei.org/submissions/8519"
+   },
+   "fetched_at": "2026-10-28T12:28:31.961Z"
+  },
+  "zoningRules": {
+   "status": "absent",
+   "value": null,
+   "source": null,
+   "fetched_at": "2026-10-28T12:28:31.961Z",
+   "reason": "No zoning rules: the parcel is unzoned. Parcel is outside any incorporated place; El Paso County governs land use. Texas counties have no general zoning authority (Tex. Loc. Gov. Code ch. 231 grants zoning only to a few named counties and areas); unincorporated land is unzoned."
+  },
+  "naturalHazardRisk": {
+   "status": "ok",
+   "source": {
+    "name": "naturalHazardRisk",
+    "url": "https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Census_Tracts/FeatureServer/0"
+   },
+   "fetched_at": "2026-10-30T17:04:54Z",
+   "value": {
+    "riskScore": 7.9,
+    "riskRating": "Very Low",
+    "tractFips": "48141010101",
+    "nriVersion": "December 2025",
+    "topHazards": [
+     "Lightning",
+     "Winter weather"
+    ],
+    "inlandFloodingRating": "Very Low"
+   }
+  },
+  "coolingClimate": {
+   "status": "ok",
+   "source": {
+    "name": "coolingClimate",
+    "url": "https://power.larc.nasa.gov"
+   },
+   "fetched_at": "2026-10-30T17:04:54Z",
+   "value": {
+    "daysAtOrAbove32C": 117.1,
+    "dailyPeriod": "2016-2025",
+    "designWetBulb04PctC": 20.4,
+    "freeCoolingHoursAtOrBelow15C": 3152
+   }
+  },
+  "telecomInfrastructure": {
+   "status": "ok",
+   "source": {
+    "name": "telecomInfrastructure",
+    "url": "https://www.peeringdb.com/api/fac"
+   },
+   "fetched_at": "2026-10-30T17:04:54Z",
+   "value": {
+    "internetExchanges": [
+     {
+      "name": "PhoenixIX",
+      "participants": 40,
+      "distanceMi": 354.4
+     },
+     {
+      "name": "Equinix Phoenix",
+      "participants": 55,
+      "distanceMi": 354.6
+     }
+    ],
+    "facilities": {
+     "nearest": [
+      {
+       "name": "MDC El Paso",
+       "operator": "MDC Data Centers",
+       "distanceMi": 4.8
+      }
+     ]
+    }
+   }
+  },
+  "criticalHabitat": {
+   "status": "ok",
+   "source": {
+    "name": "criticalHabitat",
+    "url": "https://services.arcgis.com/QVENGdaPbd4LUkLV/ArcGIS/rest/services/USFWS_Critical_Habitat/FeatureServer"
+   },
+   "fetched_at": "2026-10-30T17:04:54Z",
+   "value": {
+    "intersectsCriticalHabitat": false,
+    "searchRadiusMi": 5
+   }
+  },
+  "listedSpecies": {
+   "status": "ok",
+   "source": {
+    "name": "listedSpecies",
+    "url": "https://ipac.ecosphere.fws.gov/location/api/resources"
+   },
+   "fetched_at": "2026-10-30T17:04:54Z",
+   "value": {
+    "species": [
+     {
+      "commonName": "Northern Aplomado Falcon",
+      "listingStatus": "Endangered"
+     },
+     {
+      "commonName": "Monarch butterfly",
+      "listingStatus": "Proposed Threatened"
+     },
+     {
+      "commonName": "Yellow-billed Cuckoo",
+      "listingStatus": "Threatened"
+     }
+    ]
+   }
+  },
+  "geologyHazards": {
+   "status": "ok",
+   "source": {
+    "name": "geologyHazards",
+    "url": "https://earthquake.usgs.gov"
+   },
+   "fetched_at": "2026-10-30T17:04:54Z",
+   "value": {
+    "inKarstArea": false
+   }
+  }
+ },
+ "unbilled_modules": [
+  {
+   "module": "generation",
+   "status": "failed"
+  }
+ ],
+ "credits": {
+  "charged": 440,
+  "remaining": 8709745
+ },
+ "_notes": [
+  "2026-10-30: naturalHazardRisk, coolingClimate, telecomInfrastructure, criticalHabitat, listedSpecies, geologyHazards added from a 90-credit atria_screen at the site point; trimmed to the fields the pipeline reads."
+ ]
+}

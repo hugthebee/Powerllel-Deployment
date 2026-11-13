@@ -1,0 +1,66 @@
+{
+ "read_date": "2026-10-30",
+ "documents": [
+  {
+   "id": "bexar-hwy16-tpr",
+   "site_id": "bexar-hwy16",
+   "jurisdiction": "City of San Antonio",
+   "kind": "Local news",
+   "date": "2026-08-25",
+   "title": "San Antonio will consider regulating data centers. It is unclear if that involves a moratorium.",
+   "publisher": "Texas Public Radio",
+   "url": "https://www.tpr.org/economy-and-labor/2026-08-25/san-antonio-will-consider-regulating-data-centers-its-unclear-if-that-involves-a-moratorium",
+   "text": "Council heard proposed zoning changes at a special meeting; no moratorium vote. Councilman Jalen McKee-Rodriguez (D2): \"Data centers are one of the largest, fastest-growing threats to our communities,\" Councilman Ric Galvan (D6): \"I\u2019d prefer that we do as much as possible as quickly as possible,\" Resident/advocate Deedee Belmares (Public Citizen): \"My biggest concern is the 500-foot setback,\" Councilwoman Misty Spears (D9): \"Data center development greatly supports the commercial construction industry,\" Development Services director Amin Tohmaz said a moratorium is \"a temporary measure,\" not a permanent stop.",
+   "llm_answer": "{\"relevant\": true, \"events\": [{\"type\": \"moratorium\", \"stage\": \"public_request\", \"date\": \"2026-08-07\", \"body\": \"San Antonio City Council (D6, D5, D8 memo)\", \"vote_for\": null, \"vote_against\": null, \"project\": null, \"developer\": null, \"mw\": null, \"location\": \"city-wide\"}, {\"type\": \"moratorium\", \"stage\": \"rejected\", \"date\": \"2026-08-25\", \"body\": \"San Antonio City Council\", \"vote_for\": null, \"vote_against\": null, \"project\": null, \"developer\": null, \"mw\": null, \"location\": \"city-wide\"}], \"statements\": [{\"speaker_role\": \"official\", \"stance\": \"oppose\", \"concerns\": [\"other\"], \"quote\": \"Data centers are one of the largest, fastest-growing threats to our communities\"}, {\"speaker_role\": \"official\", \"stance\": \"oppose\", \"concerns\": [\"other\"], \"quote\": \"I\\u2019d prefer that we do as much as possible as quickly as possible\"}, {\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"land_use\"], \"quote\": \"My biggest concern is the 500-foot setback\"}, {\"speaker_role\": \"official\", \"stance\": \"support\", \"concerns\": [\"other\"], \"quote\": \"Data center development greatly supports the commercial construction industry\"}]}"
+  },
+  {
+   "id": "bexar-hwy16-sar",
+   "site_id": "bexar-hwy16",
+   "jurisdiction": "City of San Antonio",
+   "kind": "Local news",
+   "date": "2026-10-25",
+   "title": "Breaking down the options for data center rules in San Antonio",
+   "publisher": "San Antonio Report",
+   "url": "https://sanantonioreport.org/how-can-san-antonio-regulate-data-centers-breaking-down-the-options-in-front-of-city-council/",
+   "text": "Stephanie Reyes, president of the Real Estate Council of San Antonio, said: \"Anytime we want to attract investment, there has to be consistency and predictability.\" Deedee Belmares, a Public Citizen clean energy advocate, said: \"It's so important for you all to recommend to City Council this specific use authorization\" Mayor Gina Ortiz Jones said: \"We understand the importance of this computing power for our national security and our economic security,\" Jones also said: \"We should not also be attractive as, frankly, being a cheap date.\"",
+   "llm_answer": "{\"relevant\": true, \"events\": [], \"statements\": [{\"speaker_role\": \"business\", \"stance\": \"support\", \"concerns\": [\"other\"], \"quote\": \"Anytime we want to attract investment, there has to be consistency and predictability.\"}, {\"speaker_role\": \"resident\", \"stance\": \"oppose\", \"concerns\": [\"land_use\"], \"quote\": \"It's so important for you all to recommend to City Council this specific use authorization\"}, {\"speaker_role\": \"official\", \"stance\": \"neutral\", \"concerns\": [\"other\"], \"quote\": \"We understand the importance of this computing power for our national security and our economic security\"}, {\"speaker_role\": \"official\", \"stance\": \"neutral\", \"concerns\": [\"tax_breaks\"], \"quote\": \"We should not also be attractive as, frankly, being a cheap date.\"}]}"
+  },
+  {
+   "id": "bexar-hwy16-obs",
+   "site_id": "bexar-hwy16",
+   "jurisdiction": "City of San Antonio",
+   "kind": "Local news",
+   "date": "2026-10-29",
+   "title": "San Antonio Data Center Regulations Pass in 9-2 City Council Vote",
+   "publisher": "San Antonio Observer",
+   "url": "https://saobserver.com/san-antonio-data-center-regulations-pass-in-9-2-city-council-vote/",
+   "text": "Council voted 9-2 to limit new data centers to heavy commercial and industrial zoning districts and to require a Specific Use Authorization for each. Councilman Ric Galvan (District 6): \"The residents of San Antonio deserve to have a say in where and how data centers are built in our city,\" \"All new data centers within city limits should require a vote by City Council.\" \"This is the only way to ensure that our community has a meaningful voice in data center development in San Antonio.\"",
+   "llm_answer": "{\"relevant\": true, \"events\": [{\"type\": \"ordinance\", \"stage\": \"adopted\", \"date\": \"2026-10-29\", \"body\": \"San Antonio City Council\", \"vote_for\": 9, \"vote_against\": 2, \"project\": null, \"developer\": null, \"mw\": null, \"location\": \"city-wide\"}], \"statements\": [{\"speaker_role\": \"official\", \"stance\": \"oppose\", \"concerns\": [\"land_use\"], \"quote\": \"All new data centers within city limits should require a vote by City Council.\"}]}"
+  }
+ ],
+ "posts_per_week": [],
+ "state": {
+  "p_state": 0.2,
+  "note": "Assumption (human judgement, as the data map specifies for the state layer): chance the statewide pause and audit stop this project outright. Delay is not modeled separately.",
+  "events": [
+   {
+    "date": "2026-08-03",
+    "title": "Governor directs PUCT and ERCOT to audit data centers in the interconnection queue; ERCOT pauses Batch Zero",
+    "applies": "Grid connection",
+    "url": "https://www.hklaw.com/en/insights/publications/2026/08/texas-gov-abbott-directs-data-center-audit"
+   },
+   {
+    "date": "2026-08-20",
+    "title": "PUCT grants ERCOT good-cause exceptions for the audit timeline",
+    "applies": "Grid connection",
+    "url": "https://www.akingump.com/en/insights/alerts/texas-pauses-data-center-interconnections-pending-statewide-audit"
+   },
+   {
+    "date": "2026-09-21",
+    "title": "Governor directs TCEQ to \"halt all permits sought by data centers until the Electric Reliability Council of Texas (ERCOT) completes its audit\"",
+    "applies": "Air permit for on-site gas",
+    "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+   }
+  ]
+ }
+}

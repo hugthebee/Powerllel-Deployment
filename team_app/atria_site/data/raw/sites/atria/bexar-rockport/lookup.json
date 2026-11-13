@@ -1,0 +1,109 @@
+{
+ "tool": "atria_lookup",
+ "input": {
+  "apn": "04230-000-0032",
+  "county": "Bexar",
+  "state": "TX"
+ },
+ "credits": {
+  "charged": 100
+ },
+ "parcel": {
+  "status": "ok",
+  "value": {
+   "parcel_id": "04230-000-0032",
+   "address": "ROCKPORT ST, VON ORMY, TX 78073",
+   "city": "VON ORMY",
+   "county": "Bexar County",
+   "state": "TX",
+   "acreage": 151.13847114785065,
+   "zoning": null,
+   "land_use": "D1 Qualified open-space land",
+   "owner_name": "VOLNER ANTHONY",
+   "centroid": {
+    "lat": 29.251106718620544,
+    "lng": -98.65252670542014
+   },
+   "geometry_rings": [
+    [
+     [
+      -98.6501772,
+      29.2430816
+     ],
+     [
+      -98.6533453,
+      29.2430629
+     ],
+     [
+      -98.6533393,
+      29.2445021
+     ],
+     [
+      -98.6533296,
+      29.2454932
+     ],
+     [
+      -98.6533297,
+      29.2467885
+     ],
+     [
+      -98.6532809,
+      29.2481389
+     ],
+     [
+      -98.6533215,
+      29.2519648
+     ],
+     [
+      -98.6534425,
+      29.2569729
+     ],
+     [
+      -98.6534455,
+      29.257523
+     ],
+     [
+      -98.6533778,
+      29.2580752
+     ],
+     [
+      -98.6534083,
+      29.2613436
+     ],
+     [
+      -98.6503422,
+      29.2613783
+     ],
+     [
+      -98.6501935,
+      29.2460644
+     ],
+     [
+      -98.6501898,
+      29.2447577
+     ],
+     [
+      -98.6501772,
+      29.2430816
+     ]
+    ]
+   ],
+   "source_layer_url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0",
+   "attributes": {
+    "PropID": 185834,
+    "Geo_id": "04230-000-0032",
+    "Situs": "ROCKPORT ST, VON ORMY, TX 78073",
+    "Owner_Name": "VOLNER ANTHONY",
+    "addr_city": "VON ORMY",
+    "legal_desc": "CB 4230 P-3 ABS 154",
+    "state_cd": "D1",
+    "legal_acre": 148.5
+   }
+  },
+  "source": {
+   "name": "BCAD Parcels (services.arcgis.com), parcel layer used for Bexar County, TX",
+   "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0"
+  },
+  "fetched_at": "2026-10-30T16:51:40.990Z"
+ }
+}

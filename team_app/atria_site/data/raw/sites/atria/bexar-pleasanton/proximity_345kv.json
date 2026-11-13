@@ -1,0 +1,3 @@
+{"tool": "atria_proximity", "input": {"mode": "nearest", "set": "substations", "min_kv": 345, "n": 3, "travel_mode": "straightline"}, "credits": {"charged": 10}, "fetched_at": "2026-10-29T23:15:11.147Z",
+ "source": {"name": "HIFLD electric substations", "url": "https://services6.arcgis.com/OO2s4OoyCZkYJ6oE/arcgis/rest/services/Substations/FeatureServer/0"},
+ "candidates": [{"name": "BROOKS FIELD", "maxVoltageKv": 345, "miles": 5.21}, {"name": "ARTHUR VON ROSENBERG", "maxVoltageKv": 345, "miles": 7.46}, {"name": "CALAVERAS 345 SWITCHYARD", "maxVoltageKv": 345, "miles": 11.45}]}

@@ -1,0 +1,170 @@
+{
+ "apn": "04014-001-0917",
+ "ownerCity": "SAN ANTONIO, TX",
+ "address": "SOMERSET ROAD, TX",
+ "score": 88,
+ "facts": {
+  "lotSize": "104 ac",
+  "zoning": "Unzoned / rural",
+  "zoningNote": "no parcel-level zoning layer",
+  "fiberPop": "16 mi",
+  "fiberNote": "4 networks (proxy)",
+  "owner": "SUSTALA JERRY LYNN"
+ },
+ "why": "This 104 acre parcel is effectively vacant, flat, and sits well within a mile of the Somerset substation with highway access nearby, meeting all core powered land screening criteria. The only open item is confirmed on site fiber, since the nearest interconnection facility is over 15 miles away, which is a due diligence flag rather than a disqualifier.",
+ "measured": [
+  {
+   "label": "Acreage",
+   "state": "inside",
+   "text": "104 acres, at least 75 acres. County parcel layer."
+  },
+  {
+   "label": "Substation distance",
+   "state": "inside",
+   "text": "0.39 mi, limit 1 mi. HIFLD substations."
+  },
+  {
+   "label": "Highway distance",
+   "state": "inside",
+   "text": "2.86 mi, limit 5 mi. NTAD National Highway Network."
+  },
+  {
+   "label": "Flood zone",
+   "state": "inside",
+   "text": "X, one of X, X (unshaded), B, C, D. FEMA National Flood Hazard Layer."
+  },
+  {
+   "label": "Mean slope",
+   "state": "inside",
+   "text": "1%, limit 8%. USGS 3DEP elevation."
+  },
+  {
+   "label": "Effectively vacant",
+   "state": "inside",
+   "text": "yes. OpenStreetMap / USA Structures building footprints."
+  },
+  {
+   "label": "Parcel compactness",
+   "state": "inside",
+   "text": "0.53, at least 0.2. County parcel layer."
+  },
+  {
+   "label": "Owner acquirable",
+   "state": "inside",
+   "text": "yes. Owner classification (assessor name)."
+  },
+  {
+   "label": "Building footprint",
+   "state": null,
+   "text": "0 sq ft. OpenStreetMap / USA Structures building footprints."
+  },
+  {
+   "label": "Fiber facility distance",
+   "state": null,
+   "text": "15.7 mi. PeeringDB interconnection facilities."
+  },
+  {
+   "label": "Population within 2 mi",
+   "state": null,
+   "text": "2,645 people. US Census ACS."
+  },
+  {
+   "label": "Opportunity Zone",
+   "state": null,
+   "text": "yes. IRS Qualified Opportunity Zones."
+  }
+ ],
+ "read": [
+  {
+   "dir": "For",
+   "weight": "major",
+   "text": "The parcel offers 104.13 contiguous acres, comfortably exceeding the 75 acre minimum.",
+   "value": "104.129 acres"
+  },
+  {
+   "dir": "For",
+   "weight": "decisive",
+   "text": "The Somerset substation sits just 0.39 miles away, well inside the 1 mile adjacency requirement.",
+   "value": "0.39 mi"
+  },
+  {
+   "dir": "For",
+   "weight": "major",
+   "text": "The parcel has zero building footprint, confirming it is genuinely vacant land ready for new construction.",
+   "value": "0 sq ft across 0 buildings, 0.00% of parcel"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "Flat terrain at 1% slope makes grading straightforward for large-footprint development.",
+   "value": "1 %"
+  },
+  {
+   "dir": "Against",
+   "weight": "major",
+   "text": "The nearest carrier interconnection facility is 15.66 miles away, beyond the preferred 5 mile fiber proximity target.",
+   "value": "15.66 mi"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "Parcel shape compactness of 0.53 indicates a reasonably regular, buildable tract.",
+   "value": "0.53"
+  },
+  {
+   "dir": "For",
+   "weight": "minor",
+   "text": "The parcel sits in a Qualified Opportunity Zone, adding a capital gains deferral incentive.",
+   "value": "yes"
+  }
+ ],
+ "change": "If a confirmed fiber route or carrier facility were verified within 5 miles of the parcel, the site would meet all screening criteria without qualification, this parcel reads as a strong fit.",
+ "checks": [
+  {
+   "recon": "Substation 0.39 mi (Somerset)",
+   "deep": "Somerset is a 138 kV substation. The nearest 345 kV substation is Cagnon Road, 12.8 mi away; a 345 kV line passes 3.5 mi from the parcel (a tap needs a new substation).",
+   "indicator": "dist_345kv_mi",
+   "category": "Technical",
+   "severity": "major"
+  },
+  {
+   "recon": "Gas: not shown",
+   "deep": "The nearest gas transmission pipeline (El Paso Texas Pipeline Co) is 4.2 mi away, so on-site gas needs a lateral.",
+   "indicator": "gas_dist_mi",
+   "category": "Technical",
+   "severity": "minor"
+  },
+  {
+   "recon": "Air quality is not part of the recon screen",
+   "deep": "Serious ozone nonattainment (2015 standard): the NOx major-source line is 50 tons a year, so sized on-site gas likely needs a nonattainment NSR permit, and TCEQ data-center permits are halted until the ERCOT audit ends.",
+   "indicator": "attainment",
+   "category": "Environmental",
+   "severity": "major"
+  },
+  {
+   "recon": "Grid connection timing is not part of the recon screen",
+   "deep": "Large-load interconnections are paused statewide pending the ERCOT/PUCT audit (Aug 3, 2026); see the grid arrival estimate on the Technical page.",
+   "indicator": "grid_p50_months",
+   "category": "Technical",
+   "severity": "major"
+  }
+ ],
+ "_note": "The Atria Scout recon card for this parcel, as pasted by the user on 2026-10-30 (recon \"Powered land screening: Bexar County\", scored Sep 29, 2026). checks: where the deep dive reads the parcel differently, from the Atria screen of 2026-10-30.",
+ "recon": {
+  "title": "Powered land screening: Bexar County",
+  "use": "Data Center",
+  "state": "TX",
+  "criteria": "75+ acres",
+  "qualified": 152,
+  "assessed": 1040,
+  "scoredByRecon": 394
+ },
+ "tier": "Solid fit",
+ "tierNote": "Most criteria met - review outliers before pursuing.",
+ "asOf": "2026-09-29",
+ "map": {
+  "image": "atria/bexar-somerset.jpg",
+  "bbox": null,
+  "imageSource": "Esri World Imagery"
+ }
+}

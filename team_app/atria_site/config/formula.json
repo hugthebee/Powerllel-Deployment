@@ -1,0 +1,77 @@
+{
+ "_generated_from": "Atria_Data_Model_Map.xlsx by scripts/build_config.py; do not edit by hand",
+ "formula": {
+  "score": "100 × G × Σ_k w_k·s_k × (1 − P_stall) × (1 + r)^(−E[T_power]/12)",
+  "score_meaning": "The single score per site (0–100)",
+  "terms": [
+   {
+    "term": "AtriaScore",
+    "formula": "100 × G × Σ_k w_k·s_k × (1 − P_stall) × (1 + r)^(−E[T_power]/12)",
+    "meaning": "The single score per site (0–100)"
+   },
+   {
+    "term": "G (gates)",
+    "formula": "1 if no fatal flaw, else 0",
+    "meaning": "Critical habitat on site, floodway, active moratorium, no feasible voltage, SB 17/CFIUS block for this buyer"
+   },
+   {
+    "term": "s_k (category score)",
+    "formula": "Σ_j v_kj · u_kj(x_kj)",
+    "meaning": "Weighted average of 0–1 value functions u for each indicator j in category k (Technical, Environmental, Cultural, Policy, Security)"
+   },
+   {
+    "term": "u (value function)",
+    "formula": "Fixed thresholds, e.g. 345 kV distance: 1 at ≤1 mi, 0 at ≥10 mi, linear between",
+    "meaning": "Fixed anchors so adding sites never changes other sites' scores"
+   },
+   {
+    "term": "w_k (weights)",
+    "formula": "Customer thesis or AHP pairwise comparison; sum to 1",
+    "meaning": "Saaty 1980 (AHP); Malczewski 2006 (GIS-MCDA)"
+   },
+   {
+    "term": "P_stall",
+    "formula": "1 − (1 − P_local)(1 − P_state)(1 − P_commercial)",
+    "meaning": "Model B"
+   },
+   {
+    "term": "E[T_power]",
+    "formula": "Expected months to full power (with bridge if allowed)",
+    "meaning": "Models A + D"
+   },
+   {
+    "term": "r",
+    "formula": "Customer cost of delay per year",
+    "meaning": "Customer provided (default 15%)"
+   },
+   {
+    "term": "Investor view",
+    "formula": "Expected value = G × (1 − P_stall) × E[bridge MW × years × price − mitigation costs]",
+    "meaning": "Models D–F; in dollars instead of points"
+   },
+   {
+    "term": "Toy example",
+    "formula": "G=1, Σw·s=0.68, P_stall=0.15, E[T]=30 mo, r=15% → 100×0.68×0.85×1.15^(−2.5) ≈ 41",
+    "meaning": "Made-up numbers to show the mechanics"
+   }
+  ],
+  "gates": [
+   "Critical habitat on site",
+   "floodway",
+   "active moratorium",
+   "no feasible voltage",
+   "SB 17/CFIUS block for this buyer"
+  ],
+  "toy_example": {
+   "G": 1.0,
+   "sum_ws": 0.68,
+   "p_stall": 0.15,
+   "months": 30.0,
+   "r": 0.15,
+   "expected": 41.0,
+   "text": "G=1, Σw·s=0.68, P_stall=0.15, E[T]=30 mo, r=15% → 100×0.68×0.85×1.15^(−2.5) ≈ 41",
+   "note": "Made-up numbers to show the mechanics"
+  },
+  "investor_view": "Expected value = G × (1 − P_stall) × E[bridge MW × years × price − mitigation costs]"
+ }
+}

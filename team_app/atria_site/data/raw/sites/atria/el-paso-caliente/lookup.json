@@ -1,0 +1,133 @@
+{
+ "tool": "atria_lookup",
+ "input": {
+  "lat": 31.818305,
+  "lng": -106.294789
+ },
+ "credits": {
+  "charged": 100
+ },
+ "parcel": {
+  "status": "ok",
+  "value": {
+   "parcel_id": "X57900023000000",
+   "city": "MALVERN",
+   "county": "El Paso",
+   "state": "TX",
+   "acreage": 319.1724,
+   "zoning": null,
+   "owner_name": "BBC ARMY INTEGRATED LLC",
+   "total_value": 1112252,
+   "land_value": 1112252,
+   "improved_value": 0,
+   "centroid": {
+    "lat": 31.8241301571247,
+    "lng": -106.2954436186848
+   },
+   "geometry_rings": [
+    [
+     [
+      -106.2965123,
+      31.8275736
+     ],
+     [
+      -106.2938858,
+      31.8265889
+     ],
+     [
+      -106.2857464,
+      31.8239464
+     ],
+     [
+      -106.2856687,
+      31.8239176
+     ],
+     [
+      -106.2856745,
+      31.8233266
+     ],
+     [
+      -106.2942242,
+      31.8260403
+     ],
+     [
+      -106.2978582,
+      31.827017
+     ],
+     [
+      -106.2985286,
+      31.8272295
+     ],
+     [
+      -106.2985351,
+      31.8267918
+     ],
+     [
+      -106.298144,
+      31.8266678
+     ],
+     [
+      -106.2982632,
+      31.8186495
+     ],
+     [
+      -106.2857183,
+      31.8188607
+     ],
+     [
+      -106.2855561,
+      31.8132464
+     ],
+     [
+      -106.285388,
+      31.8132472
+     ],
+     [
+      -106.3008331,
+      31.8129743
+     ],
+     [
+      -106.3017014,
+      31.8268656
+     ],
+     [
+      -106.3022391,
+      31.8269898
+     ],
+     [
+      -106.3022308,
+      31.8274939
+     ],
+     [
+      -106.2965123,
+      31.8275736
+     ]
+    ]
+   ],
+   "source_layer_url": "https://services2.arcgis.com/fKvlzLJczghwPYHS/arcgis/rest/services/ElPasoCADWebService/FeatureServer/0",
+   "attributes": {
+    "prop_id": 320751,
+    "owner_tax_yr": 2027,
+    "file_as_name": "BBC ARMY INTEGRATED  LLC",
+    "legal_acreage": 319.1724,
+    "legal_desc": "79 TSP 2 SEC 30 T & P SURV          (319.1724 AC)",
+    "market": 1112252,
+    "geo_id": "X57900023000000",
+    "situs_zip": "79908",
+    "addr_line1": "c/o BELFOUR BEATTY COMMUNITIES",
+    "addr_line2": "1 COUNTRY VIEW RD",
+    "addr_city": "MALVERN",
+    "addr_state": "PA",
+    "zip": "19355",
+    "Deed_Date": "12/13/2023",
+    "Number": "20230090823",
+    "school": "IEP"
+   }
+  },
+  "source": {
+   "name": "ElPasoCADWebService (services2.arcgis.com), parcel layer used for El Paso County, TX",
+   "url": "https://services2.arcgis.com/fKvlzLJczghwPYHS/arcgis/rest/services/ElPasoCADWebService/FeatureServer/0"
+  },
+  "fetched_at": "2026-10-28T12:26:22.557Z"
+ }
+}

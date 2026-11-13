@@ -1,0 +1,114 @@
+[
+ {
+  "id": "bexar-hwy16",
+  "kind": "cached",
+  "label": "Bexar County, S State Hwy 16 (San Antonio)",
+  "county": "Bexar",
+  "state": "TX",
+  "iso": "ERCOT",
+  "counts": {
+   "Answered": 48,
+   "Example": 0,
+   "Not pulled": 11,
+   "No source": 5
+  }
+ },
+ {
+  "id": "bexar-hwy87",
+  "kind": "cached",
+  "label": "Bexar County, US Hwy 87 E (east of San Antonio)",
+  "county": "Bexar",
+  "state": "TX",
+  "iso": "ERCOT",
+  "counts": {
+   "Answered": 48,
+   "Example": 0,
+   "Not pulled": 11,
+   "No source": 5
+  }
+ },
+ {
+  "id": "bexar-pleasanton",
+  "kind": "cached",
+  "label": "Bexar County, Pleasanton Rd (San Antonio)",
+  "county": "Bexar",
+  "state": "TX",
+  "iso": "ERCOT",
+  "counts": {
+   "Answered": 53,
+   "Example": 0,
+   "Not pulled": 9,
+   "No source": 6
+  }
+ },
+ {
+  "id": "bexar-rockport",
+  "kind": "cached",
+  "label": "Bexar County, Rockport St (near Von Ormy)",
+  "county": "Bexar",
+  "state": "TX",
+  "iso": "ERCOT",
+  "counts": {
+   "Answered": 48,
+   "Example": 0,
+   "Not pulled": 11,
+   "No source": 5
+  }
+ },
+ {
+  "id": "bexar-somerset",
+  "kind": "cached",
+  "label": "Bexar County, Somerset Rd",
+  "county": "Bexar",
+  "state": "TX",
+  "iso": "ERCOT",
+  "counts": {
+   "Answered": 43,
+   "Example": 0,
+   "Not pulled": 16,
+   "No source": 5
+  }
+ },
+ {
+  "id": "el-paso-caliente",
+  "kind": "cached",
+  "label": "El Paso County, east of El Paso",
+  "county": "El Paso",
+  "state": "TX",
+  "iso": "WECC (non-ISO)",
+  "counts": {
+   "Answered": 48,
+   "Example": 0,
+   "Not pulled": 11,
+   "No source": 5
+  }
+ },
+ {
+  "id": "johnson-venus",
+  "kind": "cached",
+  "label": "Johnson County, near Venus (DFW)",
+  "county": "Johnson",
+  "state": "TX",
+  "iso": "ERCOT",
+  "counts": {
+   "Answered": 50,
+   "Example": 0,
+   "Not pulled": 10,
+   "No source": 5
+  }
+ },
+ {
+  "id": "milam-sandow",
+  "kind": "cached",
+  "label": "Milam County, near Rockdale",
+  "county": "Milam",
+  "state": "TX",
+  "iso": "ERCOT",
+  "counts": {
+   "Answered": 46,
+   "Example": 0,
+   "Not pulled": 13,
+   "No source": 5
+  }
+ }
+]

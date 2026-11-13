@@ -1,0 +1,204 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "PICANTE",
+    "SUB_2": "CALIENTE"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "PICANTE",
+    "SUB_2": "CALIENTE"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "NOT AVAILABLE",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "CALIENTE",
+    "SUB_2": "AMRAD"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "PICANTE",
+    "SUB_2": "GR"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "GR",
+    "SUB_2": "LIBERTY"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "LIBERTY",
+    "SUB_2": "IND CPLX"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "VISTA",
+    "SUB_2": "GR"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "DIAMOND HEAD",
+    "SUB_2": "CALIENTE"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "MONTWOOD",
+    "SUB_2": "CALIENTE"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "COYOTE",
+    "SUB_2": "CALIENTE"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "IND CPLX",
+    "SUB_2": "BIGGS"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "VISTA",
+    "SUB_2": "SOL"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "BIGGS",
+    "SUB_2": "PICANTE"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "BIGGS",
+    "SUB_2": "PIPELINE"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "NEWMAN",
+    "SUB_2": "PICANTE"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "NEWMAN",
+    "SUB_2": "PICANTE"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "LANE",
+    "SUB_2": "DIAMOND HEAD"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "LANE",
+    "SUB_2": "SOL"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "MONTWOOD",
+    "SUB_2": "PELICANO"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "EL PASO ELECTRIC CO.",
+    "VOLTAGE": 115,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "MONTWOOD",
+    "SUB_2": "COYOTE"
+   }
+  }
+ ]
+}

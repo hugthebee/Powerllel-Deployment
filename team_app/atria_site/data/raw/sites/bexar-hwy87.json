@@ -1,0 +1,752 @@
+{
+ "id": "bexar-hwy87",
+ "label": "Bexar County, US Hwy 87 E (east of San Antonio)",
+ "state": "TX",
+ "county": "Bexar",
+ "airCase": "nonattainment",
+ "builtAt": "2026-10-30T16:51:40.978Z",
+ "builder": "scripts/atria_site_record.py from Atria MCP responses (data/raw/sites/atria/bexar-hwy87)",
+ "lat": 29.375064442957502,
+ "lng": -98.32491186215987,
+ "parcel": {
+  "status": "ok",
+  "source": "Atria atria_lookup (Bexar Appraisal District parcels)",
+  "source_url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/BCAD_Parcels/FeatureServer/0",
+  "fetched_at": "2026-10-30T16:51:40.978Z",
+  "data": {
+   "propId": "1464639",
+   "geoId": "05135-000-0058",
+   "ownerName": "MEH HOLDING COMPANY LTD",
+   "situsAddress": "US HIGHWAY 87 E, SAN ANTONIO, TX 78263",
+   "gisAcres": 21.90905146050131,
+   "legalAcres": 21.85,
+   "legalDescription": "CB 5135 P-5 (4.22) ABS 663, CB 5137 P-18C (0.87), P-19L (16.76) ABS 423",
+   "marketValue": null,
+   "stateLandUse": null,
+   "county": "BEXAR COUNTY",
+   "centroid": [
+    29.375064442957502,
+    -98.32491186215987
+   ]
+  }
+ },
+ "airQuality": {
+  "status": "ok",
+  "source": "Atria airQuality (EPA Green Book)",
+  "source_url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Nonattainment_Areas_and_Designations/FeatureServer",
+  "fetched_at": "2026-10-30T16:54:30.536Z",
+  "data": {
+   "attainment": false,
+   "inNonattainment": true,
+   "nonattainmentStandards": [
+    "Ozone 8-hr (2015)"
+   ],
+   "worstOzoneClassification": "Serious",
+   "ozoneNonattainment": [
+    {
+     "standard": "Ozone 8-hr (2015)",
+     "area": "San Antonio",
+     "classification": "Serious"
+    }
+   ],
+   "nearestClassIArea": {
+    "name": "Big Bend NP",
+    "state": "TX",
+    "agency": "USDI-NPS",
+    "distanceMi": 272.14,
+    "inside": false
+   },
+   "classIAreasWithin100Km": []
+  }
+ },
+ "substations": {
+  "status": "ok",
+  "source": "Atria substations (HIFLD) + atria_proximity",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.536Z",
+  "data": {
+   "nearest": {
+    "name": "BECK ROAD",
+    "maxKv": 138,
+    "minKv": 69,
+    "status": "IN SERVICE",
+    "lines": 2,
+    "miles": 0.45
+   },
+   "nearest345KvPlus": {
+    "name": "CALAVERAS 345 SWITCHYARD",
+    "maxKv": 345,
+    "minKv": 69,
+    "status": "IN SERVICE",
+    "lines": 7,
+    "miles": 4.24
+   },
+   "list": [
+    {
+     "name": "BECK ROAD",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 0.45
+    },
+    {
+     "name": "CALAVERAS 345 SWITCHYARD",
+     "maxKv": 345,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 7,
+     "miles": 4.24
+    },
+    {
+     "name": "CALAVERAS 138KV SWITCHYARD",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 15,
+     "miles": 4.38
+    },
+    {
+     "name": "HIGHLAND HILLS",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 5.06
+    },
+    {
+     "name": "SAINT HEDWIG",
+     "maxKv": 138,
+     "minKv": 13.8,
+     "status": "IN SERVICE",
+     "lines": 2,
+     "miles": 5.45
+    },
+    {
+     "name": "ELMENDORF",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 4,
+     "miles": 7.14
+    },
+    {
+     "name": "KIRBY",
+     "maxKv": 138,
+     "minKv": 13.8,
+     "status": "IN SERVICE",
+     "lines": 8,
+     "miles": 7.23
+    },
+    {
+     "name": "STREICH",
+     "maxKv": 138,
+     "minKv": 69,
+     "status": "IN SERVICE",
+     "lines": 3,
+     "miles": 7.32
+    }
+   ]
+  }
+ },
+ "transmissionLines": {
+  "status": "ok",
+  "source": "Atria transmissionLines (HIFLD)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.536Z",
+  "data": {
+   "lines": [
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 138KV SWITCHYARD",
+     "to": "BECK ROAD",
+     "distanceMi": 0.39
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 138KV SWITCHYARD",
+     "to": "KIRBY",
+     "distanceMi": 0.4
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 138KV SWITCHYARD",
+     "to": "WALZEM ROAD",
+     "distanceMi": 0.4
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "SKYLINE",
+     "to": "CALAVERAS 138KV SWITCHYARD",
+     "distanceMi": 0.41
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 345,
+     "voltClass": "345",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 345 SWITCHYARD",
+     "to": "SKYLINE",
+     "distanceMi": 0.42
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 345,
+     "voltClass": "345",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "SKYLINE",
+     "to": "CALAVERAS 345 SWITCHYARD",
+     "distanceMi": 0.42
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "BECK ROAD",
+     "to": "KIRBY",
+     "distanceMi": 0.45
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "BALL PARK",
+     "to": "CALAVERAS 138KV SWITCHYARD",
+     "distanceMi": 3.24
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "HOT WELLS",
+     "to": "CALAVERAS 138KV SWITCHYARD",
+     "distanceMi": 3.24
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": null,
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 138KV SWITCHYARD",
+     "to": "HARLANDALE",
+     "distanceMi": 3.25
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 138KV SWITCHYARD",
+     "to": "SOUTH SAN ANTONIO",
+     "distanceMi": 3.26
+    },
+    {
+     "owner": "GUADALUPE VALLEY ELEC COOP INC",
+     "voltageKv": 345,
+     "voltClass": "345",
+     "voltageBasis": "numeric",
+     "status": null,
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "PAWNEE",
+     "to": "CALAVERAS 345 SWITCHYARD",
+     "distanceMi": 4
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 345,
+     "voltClass": "345",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 345 SWITCHYARD",
+     "to": "CAGNON ROAD",
+     "distanceMi": 4.04
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 345,
+     "voltClass": "345",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 345 SWITCHYARD",
+     "to": "ARTHUR VON ROSENBERG",
+     "distanceMi": 4.05
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": null,
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 345 SWITCHYARD",
+     "to": "J K SPRUCE",
+     "distanceMi": 4.24
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 138KV SWITCHYARD",
+     "to": "CALAVERAS 345 SWITCHYARD",
+     "distanceMi": 4.24
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "BRAUNIG",
+     "to": "CALAVERAS 138KV SWITCHYARD",
+     "distanceMi": 4.32
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "STREICH",
+     "to": "CALAVERAS 138KV SWITCHYARD",
+     "distanceMi": 4.33
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": null,
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "CALAVERAS 138KV SWITCHYARD",
+     "to": "O W SOMMERS",
+     "distanceMi": 4.38
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "ELMENDORF",
+     "to": "CALAVERAS 138KV SWITCHYARD",
+     "distanceMi": 4.38
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "BRAUNIG",
+     "to": "GRANDVIEW",
+     "distanceMi": 4.52
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "HIGHLAND HILLS",
+     "to": "GRANDVIEW",
+     "distanceMi": 4.52
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "BRAUNIG",
+     "to": "HIGHLAND HILLS",
+     "distanceMi": 4.68
+    },
+    {
+     "owner": "BANDERA ELECTRIC COOP, INC",
+     "voltageKv": 138,
+     "voltClass": "100-161",
+     "voltageBasis": "numeric",
+     "status": "IN SERVICE",
+     "type": "AC; OVERHEAD",
+     "current": "AC",
+     "from": "GRANDVIEW",
+     "to": "SAINT HEDWIG",
+     "distanceMi": 4.81
+    }
+   ]
+  }
+ },
+ "gasInfrastructure": {
+  "status": "ok",
+  "source": "Atria gasInfrastructure (EIA pipelines)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.536Z",
+  "data": {
+   "nearest": {
+    "operator": "El Paso Texas Pipeline Co",
+    "type": "Intrastate",
+    "status": "Operating",
+    "miles": 0.99
+   }
+  }
+ },
+ "generation": {
+  "status": "not_fetched",
+  "note": "Not in this screen."
+ },
+ "electricState": {
+  "status": "ok",
+  "source": "Atria electricState + interconnectionQueue (HIFLD)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.536Z",
+  "data": {
+   "utilities": [
+    {
+     "name": "BANDERA ELECTRIC COOP, INC",
+     "type": "COOPERATIVE"
+    },
+    {
+     "name": "GUADALUPE VALLEY ELEC COOP INC",
+     "type": "COOPERATIVE"
+    },
+    {
+     "name": "KARNES ELECTRIC COOP INC",
+     "type": "COOPERATIVE"
+    },
+    {
+     "name": "PEDERNALES ELECTRIC COOP, INC",
+     "type": "COOPERATIVE"
+    }
+   ],
+   "iso": [
+    "ERCOT"
+   ]
+  }
+ },
+ "contamination": {
+  "status": "ok",
+  "source": "Atria contamination (EPA FRS)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.536Z",
+  "data": {
+   "npl": {
+    "listRadiusMi": 1,
+    "listRadiusBasis": "ASTM E1527-21 search distance for NPL sites (1 mi)",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 0,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "R & H OIL/TROPICANA ENERGY",
+     "id": "TXD057577579",
+     "status": "PROPOSED FOR NPL",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110005054662",
+     "distanceMi": 12.7,
+     "onParcel": false
+    }
+   },
+   "superfundNonNpl": {
+    "listRadiusMi": 0.5,
+    "listRadiusBasis": "ASTM E1527-21 search distance for non-NPL SEMS sites (0.5 mi)",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 1,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "I-35 TRUCK ACCIDENT WITH EXPLOSIVE CARGO",
+     "id": "TXN000606619",
+     "status": "NOT ON THE NPL",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110022502344",
+     "distanceMi": 4.35,
+     "onParcel": false
+    }
+   },
+   "superfundCountWithinScreeningRadius": 1,
+   "nearestSuperfund": {
+    "name": "I-35 TRUCK ACCIDENT WITH EXPLOSIVE CARGO",
+    "id": "TXN000606619",
+    "status": "NOT ON THE NPL",
+    "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110022502344",
+    "distanceMi": 4.35,
+    "onParcel": false,
+    "npl": false
+   },
+   "brownfields": {
+    "listRadiusMi": 0.5,
+    "listRadiusBasis": "ASTM E1527-21 search distance for brownfield sites (0.5 mi)",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 0,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "AZTEC CERAMICS SITE",
+     "id": "14954",
+     "status": null,
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110005038413",
+     "distanceMi": 5.98,
+     "onParcel": false
+    }
+   },
+   "rcraTsd": {
+    "listRadiusMi": 0.5,
+    "listRadiusBasis": "ASTM E1527-21 search distance for RCRA TSD facilities (0.5 mi)",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 1,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "SAFETY KLEEN SYSTEMS - SAN ANTONIO FACILITY",
+     "id": "TXD000729400",
+     "status": "Y",
+     "url": "https://ofmpub.epa.gov/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=110000464845",
+     "distanceMi": 3.78,
+     "onParcel": false
+    }
+   },
+   "ustFacilities": {
+    "listRadiusMi": 0.25,
+    "listRadiusBasis": "ASTM E1527-21 search distance for registered USTs is the property and adjoining properties; listed to 0.25 mi",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 0.62,
+    "countWithinScreeningRadius": 1,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 4.97,
+    "nearest": {
+     "name": "HWY 87",
+     "id": "TX85697",
+     "status": "Closed UST(s)",
+     "url": null,
+     "detail": "0 open, 3 closed tanks",
+     "distanceMi": 0.34,
+     "onParcel": false
+    }
+   },
+   "openLustReleases": {
+    "listRadiusMi": 0.5,
+    "listRadiusBasis": "ASTM E1527-21 search distance for LUST sites (0.5 mi)",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 0.62,
+    "countWithinScreeningRadius": 0,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 4.97,
+    "nearest": {
+     "name": "C JS CONVENIENCE STORE",
+     "id": "TX116299",
+     "status": "Open",
+     "url": null,
+     "detail": "reported 2003-08-27",
+     "distanceMi": 2.55,
+     "onParcel": false
+    }
+   },
+   "rePowering": {
+    "listRadiusMi": 0.62,
+    "listRadiusBasis": "Within 1 km, the distance used for the brownfield/RE-Powering incentive flag",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 9,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "SOUTH TEXAS REDI-STRIP",
+     "id": "TXD980879076",
+     "status": "RCRA",
+     "url": null,
+     "detail": "2.42 ac, est. 0.35 MW solar",
+     "distanceMi": 2.34,
+     "onParcel": false
+    }
+   },
+   "nearRePoweringSite": false,
+   "orphanedWells": {
+    "listRadiusMi": 0.62,
+    "listRadiusBasis": "Within 1 km",
+    "countWithinListRadius": 0,
+    "sites": [],
+    "screeningRadiusMi": 4.97,
+    "countWithinScreeningRadius": 0,
+    "onParcel": false,
+    "nearestSearchRadiusMi": 31.07,
+    "nearest": {
+     "name": "Documented orphaned well",
+     "id": null,
+     "status": null,
+     "url": null,
+     "detail": null,
+     "distanceMi": 10.99,
+     "onParcel": false
+    }
+   },
+   "sources": [
+    {
+     "title": "EPA FRS: Superfund (SEMS)",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_SEMS/FeatureServer/0"
+    },
+    {
+     "title": "EPA FRS: Brownfields (ACRES)",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_ACRES/FeatureServer/0"
+    },
+    {
+     "title": "EPA FRS: RCRA TSD facilities",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/FRS_INTERESTS_RCRA_TSD/FeatureServer/0"
+    },
+    {
+     "title": "EPA UST Finder: facilities",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/UST_Finder_Feature_Layer_2/FeatureServer/0"
+    },
+    {
+     "title": "EPA UST Finder: releases",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/UST_Finder_Feature_Layer_2/FeatureServer/1"
+    },
+    {
+     "title": "EPA RE-Powering Mapper sites (2022)",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/RE_Powering_Mapper_Sites_2022/FeatureServer/0"
+    },
+    {
+     "title": "Orphaned oil and gas wells (2022)",
+     "url": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/Orphan_Wells/FeatureServer/0"
+    }
+   ],
+   "asOf": "2026-10-30",
+   "onParcel": [],
+   "summary": "No database record on the parcel. Nothing within the search distances."
+  }
+ },
+ "waterSewer": {
+  "status": "ok",
+  "source": "Atria waterSewer (EPA water system boundaries)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.536Z",
+  "data": {
+   "systems": []
+  }
+ },
+ "floodZone": {
+  "status": "ok",
+  "source": "Atria floodZone (FEMA NFHL)",
+  "source_url": "",
+  "fetched_at": "2026-10-30T16:54:30.536Z",
+  "data": {
+   "zonesOnParcel": [
+    {
+     "zone": "X",
+     "subtype": "AREA OF MINIMAL FLOOD HAZARD"
+    },
+    {
+     "zone": "A",
+     "subtype": null
+    }
+   ],
+   "sfhaOnParcel": true,
+   "zoneAtCentre": "X"
+  }
+ },
+ "zoningJurisdiction": {
+  "status": "ok",
+  "note": "Parcel is outside any incorporated place; Bexar County governs land use. Texas counties have no general zoning authority (Tex. Loc. Gov. Code ch. 231 grants zoning only to a few named counties and areas); unincorporated land is unzoned."
+ },
+ "energyOrdinance": {
+  "status": "ok",
+  "data": {
+   "solarProhibited": false
+  }
+ },
+ "permitPath": {
+  "status": "absent",
+  "note": "Atria has not researched the data-center approval path for Bexar County yet."
+ },
+ "waterRights": {
+  "status": "not_fetched",
+  "note": "No public bulk source."
+ },
+ "gasCapacity": {
+  "status": "not_fetched",
+  "note": "Not in Atria gasSupply for this pipeline."
+ },
+ "gridHeadroom": {
+  "status": "absent",
+  "note": "Atria gridCapacity has no data for ERCOT."
+ }
+}

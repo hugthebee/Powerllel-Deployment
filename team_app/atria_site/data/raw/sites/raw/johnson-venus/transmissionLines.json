@@ -1,0 +1,184 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "VENUS",
+    "SUB_2": "EVERMAN"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "EVERMAN",
+    "SUB_2": "VENUS"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "JOHNSON",
+    "SUB_2": "VENUS"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "VENUS",
+    "SUB_2": "UNKNOWN308746"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "UNKNOWN308746",
+    "SUB_2": "VENUS"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "LIGGETT",
+    "SUB_2": "VENUS"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "VENUS",
+    "SUB_2": "LIGGETT"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 138,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "VENUS",
+    "SUB_2": "UNKNOWN309033"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 138,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "VENUS",
+    "SUB_2": "UNKNOWN303282"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "VENUS",
+    "SUB_2": "UNKNOWN305004"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 138,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "VENUS",
+    "SUB_2": "ALVARADO"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "VENUS",
+    "SUB_2": "MIDLOTHIAN ENERGY FACILITY"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "MIDLOTHIAN ENERGY FACILITY",
+    "SUB_2": "VENUS"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "NAVARRO COUNTY ELEC COOP, INC",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "UNKNOWN306657",
+    "SUB_2": "VENUS"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "NAVARRO COUNTY ELEC COOP, INC",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "VENUS",
+    "SUB_2": "UNKNOWN306657"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 345,
+    "VOLT_CLASS": "345",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "UNKNOWN305004",
+    "SUB_2": "VENUS"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 138,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "NOT AVAILABLE",
+    "SUB_1": "UNKNOWN309033",
+    "SUB_2": "UNKNOWN304110"
+   }
+  },
+  {
+   "attributes": {
+    "OWNER": "ONCOR ELECTRIC DELIVERY CO.",
+    "VOLTAGE": 138,
+    "VOLT_CLASS": "100-161",
+    "STATUS": "IN SERVICE",
+    "SUB_1": "TAP302754",
+    "SUB_2": "UNKNOWN309033"
+   }
+  }
+ ]
+}
