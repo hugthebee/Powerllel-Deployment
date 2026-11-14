@@ -1,0 +1,11 @@
+{
+  "title": "Powerllel \u00b7 power intelligence for data centers",
+  "description": "Helps data-center developers compare energy portfolios while awaiting grid access, balancing speed, cost, carbon emissions, and reliability with transparent recommendations.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
